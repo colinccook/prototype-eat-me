@@ -1,0 +1,137 @@
+{
+  "restaurant": "McDonald's",
+  "items": [
+    {
+      "name": "Big Mac",
+      "calories": 508,
+      "macros": {
+        "protein": 26.0,
+        "carbohydrates": 43.0,
+        "fat": 25.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "McChicken Sandwich",
+      "calories": 388,
+      "macros": {
+        "protein": 17.0,
+        "carbohydrates": 40.0,
+        "fat": 17.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Filet-O-Fish",
+      "calories": 329,
+      "macros": {
+        "protein": 15.0,
+        "carbohydrates": 35.0,
+        "fat": 14.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Veggie Dippers (4 pieces)",
+      "calories": 179,
+      "macros": {
+        "protein": 3.0,
+        "carbohydrates": 18.0,
+        "fat": 10.0
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "McPlant",
+      "calories": 425,
+      "macros": {
+        "protein": 19.0,
+        "carbohydrates": 44.0,
+        "fat": 18.0
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Chicken McNuggets (6 pieces)",
+      "calories": 259,
+      "macros": {
+        "protein": 15.0,
+        "carbohydrates": 15.0,
+        "fat": 15.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Quarter Pounder with Cheese",
+      "calories": 518,
+      "macros": {
+        "protein": 31.0,
+        "carbohydrates": 37.0,
+        "fat": 27.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Egg McMuffin",
+      "calories": 286,
+      "macros": {
+        "protein": 17.0,
+        "carbohydrates": 26.0,
+        "fat": 12.0
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Hash Brown",
+      "calories": 140,
+      "macros": {
+        "protein": 1.0,
+        "carbohydrates": 15.0,
+        "fat": 8.0
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Grilled Chicken Salad",
+      "calories": 133,
+      "macros": {
+        "protein": 23.0,
+        "carbohydrates": 4.0,
+        "fat": 3.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Side Salad",
+      "calories": 15,
+      "macros": {
+        "protein": 1.0,
+        "carbohydrates": 2.0,
+        "fat": 0.0
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Medium Fries",
+      "calories": 337,
+      "macros": {
+        "protein": 4.0,
+        "carbohydrates": 42.0,
+        "fat": 16.0
+      },
+      "vegetarian": true,
+      "vegan": true
+    }
+  ]
+}
