@@ -207,4 +207,106 @@ test.describe('Food Display', () => {
       }
     });
   });
+
+  test.describe('@detail', () => {
+    test('Tap menu item to view details - modal should slide up from bottom', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When food items have loaded
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // And I tap on a food item
+      const firstFoodCard = page.locator('.food-card').first();
+      const foodName = await firstFoodCard.locator('.food-name').textContent();
+      await firstFoodCard.click();
+
+      // Then I should see a detail modal slide up from the bottom
+      const modal = page.locator('.modal-overlay');
+      await expect(modal).toBeVisible();
+
+      // And the modal should display the food name and nutritional information
+      const modalTitle = page.locator('.modal-title');
+      await expect(modalTitle).toHaveText(foodName!);
+
+      // Check that calories are displayed
+      const caloriesSection = page.locator('.modal-calories-section');
+      await expect(caloriesSection).toBeVisible();
+
+      // Check that macros are displayed
+      const macrosGrid = page.locator('.macros-grid');
+      await expect(macrosGrid).toBeVisible();
+    });
+
+    test('Dismiss detail modal by tapping backdrop', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When food items have loaded
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // And I tap on a food item
+      const firstFoodCard = page.locator('.food-card').first();
+      await firstFoodCard.click();
+
+      // Verify modal is visible
+      const modal = page.locator('.modal-overlay');
+      await expect(modal).toBeVisible();
+
+      // And I tap on the modal backdrop (outside the modal sheet)
+      await modal.click({ position: { x: 10, y: 10 } });
+
+      // Then the detail modal should close
+      await expect(modal).not.toBeVisible();
+    });
+
+    test('Dismiss detail modal using close button', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When food items have loaded
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // And I tap on a food item
+      const firstFoodCard = page.locator('.food-card').first();
+      await firstFoodCard.click();
+
+      // Verify modal is visible
+      const modal = page.locator('.modal-overlay');
+      await expect(modal).toBeVisible();
+
+      // And I tap the close button on the modal
+      const closeButton = page.locator('.modal-close-button');
+      await closeButton.click();
+
+      // Then the detail modal should close
+      await expect(modal).not.toBeVisible();
+    });
+
+    test('Modal displays restaurant name for items with restaurant', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When food items have loaded
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // And I tap on a food item that has a restaurant tag
+      const foodCardWithRestaurant = page.locator('.food-card').filter({ has: page.locator('.restaurant-tag') }).first();
+      const restaurantName = await foodCardWithRestaurant.locator('.restaurant-tag').textContent();
+      await foodCardWithRestaurant.click();
+
+      // Then the modal should display the restaurant name
+      const modalRestaurant = page.locator('.modal-restaurant');
+      await expect(modalRestaurant).toBeVisible();
+      await expect(modalRestaurant).toHaveText(restaurantName!);
+    });
+  });
 });
