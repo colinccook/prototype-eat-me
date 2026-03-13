@@ -51,7 +51,7 @@ function FoodCard({ item, sortBy }: FoodCardProps) {
           <span className="nutrition-value">{item.macros.carbohydrates}g</span>
           <span className="nutrition-label">Carbs</span>
         </div>
-        <div className="nutrition-item">
+        <div className={`nutrition-item ${sortBy === 'fat-asc' ? 'highlighted' : ''}`}>
           <span className="nutrition-value">{item.macros.fat}g</span>
           <span className="nutrition-label">Fat</span>
         </div>

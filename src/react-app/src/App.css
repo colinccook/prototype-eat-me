@@ -58,17 +58,9 @@ body {
   }
 }
 
+/* Sidebar is not sticky - scrolls with page content on all devices */
 .sidebar {
-  position: sticky;
-  top: 1.5rem;
   height: fit-content;
-}
-
-/* Disable sticky filters on mobile - they should scroll with the page */
-@media (max-width: 768px) {
-  .sidebar {
-    position: static;
-  }
 }
 
 .welcome-message {
