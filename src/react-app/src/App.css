@@ -64,6 +64,13 @@ body {
   height: fit-content;
 }
 
+/* Disable sticky filters on mobile - they should scroll with the page */
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+  }
+}
+
 .welcome-message {
   background: white;
   border-radius: 12px;
@@ -152,4 +159,38 @@ body {
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.loading-overlay .loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f0f0f0;
+  border-top: 2px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-overlay .loading-text {
+  display: inline-block;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+  background-size: 200% 100%;
+  animation: loading-shimmer 2s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+}
+
+@keyframes loading-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

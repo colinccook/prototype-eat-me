@@ -237,7 +237,7 @@ function App() {
         {isLoading && (
           <div className="loading-overlay" role="status" aria-live="polite">
             <div className="loading-spinner"></div>
-            <p>Syncing data...</p>
+            <span className="loading-text">Syncing data...</span>
           </div>
         )}
 

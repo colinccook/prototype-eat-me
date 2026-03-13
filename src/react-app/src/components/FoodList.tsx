@@ -1,6 +1,8 @@
 import type { FoodItem, SortOption } from '../types';
 import FoodCard from './FoodCard';
+import SkeletonCard from './SkeletonCard';
 import './FoodList.css';
+import './SkeletonCard.css';
 
 interface FoodListProps {
   items: FoodItem[];
@@ -12,9 +14,16 @@ interface FoodListProps {
 function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
   if (isLoading) {
     return (
-      <div className="food-list-status">
-        <div className="loading-spinner"></div>
-        <p>Loading menu items...</p>
+      <div className="food-list skeleton-loading-status">
+        <div className="skeleton-loading-header">
+          <div className="skeleton-mini-spinner"></div>
+          <div className="skeleton-text skeleton-loading-text"></div>
+        </div>
+        <div className="skeleton-grid" role="status" aria-label="Loading menu items">
+          {[...Array(6)].map((_, index) => (
+            <SkeletonCard key={index} />
+          ))}
+        </div>
       </div>
     );
   }
