@@ -5,6 +5,10 @@
       "name": "Costa Coffee"
     },
     {
+      "id": "greggs",
+      "name": "Greggs"
+    },
+    {
       "id": "mcdonalds",
       "name": "McDonald's"
     },
