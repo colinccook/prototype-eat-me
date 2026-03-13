@@ -2,6 +2,8 @@ export interface Macros {
   protein: number;
   carbohydrates: number;
   fat: number;
+  fibre?: number;
+  salt?: number;
 }
 
 export interface FoodItem {
@@ -48,7 +50,8 @@ export type SortOption =
   | 'protein-desc' 
   | 'protein-per-calorie-desc'
   | 'fat-asc'
-  | 'name-asc';
+  | 'name-asc'
+  | 'fibre-to-carb-asc';
 
 export interface FilterOptions {
   vegetarianOnly: boolean;

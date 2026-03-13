@@ -2,6 +2,13 @@
 
 This document provides instructions for AI agents to process restaurant menu documents and maintain the data structure idempotently.
 
+## Important Data Quality Rules
+
+1. **All data must be realistic and extracted from source documents** - Never make up or estimate nutritional values
+2. **If data is not available in the source document, omit the field** - Do not guess or infer values
+3. **Verify extracted values are reasonable** - Cross-check that calories align with macro totals (protein×4 + carbs×4 + fat×9 ≈ calories)
+4. **Use consistent units** - All weights in grams (g), calories in kcal, salt in grams
+
 ## Directory Structure
 
 ```
@@ -33,7 +40,9 @@ Parse the source document and extract menu items. Each item should conform to th
   "macros": {
     "protein": "number",
     "carbohydrates": "number",
-    "fat": "number"
+    "fat": "number",
+    "fibre": "number (optional - only if in source)",
+    "salt": "number (optional - only if in source)"
   },
   "ingredients": ["string"],
   "vegetarian": "boolean",

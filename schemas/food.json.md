@@ -7,7 +7,9 @@ Menu items conform to this schema:
   "macros": {
     "protein": "number",
     "carbohydrates": "number", 
-    "fat": "number"
+    "fat": "number",
+    "fibre": "number (optional)",
+    "salt": "number (optional)"
   },
   "ingredients": ["string"],
   "vegetarian": "boolean",

@@ -134,3 +134,66 @@
 .ingredients-count {
   color: #888;
 }
+
+/* Fibre to Carb Ratio Styles */
+.fibre-ratio {
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  background: #f5f5f5;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fibre-ratio-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.fibre-ratio-value.fantastic {
+  color: #2e7d32;
+}
+
+.fibre-ratio-value.okay {
+  color: #f57c00;
+}
+
+.fibre-ratio-value.avoid {
+  color: #c62828;
+}
+
+.fibre-ratio-quality {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.fibre-ratio-quality.fantastic {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.fibre-ratio-quality.okay {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.fibre-ratio-quality.avoid {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.fibre-ratio-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+.fibre-ratio-na {
+  font-size: 0.85rem;
+  color: #999;
+  font-style: italic;
+}
