@@ -11,6 +11,7 @@ import {
   fetchRestaurantFood, 
   fetchRegionFood 
 } from './api';
+import { clearDataCache } from './serviceWorkerRegistration';
 import Navigation from './components/Navigation';
 import FilterPanel from './components/FilterPanel';
 import FoodList from './components/FoodList';
@@ -24,6 +25,7 @@ function App() {
   const [selectedRestaurant, setSelectedRestaurant] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);
   
   const [filters, setFilters] = useState<FilterOptions>({
     vegetarianOnly: false,
@@ -101,6 +103,15 @@ function App() {
 
   const handleRestaurantChange = useCallback((restaurantId: string | null) => {
     setSelectedRestaurant(restaurantId);
+  }, []);
+
+  const handleRefreshData = useCallback(async () => {
+    setIsRefreshing(true);
+    // Attempt to clear the service worker cache, then reload regardless
+    await clearDataCache().catch(() => {
+      // Ignore errors - we'll reload anyway
+    });
+    window.location.reload();
   }, []);
 
   // Filter and sort items
@@ -198,6 +209,13 @@ function App() {
 
       <footer className="app-footer">
         <p>Eat Me - Making informed food choices easier</p>
+        <button 
+          className="refresh-button"
+          onClick={handleRefreshData}
+          disabled={isRefreshing}
+        >
+          {isRefreshing ? '🔄 Refreshing...' : '🔄 Refresh Data'}
+        </button>
       </footer>
     </div>
   );
