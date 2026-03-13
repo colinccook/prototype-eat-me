@@ -86,6 +86,7 @@ function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
           <option value="protein-desc">Protein (High to Low)</option>
           <option value="protein-per-calorie-desc">Protein per Calorie (Best)</option>
           <option value="fat-asc">Fat (Low to High)</option>
+          <option value="fibre-to-carb-asc">Fibre to Carb Ratio (Best)</option>
         </select>
       </div>
     </div>

@@ -155,6 +155,22 @@ function App() {
       case 'fat-asc':
         items.sort((a, b) => a.macros.fat - b.macros.fat);
         break;
+      case 'fibre-to-carb-asc':
+        // Fibre to carb ratio: how many times fibre fits into carbs (carbs/fibre)
+        // Lower is better. Items without fibre data go to the end.
+        items.sort((a, b) => {
+          const aFibre = a.macros.fibre;
+          const bFibre = b.macros.fibre;
+          
+          // Items without fibre data go to the end
+          if (!aFibre || aFibre <= 0) return 1;
+          if (!bFibre || bFibre <= 0) return -1;
+          
+          const aRatio = a.macros.carbohydrates / aFibre;
+          const bRatio = b.macros.carbohydrates / bFibre;
+          return aRatio - bRatio;
+        });
+        break;
     }
 
     return items;

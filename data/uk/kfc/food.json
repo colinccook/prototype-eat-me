@@ -2,12 +2,37 @@
   "restaurant": "KFC",
   "items": [
     {
+      "name": "2 Corn Cobettes (Large)",
+      "calories": 115,
+      "macros": {
+        "protein": 4.4,
+        "carbohydrates": 16.0,
+        "fat": 2.7,
+        "salt": 0.01
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Aero Peppermint Krushems Shake",
+      "calories": 280,
+      "macros": {
+        "protein": 3.9,
+        "carbohydrates": 41.0,
+        "fat": 11.0,
+        "salt": 0.23
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
       "name": "BBQ Fillet Tower Burger",
       "calories": 619,
       "macros": {
         "protein": 33.0,
         "carbohydrates": 56.0,
-        "fat": 28.0
+        "fat": 28.0,
+        "salt": 3.3
       },
       "vegetarian": false,
       "vegan": false
@@ -18,7 +43,8 @@
       "macros": {
         "protein": 18.0,
         "carbohydrates": 31.0,
-        "fat": 11.0
+        "fat": 11.0,
+        "salt": 1.1
       },
       "vegetarian": false,
       "vegan": false
@@ -29,7 +55,8 @@
       "macros": {
         "protein": 3.8,
         "carbohydrates": 43.0,
-        "fat": 2.6
+        "fat": 2.6,
+        "salt": 0.66
       },
       "vegetarian": true,
       "vegan": true
@@ -40,10 +67,23 @@
       "macros": {
         "protein": 35.0,
         "carbohydrates": 62.5,
-        "fat": 27.1
+        "fat": 27.1,
+        "salt": 4.1
       },
       "vegetarian": false,
       "vegan": false
+    },
+    {
+      "name": "Cherry Boba Refresher",
+      "calories": 103,
+      "macros": {
+        "protein": 0.5,
+        "carbohydrates": 22.9,
+        "fat": 0.5,
+        "salt": 0.1
+      },
+      "vegetarian": true,
+      "vegan": true
     },
     {
       "name": "Corn Cobette",
@@ -51,7 +91,8 @@
       "macros": {
         "protein": 2.2,
         "carbohydrates": 8.1,
-        "fat": 1.3
+        "fat": 1.3,
+        "salt": 0.01
       },
       "vegetarian": true,
       "vegan": true
@@ -62,7 +103,8 @@
       "macros": {
         "protein": 32.8,
         "carbohydrates": 58.1,
-        "fat": 25.0
+        "fat": 25.0,
+        "salt": 3.0
       },
       "vegetarian": false,
       "vegan": false
@@ -73,7 +115,8 @@
       "macros": {
         "protein": 12.0,
         "carbohydrates": 53.0,
-        "fat": 24.0
+        "fat": 24.0,
+        "salt": 1.7
       },
       "vegetarian": false,
       "vegan": false
@@ -84,7 +127,8 @@
       "macros": {
         "protein": 28.0,
         "carbohydrates": 43.0,
-        "fat": 19.0
+        "fat": 19.0,
+        "salt": 2.2
       },
       "vegetarian": false,
       "vegan": false
@@ -95,7 +139,8 @@
       "macros": {
         "protein": 33.0,
         "carbohydrates": 56.0,
-        "fat": 28.0
+        "fat": 28.0,
+        "salt": 3.3
       },
       "vegetarian": false,
       "vegan": false
@@ -106,29 +151,32 @@
       "macros": {
         "protein": 18.0,
         "carbohydrates": 29.0,
-        "fat": 16.0
+        "fat": 16.0,
+        "salt": 1.1
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Hot Wing (per piece)",
-      "calories": 91,
+      "name": "Hash Brown (per piece, average)",
+      "calories": 92,
       "macros": {
-        "protein": 4.9,
-        "carbohydrates": 3.8,
-        "fat": 6.2
+        "protein": 0.9,
+        "carbohydrates": 8.8,
+        "fat": 5.5,
+        "salt": 0.55
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Kansas BBQ Drip'd Bites",
+      "name": "Kansas BBQ Drip\u2019d Bites",
       "calories": 349,
       "macros": {
         "protein": 21.0,
         "carbohydrates": 34.0,
-        "fat": 14.0
+        "fat": 14.0,
+        "salt": 1.6
       },
       "vegetarian": false,
       "vegan": false
@@ -139,7 +187,20 @@
       "macros": {
         "protein": 29.0,
         "carbohydrates": 46.0,
-        "fat": 24.0
+        "fat": 24.0,
+        "salt": 2.6
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Kids Mini Fillet Burger",
+      "calories": 258,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 30.0,
+        "fat": 7.0,
+        "salt": 1.4
       },
       "vegetarian": false,
       "vegan": false
@@ -150,7 +211,8 @@
       "macros": {
         "protein": 10.0,
         "carbohydrates": 32.0,
-        "fat": 1.4
+        "fat": 1.4,
+        "salt": 1.4
       },
       "vegetarian": true,
       "vegan": true
@@ -161,7 +223,8 @@
       "macros": {
         "protein": 2.2,
         "carbohydrates": 12.0,
-        "fat": 26.0
+        "fat": 26.0,
+        "salt": 1.1
       },
       "vegetarian": true,
       "vegan": false
@@ -172,20 +235,10 @@
       "macros": {
         "protein": 4.8,
         "carbohydrates": 40.0,
-        "fat": 6.8
+        "fat": 6.8,
+        "salt": 1.8
       },
       "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Large Fries",
-      "calories": 367,
-      "macros": {
-        "protein": 4.3,
-        "carbohydrates": 53.0,
-        "fat": 14.0
-      },
-      "vegetarian": false,
       "vegan": false
     },
     {
@@ -194,7 +247,8 @@
       "macros": {
         "protein": 3.9,
         "carbohydrates": 19.0,
-        "fat": 8.0
+        "fat": 8.0,
+        "salt": 2.8
       },
       "vegetarian": false,
       "vegan": false
@@ -205,7 +259,20 @@
       "macros": {
         "protein": 28.0,
         "carbohydrates": 28.0,
-        "fat": 28.0
+        "fat": 28.0,
+        "salt": 2.2
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Large Signature Fries",
+      "calories": 372,
+      "macros": {
+        "protein": 4.4,
+        "carbohydrates": 54.0,
+        "fat": 14.0,
+        "salt": 1.0
       },
       "vegetarian": false,
       "vegan": false
@@ -216,42 +283,34 @@
       "macros": {
         "protein": 16.2,
         "carbohydrates": 42.9,
-        "fat": 18.0
+        "fat": 18.0,
+        "salt": 1.2
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Milk Chocolate Cookie",
-      "calories": 315,
+      "name": "MilkyBar Krushems Shake",
+      "calories": 324,
       "macros": {
-        "protein": 3.1,
-        "carbohydrates": 41.0,
-        "fat": 15.0
+        "protein": 6.4,
+        "carbohydrates": 43.0,
+        "fat": 14.0,
+        "salt": 0.32
       },
       "vegetarian": true,
       "vegan": false
     },
     {
-      "name": "Milkybar Sundae",
-      "calories": 296,
+      "name": "Mini Fillet (per piece, average)",
+      "calories": 124,
       "macros": {
-        "protein": 5.7,
-        "carbohydrates": 39.0,
-        "fat": 13.0
+        "protein": 13.0,
+        "carbohydrates": 5.8,
+        "fat": 5.4,
+        "salt": 0.87
       },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Mini Chocolate Sundae",
-      "calories": 138,
-      "macros": {
-        "protein": 2.5,
-        "carbohydrates": 20.0,
-        "fat": 5.3
-      },
-      "vegetarian": true,
+      "vegetarian": false,
       "vegan": false
     },
     {
@@ -260,18 +319,20 @@
       "macros": {
         "protein": 18.0,
         "carbohydrates": 28.0,
-        "fat": 10.0
+        "fat": 10.0,
+        "salt": 1.4
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Oreo Sundae",
-      "calories": 244,
+      "name": "Oreo Krushems Shake",
+      "calories": 272,
       "macros": {
-        "protein": 3.9,
-        "carbohydrates": 36.0,
-        "fat": 9.2
+        "protein": 4.1,
+        "carbohydrates": 41.0,
+        "fat": 10.0,
+        "salt": 0.44
       },
       "vegetarian": true,
       "vegan": false
@@ -282,20 +343,46 @@
       "macros": {
         "protein": 28.0,
         "carbohydrates": 63.0,
-        "fat": 19.0
+        "fat": 19.0,
+        "salt": 2.8
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Original Recipe Chicken (per piece)",
+      "name": "Original Recipe Chicken (per piece, average)",
       "calories": 241,
       "macros": {
         "protein": 22.0,
         "carbohydrates": 8.6,
-        "fat": 12.0
+        "fat": 12.0,
+        "salt": 0.94
       },
       "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Original Recipe Chicken Fillet Roll",
+      "calories": 665,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 78.0,
+        "fat": 25.0,
+        "salt": 3.2
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Raspberry Ripple Krushems Shake",
+      "calories": 262,
+      "macros": {
+        "protein": 4.6,
+        "carbohydrates": 36.0,
+        "fat": 11.0,
+        "salt": 0.26
+      },
+      "vegetarian": true,
       "vegan": false
     },
     {
@@ -304,7 +391,8 @@
       "macros": {
         "protein": 4.7,
         "carbohydrates": 15.0,
-        "fat": 0.6
+        "fat": 0.6,
+        "salt": 0.63
       },
       "vegetarian": true,
       "vegan": true
@@ -315,7 +403,8 @@
       "macros": {
         "protein": 1.1,
         "carbohydrates": 6.1,
-        "fat": 13.0
+        "fat": 13.0,
+        "salt": 0.57
       },
       "vegetarian": true,
       "vegan": false
@@ -326,20 +415,10 @@
       "macros": {
         "protein": 2.4,
         "carbohydrates": 20.0,
-        "fat": 3.4
+        "fat": 3.4,
+        "salt": 0.88
       },
       "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Regular Fries",
-      "calories": 261,
-      "macros": {
-        "protein": 3.1,
-        "carbohydrates": 38.0,
-        "fat": 9.8
-      },
-      "vegetarian": false,
       "vegan": false
     },
     {
@@ -348,7 +427,8 @@
       "macros": {
         "protein": 1.7,
         "carbohydrates": 8.4,
-        "fat": 3.5
+        "fat": 3.5,
+        "salt": 1.2
       },
       "vegetarian": false,
       "vegan": false
@@ -359,9 +439,34 @@
       "macros": {
         "protein": 18.0,
         "carbohydrates": 18.0,
-        "fat": 18.0
+        "fat": 18.0,
+        "salt": 1.3
       },
       "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Regular Signature Fries",
+      "calories": 261,
+      "macros": {
+        "protein": 3.1,
+        "carbohydrates": 38.0,
+        "fat": 9.8,
+        "salt": 0.74
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Side Salad",
+      "calories": 56,
+      "macros": {
+        "protein": 0.8,
+        "carbohydrates": 4.7,
+        "fat": 3.6,
+        "salt": 0.2
+      },
+      "vegetarian": true,
       "vegan": false
     },
     {
@@ -370,10 +475,35 @@
       "macros": {
         "protein": 29.0,
         "carbohydrates": 51.0,
-        "fat": 17.0
+        "fat": 17.0,
+        "salt": 2.6
       },
       "vegetarian": false,
       "vegan": false
+    },
+    {
+      "name": "Sparkling Raspberry Lemonade",
+      "calories": 93,
+      "macros": {
+        "protein": 0.5,
+        "carbohydrates": 22.0,
+        "fat": 0.5,
+        "salt": 0.01
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Strawberry Boba Refresher",
+      "calories": 129,
+      "macros": {
+        "protein": 0.5,
+        "carbohydrates": 29.4,
+        "fat": 0.5,
+        "salt": 0.1
+      },
+      "vegetarian": true,
+      "vegan": true
     },
     {
       "name": "Supercharger Twister",
@@ -381,18 +511,20 @@
       "macros": {
         "protein": 29.0,
         "carbohydrates": 46.0,
-        "fat": 26.0
+        "fat": 26.0,
+        "salt": 2.6
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Sweet Chilli Drip'd Bites",
+      "name": "Sweet Chilli Drip\u2019d Bites",
       "calories": 378,
       "macros": {
         "protein": 21.0,
         "carbohydrates": 39.0,
-        "fat": 15.0
+        "fat": 15.0,
+        "salt": 1.6
       },
       "vegetarian": false,
       "vegan": false
@@ -403,7 +535,8 @@
       "macros": {
         "protein": 29.0,
         "carbohydrates": 53.0,
-        "fat": 18.0
+        "fat": 18.0,
+        "salt": 2.4
       },
       "vegetarian": false,
       "vegan": false
@@ -414,7 +547,8 @@
       "macros": {
         "protein": 27.0,
         "carbohydrates": 58.2,
-        "fat": 27.5
+        "fat": 27.5,
+        "salt": 2.7
       },
       "vegetarian": false,
       "vegan": false
@@ -425,7 +559,8 @@
       "macros": {
         "protein": 15.0,
         "carbohydrates": 41.0,
-        "fat": 17.0
+        "fat": 17.0,
+        "salt": 2.5
       },
       "vegetarian": true,
       "vegan": true
@@ -436,21 +571,11 @@
       "macros": {
         "protein": 7.6,
         "carbohydrates": 62.0,
-        "fat": 9.1
+        "fat": 9.1,
+        "salt": 1.2
       },
       "vegetarian": true,
       "vegan": true
-    },
-    {
-      "name": "White Chocolate Cookie",
-      "calories": 283,
-      "macros": {
-        "protein": 2.7,
-        "carbohydrates": 36.0,
-        "fat": 14.0
-      },
-      "vegetarian": true,
-      "vegan": false
     },
     {
       "name": "Zinger Burger",
@@ -458,7 +583,20 @@
       "macros": {
         "protein": 23.0,
         "carbohydrates": 41.0,
-        "fat": 20.0
+        "fat": 20.0,
+        "salt": 2.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Zinger Fillet Roll",
+      "calories": 751,
+      "macros": {
+        "protein": 23.0,
+        "carbohydrates": 81.0,
+        "fat": 36.0,
+        "salt": 3.3
       },
       "vegetarian": false,
       "vegan": false
@@ -469,7 +607,8 @@
       "macros": {
         "protein": 42.1,
         "carbohydrates": 76.7,
-        "fat": 43.4
+        "fat": 43.4,
+        "salt": 3.2
       },
       "vegetarian": false,
       "vegan": false
@@ -480,7 +619,8 @@
       "macros": {
         "protein": 23.0,
         "carbohydrates": 65.0,
-        "fat": 21.0
+        "fat": 21.0,
+        "salt": 2.6
       },
       "vegetarian": false,
       "vegan": false
@@ -491,7 +631,8 @@
       "macros": {
         "protein": 47.0,
         "carbohydrates": 62.0,
-        "fat": 43.0
+        "fat": 43.0,
+        "salt": 3.7
       },
       "vegetarian": false,
       "vegan": false
@@ -502,7 +643,8 @@
       "macros": {
         "protein": 27.0,
         "carbohydrates": 55.0,
-        "fat": 37.0
+        "fat": 37.0,
+        "salt": 3.0
       },
       "vegetarian": false,
       "vegan": false

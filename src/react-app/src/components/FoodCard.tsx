@@ -11,6 +11,19 @@ function FoodCard({ item, sortBy }: FoodCardProps) {
     ? (item.macros.protein / item.calories * 100).toFixed(2) 
     : '0.00';
 
+  // Calculate fibre to carb ratio and quality indicator
+  const fibreToCarb = item.macros.fibre && item.macros.fibre > 0
+    ? (item.macros.carbohydrates / item.macros.fibre).toFixed(1)
+    : null;
+  
+  const getFibreRatioQuality = (ratio: number): { label: string; className: string } => {
+    if (ratio < 5) return { label: 'Fantastic', className: 'fantastic' };
+    if (ratio < 10) return { label: 'Okay', className: 'okay' };
+    return { label: 'Avoid', className: 'avoid' };
+  };
+  
+  const fibreRatioQuality = fibreToCarb ? getFibreRatioQuality(parseFloat(fibreToCarb)) : null;
+
   return (
     <div className="food-card">
       <div className="food-card-header">
@@ -48,6 +61,24 @@ function FoodCard({ item, sortBy }: FoodCardProps) {
         <div className="protein-efficiency">
           <span className="efficiency-value">{proteinPerCalorie}g</span>
           <span className="efficiency-label">protein per 100 calories</span>
+        </div>
+      )}
+
+      {sortBy === 'fibre-to-carb-asc' && (
+        <div className="fibre-ratio">
+          {fibreToCarb && fibreRatioQuality ? (
+            <>
+              <span className={`fibre-ratio-value ${fibreRatioQuality.className}`}>
+                {fibreToCarb}:1
+              </span>
+              <span className={`fibre-ratio-quality ${fibreRatioQuality.className}`}>
+                {fibreRatioQuality.label}
+              </span>
+              <span className="fibre-ratio-label">carbs to fibre ratio</span>
+            </>
+          ) : (
+            <span className="fibre-ratio-na">No fibre data</span>
+          )}
         </div>
       )}
 
