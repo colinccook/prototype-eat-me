@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { Region, FilterOptions, SortOption } from '../types';
+import type { Region, Restaurant, FilterOptions, SortOption } from '../types';
 import Pill from './Pill';
 import Tray from './Tray';
 import './HeaderPills.css';
@@ -10,6 +10,7 @@ interface HeaderPillsProps {
   regions: Region[];
   selectedRegion: string | null;
   onRegionChange: (regionId: string | null) => void;
+  restaurants: Restaurant[];
   filters: FilterOptions;
   onFiltersChange: (filters: FilterOptions) => void;
   isLoading: boolean;
@@ -86,12 +87,14 @@ function HeaderPills({
   regions,
   selectedRegion,
   onRegionChange,
+  restaurants,
   filters,
   onFiltersChange,
   isLoading
 }: HeaderPillsProps) {
   const [activeTrays, setActiveTrays] = useState({
     region: false,
+    restaurants: false,
     sort: false,
     calories: false,
     diet: false
@@ -102,11 +105,11 @@ function HeaderPills({
   );
 
   const openTray = (tray: keyof typeof activeTrays) => {
-    setActiveTrays({ region: false, sort: false, calories: false, diet: false, [tray]: true });
+    setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false, [tray]: true });
   };
 
   const closeTray = () => {
-    setActiveTrays({ region: false, sort: false, calories: false, diet: false });
+    setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false });
   };
 
   // Get display values for pills
@@ -114,6 +117,15 @@ function HeaderPills({
     if (!selectedRegion) return 'Select';
     const region = regions.find(r => r.id === selectedRegion);
     return region?.id.toUpperCase() || 'Select';
+  };
+
+  const getRestaurantsDisplayValue = () => {
+    if (filters.selectedRestaurants.length === 0) return 'All';
+    if (filters.selectedRestaurants.length === 1) {
+      const restaurant = restaurants.find(r => r.name === filters.selectedRestaurants[0]);
+      return restaurant?.name || 'All';
+    }
+    return `${filters.selectedRestaurants.length} selected`;
   };
 
   const getSortDisplayValue = () => {
@@ -145,6 +157,26 @@ function HeaderPills({
     closeTray();
   };
 
+  const handleRestaurantToggle = (restaurantName: string) => {
+    const currentSelected = filters.selectedRestaurants;
+    let newSelected: string[];
+    
+    if (currentSelected.includes(restaurantName)) {
+      // Remove from selection
+      newSelected = currentSelected.filter(name => name !== restaurantName);
+    } else {
+      // Add to selection
+      newSelected = [...currentSelected, restaurantName];
+    }
+    
+    onFiltersChange({ ...filters, selectedRestaurants: newSelected });
+  };
+
+  const handleSelectAllRestaurants = () => {
+    onFiltersChange({ ...filters, selectedRestaurants: [] });
+    closeTray();
+  };
+
   const handleSortSelect = (sortBy: SortOption) => {
     onFiltersChange({ ...filters, sortBy });
     closeTray();
@@ -173,13 +205,25 @@ function HeaderPills({
 
   return (
     <div className="header-pills">
-      <div className="pills-container">
+      {/* Region pill on its own row at the top */}
+      <div className="pills-row pills-row-global">
         <Pill
           label="Region"
           value={getRegionDisplayValue()}
           onClick={() => openTray('region')}
           isActive={activeTrays.region}
           icon="🌍"
+        />
+      </div>
+
+      {/* Second row with restaurant pill first, then other filters */}
+      <div className="pills-row pills-row-filters">
+        <Pill
+          label="Restaurants"
+          value={getRestaurantsDisplayValue()}
+          onClick={() => openTray('restaurants')}
+          isActive={activeTrays.restaurants || filters.selectedRestaurants.length > 0}
+          icon="🍽️"
         />
         <Pill
           label="Sort"
@@ -220,6 +264,51 @@ function HeaderPills({
               </span>
             </button>
           ))}
+        </div>
+      </Tray>
+
+      {/* Restaurants Tray */}
+      <Tray isOpen={activeTrays.restaurants} onClose={closeTray} title="Select Restaurants">
+        <div className="tray-options restaurants-tray">
+          <button
+            className={`tray-option ${filters.selectedRestaurants.length === 0 ? 'active' : ''}`}
+            onClick={handleSelectAllRestaurants}
+          >
+            <span className="tray-option-label">All Restaurants</span>
+            <span className="tray-option-description">
+              Show food from all restaurants
+            </span>
+          </button>
+          
+          <div className="tray-divider">
+            <span>Or select specific restaurants:</span>
+          </div>
+          
+          {restaurants.map((restaurant) => (
+            <label
+              key={restaurant.id}
+              className={`tray-option checkbox-option ${filters.selectedRestaurants.includes(restaurant.name) ? 'active' : ''}`}
+            >
+              <input
+                type="checkbox"
+                checked={filters.selectedRestaurants.includes(restaurant.name)}
+                onChange={() => handleRestaurantToggle(restaurant.name)}
+                className="tray-checkbox"
+              />
+              <span className="tray-option-label">{restaurant.name}</span>
+            </label>
+          ))}
+          
+          {filters.selectedRestaurants.length > 0 && (
+            <div className="tray-form-actions">
+              <button 
+                className="tray-form-button primary" 
+                onClick={closeTray}
+              >
+                Done
+              </button>
+            </div>
+          )}
         </div>
       </Tray>
 

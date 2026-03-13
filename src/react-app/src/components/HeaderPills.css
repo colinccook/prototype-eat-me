@@ -1,17 +1,57 @@
 .header-pills {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.header-pills .pills-container {
+.pills-row {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: flex-start;
 }
 
+.pills-row-global {
+  /* Region pill on its own row */
+}
+
+.pills-row-filters {
+  /* Filter pills row */
+}
+
+/* Restaurants tray specific styles */
+.restaurants-tray {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tray-divider {
+  padding: 0.75rem 0;
+  color: #888;
+  font-size: 0.85rem;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 0.5rem;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.tray-checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
 /* Make pills slightly smaller on mobile */
 @media (max-width: 480px) {
-  .header-pills .pills-container {
+  .pills-row {
     gap: 0.4rem;
   }
 }

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import type { 
   Region, 
   Restaurant, 
@@ -8,11 +8,9 @@ import type {
 import { 
   fetchRegions, 
   fetchRestaurants, 
-  fetchRestaurantFood, 
   fetchRegionFood 
 } from './api';
 import { clearDataCache } from './serviceWorkerRegistration';
-import Navigation from './components/Navigation';
 import HeaderPills from './components/HeaderPills';
 import FoodList from './components/FoodList';
 import './App.css';
@@ -22,6 +20,10 @@ const DEFAULT_REGIONS: Region[] = [
   { id: DEFAULT_REGION_ID, name: 'United Kingdom' }
 ];
 const MIN_LOADING_DURATION_MS = 200;
+
+// Pull-to-refresh constants
+const PULL_THRESHOLD = 100; // pixels needed to trigger refresh
+const MAX_PULL_DISTANCE = 150; // maximum visual pull distance
 
 const updateGlobalLoadingFlag = (flag: boolean) => {
   if (typeof document !== 'undefined') {
@@ -37,16 +39,22 @@ function App() {
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [foodItems, setFoodItems] = useState<FoodItem[]>([]);
   const [selectedRegion, setSelectedRegion] = useState<string | null>(DEFAULT_REGION_ID);
-  const [selectedRestaurant, setSelectedRestaurant] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
+  
+  // Pull-to-refresh state
+  const [pullDistance, setPullDistance] = useState(0);
+  const [isPulling, setIsPulling] = useState(false);
+  const mainRef = useRef<HTMLElement>(null);
+  const touchStartY = useRef<number | null>(null);
   
   const [filters, setFilters] = useState<FilterOptions>({
     vegetarianOnly: false,
     veganOnly: false,
     maxCalories: null,
-    sortBy: 'protein-per-calorie-desc'
+    sortBy: 'protein-per-calorie-desc',
+    selectedRestaurants: []
   });
 
   // Load regions on mount
@@ -85,7 +93,7 @@ function App() {
     loadRestaurants();
   }, [selectedRegion]);
 
-  // Load food items when region or restaurant changes
+  // Load all food items when region changes (always load all for multi-select filtering)
   useEffect(() => {
     const loadFood = async () => {
       const start = performance.now();
@@ -97,13 +105,8 @@ function App() {
         return;
       }
       try {
-        if (selectedRestaurant) {
-          const data = await fetchRestaurantFood(selectedRegion, selectedRestaurant);
-          setFoodItems(data.items.map(item => ({ ...item, restaurant: data.restaurant })));
-        } else {
-          const data = await fetchRegionFood(selectedRegion);
-          setFoodItems(data.items);
-        }
+        const data = await fetchRegionFood(selectedRegion);
+        setFoodItems(data.items);
       } catch (err) {
         setError('Failed to load food items');
         console.error(err);
@@ -117,7 +120,7 @@ function App() {
       }
     };
     loadFood();
-  }, [selectedRegion, selectedRestaurant]);
+  }, [selectedRegion]);
 
   useEffect(() => {
     updateGlobalLoadingFlag(isLoading);
@@ -127,19 +130,16 @@ function App() {
     if (regionId === selectedRegion) {
       return;
     }
-    setSelectedRestaurant(null);
     setRestaurants([]);
     setFoodItems([]);
     setError(null);
+    // Reset restaurant filter when region changes
+    setFilters(prev => ({ ...prev, selectedRestaurants: [] }));
     const loading = Boolean(regionId);
     setIsLoading(loading);
     updateGlobalLoadingFlag(loading);
     setSelectedRegion(regionId);
   }, [selectedRegion]);
-
-  const handleRestaurantChange = useCallback((restaurantId: string | null) => {
-    setSelectedRestaurant(restaurantId);
-  }, []);
 
   const handleRefreshData = useCallback(async () => {
     setIsRefreshing(true);
@@ -150,9 +150,61 @@ function App() {
     window.location.reload();
   }, []);
 
+  // Pull-to-refresh handlers
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    const main = mainRef.current;
+    // Only allow pull-to-refresh when scrolled to top
+    if (main && main.scrollTop === 0 && !isRefreshing) {
+      touchStartY.current = e.touches[0].clientY;
+    } else {
+      touchStartY.current = null;
+    }
+  }, [isRefreshing]);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    if (touchStartY.current === null) return;
+    
+    const currentY = e.touches[0].clientY;
+    const delta = currentY - touchStartY.current;
+    
+    if (delta > 0) {
+      setIsPulling(true);
+      // Apply resistance to make pull feel natural
+      const resistance = 0.5;
+      const resistedDelta = Math.min(delta * resistance, MAX_PULL_DISTANCE);
+      setPullDistance(resistedDelta);
+      
+      // Prevent default scrolling when pulling
+      if (mainRef.current && mainRef.current.scrollTop === 0) {
+        e.preventDefault();
+      }
+    }
+  }, []);
+
+  const handleTouchEnd = useCallback(() => {
+    if (touchStartY.current === null) return;
+    
+    if (pullDistance >= PULL_THRESHOLD && !isRefreshing) {
+      // Trigger refresh
+      handleRefreshData();
+    }
+    
+    // Reset pull state
+    setIsPulling(false);
+    setPullDistance(0);
+    touchStartY.current = null;
+  }, [pullDistance, isRefreshing, handleRefreshData]);
+
   // Filter and sort items
   const filteredItems = useMemo(() => {
     let items = [...foodItems];
+
+    // Apply restaurant filter (if specific restaurants are selected)
+    if (filters.selectedRestaurants.length > 0) {
+      items = items.filter(item => 
+        item.restaurant && filters.selectedRestaurants.includes(item.restaurant)
+      );
+    }
 
     // Apply dietary filters
     if (filters.vegetarianOnly) {
@@ -238,13 +290,40 @@ function App() {
           regions={regions}
           selectedRegion={selectedRegion}
           onRegionChange={handleRegionChange}
+          restaurants={restaurants}
           filters={filters}
           onFiltersChange={setFilters}
           isLoading={isLoading}
         />
       </header>
 
-      <main className="app-main">
+      <main 
+        ref={mainRef}
+        className={`app-main ${isPulling ? 'pulling' : ''}`}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        style={{
+          transform: pullDistance > 0 ? `translateY(${pullDistance}px)` : undefined,
+          transition: isPulling ? 'none' : 'transform 0.3s ease-out'
+        }}
+      >
+        {/* Pull-to-refresh indicator */}
+        {(isPulling || isRefreshing) && (
+          <div 
+            className={`pull-to-refresh-indicator ${isRefreshing ? 'refreshing' : ''} ${pullDistance >= PULL_THRESHOLD ? 'ready' : ''}`}
+            style={{ 
+              opacity: isRefreshing ? 1 : Math.min(pullDistance / PULL_THRESHOLD, 1),
+              transform: `translateY(${isRefreshing ? 0 : -50 + (pullDistance / 2)}px)`
+            }}
+          >
+            <div className="pull-spinner"></div>
+            <span className="pull-text">
+              {isRefreshing ? 'Refreshing...' : pullDistance >= PULL_THRESHOLD ? 'Release to refresh' : 'Pull to refresh'}
+            </span>
+          </div>
+        )}
+
         {isLoading && (
           <div className="loading-overlay" role="status" aria-live="polite">
             <div className="loading-spinner"></div>
@@ -253,23 +332,14 @@ function App() {
         )}
 
         {selectedRegion && (
-          <>
-            <Navigation
-              restaurants={restaurants}
-              selectedRestaurant={selectedRestaurant}
-              onRestaurantChange={handleRestaurantChange}
+          <section className="main-content">
+            <FoodList
+              items={filteredItems}
+              sortBy={filters.sortBy}
               isLoading={isLoading}
+              error={error}
             />
-
-            <section className="main-content">
-              <FoodList
-                items={filteredItems}
-                sortBy={filters.sortBy}
-                isLoading={isLoading}
-                error={error}
-              />
-            </section>
-          </>
+          </section>
         )}
 
         {!selectedRegion && (
@@ -288,13 +358,6 @@ function App() {
 
       <footer className="app-footer">
         <p>Eat Me - Making informed food choices easier</p>
-        <button 
-          className="refresh-button"
-          onClick={handleRefreshData}
-          disabled={isRefreshing}
-        >
-          {isRefreshing ? '🔄 Refreshing...' : '🔄 Refresh Data'}
-        </button>
       </footer>
     </div>
   );

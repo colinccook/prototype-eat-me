@@ -59,4 +59,5 @@ export interface FilterOptions {
   veganOnly: boolean;
   maxCalories: number | null;
   sortBy: SortOption;
+  selectedRestaurants: string[];  // Empty array means all restaurants
 }
