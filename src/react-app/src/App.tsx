@@ -107,20 +107,11 @@ function App() {
 
   const handleRefreshData = useCallback(async () => {
     setIsRefreshing(true);
-    try {
-      const success = await clearDataCache();
-      if (success) {
-        // Reload the page to fetch fresh data
-        window.location.reload();
-      } else {
-        // If service worker isn't available, just reload
-        window.location.reload();
-      }
-    } catch (err) {
-      console.error('Failed to refresh data:', err);
-      // Fallback: just reload the page
-      window.location.reload();
-    }
+    // Attempt to clear the service worker cache, then reload regardless
+    await clearDataCache().catch(() => {
+      // Ignore errors - we'll reload anyway
+    });
+    window.location.reload();
   }, []);
 
   // Filter and sort items
