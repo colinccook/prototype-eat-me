@@ -27,26 +27,20 @@
   gap: 0.5rem;
 }
 
-.tray-divider {
-  padding: 0.75rem 0;
-  color: #888;
-  font-size: 0.85rem;
-  border-top: 1px solid #e0e0e0;
-  margin-top: 0.5rem;
+/* Restaurant option tap-to-select style */
+.restaurant-option {
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
 }
 
-.checkbox-option {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  cursor: pointer;
+.restaurant-option.selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
 }
 
-.tray-checkbox {
-  width: 20px;
-  height: 20px;
-  accent-color: #667eea;
-  cursor: pointer;
+.restaurant-option.selected .tray-option-label {
+  color: white;
 }
 
 /* Make pills slightly smaller on mobile */

@@ -270,45 +270,32 @@ function HeaderPills({
       {/* Restaurants Tray */}
       <Tray isOpen={activeTrays.restaurants} onClose={closeTray} title="Select Restaurants">
         <div className="tray-options restaurants-tray">
-          <button
-            className={`tray-option ${filters.selectedRestaurants.length === 0 ? 'active' : ''}`}
-            onClick={handleSelectAllRestaurants}
-          >
-            <span className="tray-option-label">All Restaurants</span>
-            <span className="tray-option-description">
-              Show food from all restaurants
-            </span>
-          </button>
-          
-          <div className="tray-divider">
-            <span>Or select specific restaurants:</span>
-          </div>
-          
           {restaurants.map((restaurant) => (
-            <label
+            <button
               key={restaurant.id}
-              className={`tray-option checkbox-option ${filters.selectedRestaurants.includes(restaurant.name) ? 'active' : ''}`}
+              className={`tray-option restaurant-option ${filters.selectedRestaurants.includes(restaurant.name) ? 'selected' : ''}`}
+              onClick={() => handleRestaurantToggle(restaurant.name)}
             >
-              <input
-                type="checkbox"
-                checked={filters.selectedRestaurants.includes(restaurant.name)}
-                onChange={() => handleRestaurantToggle(restaurant.name)}
-                className="tray-checkbox"
-              />
               <span className="tray-option-label">{restaurant.name}</span>
-            </label>
+            </button>
           ))}
           
-          {filters.selectedRestaurants.length > 0 && (
-            <div className="tray-form-actions">
+          <div className="tray-form-actions">
+            <button 
+              className="tray-form-button secondary" 
+              onClick={handleSelectAllRestaurants}
+            >
+              Show All
+            </button>
+            {filters.selectedRestaurants.length > 0 && (
               <button 
                 className="tray-form-button primary" 
                 onClick={closeTray}
               >
                 Done
               </button>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </Tray>
 
