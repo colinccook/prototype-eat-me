@@ -275,6 +275,7 @@ function HeaderPills({
               key={restaurant.id}
               className={`tray-option restaurant-option ${filters.selectedRestaurants.includes(restaurant.name) ? 'selected' : ''}`}
               onClick={() => handleRestaurantToggle(restaurant.name)}
+              aria-pressed={filters.selectedRestaurants.includes(restaurant.name)}
             >
               <span className="tray-option-label">{restaurant.name}</span>
             </button>
@@ -284,6 +285,7 @@ function HeaderPills({
             <button 
               className="tray-form-button secondary" 
               onClick={handleSelectAllRestaurants}
+              aria-label="Clear restaurant filters and show all restaurants"
             >
               Show All
             </button>
