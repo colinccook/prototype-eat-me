@@ -21,23 +21,16 @@ function SettingsPanel({
 }: SettingsPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleVegetarianChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleDietaryChange = (type: 'vegetarian' | 'vegan', checked: boolean) => {
+    // Vegetarian and vegan are mutually exclusive
     onFiltersChange({
       ...filters,
-      vegetarianOnly: e.target.checked,
-      veganOnly: e.target.checked ? false : filters.veganOnly
+      vegetarianOnly: type === 'vegetarian' ? checked : (checked ? false : filters.vegetarianOnly),
+      veganOnly: type === 'vegan' ? checked : (checked ? false : filters.veganOnly)
     });
   };
 
-  const handleVeganChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    onFiltersChange({
-      ...filters,
-      veganOnly: e.target.checked,
-      vegetarianOnly: e.target.checked ? false : filters.vegetarianOnly
-    });
-  };
-
-  const hasActiveSettings = filters.vegetarianOnly || filters.veganOnly;
+  const hasActiveDietarySettings = filters.vegetarianOnly || filters.veganOnly;
 
   return (
     <div className="settings-panel">
@@ -49,7 +42,7 @@ function SettingsPanel({
       >
         <span className="settings-icon">⚙️</span>
         <span>Settings</span>
-        {hasActiveSettings && <span className="settings-badge">Active</span>}
+        {hasActiveDietarySettings && <span className="settings-badge">Active</span>}
         <span className={`chevron ${isOpen ? 'open' : ''}`}>▼</span>
       </button>
 
@@ -78,7 +71,7 @@ function SettingsPanel({
               <input
                 type="checkbox"
                 checked={filters.vegetarianOnly}
-                onChange={handleVegetarianChange}
+                onChange={(e) => handleDietaryChange('vegetarian', e.target.checked)}
               />
               Vegetarian Only
             </label>
@@ -86,7 +79,7 @@ function SettingsPanel({
               <input
                 type="checkbox"
                 checked={filters.veganOnly}
-                onChange={handleVeganChange}
+                onChange={(e) => handleDietaryChange('vegan', e.target.checked)}
               />
               Vegan Only
             </label>
