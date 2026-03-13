@@ -1,0 +1,25 @@
+{
+  "name": "Eat Me - Smart Food Finder",
+  "short_name": "Eat Me",
+  "description": "Find food that fits your dietary goals when eating out on the UK high street",
+  "start_url": "/prototype-eat-me/",
+  "scope": "/prototype-eat-me/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#863bff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
