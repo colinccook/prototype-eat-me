@@ -83,6 +83,22 @@ Menu items conform to this schema:
 
 This application is deployed to GitHub Pages automatically when changes are pushed to the main branch.
 
+### GitHub Pages Setup (Required)
+
+For the deployment to work, GitHub Pages must be enabled in the repository settings:
+
+1. Go to **Settings** → **Pages** in the repository
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Save the settings
+
+Once configured, any push to the `main` branch will automatically build and deploy the React app to GitHub Pages.
+
+### Troubleshooting
+
+If the deploy job fails with `Error: Failed to create deployment (status: 404)`, ensure that:
+- GitHub Pages is enabled with **Source** set to **GitHub Actions** (not "Deploy from a branch")
+- The repository has the correct permissions set in the workflow (`pages: write`, `id-token: write`)
+
 ## License
 
 MIT License
