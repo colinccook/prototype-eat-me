@@ -1211,6 +1211,20 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Cheese and Red Onion Crisps",
+      "calories": 209,
+      "macros": {
+        "protein": 3.2,
+        "carbohydrates": 21.0,
+        "fat": 12.0,
+        "fibre": 2.2,
+        "salt": 0.48
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Starbucks"
+    },
+    {
       "name": "Cheesy Garlic Bread Board",
       "calories": 1507,
       "macros": {
@@ -2599,7 +2613,7 @@
       "restaurant": "Starbucks"
     },
     {
-      "name": "Gingerbread Cookie -",
+      "name": "Gingerbread Cookie",
       "calories": 183,
       "macros": {
         "protein": 2.4,
@@ -3435,6 +3449,19 @@
         "carbohydrates": 52.9,
         "fat": 8.0,
         "salt": 0.1
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Harvester"
+    },
+    {
+      "name": "Jacket Potato without Butter",
+      "calories": 246,
+      "macros": {
+        "protein": 6.4,
+        "carbohydrates": 51.7,
+        "fat": 0.6,
+        "salt": 0.05
       },
       "vegetarian": true,
       "vegan": false,
@@ -4625,7 +4652,7 @@
       "restaurant": "KFC"
     },
     {
-      "name": "Original Recipe Chicken Fillet Roll #",
+      "name": "Original Recipe Chicken Fillet Roll",
       "calories": 665,
       "macros": {
         "protein": 29.0,
@@ -7208,7 +7235,7 @@
       "restaurant": "KFC"
     },
     {
-      "name": "Zinger Fillet Roll #",
+      "name": "Zinger Fillet Roll",
       "calories": 751,
       "macros": {
         "protein": 23.0,
@@ -7271,33 +7298,6 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "KFC"
-    },
-    {
-      "name": "and Red Onion Crisps",
-      "calories": 209,
-      "macros": {
-        "protein": 3.2,
-        "carbohydrates": 21.0,
-        "fat": 12.0,
-        "fibre": 2.2,
-        "salt": 0.48
-      },
-      "vegetarian": true,
-      "vegan": false,
-      "restaurant": "Starbucks"
-    },
-    {
-      "name": "without Butter",
-      "calories": 246,
-      "macros": {
-        "protein": 6.4,
-        "carbohydrates": 51.7,
-        "fat": 0.6,
-        "salt": 0.05
-      },
-      "vegetarian": true,
-      "vegan": false,
-      "restaurant": "Harvester"
     }
   ]
 }
