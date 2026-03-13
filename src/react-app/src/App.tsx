@@ -47,7 +47,7 @@ function App() {
     vegetarianOnly: false,
     veganOnly: false,
     maxCalories: null,
-    sortBy: 'name-asc'
+    sortBy: 'protein-per-calorie-desc'
   });
 
   // Load regions on mount
