@@ -1,0 +1,17 @@
+.header-pills {
+  width: 100%;
+}
+
+.header-pills .pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+/* Make pills slightly smaller on mobile */
+@media (max-width: 480px) {
+  .header-pills .pills-container {
+    gap: 0.4rem;
+  }
+}

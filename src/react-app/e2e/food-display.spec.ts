@@ -7,13 +7,9 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should open the settings panel
-      const settingsToggle = page.locator('.settings-toggle');
-      await settingsToggle.click();
-
-      // And the United Kingdom region should already be selected
-      const regionSelect = page.locator('#region-select');
-      await expect(regionSelect).toHaveValue('uk');
+      // Region pill should show UK is already selected
+      const regionPill = page.getByRole('button', { name: /Region: UK/i });
+      await expect(regionPill).toBeVisible();
 
       // And restaurant options should appear without choosing a region
       const restaurantSelect = page.locator('#restaurant-select');
@@ -32,24 +28,15 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should open the settings panel
-      const settingsToggle = page.locator('.settings-toggle');
-      await settingsToggle.click();
-
-      // When I clear the region selection
-      const regionSelect = page.locator('#region-select');
-      await expect(regionSelect).toBeEnabled({ timeout: 15000 });
-      await regionSelect.selectOption({ label: 'Select a region' });
-      await expect(page.locator('.welcome-message')).toBeVisible();
-      await expect(regionSelect).toHaveValue('');
-
-      // And I select the "United Kingdom" region
-      await regionSelect.selectOption({ label: 'United Kingdom' });
-      await expect(regionSelect).toHaveValue('uk');
-
-      // And data should load afterwards
+      // Wait for food to load first
       const foodGrid = page.locator('.food-grid');
       await foodGrid.waitFor({ state: 'visible' });
+
+      // The region pill shows UK is selected
+      const regionPill = page.getByRole('button', { name: /Region: UK/i });
+      await expect(regionPill).toBeVisible();
+
+      // Food should be displayed
       await expect(foodGrid).toBeVisible();
     });
   });
@@ -60,18 +47,18 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should open the settings panel
-      const settingsToggle = page.locator('.settings-toggle');
-      await settingsToggle.click();
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
 
-      // When I select the "United Kingdom" region
-      const regionSelect = page.locator('#region-select');
-      await regionSelect.selectOption({ label: 'United Kingdom' });
-      await page.waitForLoadState('networkidle');
+      // Click the Diet pill to open tray
+      const dietPill = page.getByRole('button', { name: /Diet:/i });
+      await dietPill.click();
 
-      // And I select vegetarian only filter (now in settings panel)
-      const vegetarianCheckbox = page.locator('.settings-section').filter({ hasText: 'Dietary' }).locator('label').filter({ hasText: 'Vegetarian' }).locator('input[type="checkbox"]');
-      await vegetarianCheckbox.check();
+      // Select Vegetarian option in the tray
+      const vegetarianOption = page.getByRole('button', { name: /Vegetarian.*No meat or fish/i });
+      await vegetarianOption.click();
+
       await page.waitForTimeout(500); // Wait for filter to apply
 
       // Then I should see only vegetarian food items
@@ -91,18 +78,22 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should open the settings panel
-      const settingsToggle = page.locator('.settings-toggle');
-      await settingsToggle.click();
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
 
-      // When I select the "United Kingdom" region
-      const regionSelect = page.locator('#region-select');
-      await regionSelect.selectOption({ label: 'United Kingdom' });
-      await page.waitForLoadState('networkidle');
+      // Click the Calories pill to open tray
+      const caloriesPill = page.getByRole('button', { name: /Calories:/i });
+      await caloriesPill.click();
 
-      // And I set maximum calories to 300
-      const calorieInput = page.locator('input[type="number"]');
+      // Set maximum calories to 300
+      const calorieInput = page.locator('#calorie-input');
       await calorieInput.fill('300');
+      
+      // Click Apply button
+      const applyButton = page.getByRole('button', { name: 'Apply' });
+      await applyButton.click();
+
       await page.waitForTimeout(500); // Wait for filter to apply
 
       // Then all displayed items should have 300 or fewer calories
@@ -127,18 +118,18 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should open the settings panel
-      const settingsToggle = page.locator('.settings-toggle');
-      await settingsToggle.click();
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
 
-      // When I select the "United Kingdom" region
-      const regionSelect = page.locator('#region-select');
-      await regionSelect.selectOption({ label: 'United Kingdom' });
-      await page.waitForLoadState('networkidle');
+      // Click the Sort pill to open tray
+      const sortPill = page.getByRole('button', { name: /Sort:/i });
+      await sortPill.click();
 
-      // And I sort by "Protein (High to Low)"
-      const sortSelect = page.locator('.filter-section select').last();
-      await sortSelect.selectOption({ label: 'Protein (High to Low)' });
+      // Select "Highest Protein" option
+      const highestProteinOption = page.getByRole('button', { name: /Highest Protein.*muscle building/i });
+      await highestProteinOption.click();
+
       await page.waitForTimeout(500); // Wait for sort to apply
 
       // Then items should be sorted by protein in descending order
@@ -167,18 +158,18 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should open the settings panel
-      const settingsToggle = page.locator('.settings-toggle');
-      await settingsToggle.click();
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
 
-      // When I select the "United Kingdom" region
-      const regionSelect = page.locator('#region-select');
-      await regionSelect.selectOption({ label: 'United Kingdom' });
-      await page.waitForLoadState('networkidle');
+      // Click the Sort pill to open tray
+      const sortPill = page.getByRole('button', { name: /Sort:/i });
+      await sortPill.click();
 
-      // And I sort by "Salt (Low to High)"
-      const sortSelect = page.locator('.filter-section select').last();
-      await sortSelect.selectOption({ label: 'Salt (Low to High)' });
+      // Select "Lowest Salt" option
+      const lowestSaltOption = page.getByRole('button', { name: /Lowest Salt.*blood pressure/i });
+      await lowestSaltOption.click();
+
       await page.waitForTimeout(500); // Wait for sort to apply
 
       // Then salt info should be displayed on food cards
@@ -223,11 +214,11 @@ test.describe('Food Display', () => {
       const foodName = await firstFoodCard.locator('.food-name').textContent();
       await firstFoodCard.click();
 
-      // Then I should see a detail modal slide up from the bottom
-      const modal = page.locator('.modal-overlay');
-      await expect(modal).toBeVisible();
+      // Then I should see a detail tray slide up from the bottom
+      const tray = page.locator('.tray-overlay');
+      await expect(tray).toBeVisible();
 
-      // And the modal should display the food name and nutritional information
+      // And the tray should display the food name and nutritional information
       const modalTitle = page.locator('.modal-title');
       await expect(modalTitle).toHaveText(foodName!);
 
@@ -253,15 +244,15 @@ test.describe('Food Display', () => {
       const firstFoodCard = page.locator('.food-card').first();
       await firstFoodCard.click();
 
-      // Verify modal is visible
-      const modal = page.locator('.modal-overlay');
-      await expect(modal).toBeVisible();
+      // Verify tray is visible
+      const tray = page.locator('.tray-overlay');
+      await expect(tray).toBeVisible();
 
-      // And I tap on the modal backdrop (outside the modal sheet)
-      await modal.click({ position: { x: 10, y: 10 } });
+      // And I tap on the tray backdrop (outside the tray sheet)
+      await tray.click({ position: { x: 10, y: 10 } });
 
-      // Then the detail modal should close
-      await expect(modal).not.toBeVisible();
+      // Then the detail tray should close
+      await expect(tray).not.toBeVisible();
     });
 
     test('Dismiss detail modal using close button', async ({ page }) => {
@@ -277,16 +268,16 @@ test.describe('Food Display', () => {
       const firstFoodCard = page.locator('.food-card').first();
       await firstFoodCard.click();
 
-      // Verify modal is visible
-      const modal = page.locator('.modal-overlay');
-      await expect(modal).toBeVisible();
+      // Verify tray is visible
+      const tray = page.locator('.tray-overlay');
+      await expect(tray).toBeVisible();
 
-      // And I tap the close button on the modal
-      const closeButton = page.locator('.modal-close-button');
+      // And I tap the close button on the tray
+      const closeButton = page.locator('.tray-close-button');
       await closeButton.click();
 
-      // Then the detail modal should close
-      await expect(modal).not.toBeVisible();
+      // Then the detail tray should close
+      await expect(tray).not.toBeVisible();
     });
 
     test('Modal displays restaurant name for items with restaurant', async ({ page }) => {
@@ -303,7 +294,7 @@ test.describe('Food Display', () => {
       const restaurantName = await foodCardWithRestaurant.locator('.restaurant-tag').textContent();
       await foodCardWithRestaurant.click();
 
-      // Then the modal should display the restaurant name
+      // Then the tray should display the restaurant name
       const modalRestaurant = page.locator('.modal-restaurant');
       await expect(modalRestaurant).toBeVisible();
       await expect(modalRestaurant).toHaveText(restaurantName!);

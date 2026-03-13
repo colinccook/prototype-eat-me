@@ -13,8 +13,7 @@ import {
 } from './api';
 import { clearDataCache } from './serviceWorkerRegistration';
 import Navigation from './components/Navigation';
-import SettingsPanel from './components/SettingsPanel';
-import FilterPanel from './components/FilterPanel';
+import HeaderPills from './components/HeaderPills';
 import FoodList from './components/FoodList';
 import './App.css';
 
@@ -229,8 +228,20 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Eat Me</h1>
-        <p className="tagline">Find food that fits your goals</p>
+        <div className="header-top">
+          <div className="header-title">
+            <h1>Eat Me</h1>
+            <p className="tagline">Find food that fits your goals</p>
+          </div>
+        </div>
+        <HeaderPills
+          regions={regions}
+          selectedRegion={selectedRegion}
+          onRegionChange={handleRegionChange}
+          filters={filters}
+          onFiltersChange={setFilters}
+          isLoading={isLoading}
+        />
       </header>
 
       <main className="app-main">
@@ -241,15 +252,6 @@ function App() {
           </div>
         )}
 
-        <SettingsPanel
-          regions={regions}
-          selectedRegion={selectedRegion}
-          onRegionChange={handleRegionChange}
-          filters={filters}
-          onFiltersChange={setFilters}
-          isLoading={isLoading}
-        />
-
         {selectedRegion && (
           <>
             <Navigation
@@ -259,29 +261,21 @@ function App() {
               isLoading={isLoading}
             />
 
-            <div className="content-layout">
-              <aside className="sidebar">
-                <FilterPanel
-                  filters={filters}
-                  onFiltersChange={setFilters}
-                />
-              </aside>
-              <section className="main-content">
-                <FoodList
-                  items={filteredItems}
-                  sortBy={filters.sortBy}
-                  isLoading={isLoading}
-                  error={error}
-                />
-              </section>
-            </div>
+            <section className="main-content">
+              <FoodList
+                items={filteredItems}
+                sortBy={filters.sortBy}
+                isLoading={isLoading}
+                error={error}
+              />
+            </section>
           </>
         )}
 
         {!selectedRegion && (
           <div className="welcome-message">
             <h2>Welcome to Eat Me</h2>
-            <p>Open Settings above to select a region and start exploring food options that match your dietary goals.</p>
+            <p>Use the pills above to select a region and start exploring food options that match your dietary goals.</p>
             <ul className="feature-list">
               <li>🥗 Filter by vegetarian or vegan options</li>
               <li>🔥 Set your calorie budget</li>
