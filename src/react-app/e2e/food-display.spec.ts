@@ -11,11 +11,10 @@ test.describe('Food Display', () => {
       const regionPill = page.locator('.pill').filter({ hasText: 'Region: UK' });
       await expect(regionPill).toBeVisible();
 
-      // And restaurant options should appear without choosing a region
-      const restaurantSelect = page.locator('#restaurant-select');
-      await expect(restaurantSelect).toBeVisible();
-      const optionCount = await restaurantSelect.locator('option').count();
-      expect(optionCount).toBeGreaterThan(1);
+      // And the restaurants pill should appear showing "All" by default
+      const restaurantsPill = page.locator('.pill').filter({ hasText: 'Restaurants:' });
+      await expect(restaurantsPill).toBeVisible();
+      await expect(restaurantsPill).toContainText('All');
 
       // And food should load
       const foodGrid = page.locator('.food-grid');

@@ -115,10 +115,6 @@ body {
   text-align: center;
   padding: 1.5rem;
   margin-top: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
 }
 
 .app-footer p {
@@ -126,26 +122,48 @@ body {
   font-size: 0.9rem;
 }
 
-.refresh-button {
-  background: transparent;
-  border: 1px solid #555;
-  color: #888;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  transition: all 0.2s ease;
+/* Pull-to-refresh styles */
+.pull-to-refresh-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  color: #667eea;
+  font-size: 0.9rem;
+  z-index: 5;
+  pointer-events: none;
 }
 
-.refresh-button:hover:not(:disabled) {
-  background: #333;
-  border-color: #777;
-  color: #fff;
+.pull-to-refresh-indicator.ready .pull-text {
+  color: #667eea;
+  font-weight: 500;
 }
 
-.refresh-button:disabled {
-  cursor: not-allowed;
-  opacity: 0.6;
+.pull-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e0e0e0;
+  border-top: 2px solid #667eea;
+  border-radius: 50%;
+}
+
+.pull-to-refresh-indicator.refreshing .pull-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.app-main.pulling {
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .loading-overlay {
