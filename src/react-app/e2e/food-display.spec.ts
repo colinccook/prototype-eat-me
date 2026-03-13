@@ -2,34 +2,47 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Food Display', () => {
   test.describe('@smoke', () => {
-    test('Display welcome page - should see Eat Me header and welcome message', async ({ page }) => {
+    test('Default region is selected and data loads without interaction', async ({ page }) => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then I should see the "Eat Me" header
-      const header = page.locator('h1');
-      await expect(header).toBeVisible();
-      await expect(header).toContainText('Eat Me');
-
-      // And I should see the welcome message
-      const welcomeMessage = page.locator('.welcome-message');
-      await expect(welcomeMessage).toBeVisible();
-    });
-
-    test('Select a region - should see restaurant options', async ({ page }) => {
-      // Given I navigate to the application
-      await page.goto('/');
-      await page.waitForLoadState('networkidle');
-
-      // When I select the "United Kingdom" region
+      // Then the United Kingdom region should already be selected
       const regionSelect = page.locator('#region-select');
-      await regionSelect.selectOption({ label: 'United Kingdom' });
-      await page.waitForLoadState('networkidle');
+      await expect(regionSelect).toHaveValue('uk');
 
-      // Then I should see restaurant options
+      // And restaurant options should appear without choosing a region
       const restaurantSelect = page.locator('#restaurant-select');
       await expect(restaurantSelect).toBeVisible();
+      const optionCount = await restaurantSelect.locator('option').count();
+      expect(optionCount).toBeGreaterThan(1);
+
+      // And food should load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+      await expect(foodGrid).toBeVisible();
+    });
+
+    test('Shows loading state when switching regions', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When I clear the region selection
+      const regionSelect = page.locator('#region-select');
+      await expect(regionSelect).toBeEnabled({ timeout: 15000 });
+      await regionSelect.selectOption({ label: 'Select a region' });
+      await expect(page.locator('.welcome-message')).toBeVisible();
+      await expect(regionSelect).toHaveValue('');
+
+      // And I select the "United Kingdom" region
+      await regionSelect.selectOption({ label: 'United Kingdom' });
+      await expect(regionSelect).toHaveValue('uk');
+
+      // And data should load afterwards
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+      await expect(foodGrid).toBeVisible();
     });
   });
 

@@ -17,13 +17,28 @@ import FilterPanel from './components/FilterPanel';
 import FoodList from './components/FoodList';
 import './App.css';
 
+const DEFAULT_REGION_ID = 'uk';
+const DEFAULT_REGIONS: Region[] = [
+  { id: DEFAULT_REGION_ID, name: 'United Kingdom' }
+];
+const MIN_LOADING_DURATION_MS = 200;
+
+const updateGlobalLoadingFlag = (flag: boolean) => {
+  if (typeof document !== 'undefined') {
+    document.body.dataset.loading = flag ? 'true' : 'false';
+  }
+  if (typeof window !== 'undefined') {
+    (window as unknown as Record<string, unknown>).__eatMeLoading = flag;
+  }
+};
+
 function App() {
-  const [regions, setRegions] = useState<Region[]>([]);
+  const [regions, setRegions] = useState<Region[]>(DEFAULT_REGIONS);
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [foodItems, setFoodItems] = useState<FoodItem[]>([]);
-  const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
+  const [selectedRegion, setSelectedRegion] = useState<string | null>(DEFAULT_REGION_ID);
   const [selectedRestaurant, setSelectedRestaurant] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
   
@@ -39,7 +54,7 @@ function App() {
     const loadRegions = async () => {
       try {
         const data = await fetchRegions();
-        setRegions(data.regions);
+        setRegions(data.regions.length > 0 ? data.regions : DEFAULT_REGIONS);
       } catch (err) {
         setError('Failed to load regions');
         console.error(err);
@@ -52,12 +67,14 @@ function App() {
   useEffect(() => {
     if (!selectedRegion) {
       setRestaurants([]);
+      setIsLoading(false);
       setFoodItems([]);
       return;
     }
 
     const loadRestaurants = async () => {
       try {
+        setRestaurants([]);
         const data = await fetchRestaurants(selectedRegion);
         setRestaurants(data.restaurants);
       } catch (err) {
@@ -70,14 +87,15 @@ function App() {
 
   // Load food items when region or restaurant changes
   useEffect(() => {
-    if (!selectedRegion) {
-      setFoodItems([]);
-      return;
-    }
-
     const loadFood = async () => {
+      const start = performance.now();
       setIsLoading(true);
       setError(null);
+      setFoodItems([]);
+      if (!selectedRegion) {
+        setIsLoading(false);
+        return;
+      }
       try {
         if (selectedRestaurant) {
           const data = await fetchRestaurantFood(selectedRegion, selectedRestaurant);
@@ -90,16 +108,34 @@ function App() {
         setError('Failed to load food items');
         console.error(err);
       } finally {
+        const elapsed = performance.now() - start;
+        if (elapsed < MIN_LOADING_DURATION_MS) {
+          await new Promise(resolve => setTimeout(resolve, MIN_LOADING_DURATION_MS - elapsed));
+        }
         setIsLoading(false);
+        updateGlobalLoadingFlag(false);
       }
     };
     loadFood();
   }, [selectedRegion, selectedRestaurant]);
 
+  useEffect(() => {
+    updateGlobalLoadingFlag(isLoading);
+  }, [isLoading]);
+
   const handleRegionChange = useCallback((regionId: string | null) => {
-    setSelectedRegion(regionId);
+    if (regionId === selectedRegion) {
+      return;
+    }
     setSelectedRestaurant(null);
-  }, []);
+    setRestaurants([]);
+    setFoodItems([]);
+    setError(null);
+    const loading = Boolean(regionId);
+    setIsLoading(loading);
+    updateGlobalLoadingFlag(loading);
+    setSelectedRegion(regionId);
+  }, [selectedRegion]);
 
   const handleRestaurantChange = useCallback((restaurantId: string | null) => {
     setSelectedRestaurant(restaurantId);
@@ -197,6 +233,13 @@ function App() {
       </header>
 
       <main className="app-main">
+        {isLoading && (
+          <div className="loading-overlay" role="status" aria-live="polite">
+            <div className="loading-spinner"></div>
+            <p>Syncing data...</p>
+          </div>
+        )}
+
         <Navigation
           regions={regions}
           restaurants={restaurants}
@@ -204,6 +247,7 @@ function App() {
           selectedRestaurant={selectedRestaurant}
           onRegionChange={handleRegionChange}
           onRestaurantChange={handleRestaurantChange}
+          isLoading={isLoading}
         />
 
         {selectedRegion && (
