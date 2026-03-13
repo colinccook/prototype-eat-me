@@ -47,7 +47,7 @@ function App() {
     vegetarianOnly: false,
     veganOnly: false,
     maxCalories: null,
-    sortBy: 'name-asc'
+    sortBy: 'protein-per-calorie-desc'
   });
 
   // Load regions on mount
@@ -237,7 +237,7 @@ function App() {
         {isLoading && (
           <div className="loading-overlay" role="status" aria-live="polite">
             <div className="loading-spinner"></div>
-            <p>Syncing data...</p>
+            <span className="loading-text">Syncing data...</span>
           </div>
         )}
 
