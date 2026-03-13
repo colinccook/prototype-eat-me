@@ -51,7 +51,8 @@ export type SortOption =
   | 'protein-per-calorie-desc'
   | 'fat-asc'
   | 'name-asc'
-  | 'fibre-to-carb-asc';
+  | 'fibre-to-carb-asc'
+  | 'salt-asc';
 
 export interface FilterOptions {
   vegetarianOnly: boolean;

@@ -128,5 +128,46 @@ test.describe('Food Display', () => {
         expect(proteins[i]).toBeGreaterThanOrEqual(proteins[i + 1]);
       }
     });
+
+    test('Sort by lowest salt - items should be sorted by salt ascending with salt info displayed', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When I select the "United Kingdom" region
+      const regionSelect = page.locator('#region-select');
+      await regionSelect.selectOption({ label: 'United Kingdom' });
+      await page.waitForLoadState('networkidle');
+
+      // And I sort by "Salt (Low to High)"
+      const sortSelect = page.locator('.filter-section select').last();
+      await sortSelect.selectOption({ label: 'Salt (Low to High)' });
+      await page.waitForTimeout(500); // Wait for sort to apply
+
+      // Then salt info should be displayed on food cards
+      const saltInfoElements = page.locator('.salt-info');
+      const count = await saltInfoElements.count();
+      expect(count).toBeGreaterThan(0);
+
+      // And items with salt data should be sorted by salt in ascending order
+      const saltValues: number[] = [];
+      for (let i = 0; i < count; i++) {
+        const saltValueElement = saltInfoElements.nth(i).locator('.salt-value');
+        if (await saltValueElement.count() > 0) {
+          const text = await saltValueElement.textContent();
+          if (text) {
+            const salt = parseFloat(text.replace('g', ''));
+            if (!isNaN(salt)) {
+              saltValues.push(salt);
+            }
+          }
+        }
+      }
+
+      // Verify ascending order for items with salt data
+      for (let i = 0; i < saltValues.length - 1; i++) {
+        expect(saltValues[i]).toBeLessThanOrEqual(saltValues[i + 1]);
+      }
+    });
   });
 });

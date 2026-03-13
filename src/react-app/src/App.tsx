@@ -171,6 +171,19 @@ function App() {
           return aRatio - bRatio;
         });
         break;
+      case 'salt-asc':
+        // Sort by salt (low to high). Items without salt data go to the end.
+        items.sort((a, b) => {
+          const aSalt = a.macros.salt;
+          const bSalt = b.macros.salt;
+          
+          // Items without salt data go to the end
+          if (aSalt === undefined || aSalt === null) return 1;
+          if (bSalt === undefined || bSalt === null) return -1;
+          
+          return aSalt - bSalt;
+        });
+        break;
     }
 
     return items;
