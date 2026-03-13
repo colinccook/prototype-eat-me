@@ -4,16 +4,17 @@ Feature: Food Display
     So that I can make informed dietary choices
 
 @smoke
-Scenario: Display welcome page
+Scenario: Default region is selected automatically
     Given I navigate to the application
-    Then I should see the "Eat Me" header
-    And I should see the welcome message
+    Then the "United Kingdom" region should be selected by default
+    And I should see restaurant options without choosing a region
 
 @smoke
-Scenario: Select a region
+Scenario: Show loading when switching regions
     Given I navigate to the application
-    When I select the "United Kingdom" region
-    Then I should see restaurant options
+    When I clear the region selection
+    And I select the "United Kingdom" region
+    Then I should see a syncing data indicator
 
 @filter
 Scenario: Filter vegetarian foods

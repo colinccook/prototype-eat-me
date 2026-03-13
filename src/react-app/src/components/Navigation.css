@@ -38,3 +38,14 @@
   outline: none;
   border-color: #0066cc;
 }
+
+.nav-section select:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.nav-status {
+  align-self: center;
+  font-weight: 600;
+  color: #0066cc;
+}

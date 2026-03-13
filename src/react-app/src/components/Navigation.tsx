@@ -8,6 +8,7 @@ interface NavigationProps {
   selectedRestaurant: string | null;
   onRegionChange: (regionId: string | null) => void;
   onRestaurantChange: (restaurantId: string | null) => void;
+  isLoading: boolean;
 }
 
 function Navigation({
@@ -16,7 +17,8 @@ function Navigation({
   selectedRegion,
   selectedRestaurant,
   onRegionChange,
-  onRestaurantChange
+  onRestaurantChange,
+  isLoading
 }: NavigationProps) {
   return (
     <nav className="navigation">
@@ -26,6 +28,7 @@ function Navigation({
           id="region-select"
           value={selectedRegion || ''}
           onChange={(e) => onRegionChange(e.target.value || null)}
+          disabled={isLoading}
         >
           <option value="">Select a region</option>
           {regions.map((region) => (
@@ -43,6 +46,7 @@ function Navigation({
             id="restaurant-select"
             value={selectedRestaurant || ''}
             onChange={(e) => onRestaurantChange(e.target.value || null)}
+            disabled={isLoading}
           >
             <option value="">All Restaurants</option>
             {restaurants.map((restaurant) => (
@@ -51,6 +55,12 @@ function Navigation({
               </option>
             ))}
           </select>
+        </div>
+      )}
+
+      {isLoading && (
+        <div className="nav-status" role="status" aria-live="polite">
+          Syncing data...
         </div>
       )}
     </nav>
