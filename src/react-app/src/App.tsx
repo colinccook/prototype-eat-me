@@ -152,6 +152,9 @@ function App() {
           return bRatio - aRatio;
         });
         break;
+      case 'fat-asc':
+        items.sort((a, b) => a.macros.fat - b.macros.fat);
+        break;
     }
 
     return items;

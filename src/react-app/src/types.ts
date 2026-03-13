@@ -47,6 +47,7 @@ export type SortOption =
   | 'calories-desc' 
   | 'protein-desc' 
   | 'protein-per-calorie-desc'
+  | 'fat-asc'
   | 'name-asc';
 
 export interface FilterOptions {
