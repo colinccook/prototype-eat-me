@@ -1,5 +1,7 @@
+import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption } from '../types';
 import FoodCard from './FoodCard';
+import FoodDetailModal from './FoodDetailModal';
 import SkeletonCard from './SkeletonCard';
 import './FoodList.css';
 import './SkeletonCard.css';
@@ -12,6 +14,16 @@ interface FoodListProps {
 }
 
 function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
+  const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
+
+  const handleItemClick = useCallback((item: FoodItem) => {
+    setSelectedItem(item);
+  }, []);
+
+  const handleCloseModal = useCallback(() => {
+    setSelectedItem(null);
+  }, []);
+
   if (isLoading) {
     return (
       <div className="food-list skeleton-loading-status">
@@ -51,9 +63,15 @@ function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
       </div>
       <div className="food-grid">
         {items.map((item, index) => (
-          <FoodCard key={`${item.name}-${item.restaurant}-${index}`} item={item} sortBy={sortBy} />
+          <FoodCard 
+            key={`${item.name}-${item.restaurant}-${index}`} 
+            item={item} 
+            sortBy={sortBy}
+            onClick={() => handleItemClick(item)}
+          />
         ))}
       </div>
+      <FoodDetailModal item={selectedItem} onClose={handleCloseModal} />
     </div>
   );
 }

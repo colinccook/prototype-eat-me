@@ -6,10 +6,26 @@
   color-scheme: light;
 }
 
+/* App-like behavior */
+html {
+  /* Prevent pull-to-refresh and overscroll bounce effects */
+  overscroll-behavior: none;
+  /* Smooth scrolling */
+  scroll-behavior: smooth;
+  /* Prevent text selection for app-like feel */
+  -webkit-tap-highlight-color: transparent;
+}
+
 #root {
   min-height: 100vh;
 }
 
 body {
   margin: 0;
+  /* Prevent pull-to-refresh on mobile */
+  overscroll-behavior-y: contain;
+  /* Disable touch callout for app-like experience */
+  -webkit-touch-callout: none;
+  /* Prevent double-tap zoom on iOS */
+  touch-action: manipulation;
 }

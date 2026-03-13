@@ -4,9 +4,10 @@ import './FoodCard.css';
 interface FoodCardProps {
   item: FoodItem;
   sortBy: SortOption;
+  onClick?: () => void;
 }
 
-function FoodCard({ item, sortBy }: FoodCardProps) {
+function FoodCard({ item, sortBy, onClick }: FoodCardProps) {
   const proteinPerCalorie = item.calories > 0 
     ? (item.macros.protein / item.calories * 100).toFixed(2) 
     : '0.00';
@@ -25,7 +26,14 @@ function FoodCard({ item, sortBy }: FoodCardProps) {
   const fibreRatioQuality = fibreToCarb ? getFibreRatioQuality(parseFloat(fibreToCarb)) : null;
 
   return (
-    <div className="food-card">
+    <div 
+      className={`food-card ${onClick ? 'clickable' : ''}`}
+      onClick={onClick}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={onClick ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } } : undefined}
+      aria-label={onClick ? `View details for ${item.name}` : undefined}
+    >
       <div className="food-card-header">
         <h3 className="food-name">{item.name}</h3>
         {item.restaurant && (

@@ -41,3 +41,27 @@ Scenario: Sort by highest protein
     And I select the "United Kingdom" region
     And I sort by "Protein (High to Low)"
     Then items should be sorted by protein in descending order
+
+@detail
+Scenario: Tap menu item to view details
+    Given I navigate to the application
+    When food items have loaded
+    And I tap on a food item
+    Then I should see a detail modal slide up from the bottom
+    And the modal should display the food name and nutritional information
+
+@detail
+Scenario: Dismiss detail modal by tapping backdrop
+    Given I navigate to the application
+    When food items have loaded
+    And I tap on a food item
+    And I tap on the modal backdrop
+    Then the detail modal should close
+
+@detail
+Scenario: Dismiss detail modal using close button
+    Given I navigate to the application
+    When food items have loaded
+    And I tap on a food item
+    And I tap the close button on the modal
+    Then the detail modal should close

@@ -6,9 +6,25 @@
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.food-card:hover {
+.food-card.clickable {
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.food-card.clickable:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.food-card.clickable:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.food-card.clickable:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
 }
 
 .food-card-header {
