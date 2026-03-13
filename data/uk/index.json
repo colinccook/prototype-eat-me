@@ -9,6 +9,10 @@
       "name": "Greggs"
     },
     {
+      "id": "kfc",
+      "name": "KFC"
+    },
+    {
       "id": "mcdonalds",
       "name": "McDonald's"
     },

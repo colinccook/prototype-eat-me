@@ -26,6 +26,30 @@
       "vegan": true
     },
     {
+      "name": "BBQ Fillet Tower Burger",
+      "restaurant": "KFC",
+      "calories": 619,
+      "macros": {
+        "protein": 33.0,
+        "carbohydrates": 56.0,
+        "fat": 28.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "BBQ Mini Wrap",
+      "restaurant": "KFC",
+      "calories": 298,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 31.0,
+        "fat": 11.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
       "name": "Bacon & Sausage Breakfast Baguette",
       "restaurant": "Greggs",
       "calories": 550,
@@ -62,6 +86,18 @@
       "vegan": false
     },
     {
+      "name": "Cajun Dirty Rice",
+      "restaurant": "KFC",
+      "calories": 217,
+      "macros": {
+        "protein": 3.8,
+        "carbohydrates": 43.0,
+        "fat": 2.6
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
       "name": "Cheese & Onion Bake",
       "restaurant": "Greggs",
       "calories": 436,
@@ -83,6 +119,18 @@
         "fat": 20.1
       },
       "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Cheesy Melt Burger",
+      "restaurant": "KFC",
+      "calories": 645,
+      "macros": {
+        "protein": 35.0,
+        "carbohydrates": 62.5,
+        "fat": 27.1
+      },
+      "vegetarian": false,
       "vegan": false
     },
     {
@@ -158,6 +206,42 @@
       "vegan": true
     },
     {
+      "name": "Corn Cobette",
+      "restaurant": "KFC",
+      "calories": 57,
+      "macros": {
+        "protein": 2.2,
+        "carbohydrates": 8.1,
+        "fat": 1.3
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Creamy Original Crispy Naan",
+      "restaurant": "KFC",
+      "calories": 596,
+      "macros": {
+        "protein": 32.8,
+        "carbohydrates": 58.1,
+        "fat": 25.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Dirty Loaded Fries",
+      "restaurant": "KFC",
+      "calories": 485,
+      "macros": {
+        "protein": 12.0,
+        "carbohydrates": 53.0,
+        "fat": 24.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
       "name": "Egg & Cheese Protein Box",
       "restaurant": "Starbucks",
       "calories": 298,
@@ -201,6 +285,42 @@
         "protein": 15.0,
         "carbohydrates": 35.0,
         "fat": 14.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Fillet Burger",
+      "restaurant": "KFC",
+      "calories": 462,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 43.0,
+        "fat": 19.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Fillet Tower Burger",
+      "restaurant": "KFC",
+      "calories": 619,
+      "macros": {
+        "protein": 33.0,
+        "carbohydrates": 56.0,
+        "fat": 28.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Flamin' Mini Wrap",
+      "restaurant": "KFC",
+      "calories": 335,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 29.0,
+        "fat": 16.0
       },
       "vegetarian": false,
       "vegan": false
@@ -302,6 +422,18 @@
       "vegan": true
     },
     {
+      "name": "Hot Wing (per piece)",
+      "restaurant": "KFC",
+      "calories": 91,
+      "macros": {
+        "protein": 4.9,
+        "carbohydrates": 3.8,
+        "fat": 6.2
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
       "name": "Hummus & Veggie Wrap",
       "restaurant": "Starbucks",
       "calories": 245,
@@ -312,6 +444,102 @@
       },
       "vegetarian": true,
       "vegan": true
+    },
+    {
+      "name": "Kansas BBQ Drip'd Bites",
+      "restaurant": "KFC",
+      "calories": 349,
+      "macros": {
+        "protein": 21.0,
+        "carbohydrates": 34.0,
+        "fat": 14.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Kentucky Mayo Twister",
+      "restaurant": "KFC",
+      "calories": 523,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 46.0,
+        "fat": 24.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Large BBQ Beans",
+      "restaurant": "KFC",
+      "calories": 199,
+      "macros": {
+        "protein": 10.0,
+        "carbohydrates": 32.0,
+        "fat": 1.4
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Large Coleslaw",
+      "restaurant": "KFC",
+      "calories": 299,
+      "macros": {
+        "protein": 2.2,
+        "carbohydrates": 12.0,
+        "fat": 26.0
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Large Creamy Mash",
+      "restaurant": "KFC",
+      "calories": 248,
+      "macros": {
+        "protein": 4.8,
+        "carbohydrates": 40.0,
+        "fat": 6.8
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Large Fries",
+      "restaurant": "KFC",
+      "calories": 367,
+      "macros": {
+        "protein": 4.3,
+        "carbohydrates": 53.0,
+        "fat": 14.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Large Gravy",
+      "restaurant": "KFC",
+      "calories": 166,
+      "macros": {
+        "protein": 3.9,
+        "carbohydrates": 19.0,
+        "fat": 8.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Large Popcorn Chicken",
+      "restaurant": "KFC",
+      "calories": 478,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 28.0,
+        "fat": 28.0
+      },
+      "vegetarian": false,
+      "vegan": false
     },
     {
       "name": "McChicken Sandwich",
@@ -350,6 +578,18 @@
       "vegan": true
     },
     {
+      "name": "Mega Mozzarella Sticks",
+      "restaurant": "KFC",
+      "calories": 403,
+      "macros": {
+        "protein": 16.2,
+        "carbohydrates": 42.9,
+        "fat": 18.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
       "name": "Mexican Chicken Baguette",
       "restaurant": "Greggs",
       "calories": 495,
@@ -357,6 +597,90 @@
         "protein": 27.0,
         "carbohydrates": 75.0,
         "fat": 8.8
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Milk Chocolate Cookie",
+      "restaurant": "KFC",
+      "calories": 315,
+      "macros": {
+        "protein": 3.1,
+        "carbohydrates": 41.0,
+        "fat": 15.0
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Milkybar Sundae",
+      "restaurant": "KFC",
+      "calories": 296,
+      "macros": {
+        "protein": 5.7,
+        "carbohydrates": 39.0,
+        "fat": 13.0
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Mini Chocolate Sundae",
+      "restaurant": "KFC",
+      "calories": 138,
+      "macros": {
+        "protein": 2.5,
+        "carbohydrates": 20.0,
+        "fat": 5.3
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Mini Fillet Burger",
+      "restaurant": "KFC",
+      "calories": 277,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 28.0,
+        "fat": 10.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Oreo Sundae",
+      "restaurant": "KFC",
+      "calories": 244,
+      "macros": {
+        "protein": 3.9,
+        "carbohydrates": 36.0,
+        "fat": 9.2
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Original Ranch Rice Bowl",
+      "restaurant": "KFC",
+      "calories": 547,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 63.0,
+        "fat": 19.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Original Recipe Chicken (per piece)",
+      "restaurant": "KFC",
+      "calories": 241,
+      "macros": {
+        "protein": 22.0,
+        "carbohydrates": 8.6,
+        "fat": 12.0
       },
       "vegetarian": false,
       "vegan": false
@@ -398,6 +722,78 @@
       "vegan": false
     },
     {
+      "name": "Regular BBQ Beans",
+      "restaurant": "KFC",
+      "calories": 93,
+      "macros": {
+        "protein": 4.7,
+        "carbohydrates": 15.0,
+        "fat": 0.6
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Regular Coleslaw",
+      "restaurant": "KFC",
+      "calories": 150,
+      "macros": {
+        "protein": 1.1,
+        "carbohydrates": 6.1,
+        "fat": 13.0
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Regular Creamy Mash",
+      "restaurant": "KFC",
+      "calories": 124,
+      "macros": {
+        "protein": 2.4,
+        "carbohydrates": 20.0,
+        "fat": 3.4
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Regular Fries",
+      "restaurant": "KFC",
+      "calories": 261,
+      "macros": {
+        "protein": 3.1,
+        "carbohydrates": 38.0,
+        "fat": 9.8
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Regular Gravy",
+      "restaurant": "KFC",
+      "calories": 73,
+      "macros": {
+        "protein": 1.7,
+        "carbohydrates": 8.4,
+        "fat": 3.5
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Regular Popcorn Chicken",
+      "restaurant": "KFC",
+      "calories": 307,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 18.0,
+        "fat": 18.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
       "name": "Sausage Roll",
       "restaurant": "Greggs",
       "calories": 348,
@@ -422,6 +818,18 @@
       "vegan": true
     },
     {
+      "name": "Smokey BBQ Twister",
+      "restaurant": "KFC",
+      "calories": 479,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 51.0,
+        "fat": 17.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
       "name": "Spinach & Feta Wrap",
       "restaurant": "Starbucks",
       "calories": 267,
@@ -441,6 +849,54 @@
         "protein": 15.0,
         "carbohydrates": 30.0,
         "fat": 27.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Supercharger Twister",
+      "restaurant": "KFC",
+      "calories": 541,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 46.0,
+        "fat": 26.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Sweet Chilli Drip'd Bites",
+      "restaurant": "KFC",
+      "calories": 378,
+      "macros": {
+        "protein": 21.0,
+        "carbohydrates": 39.0,
+        "fat": 15.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Sweet Chilli Twister",
+      "restaurant": "KFC",
+      "calories": 497,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 53.0,
+        "fat": 18.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Tandoori Zinger Crispy Naan",
+      "restaurant": "KFC",
+      "calories": 595,
+      "macros": {
+        "protein": 27.0,
+        "carbohydrates": 58.2,
+        "fat": 27.5
       },
       "vegetarian": false,
       "vegan": false
@@ -480,6 +936,18 @@
       },
       "vegetarian": false,
       "vegan": false
+    },
+    {
+      "name": "Vegan Burger",
+      "restaurant": "KFC",
+      "calories": 396,
+      "macros": {
+        "protein": 15.0,
+        "carbohydrates": 41.0,
+        "fat": 17.0
+      },
+      "vegetarian": true,
+      "vegan": true
     },
     {
       "name": "Vegan Sausage Roll",
@@ -528,6 +996,90 @@
       },
       "vegetarian": true,
       "vegan": true
+    },
+    {
+      "name": "Veggie Ranch Rice Bowl",
+      "restaurant": "KFC",
+      "calories": 374,
+      "macros": {
+        "protein": 7.6,
+        "carbohydrates": 62.0,
+        "fat": 9.1
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "White Chocolate Cookie",
+      "restaurant": "KFC",
+      "calories": 283,
+      "macros": {
+        "protein": 2.7,
+        "carbohydrates": 36.0,
+        "fat": 14.0
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Zinger Burger",
+      "restaurant": "KFC",
+      "calories": 442,
+      "macros": {
+        "protein": 23.0,
+        "carbohydrates": 41.0,
+        "fat": 20.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Zinger Mozzarella Burger",
+      "restaurant": "KFC",
+      "calories": 877,
+      "macros": {
+        "protein": 42.1,
+        "carbohydrates": 76.7,
+        "fat": 43.4
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Zinger Ranch Rice Bowl",
+      "restaurant": "KFC",
+      "calories": 551,
+      "macros": {
+        "protein": 23.0,
+        "carbohydrates": 65.0,
+        "fat": 21.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Zinger Stacker",
+      "restaurant": "KFC",
+      "calories": 831,
+      "macros": {
+        "protein": 47.0,
+        "carbohydrates": 62.0,
+        "fat": 43.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Zinger Supercharger Tower Burger",
+      "restaurant": "KFC",
+      "calories": 671,
+      "macros": {
+        "protein": 27.0,
+        "carbohydrates": 55.0,
+        "fat": 37.0
+      },
+      "vegetarian": false,
+      "vegan": false
     }
   ]
 }
