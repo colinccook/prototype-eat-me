@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 200px;
+}
+
+.nav-section label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-section select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.nav-section select:focus {
+  outline: none;
+  border-color: #0066cc;
+}

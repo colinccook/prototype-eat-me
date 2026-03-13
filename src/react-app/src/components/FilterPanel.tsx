@@ -1,0 +1,94 @@
+import type { FilterOptions, SortOption } from '../types';
+import './FilterPanel.css';
+
+interface FilterPanelProps {
+  filters: FilterOptions;
+  onFiltersChange: (filters: FilterOptions) => void;
+}
+
+function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
+  const handleVegetarianChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    onFiltersChange({
+      ...filters,
+      vegetarianOnly: e.target.checked,
+      veganOnly: e.target.checked ? false : filters.veganOnly
+    });
+  };
+
+  const handleVeganChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    onFiltersChange({
+      ...filters,
+      veganOnly: e.target.checked,
+      vegetarianOnly: e.target.checked ? false : filters.vegetarianOnly
+    });
+  };
+
+  const handleMaxCaloriesChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    onFiltersChange({
+      ...filters,
+      maxCalories: value ? parseInt(value, 10) : null
+    });
+  };
+
+  const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    onFiltersChange({
+      ...filters,
+      sortBy: e.target.value as SortOption
+    });
+  };
+
+  return (
+    <div className="filter-panel">
+      <h2>Filters</h2>
+      
+      <div className="filter-section">
+        <h3>Dietary Preferences</h3>
+        <label className="checkbox-label">
+          <input 
+            type="checkbox" 
+            checked={filters.vegetarianOnly}
+            onChange={handleVegetarianChange}
+          />
+          Vegetarian Only
+        </label>
+        <label className="checkbox-label">
+          <input 
+            type="checkbox" 
+            checked={filters.veganOnly}
+            onChange={handleVeganChange}
+          />
+          Vegan Only
+        </label>
+      </div>
+
+      <div className="filter-section">
+        <h3>Calorie Budget</h3>
+        <div className="input-group">
+          <input 
+            type="number" 
+            placeholder="Max calories"
+            value={filters.maxCalories || ''}
+            onChange={handleMaxCaloriesChange}
+            min="0"
+            step="50"
+          />
+          <span className="input-suffix">kcal</span>
+        </div>
+      </div>
+
+      <div className="filter-section">
+        <h3>Sort By</h3>
+        <select value={filters.sortBy} onChange={handleSortChange}>
+          <option value="name-asc">Name (A-Z)</option>
+          <option value="calories-asc">Calories (Low to High)</option>
+          <option value="calories-desc">Calories (High to Low)</option>
+          <option value="protein-desc">Protein (High to Low)</option>
+          <option value="protein-per-calorie-desc">Protein per Calorie (Best)</option>
+        </select>
+      </div>
+    </div>
+  );
+}
+
+export default FilterPanel;

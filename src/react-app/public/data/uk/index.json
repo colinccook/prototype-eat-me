@@ -1,0 +1,16 @@
+{
+  "restaurants": [
+    {
+      "id": "costa",
+      "name": "Costa Coffee"
+    },
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's"
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks"
+    }
+  ]
+}

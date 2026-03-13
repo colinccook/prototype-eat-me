@@ -1,0 +1,115 @@
+{
+  "restaurant": "Costa Coffee",
+  "items": [
+    {
+      "name": "Bacon Roll",
+      "calories": 369,
+      "macros": {
+        "protein": 18.3,
+        "carbohydrates": 33.5,
+        "fat": 17.3
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Egg & Spinach Protein Pot",
+      "calories": 142,
+      "macros": {
+        "protein": 12.8,
+        "carbohydrates": 2.1,
+        "fat": 9.3
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Ham & Cheese Toastie",
+      "calories": 407,
+      "macros": {
+        "protein": 23.7,
+        "carbohydrates": 31.2,
+        "fat": 21.4
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Cheese Toastie",
+      "calories": 379,
+      "macros": {
+        "protein": 16.8,
+        "carbohydrates": 32.4,
+        "fat": 20.1
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Tomato & Basil Soup",
+      "calories": 167,
+      "macros": {
+        "protein": 3.2,
+        "carbohydrates": 19.8,
+        "fat": 8.2
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Avocado & Tomato Toastie",
+      "calories": 298,
+      "macros": {
+        "protein": 9.1,
+        "carbohydrates": 34.2,
+        "fat": 13.7
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Tuna Melt Panini",
+      "calories": 465,
+      "macros": {
+        "protein": 28.2,
+        "carbohydrates": 35.1,
+        "fat": 23.6
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chicken & Bacon Club Sandwich",
+      "calories": 512,
+      "macros": {
+        "protein": 31.5,
+        "carbohydrates": 38.2,
+        "fat": 25.8
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Porridge with Honey",
+      "calories": 238,
+      "macros": {
+        "protein": 7.8,
+        "carbohydrates": 38.9,
+        "fat": 5.6
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Fruit Toast",
+      "calories": 189,
+      "macros": {
+        "protein": 4.2,
+        "carbohydrates": 36.8,
+        "fat": 3.1
+      },
+      "vegetarian": true,
+      "vegan": true
+    }
+  ]
+}
