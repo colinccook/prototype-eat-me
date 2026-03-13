@@ -28,7 +28,6 @@ Find food that fits your dietary goals when eating out on the UK high street.
 /data/{region}/{restaurant}/food.json - Menu items per restaurant
 /data/{region}/food.json - Merged menu items for the entire region
 /src/react-app - React frontend application
-/src/aspire - .NET Aspire host and services
 ```
 
 ## Getting Started
@@ -36,28 +35,30 @@ Find food that fits your dietary goals when eating out on the UK high street.
 ### Prerequisites
 
 - Node.js 20+
-- .NET 9.0+
 
 ### Running Locally
 
-1. **React App Only (Development)**
-   ```bash
-   cd src/react-app
-   npm install
-   npm run dev
-   ```
-
-2. **With .NET Aspire (Full Stack)**
-   ```bash
-   cd src/aspire
-   dotnet run --project EatMe.AppHost
-   ```
+```bash
+cd src/react-app
+npm install
+npm run dev
+```
 
 ### Running Tests
 
+The project includes BDD-style end-to-end tests using Playwright:
+
 ```bash
-cd src/aspire
-dotnet test
+cd src/react-app
+npm install
+npx playwright install --with-deps chromium
+npm run test:e2e
+```
+
+To run tests with a UI:
+
+```bash
+npm run test:e2e:ui
 ```
 
 ## JSON Schema
