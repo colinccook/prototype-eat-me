@@ -1,115 +1,749 @@
 {
-  "restaurant": "Costa Coffee",
+  "restaurant": "Costa",
   "items": [
     {
-      "name": "Bacon Roll",
-      "calories": 369,
+      "name": "Alpro Plant Alternative - Coconut",
+      "calories": 64,
       "macros": {
-        "protein": 18.3,
-        "carbohydrates": 33.5,
-        "fat": 17.3
+        "protein": 3.0,
+        "carbohydrates": 6.6,
+        "fat": 2.8,
+        "salt": 0.2
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Egg & Spinach Protein Pot",
-      "calories": 142,
+      "name": "Alpro Plant Alternative - Oat",
+      "calories": 118,
       "macros": {
-        "protein": 12.8,
-        "carbohydrates": 2.1,
-        "fat": 9.3
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Ham & Cheese Toastie",
-      "calories": 407,
-      "macros": {
-        "protein": 23.7,
-        "carbohydrates": 31.2,
-        "fat": 21.4
+        "protein": 1.6,
+        "carbohydrates": 13.4,
+        "fat": 6.0,
+        "salt": 0.26
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Cheese Toastie",
-      "calories": 379,
+      "name": "Alpro Plant Alternative - Soya",
+      "calories": 84,
       "macros": {
-        "protein": 16.8,
-        "carbohydrates": 32.4,
-        "fat": 20.1
+        "protein": 6.6,
+        "carbohydrates": 5.4,
+        "fat": 3.8,
+        "salt": 0.2
       },
-      "vegetarian": true,
+      "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Tomato & Basil Soup",
-      "calories": 167,
+      "name": "Black Forest Hot Chocolate - Oat Drink - Medium",
+      "calories": 345,
+      "macros": {
+        "protein": 3.6,
+        "carbohydrates": 46.0,
+        "fat": 15.2,
+        "salt": 0.5
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Black Forest Hot Chocolate - Soya Drink - Medium",
+      "calories": 306,
+      "macros": {
+        "protein": 9.3,
+        "carbohydrates": 36.9,
+        "fat": 12.7,
+        "salt": 0.43
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Black Forest Hot Chocolate - Whole Milk - Medium",
+      "calories": 361,
+      "macros": {
+        "protein": 9.3,
+        "carbohydrates": 41.0,
+        "fat": 17.3,
+        "salt": 0.43
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Caramel Chocolate Flavour Sauce",
+      "calories": 21,
+      "macros": {
+        "protein": 0.2,
+        "carbohydrates": 3.9,
+        "fat": 0.3,
+        "salt": 0.13
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Caramel Nut Syrup",
+      "calories": 10,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 2.6,
+        "fat": 0.0,
+        "salt": 0.01
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Caramel Syrup",
+      "calories": 11,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 2.8,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chai Syrup",
+      "calories": 13,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 3.2,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Condensed Milk Flavoured Sauce",
+      "calories": 29,
+      "macros": {
+        "protein": 0.7,
+        "carbohydrates": 5.8,
+        "fat": 0.2,
+        "salt": 0.03
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Hot Chocolate Powder",
+      "calories": 93,
+      "macros": {
+        "protein": 1.5,
+        "carbohydrates": 16.8,
+        "fat": 1.5,
+        "salt": 0.14
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Iced Matcha Latte - Oat Drink - Large - Take Away",
+      "calories": 187,
       "macros": {
         "protein": 3.2,
-        "carbohydrates": 19.8,
-        "fat": 8.2
+        "carbohydrates": 22.1,
+        "fat": 9.1,
+        "salt": 0.39
       },
-      "vegetarian": true,
-      "vegan": true
+      "vegetarian": false,
+      "vegan": false
     },
     {
-      "name": "Avocado & Tomato Toastie",
-      "calories": 298,
+      "name": "Iced Matcha Latte - Skimmed Milk - Medium - In Store",
+      "calories": 82,
       "macros": {
-        "protein": 9.1,
-        "carbohydrates": 34.2,
-        "fat": 13.7
+        "protein": 8.5,
+        "carbohydrates": 11.8,
+        "fat": 0.6,
+        "salt": 0.23
       },
-      "vegetarian": true,
-      "vegan": true
+      "vegetarian": false,
+      "vegan": false
     },
     {
-      "name": "Tuna Melt Panini",
-      "calories": 465,
+      "name": "Iced Matcha Latte - Soya Drink - Large - Take Away",
+      "calories": 136,
       "macros": {
-        "protein": 28.2,
+        "protein": 10.7,
+        "carbohydrates": 10.1,
+        "fat": 5.8,
+        "salt": 0.3
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Iced Matcha Latte - Whole Milk - Large - Take Away",
+      "calories": 208,
+      "macros": {
+        "protein": 10.7,
+        "carbohydrates": 15.5,
+        "fat": 11.8,
+        "salt": 0.3
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Light Whip",
+      "calories": 75,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 4.2,
+        "fat": 6.7,
+        "salt": 0.04
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Mango Flavour Bubbles",
+      "calories": 17,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 4.3,
+        "fat": 0.0,
+        "salt": 0.01
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Mango Sauce",
+      "calories": 17,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 4.2,
+        "fat": 0.0,
+        "salt": 0.01
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Marshmallow",
+      "calories": 21,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 5.1,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Matcha Latte - Coconut Drink - Large",
+      "calories": 122,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 13.6,
+        "fat": 5.0,
+        "salt": 0.35
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Matcha Latte - Oat Drink - Large",
+      "calories": 217,
+      "macros": {
+        "protein": 3.6,
+        "carbohydrates": 25.5,
+        "fat": 10.6,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Matcha Latte - Semi-Skimmed Milk - Large",
+      "calories": 171,
+      "macros": {
+        "protein": 13.0,
+        "carbohydrates": 18.5,
+        "fat": 6.1,
+        "salt": 0.38
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Matcha Latte - Skimmed Milk - Large",
+      "calories": 122,
+      "macros": {
+        "protein": 12.7,
+        "carbohydrates": 17.4,
+        "fat": 0.8,
+        "salt": 0.35
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Matcha Latte - Soya Drink - Large",
+      "calories": 157,
+      "macros": {
+        "protein": 12.3,
+        "carbohydrates": 11.5,
+        "fat": 6.8,
+        "salt": 0.35
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Matcha Latte - Whole Milk - Large",
+      "calories": 241,
+      "macros": {
+        "protein": 12.3,
+        "carbohydrates": 17.8,
+        "fat": 13.8,
+        "salt": 0.35
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Mini Gingerbread Person",
+      "calories": 17,
+      "macros": {
+        "protein": 0.3,
+        "carbohydrates": 2.8,
+        "fat": 0.5,
+        "salt": 0.02
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Mint Flavour Syrup",
+      "calories": 11,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 2.7,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Pure Cane Sugar Syrup",
+      "calories": 14,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 3.4,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Roasted Hazelnut Flavour Syrup",
+      "calories": 11,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 2.8,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Salted Caramel Sauce",
+      "calories": 14,
+      "macros": {
+        "protein": 0.2,
+        "carbohydrates": 2.3,
+        "fat": 0.4,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Semi Skimmed Milk",
+      "calories": 46,
+      "macros": {
+        "protein": 3.5,
+        "carbohydrates": 4.7,
+        "fat": 1.7,
+        "salt": 0.11
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Signature Latte - Coconut Drink - Large",
+      "calories": 130,
+      "macros": {
+        "protein": 6.5,
+        "carbohydrates": 14.5,
+        "fat": 5.1,
+        "salt": 0.43
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Signature Latte - Oat Drink - Large",
+      "calories": 224,
+      "macros": {
+        "protein": 4.0,
+        "carbohydrates": 26.4,
+        "fat": 10.7,
+        "salt": 0.54
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Signature Latte - Semi-Skimmed Milk - Large",
+      "calories": 179,
+      "macros": {
+        "protein": 13.5,
+        "carbohydrates": 19.4,
+        "fat": 6.1,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Signature Latte - Skimmed Milk - Large",
+      "calories": 130,
+      "macros": {
+        "protein": 13.1,
+        "carbohydrates": 18.4,
+        "fat": 0.9,
+        "salt": 0.43
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Signature Latte - Soya Drink - Large",
+      "calories": 165,
+      "macros": {
+        "protein": 12.8,
+        "carbohydrates": 12.4,
+        "fat": 6.8,
+        "salt": 0.43
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Signature Latte - Whole Milk - Large",
+      "calories": 249,
+      "macros": {
+        "protein": 12.8,
+        "carbohydrates": 18.7,
+        "fat": 13.8,
+        "salt": 0.43
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Skimmed Milk",
+      "calories": 32,
+      "macros": {
+        "protein": 3.4,
+        "carbohydrates": 4.4,
+        "fat": 0.2,
+        "salt": 0.1
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Caramelo Latte - Coconut Drink - Medium",
+      "calories": 218,
+      "macros": {
+        "protein": 7.6,
         "carbohydrates": 35.1,
-        "fat": 23.6
+        "fat": 5.0,
+        "salt": 0.46
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Chicken & Bacon Club Sandwich",
-      "calories": 512,
+      "name": "Spanish Caramelo Latte - Oat Drink - Medium",
+      "calories": 293,
       "macros": {
-        "protein": 31.5,
-        "carbohydrates": 38.2,
-        "fat": 25.8
+        "protein": 5.6,
+        "carbohydrates": 44.6,
+        "fat": 9.4,
+        "salt": 0.55
       },
       "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Porridge with Honey",
-      "calories": 238,
+      "name": "Spanish Caramelo Latte - Skimmed Milk - Medium",
+      "calories": 218,
+      "macros": {
+        "protein": 12.9,
+        "carbohydrates": 38.1,
+        "fat": 1.6,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Caramelo Latte - Soya Drink - Medium",
+      "calories": 246,
+      "macros": {
+        "protein": 12.6,
+        "carbohydrates": 33.4,
+        "fat": 6.4,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Caramelo Latte - Whole Milk - Medium",
+      "calories": 313,
+      "macros": {
+        "protein": 12.6,
+        "carbohydrates": 38.4,
+        "fat": 12.0,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Iced Latte - Oat Drink - Medium - In Store",
+      "calories": 245,
+      "macros": {
+        "protein": 5.0,
+        "carbohydrates": 38.5,
+        "fat": 7.0,
+        "salt": 0.44
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Iced Latte - Skimmed Milk - Small - In Store",
+      "calories": 146,
       "macros": {
         "protein": 7.8,
-        "carbohydrates": 38.9,
-        "fat": 5.6
+        "carbohydrates": 25.9,
+        "fat": 1.1,
+        "salt": 0.3
       },
-      "vegetarian": true,
+      "vegetarian": false,
       "vegan": false
     },
     {
-      "name": "Fruit Toast",
-      "calories": 189,
+      "name": "Spanish Iced Latte - Soya Drink - Medium - In Store",
+      "calories": 211,
       "macros": {
-        "protein": 4.2,
-        "carbohydrates": 36.8,
-        "fat": 3.1
+        "protein": 10.0,
+        "carbohydrates": 30.5,
+        "fat": 4.8,
+        "salt": 0.38
       },
-      "vegetarian": true,
-      "vegan": true
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Iced Latte - Whole Milk - Medium - In Store",
+      "calories": 259,
+      "macros": {
+        "protein": 10.0,
+        "carbohydrates": 34.1,
+        "fat": 8.8,
+        "salt": 0.38
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Latte - Coconut Drink - Medium",
+      "calories": 217,
+      "macros": {
+        "protein": 7.6,
+        "carbohydrates": 34.3,
+        "fat": 5.0,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Latte - Oat Drink - Medium",
+      "calories": 292,
+      "macros": {
+        "protein": 5.6,
+        "carbohydrates": 43.8,
+        "fat": 9.4,
+        "salt": 0.54
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Latte - Semi-Skimmed Milk - Medium",
+      "calories": 256,
+      "macros": {
+        "protein": 13.2,
+        "carbohydrates": 38.2,
+        "fat": 5.8,
+        "salt": 0.48
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Latte - Skimmed Milk - Medium",
+      "calories": 217,
+      "macros": {
+        "protein": 12.9,
+        "carbohydrates": 37.4,
+        "fat": 1.6,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Latte - Soya Drink - Medium",
+      "calories": 245,
+      "macros": {
+        "protein": 12.6,
+        "carbohydrates": 32.6,
+        "fat": 6.4,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Spanish Latte - Whole Milk - Medium",
+      "calories": 312,
+      "macros": {
+        "protein": 12.6,
+        "carbohydrates": 37.7,
+        "fat": 12.0,
+        "salt": 0.46
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Strawberry Sauce",
+      "calories": 20,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 4.8,
+        "fat": 0.1,
+        "salt": 0.01
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Ube Flavour Syrup",
+      "calories": 13,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 3.2,
+        "fat": 0.0,
+        "salt": 0.03
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Vanilla Oat Latte - Oat Drink - Small - In Store",
+      "calories": 161,
+      "macros": {
+        "protein": 2.0,
+        "carbohydrates": 23.5,
+        "fat": 6.1,
+        "salt": 0.29
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Vanilla Syrup",
+      "calories": 13,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 3.0,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Whipping Cream",
+      "calories": 159,
+      "macros": {
+        "protein": 0.8,
+        "carbohydrates": 1.1,
+        "fat": 16.8,
+        "salt": 0.02
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "White Chocolate Sauce",
+      "calories": 23,
+      "macros": {
+        "protein": 0.2,
+        "carbohydrates": 4.0,
+        "fat": 0.7,
+        "salt": 0.02
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "White Peach Syrup",
+      "calories": 27,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 6.6,
+        "fat": 0.0,
+        "salt": 0.0
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Whole Milk",
+      "calories": 66,
+      "macros": {
+        "protein": 3.3,
+        "carbohydrates": 4.5,
+        "fat": 3.9,
+        "salt": 0.1
+      },
+      "vegetarian": false,
+      "vegan": false
     }
   ]
 }
