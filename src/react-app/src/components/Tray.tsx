@@ -1,6 +1,10 @@
 import { useEffect, useRef, useCallback, type ReactNode } from 'react';
 import './Tray.css';
 
+// Swipe gesture constants
+const SWIPE_CLOSE_THRESHOLD = 100; // pixels needed to trigger close
+const MAX_DRAG_DISTANCE = 300; // maximum drag distance in pixels
+
 interface TrayProps {
   isOpen: boolean;
   onClose: () => void;
@@ -51,7 +55,7 @@ function Tray({ isOpen, onClose, title, children }: TrayProps) {
     
     if (delta > 0 && contentRef.current) {
       // Dragging down - move the tray
-      const translateY = Math.min(delta, 300);
+      const translateY = Math.min(delta, MAX_DRAG_DISTANCE);
       contentRef.current.style.transform = `translateY(${translateY}px)`;
     }
   }, []);
@@ -66,7 +70,7 @@ function Tray({ isOpen, onClose, title, children }: TrayProps) {
     const delta = currentY.current - startY.current;
     
     if (contentRef.current) {
-      if (delta > 100) {
+      if (delta > SWIPE_CLOSE_THRESHOLD) {
         // Swiped down enough - close
         onClose();
       } else {

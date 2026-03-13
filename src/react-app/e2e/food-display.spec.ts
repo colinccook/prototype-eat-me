@@ -7,8 +7,8 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Region pill should show UK is already selected
-      const regionPill = page.getByRole('button', { name: /Region: UK/i });
+      // Region pill should show UK is already selected (visible text contains "Region: UK")
+      const regionPill = page.locator('.pill').filter({ hasText: 'Region: UK' });
       await expect(regionPill).toBeVisible();
 
       // And restaurant options should appear without choosing a region
@@ -33,7 +33,7 @@ test.describe('Food Display', () => {
       await foodGrid.waitFor({ state: 'visible' });
 
       // The region pill shows UK is selected
-      const regionPill = page.getByRole('button', { name: /Region: UK/i });
+      const regionPill = page.locator('.pill').filter({ hasText: 'Region: UK' });
       await expect(regionPill).toBeVisible();
 
       // Food should be displayed
@@ -52,11 +52,11 @@ test.describe('Food Display', () => {
       await foodGrid.waitFor({ state: 'visible' });
 
       // Click the Diet pill to open tray
-      const dietPill = page.getByRole('button', { name: /Diet:/i });
+      const dietPill = page.locator('.pill').filter({ hasText: 'Diet:' });
       await dietPill.click();
 
       // Select Vegetarian option in the tray
-      const vegetarianOption = page.getByRole('button', { name: /Vegetarian.*No meat or fish/i });
+      const vegetarianOption = page.locator('.tray-option').filter({ hasText: 'Vegetarian' });
       await vegetarianOption.click();
 
       await page.waitForTimeout(500); // Wait for filter to apply
@@ -83,7 +83,7 @@ test.describe('Food Display', () => {
       await foodGrid.waitFor({ state: 'visible' });
 
       // Click the Calories pill to open tray
-      const caloriesPill = page.getByRole('button', { name: /Calories:/i });
+      const caloriesPill = page.locator('.pill').filter({ hasText: 'Calories:' });
       await caloriesPill.click();
 
       // Set maximum calories to 300
@@ -91,7 +91,7 @@ test.describe('Food Display', () => {
       await calorieInput.fill('300');
       
       // Click Apply button
-      const applyButton = page.getByRole('button', { name: 'Apply' });
+      const applyButton = page.locator('.tray-form-button.primary');
       await applyButton.click();
 
       await page.waitForTimeout(500); // Wait for filter to apply
@@ -123,11 +123,11 @@ test.describe('Food Display', () => {
       await foodGrid.waitFor({ state: 'visible' });
 
       // Click the Sort pill to open tray
-      const sortPill = page.getByRole('button', { name: /Sort:/i });
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
       await sortPill.click();
 
       // Select "Highest Protein" option
-      const highestProteinOption = page.getByRole('button', { name: /Highest Protein.*muscle building/i });
+      const highestProteinOption = page.locator('.tray-option').filter({ hasText: 'Highest Protein' });
       await highestProteinOption.click();
 
       await page.waitForTimeout(500); // Wait for sort to apply
@@ -163,11 +163,11 @@ test.describe('Food Display', () => {
       await foodGrid.waitFor({ state: 'visible' });
 
       // Click the Sort pill to open tray
-      const sortPill = page.getByRole('button', { name: /Sort:/i });
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
       await sortPill.click();
 
       // Select "Lowest Salt" option
-      const lowestSaltOption = page.getByRole('button', { name: /Lowest Salt.*blood pressure/i });
+      const lowestSaltOption = page.locator('.tray-option').filter({ hasText: 'Lowest Salt' });
       await lowestSaltOption.click();
 
       await page.waitForTimeout(500); // Wait for sort to apply
