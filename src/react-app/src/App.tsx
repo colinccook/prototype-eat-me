@@ -21,7 +21,7 @@ const DEFAULT_REGION_ID = 'uk';
 const DEFAULT_REGIONS: Region[] = [
   { id: DEFAULT_REGION_ID, name: 'United Kingdom' }
 ];
-const MIN_LOADING_DURATION_MS = 1000;
+const MIN_LOADING_DURATION_MS = 200;
 
 const updateGlobalLoadingFlag = (flag: boolean) => {
   if (typeof document !== 'undefined') {
@@ -124,6 +124,9 @@ function App() {
   }, [isLoading]);
 
   const handleRegionChange = useCallback((regionId: string | null) => {
+    if (regionId === selectedRegion) {
+      return;
+    }
     setSelectedRestaurant(null);
     setRestaurants([]);
     setFoodItems([]);
@@ -132,7 +135,7 @@ function App() {
     setIsLoading(loading);
     updateGlobalLoadingFlag(loading);
     setSelectedRegion(regionId);
-  }, []);
+  }, [selectedRegion]);
 
   const handleRestaurantChange = useCallback((restaurantId: string | null) => {
     setSelectedRestaurant(restaurantId);
