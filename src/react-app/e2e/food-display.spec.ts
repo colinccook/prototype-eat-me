@@ -7,7 +7,11 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
-      // Then the United Kingdom region should already be selected
+      // Then I should open the settings panel
+      const settingsToggle = page.locator('.settings-toggle');
+      await settingsToggle.click();
+
+      // And the United Kingdom region should already be selected
       const regionSelect = page.locator('#region-select');
       await expect(regionSelect).toHaveValue('uk');
 
@@ -27,6 +31,10 @@ test.describe('Food Display', () => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
+
+      // Then I should open the settings panel
+      const settingsToggle = page.locator('.settings-toggle');
+      await settingsToggle.click();
 
       // When I clear the region selection
       const regionSelect = page.locator('#region-select');
@@ -52,13 +60,17 @@ test.describe('Food Display', () => {
       await page.goto('/');
       await page.waitForLoadState('networkidle');
 
+      // Then I should open the settings panel
+      const settingsToggle = page.locator('.settings-toggle');
+      await settingsToggle.click();
+
       // When I select the "United Kingdom" region
       const regionSelect = page.locator('#region-select');
       await regionSelect.selectOption({ label: 'United Kingdom' });
       await page.waitForLoadState('networkidle');
 
-      // And I select vegetarian only filter
-      const vegetarianCheckbox = page.locator('label').filter({ hasText: 'Vegetarian' }).locator('input[type="checkbox"]');
+      // And I select vegetarian only filter (now in settings panel)
+      const vegetarianCheckbox = page.locator('.settings-section').filter({ hasText: 'Dietary' }).locator('label').filter({ hasText: 'Vegetarian' }).locator('input[type="checkbox"]');
       await vegetarianCheckbox.check();
       await page.waitForTimeout(500); // Wait for filter to apply
 
@@ -78,6 +90,10 @@ test.describe('Food Display', () => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
+
+      // Then I should open the settings panel
+      const settingsToggle = page.locator('.settings-toggle');
+      await settingsToggle.click();
 
       // When I select the "United Kingdom" region
       const regionSelect = page.locator('#region-select');
@@ -110,6 +126,10 @@ test.describe('Food Display', () => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
+
+      // Then I should open the settings panel
+      const settingsToggle = page.locator('.settings-toggle');
+      await settingsToggle.click();
 
       // When I select the "United Kingdom" region
       const regionSelect = page.locator('#region-select');
@@ -146,6 +166,10 @@ test.describe('Food Display', () => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
+
+      // Then I should open the settings panel
+      const settingsToggle = page.locator('.settings-toggle');
+      await settingsToggle.click();
 
       // When I select the "United Kingdom" region
       const regionSelect = page.locator('#region-select');

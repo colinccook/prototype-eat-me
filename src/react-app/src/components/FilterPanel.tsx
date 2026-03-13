@@ -7,22 +7,6 @@ interface FilterPanelProps {
 }
 
 function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
-  const handleVegetarianChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    onFiltersChange({
-      ...filters,
-      vegetarianOnly: e.target.checked,
-      veganOnly: e.target.checked ? false : filters.veganOnly
-    });
-  };
-
-  const handleVeganChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    onFiltersChange({
-      ...filters,
-      veganOnly: e.target.checked,
-      vegetarianOnly: e.target.checked ? false : filters.vegetarianOnly
-    });
-  };
-
   const handleMaxCaloriesChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     onFiltersChange({
@@ -41,26 +25,6 @@ function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
   return (
     <div className="filter-panel">
       <h2>Filters</h2>
-      
-      <div className="filter-section">
-        <h3>Dietary Preferences</h3>
-        <label className="checkbox-label">
-          <input 
-            type="checkbox" 
-            checked={filters.vegetarianOnly}
-            onChange={handleVegetarianChange}
-          />
-          Vegetarian Only
-        </label>
-        <label className="checkbox-label">
-          <input 
-            type="checkbox" 
-            checked={filters.veganOnly}
-            onChange={handleVeganChange}
-          />
-          Vegan Only
-        </label>
-      </div>
 
       <div className="filter-section">
         <h3>Calorie Budget</h3>
