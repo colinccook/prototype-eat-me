@@ -82,6 +82,19 @@ function FoodCard({ item, sortBy }: FoodCardProps) {
         </div>
       )}
 
+      {sortBy === 'salt-asc' && (
+        <div className="salt-info">
+          {item.macros.salt !== undefined && item.macros.salt !== null ? (
+            <>
+              <span className="salt-value">{item.macros.salt}g</span>
+              <span className="salt-label">salt per serving</span>
+            </>
+          ) : (
+            <span className="salt-na">No salt data</span>
+          )}
+        </div>
+      )}
+
       {item.ingredients && item.ingredients.length > 0 && (
         <div className="ingredients">
           <span className="ingredients-label">Ingredients:</span>
