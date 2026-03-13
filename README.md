@@ -1,4 +1,4 @@
-# Eat Me - Smart Food Finder
+# Eat Me - the Smart Food Finder
 
 Find food that fits your dietary goals when eating out on the UK high street.
 
