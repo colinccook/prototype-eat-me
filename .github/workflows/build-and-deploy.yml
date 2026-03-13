@@ -41,6 +41,13 @@ jobs:
       working-directory: src/react-app
       run: npm run build
 
+    - name: Upload build artifact for testing
+      uses: actions/upload-artifact@v4
+      with:
+        name: react-app-dist
+        path: src/react-app/dist
+        retention-days: 1
+
     - name: Upload artifact for Pages
       uses: actions/upload-pages-artifact@v3
       with:
@@ -68,15 +75,18 @@ jobs:
       working-directory: src/react-app
       run: npx playwright install --with-deps chromium
 
-    - name: Build React app
-      working-directory: src/react-app
-      run: npm run build
+    - name: Download build artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: react-app-dist
+        path: src/react-app/dist
 
     - name: Run BDD Tests
       working-directory: src/react-app
       run: npm run test:e2e
       env:
         BASE_URL: http://localhost:3000
+        CI: true
 
     - name: Upload Playwright Report
       uses: actions/upload-artifact@v4
