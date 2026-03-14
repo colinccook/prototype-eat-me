@@ -83,6 +83,8 @@ const DIET_OPTIONS = [
   }
 ];
 
+const QUICK_CALORIE_OPTIONS = [100, 200, 400, 600, 800, 1000, 1200];
+
 function HeaderPills({
   regions,
   selectedRegion,
@@ -191,6 +193,12 @@ function HeaderPills({
   const handleCaloriesClear = () => {
     setCalorieInput('');
     onFiltersChange({ ...filters, maxCalories: null });
+    closeTray();
+  };
+
+  const handleQuickCalorieSelect = (value: number) => {
+    setCalorieInput(value.toString());
+    onFiltersChange({ ...filters, maxCalories: value });
     closeTray();
   };
 
@@ -321,8 +329,24 @@ function HeaderPills({
       <Tray isOpen={activeTrays.calories} onClose={closeTray} title="Calorie Budget">
         <div className="tray-form">
           <div className="tray-form-group">
+            <label className="tray-form-label">
+              Quick Select
+            </label>
+            <div className="quick-calorie-buttons">
+              {QUICK_CALORIE_OPTIONS.map((value) => (
+                <button
+                  key={value}
+                  className={`quick-calorie-button ${filters.maxCalories === value ? 'active' : ''}`}
+                  onClick={() => handleQuickCalorieSelect(value)}
+                >
+                  {value}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="tray-form-group">
             <label className="tray-form-label" htmlFor="calorie-input">
-              Maximum Calories per Item
+              Or Enter Custom Amount
             </label>
             <input
               id="calorie-input"
