@@ -16,6 +16,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.app.pulling {
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .app-header {
@@ -124,7 +130,7 @@ body {
 
 /* Pull-to-refresh styles */
 .pull-to-refresh-indicator {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -135,7 +141,7 @@ body {
   padding: 1rem;
   color: #667eea;
   font-size: 0.9rem;
-  z-index: 5;
+  z-index: 1000;
   pointer-events: none;
 }
 

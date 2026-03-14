@@ -46,7 +46,7 @@ function App() {
   // Pull-to-refresh state
   const [pullDistance, setPullDistance] = useState(0);
   const [isPulling, setIsPulling] = useState(false);
-  const mainRef = useRef<HTMLElement>(null);
+  const appRef = useRef<HTMLDivElement>(null);
   const touchStartY = useRef<number | null>(null);
   
   const [filters, setFilters] = useState<FilterOptions>({
@@ -152,9 +152,9 @@ function App() {
 
   // Pull-to-refresh handlers
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
-    const main = mainRef.current;
-    // Only allow pull-to-refresh when scrolled to top
-    if (main && main.scrollTop === 0 && !isRefreshing) {
+    // Only allow pull-to-refresh when page is scrolled to top
+    // Use window.scrollY to check page scroll position for entire page pull-to-refresh
+    if (window.scrollY === 0 && !isRefreshing) {
       touchStartY.current = e.touches[0].clientY;
     } else {
       touchStartY.current = null;
@@ -174,8 +174,8 @@ function App() {
       const resistedDelta = Math.min(delta * resistance, MAX_PULL_DISTANCE);
       setPullDistance(resistedDelta);
       
-      // Prevent default scrolling when pulling
-      if (mainRef.current && mainRef.current.scrollTop === 0) {
+      // Prevent default scrolling when pulling at top of page
+      if (window.scrollY === 0) {
         e.preventDefault();
       }
     }
@@ -278,7 +278,33 @@ function App() {
   }, [foodItems, filters]);
 
   return (
-    <div className="app">
+    <div 
+      ref={appRef}
+      className={`app ${isPulling ? 'pulling' : ''}`}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+      style={{
+        transform: pullDistance > 0 ? `translateY(${pullDistance}px)` : undefined,
+        transition: isPulling ? 'none' : 'transform 0.3s ease-out'
+      }}
+    >
+      {/* Pull-to-refresh indicator */}
+      {(isPulling || isRefreshing) && (
+        <div 
+          className={`pull-to-refresh-indicator ${isRefreshing ? 'refreshing' : ''} ${pullDistance >= PULL_THRESHOLD ? 'ready' : ''}`}
+          style={{ 
+            opacity: isRefreshing ? 1 : Math.min(pullDistance / PULL_THRESHOLD, 1),
+            transform: `translateY(${isRefreshing ? 0 : -50 + (pullDistance / 2)}px)`
+          }}
+        >
+          <div className="pull-spinner"></div>
+          <span className="pull-text">
+            {isRefreshing ? 'Refreshing...' : pullDistance >= PULL_THRESHOLD ? 'Release to refresh' : 'Pull to refresh'}
+          </span>
+        </div>
+      )}
+
       <header className="app-header">
         <div className="header-top">
           <div className="header-title">
@@ -297,33 +323,7 @@ function App() {
         />
       </header>
 
-      <main 
-        ref={mainRef}
-        className={`app-main ${isPulling ? 'pulling' : ''}`}
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-        style={{
-          transform: pullDistance > 0 ? `translateY(${pullDistance}px)` : undefined,
-          transition: isPulling ? 'none' : 'transform 0.3s ease-out'
-        }}
-      >
-        {/* Pull-to-refresh indicator */}
-        {(isPulling || isRefreshing) && (
-          <div 
-            className={`pull-to-refresh-indicator ${isRefreshing ? 'refreshing' : ''} ${pullDistance >= PULL_THRESHOLD ? 'ready' : ''}`}
-            style={{ 
-              opacity: isRefreshing ? 1 : Math.min(pullDistance / PULL_THRESHOLD, 1),
-              transform: `translateY(${isRefreshing ? 0 : -50 + (pullDistance / 2)}px)`
-            }}
-          >
-            <div className="pull-spinner"></div>
-            <span className="pull-text">
-              {isRefreshing ? 'Refreshing...' : pullDistance >= PULL_THRESHOLD ? 'Release to refresh' : 'Pull to refresh'}
-            </span>
-          </div>
-        )}
-
+      <main className="app-main">
         {isLoading && (
           <div className="loading-overlay" role="status" aria-live="polite">
             <div className="loading-spinner"></div>

@@ -71,7 +71,7 @@ function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
           />
         ))}
       </div>
-      <FoodDetailModal item={selectedItem} onClose={handleCloseModal} />
+      <FoodDetailModal item={selectedItem} sortBy={sortBy} onClose={handleCloseModal} />
     </div>
   );
 }
