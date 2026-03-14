@@ -32,9 +32,9 @@ function getPrimaryMetric(item: FoodItem, sortBy: SortOption): { value: string; 
       if (item.macros.fibre && item.macros.fibre > 0) {
         const fibreToCarb = (item.macros.carbohydrates / item.macros.fibre).toFixed(1);
         const ratio = parseFloat(fibreToCarb);
-        let className = 'avoid';
-        if (ratio < 5) className = 'fantastic';
-        else if (ratio < 10) className = 'okay';
+        let className = 'fibre-ratio-avoid';
+        if (ratio < 5) className = 'fibre-ratio-fantastic';
+        else if (ratio < 10) className = 'fibre-ratio-okay';
         return { value: `${fibreToCarb}:1`, label: 'carbs to fibre ratio', className };
       }
       return { value: 'N/A', label: 'carbs to fibre ratio' };
@@ -106,7 +106,7 @@ function FoodDetailModal({ item, sortBy, onClose }: FoodDetailModalProps) {
       <div className="modal-section">
         <h3 className="section-title">Macronutrients</h3>
         <div className="macros-grid">
-          <div className={`macro-item ${sortBy === 'calories-asc' || sortBy === 'calories-desc' ? 'highlighted' : ''}`}>
+          <div className={`macro-item ${sortBy === 'calories-asc' || sortBy === 'calories-desc' || sortBy === 'name-asc' ? 'highlighted' : ''}`}>
             <span className="macro-value">{item.calories}</span>
             <span className="macro-label">Calories</span>
           </div>

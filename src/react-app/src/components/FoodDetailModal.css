@@ -61,15 +61,16 @@
   text-align: center;
 }
 
-.modal-primary-section .fantastic {
+/* Color-coded backgrounds for fibre ratio quality */
+.modal-primary-section:has(.primary-display.fibre-ratio-fantastic) {
   background: linear-gradient(135deg, #43a047 0%, #2e7d32 100%);
 }
 
-.modal-primary-section .okay {
+.modal-primary-section:has(.primary-display.fibre-ratio-okay) {
   background: linear-gradient(135deg, #fb8c00 0%, #f57c00 100%);
 }
 
-.modal-primary-section .avoid {
+.modal-primary-section:has(.primary-display.fibre-ratio-avoid) {
   background: linear-gradient(135deg, #e53935 0%, #c62828 100%);
 }
 
