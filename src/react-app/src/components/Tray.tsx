@@ -28,11 +28,14 @@ function Tray({ isOpen, onClose, title, children }: TrayProps) {
     if (isOpen) {
       document.addEventListener('keydown', handleEscape);
       document.body.style.overflow = 'hidden';
+      // Set data attribute to indicate a tray is open (used to disable pull-to-refresh)
+      document.body.dataset.trayOpen = 'true';
     }
     
     return () => {
       document.removeEventListener('keydown', handleEscape);
       document.body.style.overflow = '';
+      delete document.body.dataset.trayOpen;
     };
   }, [isOpen, onClose]);
 
