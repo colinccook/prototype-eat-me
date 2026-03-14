@@ -221,9 +221,9 @@ test.describe('Food Display', () => {
       const modalTitle = page.locator('.modal-title');
       await expect(modalTitle).toHaveText(foodName!);
 
-      // Check that calories are displayed
-      const caloriesSection = page.locator('.modal-calories-section');
-      await expect(caloriesSection).toBeVisible();
+      // Check that primary metric section is displayed (dynamic based on filter)
+      const primarySection = page.locator('.modal-primary-section');
+      await expect(primarySection).toBeVisible();
 
       // Check that macros are displayed
       const macrosGrid = page.locator('.macros-grid');
