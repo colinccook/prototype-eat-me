@@ -324,12 +324,7 @@ function App() {
       </header>
 
       <main className="app-main">
-        {isLoading && (
-          <div className="loading-overlay" role="status" aria-live="polite">
-            <div className="loading-spinner"></div>
-            <span className="loading-text">Syncing data...</span>
-          </div>
-        )}
+
 
         {selectedRegion && (
           <section className="main-content">

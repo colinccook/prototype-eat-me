@@ -35,11 +35,7 @@ function Navigation({
         </div>
       )}
 
-      {isLoading && (
-        <div className="nav-status" role="status" aria-live="polite">
-          Syncing data...
-        </div>
-      )}
+
     </nav>
   );
 }

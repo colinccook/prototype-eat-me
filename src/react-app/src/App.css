@@ -139,22 +139,24 @@ body {
   justify-content: center;
   gap: 0.5rem;
   padding: 1rem;
-  color: #667eea;
+  background: #e8e8e8;
+  color: #333;
   font-size: 0.9rem;
   z-index: 1000;
   pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .pull-to-refresh-indicator.ready .pull-text {
-  color: #667eea;
-  font-weight: 500;
+  color: #333;
+  font-weight: 600;
 }
 
 .pull-spinner {
   width: 20px;
   height: 20px;
-  border: 2px solid #e0e0e0;
-  border-top: 2px solid #667eea;
+  border: 2px solid #ccc;
+  border-top: 2px solid #333;
   border-radius: 50%;
 }
 
