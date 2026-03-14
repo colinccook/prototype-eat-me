@@ -152,6 +152,13 @@ function App() {
 
   // Pull-to-refresh handlers
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    // Don't allow pull-to-refresh when a tray/modal is open
+    const isTrayOpen = document.body.dataset.trayOpen === 'true';
+    if (isTrayOpen) {
+      touchStartY.current = null;
+      return;
+    }
+    
     // Only allow pull-to-refresh when page is scrolled to top
     // Use window.scrollY to check page scroll position for entire page pull-to-refresh
     if (window.scrollY === 0 && !isRefreshing) {
