@@ -48,12 +48,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -100,12 +100,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -166,11 +166,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -189,12 +189,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -213,12 +213,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -243,7 +243,7 @@
         "carbohydrates": 8.8,
         "fat": 5.5,
         "salt": 0.55,
-        "saturatedFat": 12.0,
+        "saturatedFat": null,
         "sugar": 8.6
       },
       "vegetarian": false,
@@ -251,11 +251,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -274,11 +274,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -297,12 +297,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -321,12 +321,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -346,8 +346,7 @@
         "wheat": true,
         "gluten": true,
         "mustard": true,
-        "celery": true,
-        "barley": true
+        "celery": true
       }
     },
     {
@@ -364,7 +363,7 @@
       "vegetarian": true,
       "vegan": false,
       "allergens": {
-        "egg": true
+        "eggs": true
       }
     },
     {
@@ -426,7 +425,7 @@
       "vegetarian": false,
       "vegan": false,
       "allergens": {
-        "sulphite": true
+        "sulphites": true
       }
     },
     {
@@ -468,7 +467,7 @@
         "carbohydrates": 5.8,
         "fat": 5.4,
         "salt": 0.87,
-        "saturatedFat": 12.0,
+        "saturatedFat": null,
         "sugar": 8.6
       },
       "vegetarian": false,
@@ -476,11 +475,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -499,12 +498,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -524,8 +523,7 @@
         "milk": true,
         "wheat": true,
         "gluten": true,
-        "soya": true,
-        "barley": true
+        "soya": true
       }
     },
     {
@@ -558,11 +556,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -613,8 +611,7 @@
         "wheat": true,
         "gluten": true,
         "mustard": true,
-        "celery": true,
-        "barley": true
+        "celery": true
       }
     },
     {
@@ -631,7 +628,7 @@
       "vegetarian": true,
       "vegan": false,
       "allergens": {
-        "egg": true
+        "eggs": true
       }
     },
     {
@@ -693,7 +690,7 @@
       "vegetarian": false,
       "vegan": false,
       "allergens": {
-        "sulphite": true
+        "sulphites": true
       }
     },
     {
@@ -782,11 +779,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -833,12 +830,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -871,12 +868,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -895,12 +892,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -919,12 +916,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -943,11 +940,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -966,11 +963,11 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     },
     {
@@ -989,12 +986,12 @@
       "allergens": {
         "sesame": true,
         "milk": true,
-        "egg": true,
         "wheat": true,
         "gluten": true,
         "mustard": true,
         "soya": true,
-        "celery": true
+        "celery": true,
+        "eggs": true
       }
     }
   ]

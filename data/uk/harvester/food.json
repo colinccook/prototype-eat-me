@@ -275,7 +275,7 @@
         "carbohydrates": 0.3,
         "fat": 15.3,
         "salt": 1.98,
-        "saturatedFat": 26.6,
+        "saturatedFat": null,
         "sugar": 11.1
       },
       "vegetarian": false,
@@ -401,7 +401,7 @@
         "carbohydrates": 0.9,
         "fat": 12.1,
         "salt": 0.82,
-        "saturatedFat": 16.2,
+        "saturatedFat": null,
         "sugar": 9.0
       },
       "vegetarian": false,
@@ -597,7 +597,7 @@
         "carbohydrates": 10.4,
         "fat": 3.2,
         "salt": 0.07,
-        "saturatedFat": 4.6,
+        "saturatedFat": null,
         "sugar": 2.7
       },
       "vegetarian": true,
@@ -1507,7 +1507,7 @@
         "carbohydrates": 51.7,
         "fat": 0.6,
         "salt": 0.05,
-        "saturatedFat": 5.1,
+        "saturatedFat": null,
         "sugar": 1.9
       },
       "vegetarian": true,
