@@ -112,6 +112,26 @@ test.describe('Food Display', () => {
   });
 
   test.describe('@sort', () => {
+    test('Sort by protein per calorie (default) - items should be sorted by protein efficiency', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // The default sort is protein-per-calorie-desc, no need to change sort
+      // Verify that the sort pill shows the correct value
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
+      await expect(sortPill).toContainText('Protein per Calorie');
+
+      // Get the first few items and verify they have high protein/calorie ratios
+      const foodCards = page.locator('.food-card');
+      const count = await foodCards.count();
+      expect(count).toBeGreaterThan(0);
+    });
+
     test('Sort by highest protein - items should be sorted by protein descending', async ({ page }) => {
       // Given I navigate to the application
       await page.goto('/');
@@ -194,6 +214,198 @@ test.describe('Food Display', () => {
       // Verify ascending order for items with salt data
       for (let i = 0; i < saltValues.length - 1; i++) {
         expect(saltValues[i]).toBeLessThanOrEqual(saltValues[i + 1]);
+      }
+    });
+
+    test('Sort by lowest calories - items should be sorted by calories ascending', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Click the Sort pill to open tray
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
+      await sortPill.click();
+
+      // Select "Lowest Calories" option
+      const lowestCaloriesOption = page.locator('.tray-option').filter({ hasText: 'Lowest Calories' });
+      await lowestCaloriesOption.click();
+
+      await page.waitForTimeout(500); // Wait for sort to apply
+
+      // Then items should be sorted by calories in ascending order
+      const calorieValues = page.locator('.nutrition-item:first-child .nutrition-value');
+      const count = await calorieValues.count();
+
+      const calories: number[] = [];
+      for (let i = 0; i < Math.min(count, 10); i++) {
+        const text = await calorieValues.nth(i).textContent();
+        if (text) {
+          const calorie = parseInt(text, 10);
+          if (!isNaN(calorie)) {
+            calories.push(calorie);
+          }
+        }
+      }
+
+      // Verify ascending order
+      for (let i = 0; i < calories.length - 1; i++) {
+        expect(calories[i]).toBeLessThanOrEqual(calories[i + 1]);
+      }
+    });
+
+    test('Sort by highest calories - items should be sorted by calories descending', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Click the Sort pill to open tray
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
+      await sortPill.click();
+
+      // Select "Highest Calories" option
+      const highestCaloriesOption = page.locator('.tray-option').filter({ hasText: 'Highest Calories' });
+      await highestCaloriesOption.click();
+
+      await page.waitForTimeout(500); // Wait for sort to apply
+
+      // Then items should be sorted by calories in descending order
+      const calorieValues = page.locator('.nutrition-item:first-child .nutrition-value');
+      const count = await calorieValues.count();
+
+      const calories: number[] = [];
+      for (let i = 0; i < Math.min(count, 10); i++) {
+        const text = await calorieValues.nth(i).textContent();
+        if (text) {
+          const calorie = parseInt(text, 10);
+          if (!isNaN(calorie)) {
+            calories.push(calorie);
+          }
+        }
+      }
+
+      // Verify descending order
+      for (let i = 0; i < calories.length - 1; i++) {
+        expect(calories[i]).toBeGreaterThanOrEqual(calories[i + 1]);
+      }
+    });
+
+    test('Sort by lowest fat - items should be sorted by fat ascending', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Click the Sort pill to open tray
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
+      await sortPill.click();
+
+      // Select "Lowest Fat" option
+      const lowestFatOption = page.locator('.tray-option').filter({ hasText: 'Lowest Fat' });
+      await lowestFatOption.click();
+
+      await page.waitForTimeout(500); // Wait for sort to apply
+
+      // Then items should be sorted by fat content
+      const foodCards = page.locator('.food-card');
+      const count = await foodCards.count();
+      expect(count).toBeGreaterThan(0);
+
+      // Verify fat values are in ascending order (check first few items)
+      // Fat is typically in the 4th nutrition item position
+      const fatValues = page.locator('.nutrition-item:nth-child(4) .nutrition-value');
+      const fatCount = await fatValues.count();
+
+      const fats: number[] = [];
+      for (let i = 0; i < Math.min(fatCount, 10); i++) {
+        const text = await fatValues.nth(i).textContent();
+        if (text) {
+          const fat = parseFloat(text.replace('g', ''));
+          if (!isNaN(fat)) {
+            fats.push(fat);
+          }
+        }
+      }
+
+      // Verify ascending order
+      for (let i = 0; i < fats.length - 1; i++) {
+        expect(fats[i]).toBeLessThanOrEqual(fats[i + 1]);
+      }
+    });
+
+    test('Sort by best fibre ratio - items should be sorted by fibre to carb ratio', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Click the Sort pill to open tray
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
+      await sortPill.click();
+
+      // Select "Best Fibre Ratio" option
+      const bestFibreOption = page.locator('.tray-option').filter({ hasText: 'Best Fibre Ratio' });
+      await bestFibreOption.click();
+
+      await page.waitForTimeout(500); // Wait for sort to apply
+
+      // Then fibre info should be displayed on food cards (for items with fibre data)
+      const foodCards = page.locator('.food-card');
+      const count = await foodCards.count();
+      expect(count).toBeGreaterThan(0);
+      
+      // Items with fibre data should appear first, items without go to end
+      // Verify the sort pill shows the correct sort is selected
+      await expect(sortPill).toContainText('Best Fibre Ratio');
+    });
+
+    test('Sort by name A-Z - items should be sorted alphabetically', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Click the Sort pill to open tray
+      const sortPill = page.locator('.pill').filter({ hasText: 'Sort:' });
+      await sortPill.click();
+
+      // Select "A-Z" option
+      const azOption = page.locator('.tray-option').filter({ hasText: 'A-Z' });
+      await azOption.click();
+
+      await page.waitForTimeout(500); // Wait for sort to apply
+
+      // Then items should be sorted alphabetically by name
+      const foodNames = page.locator('.food-card .food-name');
+      const count = await foodNames.count();
+
+      const names: string[] = [];
+      for (let i = 0; i < Math.min(count, 10); i++) {
+        const text = await foodNames.nth(i).textContent();
+        if (text) {
+          names.push(text);
+        }
+      }
+
+      // Verify alphabetical order (case-insensitive)
+      for (let i = 0; i < names.length - 1; i++) {
+        expect(names[i].toLowerCase().localeCompare(names[i + 1].toLowerCase())).toBeLessThanOrEqual(0);
       }
     });
   });

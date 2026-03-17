@@ -2,15 +2,36 @@ export interface Macros {
   protein: number;
   carbohydrates: number;
   fat: number;
-  fibre?: number;
-  salt?: number;
+  saturatedFat?: number | null;
+  sugar?: number | null;
+  fibre?: number | null;
+  salt?: number | null;
+}
+
+export interface Allergens {
+  gluten?: boolean | null;
+  wheat?: boolean | null;
+  milk?: boolean | null;
+  eggs?: boolean | null;
+  soya?: boolean | null;
+  nuts?: boolean | null;
+  peanuts?: boolean | null;
+  sesame?: boolean | null;
+  celery?: boolean | null;
+  mustard?: boolean | null;
+  fish?: boolean | null;
+  crustaceans?: boolean | null;
+  molluscs?: boolean | null;
+  sulphites?: boolean | null;
+  lupin?: boolean | null;
 }
 
 export interface FoodItem {
   name: string;
   calories: number;
   macros: Macros;
-  ingredients?: string[];
+  allergens?: Allergens;
+  ingredients?: string[] | null;
   vegetarian?: boolean;
   vegan?: boolean;
   restaurant?: string;

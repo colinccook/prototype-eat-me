@@ -63,22 +63,7 @@ npm run test:e2e:ui
 
 ## JSON Schema
 
-Menu items conform to this schema:
-
-```json
-{
-  "name": "string",
-  "calories": "number",
-  "macros": {
-    "protein": "number",
-    "carbohydrates": "number", 
-    "fat": "number"
-  },
-  "ingredients": ["string"],
-  "vegetarian": "boolean",
-  "vegan": "boolean"
-}
-```
+Menu items conform to the schema defined in [schemas/food.json.md](schemas/food.json.md).
 
 ## Deployment
 
