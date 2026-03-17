@@ -216,6 +216,24 @@
   border-bottom: none;
 }
 
+/* Allergens List */
+.allergens-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.allergen-tag {
+  display: inline-block;
+  background: #fff3e0;
+  color: #e65100;
+  padding: 0.4rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #ffcc80;
+}
+
 /* Desktop/larger screen adjustments */
 @media (min-width: 768px) {
   .modal-title {

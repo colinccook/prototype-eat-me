@@ -115,3 +115,27 @@ Scenario: Dismiss detail modal using close button
     And I tap on a food item
     And I tap the close button on the modal
     Then the detail modal should close
+
+@detail
+Scenario: Detail modal shows all nutritional information regardless of sort
+    Given I navigate to the application
+    When food items have loaded
+    And I tap on a food item
+    Then the detail modal should display all core macronutrients
+    And the detail modal should display nutrition stats section
+    And the detail modal should display protein per 100 calories
+
+@detail
+Scenario: Detail modal displays allergens when available
+    Given I navigate to the application
+    When I filter to a restaurant with allergen data
+    And I tap on a food item
+    Then the detail modal should display allergen tags if present
+
+@detail
+Scenario: Detail modal displays saturated fat and sugar when available
+    Given I navigate to the application
+    When I filter to a restaurant with complete nutrition data
+    And I tap on a food item
+    Then the detail modal should display Sat Fat
+    And the detail modal should display Sugar
