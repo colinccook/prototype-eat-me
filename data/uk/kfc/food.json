@@ -8,7 +8,9 @@
         "protein": 4.4,
         "carbohydrates": 16.0,
         "fat": 2.7,
-        "salt": 0.01
+        "salt": 0.01,
+        "saturatedFat": 0.2,
+        "sugar": 1.9
       },
       "vegetarian": true,
       "vegan": true
@@ -20,10 +22,15 @@
         "protein": 3.9,
         "carbohydrates": 41.0,
         "fat": 11.0,
-        "salt": 0.23
+        "salt": 0.23,
+        "saturatedFat": 11.0,
+        "sugar": 56.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "milk": true
+      }
     },
     {
       "name": "BBQ Fillet Tower Burger",
@@ -32,10 +39,22 @@
         "protein": 33.0,
         "carbohydrates": 56.0,
         "fat": 28.0,
-        "salt": 3.3
+        "salt": 3.3,
+        "saturatedFat": 4.6,
+        "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "BBQ Mini Wrap",
@@ -44,7 +63,9 @@
         "protein": 18.0,
         "carbohydrates": 31.0,
         "fat": 11.0,
-        "salt": 1.1
+        "salt": 1.1,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -56,7 +77,9 @@
         "protein": 3.8,
         "carbohydrates": 43.0,
         "fat": 2.6,
-        "salt": 0.66
+        "salt": 0.66,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": true
@@ -68,10 +91,22 @@
         "protein": 35.0,
         "carbohydrates": 62.5,
         "fat": 27.1,
-        "salt": 4.1
+        "salt": 4.1,
+        "saturatedFat": 5.0,
+        "sugar": 8.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Cherry Boba Refresher",
@@ -80,7 +115,9 @@
         "protein": 0.5,
         "carbohydrates": 22.9,
         "fat": 0.5,
-        "salt": 0.1
+        "salt": 0.1,
+        "saturatedFat": 0.2,
+        "sugar": 21.0
       },
       "vegetarian": true,
       "vegan": true
@@ -92,7 +129,9 @@
         "protein": 2.2,
         "carbohydrates": 8.1,
         "fat": 1.3,
-        "salt": 0.01
+        "salt": 0.01,
+        "saturatedFat": 0.2,
+        "sugar": 1.9
       },
       "vegetarian": true,
       "vegan": true
@@ -104,7 +143,9 @@
         "protein": 32.8,
         "carbohydrates": 58.1,
         "fat": 25.0,
-        "salt": 3.0
+        "salt": 3.0,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -116,10 +157,21 @@
         "protein": 12.0,
         "carbohydrates": 53.0,
         "fat": 24.0,
-        "salt": 1.7
+        "salt": 1.7,
+        "saturatedFat": 2.0,
+        "sugar": 5.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Fillet Burger",
@@ -128,10 +180,22 @@
         "protein": 28.0,
         "carbohydrates": 43.0,
         "fat": 19.0,
-        "salt": 2.2
+        "salt": 2.2,
+        "saturatedFat": 2.2,
+        "sugar": 6.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Fillet Tower Burger",
@@ -140,10 +204,22 @@
         "protein": 33.0,
         "carbohydrates": 56.0,
         "fat": 28.0,
-        "salt": 3.3
+        "salt": 3.3,
+        "saturatedFat": 4.6,
+        "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Flamin' Mini Wrap",
@@ -152,7 +228,9 @@
         "protein": 18.0,
         "carbohydrates": 29.0,
         "fat": 16.0,
-        "salt": 1.1
+        "salt": 1.1,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -164,10 +242,21 @@
         "protein": 0.9,
         "carbohydrates": 8.8,
         "fat": 5.5,
-        "salt": 0.55
+        "salt": 0.55,
+        "saturatedFat": null,
+        "sugar": 8.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Kansas BBQ Drip\u2019d Bites",
@@ -176,10 +265,21 @@
         "protein": 21.0,
         "carbohydrates": 34.0,
         "fat": 14.0,
-        "salt": 1.6
+        "salt": 1.6,
+        "saturatedFat": 1.6,
+        "sugar": 15.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Kentucky Mayo Twister",
@@ -188,10 +288,22 @@
         "protein": 29.0,
         "carbohydrates": 46.0,
         "fat": 24.0,
-        "salt": 2.6
+        "salt": 2.6,
+        "saturatedFat": 4.0,
+        "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Kids Mini Fillet Burger",
@@ -200,10 +312,22 @@
         "protein": 18.0,
         "carbohydrates": 30.0,
         "fat": 7.0,
-        "salt": 1.4
+        "salt": 1.4,
+        "saturatedFat": 2.2,
+        "sugar": 6.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Large BBQ Beans",
@@ -212,10 +336,18 @@
         "protein": 10.0,
         "carbohydrates": 32.0,
         "fat": 1.4,
-        "salt": 1.4
+        "salt": 1.4,
+        "saturatedFat": 0.2,
+        "sugar": 13.0
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "allergens": {
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "celery": true
+      }
     },
     {
       "name": "Large Coleslaw",
@@ -224,10 +356,15 @@
         "protein": 2.2,
         "carbohydrates": 12.0,
         "fat": 26.0,
-        "salt": 1.1
+        "salt": 1.1,
+        "saturatedFat": 2.0,
+        "sugar": 11.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "eggs": true
+      }
     },
     {
       "name": "Large Creamy Mash",
@@ -236,10 +373,15 @@
         "protein": 4.8,
         "carbohydrates": 40.0,
         "fat": 6.8,
-        "salt": 1.8
+        "salt": 1.8,
+        "saturatedFat": 4.3,
+        "sugar": 2.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "milk": true
+      }
     },
     {
       "name": "Large Gravy",
@@ -248,7 +390,9 @@
         "protein": 3.9,
         "carbohydrates": 19.0,
         "fat": 8.0,
-        "salt": 2.8
+        "salt": 2.8,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -260,7 +404,9 @@
         "protein": 28.0,
         "carbohydrates": 28.0,
         "fat": 28.0,
-        "salt": 2.2
+        "salt": 2.2,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -272,10 +418,15 @@
         "protein": 4.4,
         "carbohydrates": 54.0,
         "fat": 14.0,
-        "salt": 1.0
+        "salt": 1.0,
+        "saturatedFat": 0.1,
+        "sugar": 0.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sulphites": true
+      }
     },
     {
       "name": "Mega Mozzarella Sticks",
@@ -284,7 +435,9 @@
         "protein": 16.2,
         "carbohydrates": 42.9,
         "fat": 18.0,
-        "salt": 1.2
+        "salt": 1.2,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -296,10 +449,15 @@
         "protein": 6.4,
         "carbohydrates": 43.0,
         "fat": 14.0,
-        "salt": 0.32
+        "salt": 0.32,
+        "saturatedFat": 11.0,
+        "sugar": 56.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "milk": true
+      }
     },
     {
       "name": "Mini Fillet (per piece, average)",
@@ -308,10 +466,21 @@
         "protein": 13.0,
         "carbohydrates": 5.8,
         "fat": 5.4,
-        "salt": 0.87
+        "salt": 0.87,
+        "saturatedFat": null,
+        "sugar": 8.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Mini Fillet Burger",
@@ -320,10 +489,22 @@
         "protein": 18.0,
         "carbohydrates": 28.0,
         "fat": 10.0,
-        "salt": 1.4
+        "salt": 1.4,
+        "saturatedFat": 2.2,
+        "sugar": 6.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Oreo Krushems Shake",
@@ -332,10 +513,18 @@
         "protein": 4.1,
         "carbohydrates": 41.0,
         "fat": 10.0,
-        "salt": 0.44
+        "salt": 0.44,
+        "saturatedFat": 5.4,
+        "sugar": 31.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true
+      }
     },
     {
       "name": "Original Ranch Rice Bowl",
@@ -344,7 +533,9 @@
         "protein": 28.0,
         "carbohydrates": 63.0,
         "fat": 19.0,
-        "salt": 2.8
+        "salt": 2.8,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -356,10 +547,21 @@
         "protein": 22.0,
         "carbohydrates": 8.6,
         "fat": 12.0,
-        "salt": 0.94
+        "salt": 0.94,
+        "saturatedFat": 12.0,
+        "sugar": 8.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Original Recipe Chicken Fillet Roll",
@@ -368,7 +570,9 @@
         "protein": 29.0,
         "carbohydrates": 78.0,
         "fat": 25.0,
-        "salt": 3.2
+        "salt": 3.2,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -380,10 +584,15 @@
         "protein": 4.6,
         "carbohydrates": 36.0,
         "fat": 11.0,
-        "salt": 0.26
+        "salt": 0.26,
+        "saturatedFat": 11.0,
+        "sugar": 56.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "milk": true
+      }
     },
     {
       "name": "Regular BBQ Beans",
@@ -392,10 +601,18 @@
         "protein": 4.7,
         "carbohydrates": 15.0,
         "fat": 0.6,
-        "salt": 0.63
+        "salt": 0.63,
+        "saturatedFat": 0.1,
+        "sugar": 5.9
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "allergens": {
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "celery": true
+      }
     },
     {
       "name": "Regular Coleslaw",
@@ -404,10 +621,15 @@
         "protein": 1.1,
         "carbohydrates": 6.1,
         "fat": 13.0,
-        "salt": 0.57
+        "salt": 0.57,
+        "saturatedFat": 1.0,
+        "sugar": 5.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "eggs": true
+      }
     },
     {
       "name": "Regular Creamy Mash",
@@ -416,10 +638,15 @@
         "protein": 2.4,
         "carbohydrates": 20.0,
         "fat": 3.4,
-        "salt": 0.88
+        "salt": 0.88,
+        "saturatedFat": 2.1,
+        "sugar": 1.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "milk": true
+      }
     },
     {
       "name": "Regular Gravy",
@@ -428,7 +655,9 @@
         "protein": 1.7,
         "carbohydrates": 8.4,
         "fat": 3.5,
-        "salt": 1.2
+        "salt": 1.2,
+        "saturatedFat": 0.0,
+        "sugar": 0.0
       },
       "vegetarian": false,
       "vegan": false
@@ -440,7 +669,9 @@
         "protein": 18.0,
         "carbohydrates": 18.0,
         "fat": 18.0,
-        "salt": 1.3
+        "salt": 1.3,
+        "saturatedFat": 0.0,
+        "sugar": 0.0
       },
       "vegetarian": false,
       "vegan": false
@@ -452,10 +683,15 @@
         "protein": 3.1,
         "carbohydrates": 38.0,
         "fat": 9.8,
-        "salt": 0.74
+        "salt": 0.74,
+        "saturatedFat": 0.1,
+        "sugar": 0.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sulphites": true
+      }
     },
     {
       "name": "Side Salad",
@@ -464,7 +700,9 @@
         "protein": 0.8,
         "carbohydrates": 4.7,
         "fat": 3.6,
-        "salt": 0.2
+        "salt": 0.2,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -476,7 +714,9 @@
         "protein": 29.0,
         "carbohydrates": 51.0,
         "fat": 17.0,
-        "salt": 2.6
+        "salt": 2.6,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -488,7 +728,9 @@
         "protein": 0.5,
         "carbohydrates": 22.0,
         "fat": 0.5,
-        "salt": 0.01
+        "salt": 0.01,
+        "saturatedFat": 0.1,
+        "sugar": 22.0
       },
       "vegetarian": true,
       "vegan": true
@@ -500,7 +742,9 @@
         "protein": 0.5,
         "carbohydrates": 29.4,
         "fat": 0.5,
-        "salt": 0.1
+        "salt": 0.1,
+        "saturatedFat": 0.2,
+        "sugar": 27.0
       },
       "vegetarian": true,
       "vegan": true
@@ -512,7 +756,9 @@
         "protein": 29.0,
         "carbohydrates": 46.0,
         "fat": 26.0,
-        "salt": 2.6
+        "salt": 2.6,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -524,10 +770,21 @@
         "protein": 21.0,
         "carbohydrates": 39.0,
         "fat": 15.0,
-        "salt": 1.6
+        "salt": 1.6,
+        "saturatedFat": 1.6,
+        "sugar": 23.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Sweet Chilli Twister",
@@ -536,7 +793,9 @@
         "protein": 29.0,
         "carbohydrates": 53.0,
         "fat": 18.0,
-        "salt": 2.4
+        "salt": 2.4,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -548,7 +807,9 @@
         "protein": 27.0,
         "carbohydrates": 58.2,
         "fat": 27.5,
-        "salt": 2.7
+        "salt": 2.7,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -560,10 +821,22 @@
         "protein": 15.0,
         "carbohydrates": 41.0,
         "fat": 17.0,
-        "salt": 2.5
+        "salt": 2.5,
+        "saturatedFat": 5.0,
+        "sugar": 8.7
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Veggie Ranch Rice Bowl",
@@ -572,7 +845,9 @@
         "protein": 7.6,
         "carbohydrates": 62.0,
         "fat": 9.1,
-        "salt": 1.2
+        "salt": 1.2,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": true
@@ -584,10 +859,22 @@
         "protein": 23.0,
         "carbohydrates": 41.0,
         "fat": 20.0,
-        "salt": 2.0
+        "salt": 2.0,
+        "saturatedFat": 2.2,
+        "sugar": 6.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Zinger Fillet Roll",
@@ -596,10 +883,22 @@
         "protein": 23.0,
         "carbohydrates": 81.0,
         "fat": 36.0,
-        "salt": 3.3
+        "salt": 3.3,
+        "saturatedFat": 6.0,
+        "sugar": 9.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Zinger Mozzarella Burger",
@@ -608,10 +907,22 @@
         "protein": 42.1,
         "carbohydrates": 76.7,
         "fat": 43.4,
-        "salt": 3.2
+        "salt": 3.2,
+        "saturatedFat": 5.0,
+        "sugar": 8.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Zinger Ranch Rice Bowl",
@@ -620,10 +931,21 @@
         "protein": 23.0,
         "carbohydrates": 65.0,
         "fat": 21.0,
-        "salt": 2.6
+        "salt": 2.6,
+        "saturatedFat": 2.4,
+        "sugar": 8.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Zinger Stacker",
@@ -632,10 +954,21 @@
         "protein": 47.0,
         "carbohydrates": 62.0,
         "fat": 43.0,
-        "salt": 3.7
+        "salt": 3.7,
+        "saturatedFat": 8.1,
+        "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     },
     {
       "name": "Zinger Supercharger Tower Burger",
@@ -644,10 +977,22 @@
         "protein": 27.0,
         "carbohydrates": 55.0,
         "fat": 37.0,
-        "salt": 3.0
+        "salt": 3.0,
+        "saturatedFat": 5.0,
+        "sugar": 8.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "allergens": {
+        "sesame": true,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "mustard": true,
+        "soya": true,
+        "celery": true,
+        "eggs": true
+      }
     }
   ]
 }

@@ -9,7 +9,9 @@
         "carbohydrates": 44.0,
         "fat": 21.0,
         "fibre": 2.3,
-        "salt": 0.5
+        "salt": 0.5,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -22,7 +24,9 @@
         "carbohydrates": 66.0,
         "fat": 21.0,
         "fibre": 3.0,
-        "salt": 0.6
+        "salt": 0.6,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -35,7 +39,9 @@
         "carbohydrates": 55.0,
         "fat": 28.0,
         "fibre": 5.4,
-        "salt": 0.9
+        "salt": 0.9,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -48,7 +54,9 @@
         "carbohydrates": 16.0,
         "fat": 11.0,
         "fibre": 0.5,
-        "salt": 0.68
+        "salt": 0.68,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -61,7 +69,9 @@
         "carbohydrates": 50.0,
         "fat": 20.0,
         "fibre": 2.4,
-        "salt": 1.5
+        "salt": 1.5,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -74,7 +84,9 @@
         "carbohydrates": 68.0,
         "fat": 29.0,
         "fibre": 4.3,
-        "salt": 0.62
+        "salt": 0.62,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -87,7 +99,9 @@
         "carbohydrates": 36.0,
         "fat": 12.0,
         "fibre": 2.2,
-        "salt": 0.55
+        "salt": 0.55,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -100,7 +114,9 @@
         "carbohydrates": 15.0,
         "fat": 2.6,
         "fibre": 0.5,
-        "salt": 0.08
+        "salt": 0.08,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -113,7 +129,9 @@
         "carbohydrates": 35.0,
         "fat": 8.5,
         "fibre": 1.7,
-        "salt": 0.31
+        "salt": 0.31,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -126,7 +144,9 @@
         "carbohydrates": 34.0,
         "fat": 3.9,
         "fibre": 0.8,
-        "salt": 0.4
+        "salt": 0.4,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -139,7 +159,9 @@
         "carbohydrates": 73.0,
         "fat": 21.0,
         "fibre": 2.2,
-        "salt": 0.59
+        "salt": 0.59,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -152,7 +174,9 @@
         "carbohydrates": 55.0,
         "fat": 36.0,
         "fibre": 1.8,
-        "salt": 0.56
+        "salt": 0.56,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -165,7 +189,9 @@
         "carbohydrates": 84.0,
         "fat": 11.0,
         "fibre": 4.1,
-        "salt": 0.26
+        "salt": 0.26,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -178,7 +204,9 @@
         "carbohydrates": 106.0,
         "fat": 37.0,
         "fibre": 2.1,
-        "salt": 1.33
+        "salt": 1.33,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -191,7 +219,9 @@
         "carbohydrates": 33.0,
         "fat": 17.0,
         "fibre": 2.0,
-        "salt": 0.37
+        "salt": 0.37,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -204,7 +234,9 @@
         "carbohydrates": 46.0,
         "fat": 27.0,
         "fibre": 3.5,
-        "salt": 0.78
+        "salt": 0.78,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -217,7 +249,9 @@
         "carbohydrates": 25.0,
         "fat": 14.0,
         "fibre": 3.8,
-        "salt": 0.19
+        "salt": 0.19,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": true
@@ -230,7 +264,9 @@
         "carbohydrates": 49.0,
         "fat": 13.0,
         "fibre": 1.7,
-        "salt": 2.3
+        "salt": 2.3,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": false,
       "vegan": false
@@ -243,7 +279,9 @@
         "carbohydrates": 21.0,
         "fat": 11.0,
         "fibre": 2.5,
-        "salt": 0.44
+        "salt": 0.44,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false
@@ -256,7 +294,9 @@
         "carbohydrates": 21.0,
         "fat": 12.0,
         "fibre": 2.2,
-        "salt": 0.48
+        "salt": 0.48,
+        "saturatedFat": null,
+        "sugar": null
       },
       "vegetarian": true,
       "vegan": false

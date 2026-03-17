@@ -122,13 +122,25 @@ function FoodDetailModal({ item, sortBy, onClose }: FoodDetailModalProps) {
             <span className="macro-value">{item.macros.fat}g</span>
             <span className="macro-label">Fat</span>
           </div>
-          {item.macros.fibre !== undefined && (
+          {item.macros.saturatedFat !== undefined && item.macros.saturatedFat !== null && (
+            <div className="macro-item">
+              <span className="macro-value">{item.macros.saturatedFat}g</span>
+              <span className="macro-label">Sat Fat</span>
+            </div>
+          )}
+          {item.macros.sugar !== undefined && item.macros.sugar !== null && (
+            <div className="macro-item">
+              <span className="macro-value">{item.macros.sugar}g</span>
+              <span className="macro-label">Sugar</span>
+            </div>
+          )}
+          {item.macros.fibre !== undefined && item.macros.fibre !== null && (
             <div className={`macro-item ${sortBy === 'fibre-to-carb-asc' ? 'highlighted' : ''}`}>
               <span className="macro-value">{item.macros.fibre}g</span>
               <span className="macro-label">Fibre</span>
             </div>
           )}
-          {item.macros.salt !== undefined && (
+          {item.macros.salt !== undefined && item.macros.salt !== null && (
             <div className={`macro-item ${sortBy === 'salt-asc' ? 'highlighted' : ''}`}>
               <span className="macro-value">{item.macros.salt}g</span>
               <span className="macro-label">Salt</span>
@@ -155,6 +167,24 @@ function FoodDetailModal({ item, sortBy, onClose }: FoodDetailModalProps) {
           )}
         </div>
       </div>
+
+      {/* Allergens */}
+      {item.allergens && Object.keys(item.allergens).some(key => item.allergens![key as keyof typeof item.allergens]) && (
+        <div className="modal-section">
+          <h3 className="section-title">Allergens</h3>
+          <div className="allergens-list">
+            {Object.entries(item.allergens).map(([allergen, present]) => {
+              if (!present) return null;
+              const displayName = allergen.charAt(0).toUpperCase() + allergen.slice(1);
+              return (
+                <span key={allergen} className="allergen-tag">
+                  {displayName}
+                </span>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Ingredients */}
       {item.ingredients && item.ingredients.length > 0 && (

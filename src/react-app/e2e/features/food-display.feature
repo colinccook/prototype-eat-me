@@ -35,12 +35,62 @@ Scenario: Filter by maximum calories
     Then all displayed items should have 300 or fewer calories
 
 @sort
+Scenario: Default sort is protein per calorie
+    Given I navigate to the application
+    When food items have loaded
+    Then the sort pill should show "Protein per Calorie"
+    And items should be optimized for protein efficiency
+
+@sort
 Scenario: Sort by highest protein
     Given I navigate to the application
-    When I open the settings panel
-    And I select the "United Kingdom" region
-    And I sort by "Protein (High to Low)"
+    When food items have loaded
+    And I sort by "Highest Protein"
     Then items should be sorted by protein in descending order
+
+@sort
+Scenario: Sort by lowest calories
+    Given I navigate to the application
+    When food items have loaded
+    And I sort by "Lowest Calories"
+    Then items should be sorted by calories in ascending order
+
+@sort
+Scenario: Sort by highest calories
+    Given I navigate to the application
+    When food items have loaded
+    And I sort by "Highest Calories"
+    Then items should be sorted by calories in descending order
+
+@sort
+Scenario: Sort by lowest fat
+    Given I navigate to the application
+    When food items have loaded
+    And I sort by "Lowest Fat"
+    Then items should be sorted by fat content in ascending order
+
+@sort
+Scenario: Sort by best fibre ratio
+    Given I navigate to the application
+    When food items have loaded
+    And I sort by "Best Fibre Ratio"
+    Then items with best fibre to carb ratio should appear first
+    And items without fibre data should appear at the end
+
+@sort
+Scenario: Sort by lowest salt
+    Given I navigate to the application
+    When food items have loaded
+    And I sort by "Lowest Salt"
+    Then items should be sorted by salt content in ascending order
+    And items without salt data should appear at the end
+
+@sort
+Scenario: Sort alphabetically by name
+    Given I navigate to the application
+    When food items have loaded
+    And I sort by "A-Z"
+    Then items should be sorted alphabetically by name
 
 @detail
 Scenario: Tap menu item to view details
@@ -65,3 +115,27 @@ Scenario: Dismiss detail modal using close button
     And I tap on a food item
     And I tap the close button on the modal
     Then the detail modal should close
+
+@detail
+Scenario: Detail modal shows all nutritional information regardless of sort
+    Given I navigate to the application
+    When food items have loaded
+    And I tap on a food item
+    Then the detail modal should display all core macronutrients
+    And the detail modal should display nutrition stats section
+    And the detail modal should display protein per 100 calories
+
+@detail
+Scenario: Detail modal displays allergens when available
+    Given I navigate to the application
+    When I filter to a restaurant with allergen data
+    And I tap on a food item
+    Then the detail modal should display allergen tags if present
+
+@detail
+Scenario: Detail modal displays saturated fat and sugar when available
+    Given I navigate to the application
+    When I filter to a restaurant with complete nutrition data
+    And I tap on a food item
+    Then the detail modal should display Sat Fat
+    And the detail modal should display Sugar
