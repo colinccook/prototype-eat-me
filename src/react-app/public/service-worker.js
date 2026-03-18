@@ -7,8 +7,9 @@ const DATA_CACHE_NAME = 'eat-me-data-cache-v1';
 // Development hot-reload filter (should not be cached)
 const DEV_HOT_RELOAD_PATTERN = 'hot-update';
 
-// Static assets to cache on install (excluding index.html which uses network-first)
+// Static assets to cache on install
 const STATIC_ASSETS = [
+  './index.html',
   './manifest.json',
   './favicon.svg',
   './apple-touch-icon.png',

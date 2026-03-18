@@ -31,14 +31,14 @@ export function registerServiceWorker(): void {
 
     // When a new service worker takes control, reload to get fresh content
     // This ensures users always see the latest version without manual cache clearing
-    // Only reload if there was already a controller (skip first-time install)
-    let hasController = !!navigator.serviceWorker.controller;
+    // Only reload when updating an existing SW (skip first-time install)
+    let reloadOnChange = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-      if (hasController) {
+      if (reloadOnChange) {
         console.log('[PWA] New service worker activated, reloading for latest content...');
         window.location.reload();
       }
-      hasController = true;
+      reloadOnChange = true;
     });
   } else {
     console.log('[PWA] Service Workers are not supported in this browser');
