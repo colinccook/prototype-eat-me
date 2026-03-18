@@ -211,7 +211,6 @@ function HeaderPills({
 
   const handleQuickCalorieSelect = (value: number) => {
     setCalorieInput(value.toString());
-    setMinCalorieInput(filters.minCalories?.toString() || '');
     onFiltersChange({ ...filters, maxCalories: value });
     closeTray();
   };
@@ -388,7 +387,7 @@ function HeaderPills({
               step="50"
             />
             <span className="tray-form-helper">
-               Leave either field empty to skip that limit.
+              Fill both fields to set a calorie range, or leave either one empty to use a single limit.
             </span>
           </div>
           <div className="tray-form-actions">
