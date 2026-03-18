@@ -52,6 +52,7 @@ function App() {
   const [filters, setFilters] = useState<FilterOptions>({
     vegetarianOnly: false,
     veganOnly: false,
+    minCalories: null,
     maxCalories: null,
     sortBy: 'protein-per-calorie-desc',
     selectedRestaurants: []
@@ -222,6 +223,9 @@ function App() {
     }
 
     // Apply calorie filter
+    if (filters.minCalories !== null && filters.minCalories > 0) {
+      items = items.filter(item => item.calories >= filters.minCalories!);
+    }
     if (filters.maxCalories !== null && filters.maxCalories > 0) {
       items = items.filter(item => item.calories <= filters.maxCalories!);
     }

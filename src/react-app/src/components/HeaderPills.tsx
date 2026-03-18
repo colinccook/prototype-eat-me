@@ -105,6 +105,9 @@ function HeaderPills({
   const [calorieInput, setCalorieInput] = useState<string>(
     filters.maxCalories?.toString() || ''
   );
+  const [minCalorieInput, setMinCalorieInput] = useState<string>(
+    filters.minCalories?.toString() || ''
+  );
 
   const openTray = (tray: keyof typeof activeTrays) => {
     setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false, [tray]: true });
@@ -136,6 +139,10 @@ function HeaderPills({
   };
 
   const getCaloriesDisplayValue = () => {
+    if (filters.minCalories && filters.maxCalories) {
+      return `${filters.minCalories}-${filters.maxCalories}`;
+    }
+    if (filters.minCalories) return `≥${filters.minCalories}`;
     if (!filters.maxCalories) return 'Any';
     return `≤${filters.maxCalories}`;
   };
@@ -185,19 +192,26 @@ function HeaderPills({
   };
 
   const handleCaloriesSubmit = () => {
-    const value = calorieInput ? parseInt(calorieInput, 10) : null;
-    onFiltersChange({ ...filters, maxCalories: value && value > 0 ? value : null });
+    const minValue = minCalorieInput ? parseInt(minCalorieInput, 10) : null;
+    const maxValue = calorieInput ? parseInt(calorieInput, 10) : null;
+    onFiltersChange({
+      ...filters,
+      minCalories: minValue && minValue > 0 ? minValue : null,
+      maxCalories: maxValue && maxValue > 0 ? maxValue : null
+    });
     closeTray();
   };
 
   const handleCaloriesClear = () => {
     setCalorieInput('');
-    onFiltersChange({ ...filters, maxCalories: null });
+    setMinCalorieInput('');
+    onFiltersChange({ ...filters, minCalories: null, maxCalories: null });
     closeTray();
   };
 
   const handleQuickCalorieSelect = (value: number) => {
     setCalorieInput(value.toString());
+    setMinCalorieInput(filters.minCalories?.toString() || '');
     onFiltersChange({ ...filters, maxCalories: value });
     closeTray();
   };
@@ -244,7 +258,7 @@ function HeaderPills({
           label="Calories"
           value={getCaloriesDisplayValue()}
           onClick={() => openTray('calories')}
-          isActive={activeTrays.calories || !!filters.maxCalories}
+          isActive={activeTrays.calories || !!filters.minCalories || !!filters.maxCalories}
           icon="🔥"
         />
         <Pill
@@ -345,8 +359,23 @@ function HeaderPills({
             </div>
           </div>
           <div className="tray-form-group">
+            <label className="tray-form-label" htmlFor="min-calorie-input">
+              Minimum Calories
+            </label>
+            <input
+              id="min-calorie-input"
+              type="number"
+              className="tray-form-input"
+              placeholder="e.g., 200"
+              value={minCalorieInput}
+              onChange={(e) => setMinCalorieInput(e.target.value)}
+              min="0"
+              step="50"
+            />
+          </div>
+          <div className="tray-form-group">
             <label className="tray-form-label" htmlFor="calorie-input">
-              Or Enter Custom Amount
+              Maximum Calories
             </label>
             <input
               id="calorie-input"
@@ -359,7 +388,7 @@ function HeaderPills({
               step="50"
             />
             <span className="tray-form-helper">
-              Only show foods with this many calories or fewer. Leave empty for no limit.
+               Leave either field empty to skip that limit.
             </span>
           </div>
           <div className="tray-form-actions">
