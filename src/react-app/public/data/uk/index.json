@@ -9,12 +9,20 @@
       "name": "Greggs"
     },
     {
+      "id": "harvester",
+      "name": "Harvester"
+    },
+    {
       "id": "kfc",
       "name": "KFC"
     },
     {
       "id": "mcdonalds",
       "name": "McDonald's"
+    },
+    {
+      "id": "pret",
+      "name": "Pret A Manger"
     },
     {
       "id": "starbucks",
