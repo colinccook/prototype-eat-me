@@ -148,6 +148,48 @@ test.describe('Food Display', () => {
         }
       }
     });
+
+    test('Filter by quick select minimum and maximum calories - all items should stay within the selected range', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Select a quick minimum calorie value
+      const caloriesPill = page.locator('.pill').filter({ hasText: 'Calories:' });
+      await caloriesPill.click();
+      const minQuickSelect = page.locator('.tray-form-group').filter({ hasText: 'Quick Select Minimum' }).getByRole('button', { name: '200', exact: true });
+      await minQuickSelect.click();
+
+      // Re-open and select a quick maximum calorie value
+      await caloriesPill.click();
+      const maxQuickSelect = page.locator('.tray-form-group').filter({ hasText: 'Quick Select Maximum' }).getByRole('button', { name: '600', exact: true });
+      await maxQuickSelect.click();
+
+      await page.waitForTimeout(500); // Wait for filter to apply
+
+      // Pill should show the selected range
+      await expect(caloriesPill).toContainText('200-600');
+
+      // Then all displayed items should stay within the selected calorie range
+      const foodCards = page.locator('.food-card');
+      const count = await foodCards.count();
+      expect(count).toBeGreaterThan(0);
+
+      for (let i = 0; i < count; i++) {
+        const card = foodCards.nth(i);
+        const calorieElement = card.locator('.nutrition-item').first().locator('.nutrition-value');
+        const calorieText = await calorieElement.textContent();
+        if (calorieText) {
+          const calories = parseInt(calorieText, 10);
+          expect(calories).toBeGreaterThanOrEqual(200);
+          expect(calories).toBeLessThanOrEqual(600);
+        }
+      }
+    });
   });
 
   test.describe('@sort', () => {

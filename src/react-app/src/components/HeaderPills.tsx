@@ -209,9 +209,14 @@ function HeaderPills({
     closeTray();
   };
 
-  const handleQuickCalorieSelect = (value: number) => {
-    setCalorieInput(value.toString());
-    onFiltersChange({ ...filters, maxCalories: value });
+  const handleQuickCalorieSelect = (bound: 'min' | 'max', value: number) => {
+    if (bound === 'min') {
+      setMinCalorieInput(value.toString());
+      onFiltersChange({ ...filters, minCalories: value });
+    } else {
+      setCalorieInput(value.toString());
+      onFiltersChange({ ...filters, maxCalories: value });
+    }
     closeTray();
   };
 
@@ -343,14 +348,30 @@ function HeaderPills({
         <div className="tray-form">
           <div className="tray-form-group">
             <label className="tray-form-label">
-              Quick Select
+              Quick Select Minimum
             </label>
             <div className="quick-calorie-buttons">
               {QUICK_CALORIE_OPTIONS.map((value) => (
                 <button
-                  key={value}
+                  key={`min-${value}`}
+                  className={`quick-calorie-button ${filters.minCalories === value ? 'active' : ''}`}
+                  onClick={() => handleQuickCalorieSelect('min', value)}
+                >
+                  {value}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="tray-form-group">
+            <label className="tray-form-label">
+              Quick Select Maximum
+            </label>
+            <div className="quick-calorie-buttons">
+              {QUICK_CALORIE_OPTIONS.map((value) => (
+                <button
+                  key={`max-${value}`}
                   className={`quick-calorie-button ${filters.maxCalories === value ? 'active' : ''}`}
-                  onClick={() => handleQuickCalorieSelect(value)}
+                  onClick={() => handleQuickCalorieSelect('max', value)}
                 >
                   {value}
                 </button>
