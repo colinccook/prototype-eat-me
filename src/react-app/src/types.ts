@@ -78,6 +78,7 @@ export type SortOption =
 export interface FilterOptions {
   vegetarianOnly: boolean;
   veganOnly: boolean;
+  minCalories: number | null;
   maxCalories: number | null;
   sortBy: SortOption;
   selectedRestaurants: string[];  // Empty array means all restaurants

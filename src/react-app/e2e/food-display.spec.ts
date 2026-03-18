@@ -109,6 +109,85 @@ test.describe('Food Display', () => {
         }
       }
     });
+
+    test('Filter by minimum calories - all items should have 300 or more calories', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Click the Calories pill to open tray
+      const caloriesPill = page.locator('.pill').filter({ hasText: 'Calories:' });
+      await caloriesPill.click();
+
+      // Set minimum calories to 300
+      const minCalorieInput = page.locator('#min-calorie-input');
+      await minCalorieInput.fill('300');
+
+      // Click Apply button
+      const applyButton = page.locator('.tray-form-button.primary');
+      await applyButton.click();
+
+      await page.waitForTimeout(500); // Wait for filter to apply
+
+      // Then all displayed items should have 300 or more calories
+      const foodCards = page.locator('.food-card');
+      const count = await foodCards.count();
+      expect(count).toBeGreaterThan(0);
+
+      for (let i = 0; i < count; i++) {
+        const card = foodCards.nth(i);
+        const calorieElement = card.locator('.nutrition-item').first().locator('.nutrition-value');
+        const calorieText = await calorieElement.textContent();
+        if (calorieText) {
+          const calories = parseInt(calorieText, 10);
+          expect(calories).toBeGreaterThanOrEqual(300);
+        }
+      }
+    });
+
+    test('Filter by quick select minimum and maximum calories - all items should stay within the selected range', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Wait for food to load
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // Select a quick minimum calorie value
+      const caloriesPill = page.locator('.pill').filter({ hasText: 'Calories:' });
+      await caloriesPill.click();
+      const minQuickSelect = page.locator('.tray-form-group').filter({ hasText: 'Quick Select Minimum' }).getByRole('button', { name: '200', exact: true });
+      await minQuickSelect.click();
+
+      // Re-open and select a quick maximum calorie value
+      await caloriesPill.click();
+      const maxQuickSelect = page.locator('.tray-form-group').filter({ hasText: 'Quick Select Maximum' }).getByRole('button', { name: '600', exact: true });
+      await maxQuickSelect.click();
+
+      // Pill should show the selected range
+      await expect(caloriesPill).toContainText('200-600');
+
+      // Then all displayed items should stay within the selected calorie range
+      const foodCards = page.locator('.food-card');
+      const count = await foodCards.count();
+      expect(count).toBeGreaterThan(0);
+
+      for (let i = 0; i < count; i++) {
+        const card = foodCards.nth(i);
+        const calorieElement = card.locator('.nutrition-item').first().locator('.nutrition-value');
+        const calorieText = await calorieElement.textContent();
+        if (calorieText) {
+          const calories = parseInt(calorieText, 10);
+          expect(calories).toBeGreaterThanOrEqual(200);
+          expect(calories).toBeLessThanOrEqual(600);
+        }
+      }
+    });
   });
 
   test.describe('@sort', () => {
