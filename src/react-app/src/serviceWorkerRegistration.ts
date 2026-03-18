@@ -11,14 +11,14 @@ export function registerServiceWorker(): void {
         .then((registration) => {
           console.log('[PWA] Service Worker registered successfully:', registration.scope);
 
-          // Check for updates periodically
+          // When a new service worker is found, tell it to activate immediately
           registration.addEventListener('updatefound', () => {
             const newWorker = registration.installing;
             if (newWorker) {
               newWorker.addEventListener('statechange', () => {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // New content is available, you could notify the user here
-                  console.log('[PWA] New content available, please refresh');
+                  console.log('[PWA] New content available, activating update...');
+                  newWorker.postMessage({ type: 'SKIP_WAITING' });
                 }
               });
             }
@@ -27,6 +27,18 @@ export function registerServiceWorker(): void {
         .catch((error) => {
           console.error('[PWA] Service Worker registration failed:', error);
         });
+    });
+
+    // When a new service worker takes control, reload to get fresh content
+    // This ensures users always see the latest version without manual cache clearing
+    // Only reload if there was already a controller (skip first-time install)
+    let hasController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (hasController) {
+        console.log('[PWA] New service worker activated, reloading for latest content...');
+        window.location.reload();
+      }
+      hasController = true;
     });
   } else {
     console.log('[PWA] Service Workers are not supported in this browser');

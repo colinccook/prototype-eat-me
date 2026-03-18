@@ -7,10 +7,8 @@ const DATA_CACHE_NAME = 'eat-me-data-cache-v1';
 // Development hot-reload filter (should not be cached)
 const DEV_HOT_RELOAD_PATTERN = 'hot-update';
 
-// Static assets to cache on install
+// Static assets to cache on install (excluding index.html which uses network-first)
 const STATIC_ASSETS = [
-  './',
-  './index.html',
   './manifest.json',
   './favicon.svg',
   './apple-touch-icon.png',
@@ -38,7 +36,7 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Activate event - clean up old caches
+// Activate event - clean up old caches and stale entries
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
@@ -52,6 +50,24 @@ self.addEventListener('activate', (event) => {
             return caches.delete(cacheName);
           })
       );
+    }).then(() => {
+      // Purge stale hashed assets (JS/CSS) from the static cache so
+      // the next fetch picks up the new files referenced by the fresh HTML
+      return caches.open(CACHE_NAME).then((cache) => {
+        return cache.keys().then((requests) => {
+          return Promise.all(
+            requests
+              .filter((request) => {
+                const pathname = new URL(request.url).pathname;
+                return pathname.match(/\/assets\/.*\.(js|css)$/);
+              })
+              .map((request) => {
+                console.log('[Service Worker] Purging stale asset:', request.url);
+                return cache.delete(request);
+              })
+          );
+        });
+      });
     }).then(() => {
       // Take control of all pages immediately
       return self.clients.claim();
@@ -70,7 +86,10 @@ self.addEventListener('fetch', (event) => {
 
   // Check if this is a JSON data request
   const isJsonRequest = url.pathname.endsWith('.json') || 
-                        url.pathname.includes('/data/');
+                         url.pathname.includes('/data/');
+
+  // Check if this is a navigation request (HTML page load)
+  const isNavigationRequest = event.request.mode === 'navigate';
 
   if (isJsonRequest) {
     // Network-first strategy for JSON data
@@ -106,8 +125,29 @@ self.addEventListener('fetch', (event) => {
           });
       })
     );
+  } else if (isNavigationRequest) {
+    // Network-first strategy for navigation requests (index.html)
+    // Always try to get the latest HTML so hashed asset references are up to date
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse.ok) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseClone);
+            });
+          }
+          return networkResponse;
+        })
+        .catch(async () => {
+          // Network failed, fall back to cached HTML for offline support
+          console.log('[Service Worker] Network failed for navigation, trying cache');
+          const cachedResponse = await caches.match(event.request);
+          return cachedResponse || caches.match('./index.html');
+        })
+    );
   } else {
-    // Cache-first strategy for static assets
+    // Cache-first strategy for static assets (JS, CSS, images, fonts)
     event.respondWith(
       caches.match(event.request).then((cachedResponse) => {
         if (cachedResponse) {
