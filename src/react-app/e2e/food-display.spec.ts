@@ -169,8 +169,6 @@ test.describe('Food Display', () => {
       const maxQuickSelect = page.locator('.tray-form-group').filter({ hasText: 'Quick Select Maximum' }).getByRole('button', { name: '600', exact: true });
       await maxQuickSelect.click();
 
-      await page.waitForTimeout(500); // Wait for filter to apply
-
       // Pill should show the selected range
       await expect(caloriesPill).toContainText('200-600');
 
