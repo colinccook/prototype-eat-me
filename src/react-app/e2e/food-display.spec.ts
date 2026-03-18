@@ -561,7 +561,6 @@ test.describe('Food Display', () => {
       const foodCards = page.locator('.food-card');
       const cardCount = await foodCards.count();
       
-      let foundAllergens = false;
       for (let i = 0; i < Math.min(cardCount, 10); i++) {
         await foodCards.nth(i).click();
         
@@ -577,7 +576,6 @@ test.describe('Food Display', () => {
           const allergenTags = page.locator('.allergen-tag');
           const tagCount = await allergenTags.count();
           expect(tagCount).toBeGreaterThan(0);
-          foundAllergens = true;
           break;
         }
         
