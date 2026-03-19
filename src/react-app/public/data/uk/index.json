@@ -1,6 +1,10 @@
 {
   "restaurants": [
     {
+      "id": "caffe-nero",
+      "name": "Caffè Nero"
+    },
+    {
       "id": "costa",
       "name": "Costa Coffee"
     },
@@ -19,6 +23,10 @@
     {
       "id": "mcdonalds",
       "name": "McDonald's"
+    },
+    {
+      "id": "nandos",
+      "name": "Nando's"
     },
     {
       "id": "pret",

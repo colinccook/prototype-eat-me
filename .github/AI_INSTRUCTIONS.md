@@ -165,3 +165,69 @@ After any restaurant change:
 4. Create `/data/{region}/food.json` with empty items array
 5. Add region to `/data/index.json`
 6. Sync data to `/src/react-app/public/data/`
+
+## Quick Reference: Current State
+
+This section summarises the current data so agents can orient quickly without reprocessing the entire repository.
+
+### Regions
+
+| Region | ID | Restaurants |
+|--------|----|-------------|
+| United Kingdom | `uk` | caffe-nero, costa, greggs, harvester, kfc, mcdonalds, nandos, pret, starbucks |
+
+### UK Restaurant Summary
+
+| Restaurant | ID | Items | Source PDF | Notes |
+|------------|----|-------|------------|-------|
+| Caffè Nero | `caffe-nero` | ~477 | `caffenero_nutrition_allergens-en_GB.pdf` | Full nutrition + allergens. Has (V)/(Vg) diet markers. Includes food and beverages. |
+| Costa Coffee | `costa` | ~62 | Various in `/raw/uk/costa/` | |
+| Greggs | `greggs` | ~283 | Various in `/raw/uk/greggs/` | Full nutrition including fibre, salt, saturatedFat, sugar. |
+| Harvester | `harvester` | ~108 | Various in `/raw/uk/harvester/` | Full nutrition including salt, saturatedFat, sugar. |
+| KFC | `kfc` | ~54 | Various in `/raw/uk/kfc/` | |
+| McDonald's | `mcdonalds` | ~12 | Various in `/raw/uk/mcdonalds/` | |
+| Nando's | `nandos` | ~137 | `Nandos-Calories.pdf.pdf` | Sodium converted to salt (×2.5/1000). Excludes alcohol/baste items. |
+| Pret A Manger | `pret` | ~32 | Various in `/raw/uk/pret/` | |
+| Starbucks | `starbucks` | ~20 | Various in `/raw/uk/starbucks/` | |
+
+### PDF Processing Tips
+
+- **Install pdfplumber** (`pip install pdfplumber`) for PDF extraction — it handles tables and text well.
+- **Caffe Nero PDFs** use a mixed layout: allergen tables on early pages, then nutrition data interleaved with ingredient text. Extract per-portion values (second column), not per-100g.
+- **Nando's PDFs** use a tabular US-style format with Sodium (mg) — convert to Salt (g) via `salt_g = sodium_mg × 2.5 / 1000`. Values like `<1` should be approximated as `0.5`.
+- Always use **per-portion** nutritional values, not per-100g.
+- For `<X` values (e.g. `<0.1`, `<1`), use the value itself as an approximation (e.g., `0.1`, `0.5`).
+
+### Syncing Data
+
+After any data change, sync canonical data to the app's public directory:
+
+```bash
+rsync -av --delete data/ src/react-app/public/data/
+```
+
+### Regenerating Regional Merged food.json
+
+Use this Python snippet to regenerate `/data/{region}/food.json` from all restaurant files:
+
+```python
+import json, os
+
+region = "uk"
+with open(f'data/{region}/index.json') as f:
+    index = json.load(f)
+
+all_items = []
+for r in index['restaurants']:
+    path = f'data/{region}/{r["id"]}/food.json'
+    if os.path.exists(path):
+        with open(path) as f:
+            data = json.load(f)
+        for item in data['items']:
+            item['restaurant'] = r['name']
+            all_items.append(item)
+
+all_items.sort(key=lambda x: (x['name'].lower(), x['restaurant'].lower()))
+with open(f'data/{region}/food.json', 'w') as f:
+    json.dump({"region": "United Kingdom", "items": all_items}, f, indent=2, ensure_ascii=False)
+```
