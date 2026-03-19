@@ -21,6 +21,10 @@
       "name": "McDonald's"
     },
     {
+      "id": "pret",
+      "name": "Pret A Manger"
+    },
+    {
       "id": "starbucks",
       "name": "Starbucks"
     }

@@ -1,0 +1,485 @@
+{
+  "restaurant": "Pret A Manger",
+  "items": [
+    {
+      "name": "Almond Croissant",
+      "calories": 382,
+      "macros": {
+        "protein": 9.0,
+        "carbohydrates": 40.0,
+        "fat": 21.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "BLT Sandwich",
+      "calories": 430,
+      "macros": {
+        "protein": 16.0,
+        "carbohydrates": 41.0,
+        "fat": 22.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Butter Croissant",
+      "calories": 291,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 33.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Chef's Italian Chicken Salad",
+      "calories": 526,
+      "macros": {
+        "protein": 40.0,
+        "carbohydrates": 12.0,
+        "fat": 36.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chicken & Avo Protein Bowl",
+      "calories": 363,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 7.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chicken Caesar & Bacon Baguette",
+      "calories": 585,
+      "macros": {
+        "protein": 39.0,
+        "carbohydrates": 65.0,
+        "fat": 18.0,
+        "fibre": 5.0,
+        "salt": 2.6,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chicken Pesto Wrap",
+      "calories": 500,
+      "macros": {
+        "protein": 27.0,
+        "carbohydrates": 48.0,
+        "fat": 22.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chicken, Avocado & Basil Sandwich",
+      "calories": 378,
+      "macros": {
+        "protein": 22.0,
+        "carbohydrates": 35.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Chocolate Brownie Bar",
+      "calories": 204,
+      "macros": {
+        "protein": 2.0,
+        "carbohydrates": 27.0,
+        "fat": 10.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Chocolate Chunk Cookie",
+      "calories": 370,
+      "macros": {
+        "protein": 5.0,
+        "carbohydrates": 44.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Chocolate Croissant",
+      "calories": 350,
+      "macros": {
+        "protein": 7.0,
+        "carbohydrates": 36.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Cinnamon Danish",
+      "calories": 489,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 60.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Classic Super Club Sandwich",
+      "calories": 550,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 50.0,
+        "fat": 25.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Crayfish & Rocket Sandwich",
+      "calories": 352,
+      "macros": {
+        "protein": 17.0,
+        "carbohydrates": 38.0,
+        "fat": 13.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Dark Chocolate & Almond Butter Cookie",
+      "calories": 377,
+      "macros": {
+        "protein": 5.0,
+        "carbohydrates": 40.0,
+        "fat": 21.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Double Berry Muffin",
+      "calories": 441,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 65.0,
+        "fat": 17.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Egg & Spinach Protein Pot",
+      "calories": 103,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 1.0,
+        "fat": 7.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Falafel, Avocado & Chipotle Salad Wrap",
+      "calories": 480,
+      "macros": {
+        "protein": 11.0,
+        "carbohydrates": 65.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Free-Range Egg Mayo Sandwich",
+      "calories": 379,
+      "macros": {
+        "protein": 13.9,
+        "carbohydrates": 44.2,
+        "fat": 14.3,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Hoisin Duck Salad Wrap",
+      "calories": 475,
+      "macros": {
+        "protein": 20.0,
+        "carbohydrates": 52.0,
+        "fat": 19.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Mature Cheddar & Pickle Sandwich",
+      "calories": 420,
+      "macros": {
+        "protein": 16.0,
+        "carbohydrates": 42.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Mozzarella & Tomato Croissant",
+      "calories": 322,
+      "macros": {
+        "protein": 11.0,
+        "carbohydrates": 30.0,
+        "fat": 17.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Pain aux Raisin",
+      "calories": 394,
+      "macros": {
+        "protein": 7.0,
+        "carbohydrates": 56.0,
+        "fat": 15.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Posh Cheddar & Pickle Baguette",
+      "calories": 480,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 55.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Pret's Proper Porridge",
+      "calories": 216,
+      "macros": {
+        "protein": 9.0,
+        "carbohydrates": 24.0,
+        "fat": 9.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Sea Salt Crisps",
+      "calories": 190,
+      "macros": {
+        "protein": 2.0,
+        "carbohydrates": 22.0,
+        "fat": 10.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Superfruit Salad",
+      "calories": 88,
+      "macros": {
+        "protein": 1.0,
+        "carbohydrates": 20.0,
+        "fat": 0.2,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "The VLT Sandwich",
+      "calories": 340,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 40.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Tuna Mayo & Cucumber Baguette",
+      "calories": 515,
+      "macros": {
+        "protein": 19.0,
+        "carbohydrates": 55.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Tuna Nicoise Salad",
+      "calories": 357,
+      "macros": {
+        "protein": 23.0,
+        "carbohydrates": 15.0,
+        "fat": 22.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Very Berry Croissant",
+      "calories": 300,
+      "macros": {
+        "protein": 4.0,
+        "carbohydrates": 44.0,
+        "fat": 11.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "name": "Wiltshire-Cured Ham & Greve Baguette",
+      "calories": 543,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 49.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    }
+  ]
+}

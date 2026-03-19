@@ -7,7 +7,11 @@
       "macros": {
         "protein": 26.0,
         "carbohydrates": 43.0,
-        "fat": 25.0
+        "fat": 25.0,
+        "saturatedFat": 10.0,
+        "sugar": 9.0,
+        "fibre": 3.0,
+        "salt": null
       },
       "vegetarian": false,
       "vegan": false
@@ -18,7 +22,11 @@
       "macros": {
         "protein": 17.0,
         "carbohydrates": 40.0,
-        "fat": 17.0
+        "fat": 17.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
       },
       "vegetarian": false,
       "vegan": false
@@ -29,7 +37,11 @@
       "macros": {
         "protein": 15.0,
         "carbohydrates": 35.0,
-        "fat": 14.0
+        "fat": 14.0,
+        "saturatedFat": 4.0,
+        "sugar": 5.0,
+        "fibre": 2.0,
+        "salt": null
       },
       "vegetarian": false,
       "vegan": false
@@ -40,7 +52,11 @@
       "macros": {
         "protein": 3.0,
         "carbohydrates": 18.0,
-        "fat": 10.0
+        "fat": 10.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
       },
       "vegetarian": true,
       "vegan": true
@@ -51,7 +67,11 @@
       "macros": {
         "protein": 19.0,
         "carbohydrates": 44.0,
-        "fat": 18.0
+        "fat": 18.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
       },
       "vegetarian": true,
       "vegan": true
@@ -62,7 +82,11 @@
       "macros": {
         "protein": 15.0,
         "carbohydrates": 15.0,
-        "fat": 15.0
+        "fat": 15.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
       },
       "vegetarian": false,
       "vegan": false
@@ -73,7 +97,11 @@
       "macros": {
         "protein": 31.0,
         "carbohydrates": 37.0,
-        "fat": 27.0
+        "fat": 27.0,
+        "saturatedFat": 21.0,
+        "sugar": 10.0,
+        "fibre": 3.0,
+        "salt": null
       },
       "vegetarian": false,
       "vegan": false
@@ -84,7 +112,11 @@
       "macros": {
         "protein": 17.0,
         "carbohydrates": 26.0,
-        "fat": 12.0
+        "fat": 12.0,
+        "saturatedFat": 6.0,
+        "sugar": 3.0,
+        "fibre": 2.0,
+        "salt": null
       },
       "vegetarian": true,
       "vegan": false
@@ -95,7 +127,11 @@
       "macros": {
         "protein": 1.0,
         "carbohydrates": 15.0,
-        "fat": 8.0
+        "fat": 8.0,
+        "saturatedFat": 1.5,
+        "sugar": 0.0,
+        "fibre": 1.0,
+        "salt": null
       },
       "vegetarian": true,
       "vegan": true
@@ -106,7 +142,11 @@
       "macros": {
         "protein": 23.0,
         "carbohydrates": 4.0,
-        "fat": 3.0
+        "fat": 3.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
       },
       "vegetarian": false,
       "vegan": false
@@ -117,7 +157,11 @@
       "macros": {
         "protein": 1.0,
         "carbohydrates": 2.0,
-        "fat": 0.0
+        "fat": 0.0,
+        "saturatedFat": 0.0,
+        "sugar": 1.0,
+        "fibre": 1.0,
+        "salt": null
       },
       "vegetarian": true,
       "vegan": true
@@ -128,7 +172,11 @@
       "macros": {
         "protein": 4.0,
         "carbohydrates": 42.0,
-        "fat": 16.0
+        "fat": 16.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
       },
       "vegetarian": true,
       "vegan": true

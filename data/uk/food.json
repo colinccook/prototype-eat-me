@@ -202,6 +202,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Almond Croissant",
+      "calories": 382,
+      "macros": {
+        "protein": 9.0,
+        "carbohydrates": 40.0,
+        "fat": 21.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Alpro Plant Alternative - Coconut",
       "calories": 64,
       "macros": {
@@ -543,6 +559,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "BLT Sandwich",
+      "calories": 430,
+      "macros": {
+        "protein": 16.0,
+        "carbohydrates": 41.0,
+        "fat": 22.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Bacon & Lorne Breakfast Baguette",
       "calories": 607,
       "macros": {
@@ -874,6 +906,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Butter Croissant",
+      "calories": 291,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 33.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Buttered Green Beans",
@@ -1500,6 +1548,22 @@
       "restaurant": "KFC"
     },
     {
+      "name": "Chef's Italian Chicken Salad",
+      "calories": 526,
+      "macros": {
+        "protein": 40.0,
+        "carbohydrates": 12.0,
+        "fat": 36.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Cherry & Mango Cooler",
       "calories": 80,
       "macros": {
@@ -1545,6 +1609,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Greggs"
+    },
+    {
+      "name": "Chicken & Avo Protein Bowl",
+      "calories": 363,
+      "macros": {
+        "protein": 29.0,
+        "carbohydrates": 7.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Chicken & Bacon Pasta",
@@ -1609,6 +1689,22 @@
       "restaurant": "Harvester"
     },
     {
+      "name": "Chicken Caesar & Bacon Baguette",
+      "calories": 585,
+      "macros": {
+        "protein": 39.0,
+        "carbohydrates": 65.0,
+        "fat": 18.0,
+        "fibre": 5.0,
+        "salt": 2.6,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Chicken Caesar Wrap",
       "calories": 457,
       "macros": {
@@ -1657,6 +1753,22 @@
       "restaurant": "McDonald's"
     },
     {
+      "name": "Chicken Pesto Wrap",
+      "calories": 500,
+      "macros": {
+        "protein": 27.0,
+        "carbohydrates": 48.0,
+        "fat": 22.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Chicken Sharing Box",
       "calories": 790,
       "macros": {
@@ -1702,6 +1814,22 @@
       "vegetarian": true,
       "vegan": false,
       "restaurant": "Greggs"
+    },
+    {
+      "name": "Chicken, Avocado & Basil Sandwich",
+      "calories": 378,
+      "macros": {
+        "protein": 22.0,
+        "carbohydrates": 35.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Chicken, Sweetcorn & Red Onion Pizza",
@@ -1799,6 +1927,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Chocolate Brownie Bar",
+      "calories": 204,
+      "macros": {
+        "protein": 2.0,
+        "carbohydrates": 27.0,
+        "fat": 10.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Chocolate Cake Bar",
       "calories": 302,
       "macros": {
@@ -1813,6 +1957,38 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Greggs"
+    },
+    {
+      "name": "Chocolate Chunk Cookie",
+      "calories": 370,
+      "macros": {
+        "protein": 5.0,
+        "carbohydrates": 44.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
+      "name": "Chocolate Croissant",
+      "calories": 350,
+      "macros": {
+        "protein": 7.0,
+        "carbohydrates": 36.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Chocolate Fudge Cake",
@@ -1892,6 +2068,22 @@
       "restaurant": "Harvester"
     },
     {
+      "name": "Cinnamon Danish",
+      "calories": 489,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 60.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Classic Burger",
       "calories": 914,
       "macros": {
@@ -1905,6 +2097,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Classic Super Club Sandwich",
+      "calories": 550,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 50.0,
+        "fat": 25.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Cloudy Lemonade",
@@ -2015,6 +2223,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Crayfish & Rocket Sandwich",
+      "calories": 352,
+      "macros": {
+        "protein": 17.0,
+        "carbohydrates": 38.0,
+        "fat": 13.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Cream Iced Finger",
@@ -2141,6 +2365,22 @@
       "restaurant": "Harvester"
     },
     {
+      "name": "Dark Chocolate & Almond Butter Cookie",
+      "calories": 377,
+      "macros": {
+        "protein": 5.0,
+        "carbohydrates": 40.0,
+        "fat": 21.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Deep Fill Bramley Apple Pie",
       "calories": 467,
       "macros": {
@@ -2208,6 +2448,22 @@
       "vegetarian": true,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Double Berry Muffin",
+      "calories": 441,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 65.0,
+        "fat": 17.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Double Up Mayo Crispy Chicken Burger",
@@ -2286,6 +2542,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Greggs"
+    },
+    {
+      "name": "Egg & Spinach Protein Pot",
+      "calories": 103,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 1.0,
+        "fat": 7.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Egg & Tomato Roll (HS)",
@@ -2687,6 +2959,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Falafel, Avocado & Chipotle Salad Wrap",
+      "calories": 480,
+      "macros": {
+        "protein": 11.0,
+        "carbohydrates": 65.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Fat Free Greek Style Yoghurt with Strawberry Compote",
       "calories": 114,
       "macros": {
@@ -2942,6 +3230,22 @@
       "vegetarian": true,
       "vegan": false,
       "restaurant": "Greggs"
+    },
+    {
+      "name": "Free-Range Egg Mayo Sandwich",
+      "calories": 379,
+      "macros": {
+        "protein": 13.9,
+        "carbohydrates": 44.2,
+        "fat": 14.3,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Fruit Salad",
@@ -3480,6 +3784,22 @@
       "vegetarian": true,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Hoisin Duck Salad Wrap",
+      "calories": 475,
+      "macros": {
+        "protein": 20.0,
+        "carbohydrates": 52.0,
+        "fat": 19.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Hollandaise",
@@ -4801,6 +5121,22 @@
       "restaurant": "Costa"
     },
     {
+      "name": "Mature Cheddar & Pickle Sandwich",
+      "calories": 420,
+      "macros": {
+        "protein": 16.0,
+        "carbohydrates": 42.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Mature Cheddar Cheese Ploughman's Oval Bite",
       "calories": 456,
       "macros": {
@@ -5342,6 +5678,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Mozzarella & Tomato Croissant",
+      "calories": 322,
+      "macros": {
+        "protein": 11.0,
+        "carbohydrates": 30.0,
+        "fat": 17.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "NGCI Sticky Toffee Pudding with custard",
       "calories": 367,
       "macros": {
@@ -5605,6 +5957,22 @@
       "restaurant": "Starbucks"
     },
     {
+      "name": "Pain aux Raisin",
+      "calories": 394,
+      "macros": {
+        "protein": 7.0,
+        "carbohydrates": 56.0,
+        "fat": 15.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Peach Melba",
       "calories": 369,
       "macros": {
@@ -5810,6 +6178,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Posh Cheddar & Pickle Baguette",
+      "calories": 480,
+      "macros": {
+        "protein": 18.0,
+        "carbohydrates": 55.0,
+        "fat": 20.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Potato Skins",
       "calories": 346,
       "macros": {
@@ -5823,6 +6207,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Pret's Proper Porridge",
+      "calories": 216,
+      "macros": {
+        "protein": 9.0,
+        "carbohydrates": 24.0,
+        "fat": 9.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Pure Cane Sugar Syrup",
@@ -6391,6 +6791,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Sea Salt Crisps",
+      "calories": 190,
+      "macros": {
+        "protein": 2.0,
+        "carbohydrates": 22.0,
+        "fat": 10.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Seasoned Fries",
       "calories": 406,
       "macros": {
@@ -6439,6 +6855,21 @@
     },
     {
       "name": "Side Salad",
+      "calories": 56,
+      "macros": {
+        "protein": 0.8,
+        "carbohydrates": 4.7,
+        "fat": 3.6,
+        "salt": 0.2,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "KFC"
+    },
+    {
+      "name": "Side Salad",
       "calories": 15,
       "macros": {
         "protein": 1.0,
@@ -6452,21 +6883,6 @@
       "vegetarian": true,
       "vegan": true,
       "restaurant": "McDonald's"
-    },
-    {
-      "name": "Side Salad",
-      "calories": 56,
-      "macros": {
-        "protein": 0.8,
-        "carbohydrates": 4.7,
-        "fat": 3.6,
-        "salt": 0.2,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false,
-      "restaurant": "KFC"
     },
     {
       "name": "Signature 12oz Rump Steak with Dukes Smokey Ketchup Glaze",
@@ -7323,21 +7739,6 @@
     },
     {
       "name": "Strawberry Sauce",
-      "calories": 55,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 13.7,
-        "fat": 0.0,
-        "salt": 0.05,
-        "saturatedFat": 0.0,
-        "sugar": 8.1
-      },
-      "vegetarian": true,
-      "vegan": false,
-      "restaurant": "Harvester"
-    },
-    {
-      "name": "Strawberry Sauce",
       "calories": 20,
       "macros": {
         "protein": 0.0,
@@ -7351,6 +7752,21 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Costa"
+    },
+    {
+      "name": "Strawberry Sauce",
+      "calories": 55,
+      "macros": {
+        "protein": 0.0,
+        "carbohydrates": 13.7,
+        "fat": 0.0,
+        "salt": 0.05,
+        "saturatedFat": 0.0,
+        "sugar": 8.1
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "Harvester"
     },
     {
       "name": "Sugar Strand Doughnut",
@@ -7412,6 +7828,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "KFC"
+    },
+    {
+      "name": "Superfruit Salad",
+      "calories": 88,
+      "macros": {
+        "protein": 1.0,
+        "carbohydrates": 20.0,
+        "fat": 0.2,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Sweet Chilli Chicken Wrap",
@@ -7687,6 +8119,22 @@
       "restaurant": "Harvester"
     },
     {
+      "name": "The VLT Sandwich",
+      "calories": 340,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 40.0,
+        "fat": 16.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Tomato Soup",
       "calories": 195,
       "macros": {
@@ -7830,6 +8278,22 @@
       "restaurant": "Greggs"
     },
     {
+      "name": "Tuna Mayo & Cucumber Baguette",
+      "calories": 515,
+      "macros": {
+        "protein": 19.0,
+        "carbohydrates": 55.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Tuna Mayonnaise & Cucumber",
       "calories": 329,
       "macros": {
@@ -7860,6 +8324,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Greggs"
+    },
+    {
+      "name": "Tuna Nicoise Salad",
+      "calories": 357,
+      "macros": {
+        "protein": 23.0,
+        "carbohydrates": 15.0,
+        "fat": 22.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Tuna Pasta",
@@ -8236,6 +8716,22 @@
       "restaurant": "KFC"
     },
     {
+      "name": "Very Berry Croissant",
+      "calories": 300,
+      "macros": {
+        "protein": 4.0,
+        "carbohydrates": 44.0,
+        "fat": 11.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": true,
+      "vegan": true,
+      "restaurant": "Pret A Manger"
+    },
+    {
       "name": "Waffle & Ice Cream Sandwich with Raspberries in Sauce & Fresh Strawberries",
       "calories": 957,
       "macros": {
@@ -8519,6 +9015,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Wiltshire-Cured Ham & Greve Baguette",
+      "calories": 543,
+      "macros": {
+        "protein": 28.0,
+        "carbohydrates": 49.0,
+        "fat": 24.0,
+        "fibre": null,
+        "salt": null,
+        "saturatedFat": null,
+        "sugar": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "Pret A Manger"
     },
     {
       "name": "Yum Yum",

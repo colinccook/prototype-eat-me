@@ -123,6 +123,16 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 4. **Validate schema**: Ensure all data conforms to the food.json schema
 5. **Remove duplicates**: Prevent duplicate entries when regenerating merged files
 
+## Important: Always Update Regional Merged Data
+
+**Whenever a restaurant's data is added, updated, or removed, you MUST regenerate the regional merged `food.json`.**
+
+The regional merged file (`/data/{region}/food.json`) contains all items from all restaurants in that region. It must always be kept in sync with the individual restaurant data files. Failing to update this file will cause the application to show stale or incomplete data.
+
+After any restaurant change:
+1. Regenerate `/data/{region}/food.json` by merging all restaurant items
+2. Sync the updated data to `/src/react-app/public/data/` so the application serves the latest data
+
 ## Common Tasks
 
 ### Adding a New Restaurant
@@ -130,13 +140,22 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 1. Place source document in `/raw/{region}/{restaurant}/`
 2. Create `/data/{region}/{restaurant}/food.json` with extracted items
 3. Add restaurant to `/data/{region}/index.json`
-4. Regenerate `/data/{region}/food.json`
+4. Regenerate `/data/{region}/food.json` (merge all restaurant items)
+5. Sync data to `/src/react-app/public/data/`
 
 ### Updating Restaurant Menu
 
 1. Update source document in `/raw/{region}/{restaurant}/`
 2. Re-extract items to `/data/{region}/{restaurant}/food.json`
-3. Regenerate `/data/{region}/food.json`
+3. Regenerate `/data/{region}/food.json` (merge all restaurant items)
+4. Sync data to `/src/react-app/public/data/`
+
+### Removing a Restaurant
+
+1. Remove `/data/{region}/{restaurant}/` directory
+2. Remove restaurant from `/data/{region}/index.json`
+3. Regenerate `/data/{region}/food.json` (merge remaining restaurant items)
+4. Sync data to `/src/react-app/public/data/`
 
 ### Adding a New Region
 
@@ -145,3 +164,4 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 3. Create `/data/{region}/index.json` with empty restaurants array
 4. Create `/data/{region}/food.json` with empty items array
 5. Add region to `/data/index.json`
+6. Sync data to `/src/react-app/public/data/`
