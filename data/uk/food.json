@@ -2602,6 +2602,22 @@
       "restaurant": "Pret A Manger"
     },
     {
+      "name": "Blueberry & Vanilla Custard Brioche",
+      "calories": 363,
+      "macros": {
+        "protein": 7.9,
+        "carbohydrates": 44.2,
+        "fat": 17.7,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
+    },
+    {
       "name": "Blueberry Muffin",
       "calories": 359,
       "macros": {
@@ -5455,6 +5471,22 @@
       "restaurant": "Harvester"
     },
     {
+      "name": "Chocolate & Almond Croissant",
+      "calories": 795,
+      "macros": {
+        "protein": 16.0,
+        "carbohydrates": 69.0,
+        "fat": 50.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
+    },
+    {
       "name": "Chocolate Brownie Bar",
       "calories": 215,
       "macros": {
@@ -6218,6 +6250,22 @@
       "vegetarian": true,
       "vegan": false,
       "restaurant": "Caffè Nero"
+    },
+    {
+      "name": "Cinnamon Bun",
+      "calories": 501,
+      "macros": {
+        "protein": 5.8,
+        "carbohydrates": 69.0,
+        "fat": 23.0,
+        "saturatedFat": null,
+        "sugar": 34.0,
+        "fibre": 3.5,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
     },
     {
       "name": "Cinnamon Danish",
@@ -7086,6 +7134,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Harvester"
+    },
+    {
+      "name": "Croissant",
+      "calories": 356,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 40.0,
+        "fat": 19.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
     },
     {
       "name": "Cropwell Bishop Stilton & Thick-Cut Bacon",
@@ -9897,6 +9961,22 @@
       "vegetarian": false,
       "vegan": false,
       "restaurant": "Caffè Nero"
+    },
+    {
+      "name": "Ham & Cheese Croissant",
+      "calories": 768,
+      "macros": {
+        "protein": 30.0,
+        "carbohydrates": 49.0,
+        "fat": 50.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": false,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
     },
     {
       "name": "Ham & Cheese Tostati Melt",
@@ -18903,6 +18983,22 @@
     },
     {
       "name": "Pain au Chocolat",
+      "calories": 423,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 47.0,
+        "fat": 23.0,
+        "saturatedFat": 14.0,
+        "sugar": 14.0,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
+    },
+    {
+      "name": "Pain au Chocolat",
       "calories": 299,
       "macros": {
         "protein": 6.6,
@@ -24347,6 +24443,22 @@
       "vegetarian": true,
       "vegan": true,
       "restaurant": "Nando's"
+    },
+    {
+      "name": "Spinach & Feta Roll",
+      "calories": 414,
+      "macros": {
+        "protein": 10.9,
+        "carbohydrates": 24.6,
+        "fat": 29.6,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false,
+      "restaurant": "GAIL's Bakery"
     },
     {
       "name": "Spread",
