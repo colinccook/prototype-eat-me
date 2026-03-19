@@ -174,7 +174,7 @@ This section summarises the current data so agents can orient quickly without re
 
 | Region | ID | Restaurants |
 |--------|----|-------------|
-| United Kingdom | `uk` | caffe-nero, costa, greggs, harvester, kfc, mcdonalds, nandos, pret, starbucks |
+| United Kingdom | `uk` | caffe-nero, costa, gails, greggs, harvester, kfc, mcdonalds, nandos, pret, starbucks |
 
 ### UK Restaurant Summary
 
@@ -182,6 +182,7 @@ This section summarises the current data so agents can orient quickly without re
 |------------|----|-------|------------|-------|
 | Caffè Nero | `caffe-nero` | ~477 | `caffenero_nutrition_allergens-en_GB.pdf` | Full nutrition + allergens. Has (V)/(Vg) diet markers. Includes food and beverages. |
 | Costa Coffee | `costa` | ~62 | Various in `/raw/uk/costa/` | |
+| GAIL's Bakery | `gails` | ~7 | N/A (web-sourced from gails.com, FatSecret, MyNetDiary) | Calories from gails.com; macros from FatSecret/MyNetDiary where available. Per-item values. |
 | Greggs | `greggs` | ~283 | Various in `/raw/uk/greggs/` | Full nutrition including fibre, salt, saturatedFat, sugar. |
 | Harvester | `harvester` | ~108 | Various in `/raw/uk/harvester/` | Full nutrition including salt, saturatedFat, sugar. |
 | KFC | `kfc` | ~54 | Various in `/raw/uk/kfc/` | |

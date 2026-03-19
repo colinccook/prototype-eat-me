@@ -1,0 +1,110 @@
+{
+  "restaurant": "GAIL's Bakery",
+  "items": [
+    {
+      "name": "Blueberry & Vanilla Custard Brioche",
+      "calories": 363,
+      "macros": {
+        "protein": 7.9,
+        "carbohydrates": 44.2,
+        "fat": 17.7,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Chocolate & Almond Croissant",
+      "calories": 795,
+      "macros": {
+        "protein": 16.0,
+        "carbohydrates": 69.0,
+        "fat": 50.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Cinnamon Bun",
+      "calories": 501,
+      "macros": {
+        "protein": 5.8,
+        "carbohydrates": 69.0,
+        "fat": 23.0,
+        "saturatedFat": null,
+        "sugar": 34.0,
+        "fibre": 3.5,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Croissant",
+      "calories": 356,
+      "macros": {
+        "protein": 6.0,
+        "carbohydrates": 40.0,
+        "fat": 19.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Ham & Cheese Croissant",
+      "calories": 768,
+      "macros": {
+        "protein": 30.0,
+        "carbohydrates": 49.0,
+        "fat": 50.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "name": "Pain au Chocolat",
+      "calories": 423,
+      "macros": {
+        "protein": 8.0,
+        "carbohydrates": 47.0,
+        "fat": 23.0,
+        "saturatedFat": 14.0,
+        "sugar": 14.0,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    },
+    {
+      "name": "Spinach & Feta Roll",
+      "calories": 414,
+      "macros": {
+        "protein": 10.9,
+        "carbohydrates": 24.6,
+        "fat": 29.6,
+        "saturatedFat": null,
+        "sugar": null,
+        "fibre": null,
+        "salt": null
+      },
+      "vegetarian": true,
+      "vegan": false
+    }
+  ]
+}
