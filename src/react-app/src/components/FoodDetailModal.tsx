@@ -65,6 +65,7 @@ function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProp
     try {
       await navigator.clipboard.writeText(url);
     } catch {
+      // Fallback for legacy browsers without Clipboard API (e.g. older WebViews)
       const textarea = document.createElement('textarea');
       textarea.value = url;
       textarea.style.position = 'fixed';

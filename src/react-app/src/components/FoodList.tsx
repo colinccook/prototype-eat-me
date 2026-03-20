@@ -22,8 +22,9 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const [showToast, setShowToast] = useState(false);
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
 
-  // Handle initial item deep-link: auto-open the matching item once items are loaded
-  // Uses React's "adjusting state during rendering" pattern to avoid setState in effect
+  // Handle initial item deep-link: auto-open the matching item once items are loaded.
+  // Uses React's "adjusting state during rendering" pattern (per React docs) because
+  // the project's react-hooks/set-state-in-effect lint rule forbids setState inside useEffect.
   if (initialItem && items.length > 0 && !selectedItem && !initialItemConsumed) {
     const match = items.find(item => {
       const nameMatch = item.name === initialItem.name;
@@ -54,7 +55,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     try {
       await navigator.clipboard.writeText(url);
     } catch {
-      // Fallback: use a temporary textarea for environments without clipboard API
+      // Fallback for legacy browsers without Clipboard API (e.g. older WebViews)
       const textarea = document.createElement('textarea');
       textarea.value = url;
       textarea.style.position = 'fixed';
