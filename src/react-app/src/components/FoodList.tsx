@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
-import type { FoodItem, SortOption } from '../types';
+import type { FoodItem, SortOption, FilterOptions } from '../types';
+import { shareFilters } from '../urlState';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
 import SkeletonCard from './SkeletonCard';
@@ -9,12 +10,35 @@ import './SkeletonCard.css';
 interface FoodListProps {
   items: FoodItem[];
   sortBy: SortOption;
+  filters: FilterOptions;
   isLoading: boolean;
   error: string | null;
+  initialItem?: { name: string; restaurant?: string } | null;
+  onClearInitialItem?: () => void;
 }
 
-function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
+function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem }: FoodListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
+  const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
+  const [initialItemConsumed, setInitialItemConsumed] = useState(false);
+
+  // Handle initial item deep-link: auto-open the matching item once items are loaded.
+  // Uses React's "adjusting state during rendering" pattern (per React docs) because
+  // the project's react-hooks/set-state-in-effect lint rule forbids setState inside useEffect.
+  if (initialItem && items.length > 0 && !selectedItem && !initialItemConsumed) {
+    const match = items.find(item => {
+      const nameMatch = item.name === initialItem.name;
+      if (initialItem.restaurant) {
+        return nameMatch && item.restaurant === initialItem.restaurant;
+      }
+      return nameMatch;
+    });
+    if (match) {
+      setSelectedItem(match);
+      setInitialItemConsumed(true);
+    }
+  }
 
   const handleItemClick = useCallback((item: FoodItem) => {
     setSelectedItem(item);
@@ -22,7 +46,19 @@ function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
 
   const handleCloseModal = useCallback(() => {
     setSelectedItem(null);
-  }, []);
+    if (initialItem && onClearInitialItem) {
+      onClearInitialItem();
+    }
+  }, [initialItem, onClearInitialItem]);
+
+  const handleShareFilters = useCallback(async () => {
+    const result = await shareFilters(filters);
+    if (result === 'copied') {
+      setToastMessage('Link copied to clipboard');
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 2000);
+    }
+  }, [filters]);
 
   if (isLoading) {
     return (
@@ -60,7 +96,24 @@ function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
     <div className="food-list">
       <div className="food-list-header">
         <span className="item-count">{items.length} item{items.length !== 1 ? 's' : ''} found</span>
+        <button
+          className="share-button"
+          onClick={handleShareFilters}
+          aria-label="Share current filters"
+          title="Share these results"
+        >
+          <svg className="share-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="18" cy="5" r="3"/>
+            <circle cx="6" cy="12" r="3"/>
+            <circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+        </button>
       </div>
+      {showToast && (
+        <div className="share-toast" role="status">{toastMessage}</div>
+      )}
       <div className="food-grid">
         {items.map((item, index) => (
           <FoodCard 
@@ -71,7 +124,7 @@ function FoodList({ items, sortBy, isLoading, error }: FoodListProps) {
           />
         ))}
       </div>
-      <FoodDetailModal item={selectedItem} sortBy={sortBy} onClose={handleCloseModal} />
+      <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} />
     </div>
   );
 }

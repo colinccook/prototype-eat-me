@@ -1,10 +1,13 @@
-import type { FoodItem, SortOption } from '../types';
+import { useState, useCallback } from 'react';
+import type { FoodItem, SortOption, FilterOptions } from '../types';
+import { shareItem } from '../urlState';
 import Tray from './Tray';
 import './FoodDetailModal.css';
 
 interface FoodDetailModalProps {
   item: FoodItem | null;
   sortBy: SortOption;
+  filters: FilterOptions;
   onClose: () => void;
 }
 
@@ -53,7 +56,20 @@ function getPrimaryMetric(item: FoodItem, sortBy: SortOption): { value: string; 
   }
 }
 
-function FoodDetailModal({ item, sortBy, onClose }: FoodDetailModalProps) {
+function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProps) {
+  const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
+
+  const handleShareItem = useCallback(async () => {
+    if (!item) return;
+    const result = await shareItem(item, filters);
+    if (result === 'copied') {
+      setToastMessage('Link copied to clipboard');
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 2000);
+    }
+  }, [item, filters]);
+
   if (!item) return null;
 
   const proteinPerCalorie = item.calories > 0 
@@ -84,7 +100,26 @@ function FoodDetailModal({ item, sortBy, onClose }: FoodDetailModalProps) {
         {item.restaurant && (
           <span className="modal-restaurant">{item.restaurant}</span>
         )}
+        <button
+          className="share-item-button"
+          onClick={handleShareItem}
+          aria-label="Share this item"
+          title="Share this item"
+        >
+          <svg className="share-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="18" cy="5" r="3"/>
+            <circle cx="6" cy="12" r="3"/>
+            <circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+          Share
+        </button>
       </div>
+
+      {showToast && (
+        <div className="share-toast" role="status">{toastMessage}</div>
+      )}
 
       {/* Dietary badges */}
       {(item.vegetarian || item.vegan) && (

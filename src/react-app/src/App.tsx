@@ -11,6 +11,7 @@ import {
   fetchRegionFood 
 } from './api';
 import { clearDataCache } from './serviceWorkerRegistration';
+import { searchParamsToFilters, getItemFromSearchParams, updateUrlWithFilters } from './urlState';
 import HeaderPills from './components/HeaderPills';
 import FoodList from './components/FoodList';
 import './App.css';
@@ -49,13 +50,16 @@ function App() {
   const appRef = useRef<HTMLDivElement>(null);
   const touchStartY = useRef<number | null>(null);
   
-  const [filters, setFilters] = useState<FilterOptions>({
-    vegetarianOnly: false,
-    veganOnly: false,
-    minCalories: null,
-    maxCalories: null,
-    sortBy: 'protein-per-calorie-desc',
-    selectedRestaurants: []
+  // Initialize filters from URL query parameters
+  const [filters, setFilters] = useState<FilterOptions>(() => {
+    const params = new URLSearchParams(window.location.search);
+    return searchParamsToFilters(params);
+  });
+
+  // Read initial item deep-link from URL
+  const [initialItem, setInitialItem] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return getItemFromSearchParams(params);
   });
 
   // Load regions on mount
@@ -126,6 +130,17 @@ function App() {
   useEffect(() => {
     updateGlobalLoadingFlag(isLoading);
   }, [isLoading]);
+
+  // Sync filters to URL whenever they change
+  useEffect(() => {
+    updateUrlWithFilters(filters);
+  }, [filters]);
+
+  const handleClearInitialItem = useCallback(() => {
+    setInitialItem(null);
+    // Remove item params from URL, keep filter params
+    updateUrlWithFilters(filters);
+  }, [filters]);
 
   const handleRegionChange = useCallback((regionId: string | null) => {
     if (regionId === selectedRegion) {
@@ -342,8 +357,11 @@ function App() {
             <FoodList
               items={filteredItems}
               sortBy={filters.sortBy}
+              filters={filters}
               isLoading={isLoading}
               error={error}
+              initialItem={initialItem}
+              onClearInitialItem={handleClearInitialItem}
             />
           </section>
         )}
