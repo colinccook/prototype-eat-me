@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
-import { buildShareUrl } from '../urlState';
+import { shareFilters } from '../urlState';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
 import SkeletonCard from './SkeletonCard';
@@ -20,6 +20,7 @@ interface FoodListProps {
 function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem }: FoodListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
   const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
 
   // Handle initial item deep-link: auto-open the matching item once items are loaded.
@@ -51,22 +52,12 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   }, [initialItem, onClearInitialItem]);
 
   const handleShareFilters = useCallback(async () => {
-    const url = buildShareUrl(filters);
-    try {
-      await navigator.clipboard.writeText(url);
-    } catch {
-      // Fallback for legacy browsers without Clipboard API (e.g. older WebViews)
-      const textarea = document.createElement('textarea');
-      textarea.value = url;
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
+    const result = await shareFilters(filters);
+    if (result === 'copied') {
+      setToastMessage('Link copied to clipboard');
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 2000);
     }
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 2000);
   }, [filters]);
 
   if (isLoading) {
@@ -109,7 +100,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
           className="share-button"
           onClick={handleShareFilters}
           aria-label="Share current filters"
-          title="Copy link to clipboard"
+          title="Share these results"
         >
           <svg className="share-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="18" cy="5" r="3"/>
@@ -121,7 +112,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         </button>
       </div>
       {showToast && (
-        <div className="share-toast" role="status">Link copied to clipboard</div>
+        <div className="share-toast" role="status">{toastMessage}</div>
       )}
       <div className="food-grid">
         {items.map((item, index) => (

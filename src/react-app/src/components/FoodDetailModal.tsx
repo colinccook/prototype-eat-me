@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
-import { buildItemShareUrl } from '../urlState';
+import { shareItem } from '../urlState';
 import Tray from './Tray';
 import './FoodDetailModal.css';
 
@@ -58,25 +58,16 @@ function getPrimaryMetric(item: FoodItem, sortBy: SortOption): { value: string; 
 
 function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProps) {
   const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
 
   const handleShareItem = useCallback(async () => {
     if (!item) return;
-    const url = buildItemShareUrl(filters, item.name, item.restaurant);
-    try {
-      await navigator.clipboard.writeText(url);
-    } catch {
-      // Fallback for legacy browsers without Clipboard API (e.g. older WebViews)
-      const textarea = document.createElement('textarea');
-      textarea.value = url;
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
+    const result = await shareItem(item, filters);
+    if (result === 'copied') {
+      setToastMessage('Link copied to clipboard');
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 2000);
     }
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 2000);
   }, [item, filters]);
 
   if (!item) return null;
@@ -113,7 +104,7 @@ function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProp
           className="share-item-button"
           onClick={handleShareItem}
           aria-label="Share this item"
-          title="Copy item link to clipboard"
+          title="Share this item"
         >
           <svg className="share-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="18" cy="5" r="3"/>
@@ -127,7 +118,7 @@ function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProp
       </div>
 
       {showToast && (
-        <div className="share-toast" role="status">Link copied to clipboard</div>
+        <div className="share-toast" role="status">{toastMessage}</div>
       )}
 
       {/* Dietary badges */}
