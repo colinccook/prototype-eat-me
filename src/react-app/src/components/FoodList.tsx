@@ -1,9 +1,12 @@
 import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { shareFilters } from '../urlState';
+import { trackFoodItemView, trackShare } from '../analytics';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
 import SkeletonCard from './SkeletonCard';
+import CookieConsentCard from './CookieConsentCard';
+import DisclaimerCard from './DisclaimerCard';
 import './FoodList.css';
 import './SkeletonCard.css';
 
@@ -15,9 +18,14 @@ interface FoodListProps {
   error: string | null;
   initialItem?: { name: string; restaurant?: string } | null;
   onClearInitialItem?: () => void;
+  showCookieConsent: boolean;
+  onCookieAccept: () => void;
+  onCookieRefuse: () => void;
+  showDisclaimer: boolean;
+  onDisclaimerDismiss: () => void;
 }
 
-function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem }: FoodListProps) {
+function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem, showCookieConsent, onCookieAccept, onCookieRefuse, showDisclaimer, onDisclaimerDismiss }: FoodListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
@@ -42,6 +50,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
 
   const handleItemClick = useCallback((item: FoodItem) => {
     setSelectedItem(item);
+    trackFoodItemView(item.name, item.restaurant ?? '');
   }, []);
 
   const handleCloseModal = useCallback(() => {
@@ -53,6 +62,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
 
   const handleShareFilters = useCallback(async () => {
     const result = await shareFilters(filters);
+    trackShare('filters', result);
     if (result === 'copied') {
       setToastMessage('Link copied to clipboard');
       setShowToast(true);
@@ -115,6 +125,12 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         <div className="share-toast" role="status">{toastMessage}</div>
       )}
       <div className="food-grid">
+        {showCookieConsent && (
+          <CookieConsentCard onAccept={onCookieAccept} onRefuse={onCookieRefuse} />
+        )}
+        {showDisclaimer && (
+          <DisclaimerCard onDismiss={onDisclaimerDismiss} />
+        )}
         {items.map((item, index) => (
           <FoodCard 
             key={`${item.name}-${item.restaurant}-${index}`} 

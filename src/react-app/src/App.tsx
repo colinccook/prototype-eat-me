@@ -12,6 +12,16 @@ import {
 } from './api';
 import { clearDataCache } from './serviceWorkerRegistration';
 import { searchParamsToFilters, getItemFromSearchParams, updateUrlWithFilters } from './urlState';
+import { setAnalyticsConsent } from './firebase';
+import {
+  trackRegionChange,
+  trackSortChange,
+  trackDietaryFilter,
+  trackCalorieFilter,
+  trackRestaurantFilter,
+  trackConsentResponse,
+  trackDisclaimerDismissed,
+} from './analytics';
 import HeaderPills from './components/HeaderPills';
 import FoodList from './components/FoodList';
 import './App.css';
@@ -61,6 +71,24 @@ function App() {
     const params = new URLSearchParams(window.location.search);
     return getItemFromSearchParams(params);
   });
+
+  // GDPR cookie consent state – null means user hasn't decided yet
+  const [cookieConsent, setCookieConsent] = useState<boolean | null>(() => {
+    const stored = localStorage.getItem('eatme-cookie-consent');
+    if (stored === 'true') return true;
+    if (stored === 'false') return false;
+    return null;
+  });
+
+  // AI disclaimer dismissed state
+  const [disclaimerDismissed, setDisclaimerDismissed] = useState<boolean>(() => {
+    return localStorage.getItem('eatme-disclaimer-dismissed') === 'true';
+  });
+
+  // Sync consent to Firebase on mount and when it changes
+  if (cookieConsent === true) {
+    setAnalyticsConsent(true);
+  }
 
   // Load regions on mount
   useEffect(() => {
@@ -131,9 +159,28 @@ function App() {
     updateGlobalLoadingFlag(isLoading);
   }, [isLoading]);
 
-  // Sync filters to URL whenever they change
+  // Sync filters to URL whenever they change, and track analytics
+  const prevFiltersRef = useRef(filters);
   useEffect(() => {
     updateUrlWithFilters(filters);
+
+    const prev = prevFiltersRef.current;
+    if (prev.sortBy !== filters.sortBy) {
+      trackSortChange(filters.sortBy);
+    }
+    if (prev.vegetarianOnly !== filters.vegetarianOnly) {
+      trackDietaryFilter('vegetarian', filters.vegetarianOnly);
+    }
+    if (prev.veganOnly !== filters.veganOnly) {
+      trackDietaryFilter('vegan', filters.veganOnly);
+    }
+    if (prev.minCalories !== filters.minCalories || prev.maxCalories !== filters.maxCalories) {
+      trackCalorieFilter(filters.minCalories, filters.maxCalories);
+    }
+    if (prev.selectedRestaurants.join(',') !== filters.selectedRestaurants.join(',')) {
+      trackRestaurantFilter(filters.selectedRestaurants);
+    }
+    prevFiltersRef.current = filters;
   }, [filters]);
 
   const handleClearInitialItem = useCallback(() => {
@@ -142,9 +189,31 @@ function App() {
     updateUrlWithFilters(filters);
   }, [filters]);
 
+  const handleCookieAccept = useCallback(() => {
+    localStorage.setItem('eatme-cookie-consent', 'true');
+    setCookieConsent(true);
+    setAnalyticsConsent(true);
+    trackConsentResponse(true);
+  }, []);
+
+  const handleCookieRefuse = useCallback(() => {
+    localStorage.setItem('eatme-cookie-consent', 'false');
+    setCookieConsent(false);
+    setAnalyticsConsent(false);
+  }, []);
+
+  const handleDisclaimerDismiss = useCallback(() => {
+    localStorage.setItem('eatme-disclaimer-dismissed', 'true');
+    setDisclaimerDismissed(true);
+    trackDisclaimerDismissed();
+  }, []);
+
   const handleRegionChange = useCallback((regionId: string | null) => {
     if (regionId === selectedRegion) {
       return;
+    }
+    if (regionId) {
+      trackRegionChange(regionId);
     }
     setRestaurants([]);
     setFoodItems([]);
@@ -362,6 +431,11 @@ function App() {
               error={error}
               initialItem={initialItem}
               onClearInitialItem={handleClearInitialItem}
+              showCookieConsent={cookieConsent === null}
+              onCookieAccept={handleCookieAccept}
+              onCookieRefuse={handleCookieRefuse}
+              showDisclaimer={!disclaimerDismissed}
+              onDisclaimerDismiss={handleDisclaimerDismiss}
             />
           </section>
         )}
