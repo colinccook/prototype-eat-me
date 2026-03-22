@@ -8,7 +8,7 @@ interface CookieConsentCardProps {
 
 function CookieConsentCard({ onAccept, onRefuse }: CookieConsentCardProps) {
   return (
-    <div className="food-card notice-card notice-card--consent" role="alert">
+    <div className="food-card notice-card notice-card--consent">
       <div className="food-card-header">
         <h3 className="food-name">🍪 Cookie Preferences</h3>
       </div>
