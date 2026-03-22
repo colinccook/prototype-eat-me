@@ -30,10 +30,17 @@ export function trackDietaryFilter(filter: 'vegetarian' | 'vegan', enabled: bool
 
 /** User adjusted the calorie range */
 export function trackCalorieFilter(min: number | null, max: number | null): void {
-  trackEvent('calorie_filter', {
-    min_calories: min ?? 0,
-    max_calories: max ?? 0,
-  });
+  const payload: { min_calories?: number; max_calories?: number } = {};
+
+  if (min != null) {
+    payload.min_calories = min;
+  }
+
+  if (max != null) {
+    payload.max_calories = max;
+  }
+
+  trackEvent('calorie_filter', payload);
 }
 
 /** User selected/deselected restaurants */
