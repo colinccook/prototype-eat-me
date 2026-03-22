@@ -232,3 +232,36 @@ all_items.sort(key=lambda x: (x['name'].lower(), x['restaurant'].lower()))
 with open(f'data/{region}/food.json', 'w') as f:
     json.dump({"region": "United Kingdom", "items": all_items}, f, indent=2, ensure_ascii=False)
 ```
+
+## Analytics Intent Guidelines
+
+The app uses **Firebase Analytics** (analytics-only, no auth/database) gated behind GDPR
+cookie consent. When adding new features, consider what user-intent signals would be
+valuable and follow these principles:
+
+### What to Track
+
+| Category | Example Events | Why |
+|----------|---------------|-----|
+| **Navigation** | `region_change`, `restaurant_filter` | Understand which regions/restaurants are popular and guide data expansion |
+| **Discovery** | `sort_change`, `dietary_filter`, `calorie_filter` | Learn which filters matter most to users for feature prioritisation |
+| **Engagement** | `food_item_view`, `share` | Measure how deeply users engage with individual items |
+| **Consent** | `consent_response`, `disclaimer_dismissed` | Monitor opt-in rates and trust signals |
+
+### Rules for New Events
+
+1. **GDPR-first** – All events go through `trackEvent()` in `firebase.ts` which respects the
+   user's cookie consent. Never bypass this.
+2. **No PII** – Never log personally identifiable information (names, emails, IP addresses).
+3. **Descriptive names** – Use `snake_case` event names that describe intent
+   (e.g. `filter_applied`, `item_compared`).
+4. **Keep parameters minimal** – Only include parameters that answer a specific question.
+5. **Document intent** – Add a JSDoc comment on every new tracking helper in `analytics.ts`
+   explaining *what question* the event answers.
+
+### Adding a New Tracked Feature
+
+1. Add a helper function in `src/react-app/src/analytics.ts`
+2. Call it at the appropriate interaction point
+3. Verify the event appears in Firebase DebugView during development
+4. Update this table if a new *category* of intent is introduced
