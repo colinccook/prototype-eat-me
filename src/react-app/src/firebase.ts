@@ -27,7 +27,19 @@ export function setAnalyticsConsent(enabled: boolean): void {
 
 /**
  * Log a custom analytics event. No-op if analytics collection is disabled by Firebase.
+ *
+ * Firebase Analytics expects event params to be strings or numbers. Any boolean values
+ * provided at call sites are normalized to string representations before logging.
  */
-export function trackEvent(eventName: string, params?: Record<string, string | number | boolean>): void {
-  logEvent(analytics, eventName, params);
+export function trackEvent(eventName: string, params?: Record<string, string | number>): void {
+  const normalizedParams =
+    params &&
+    Object.fromEntries(
+      Object.entries(params).map(([key, value]) => [
+        key,
+        typeof value === "boolean" ? (value ? "true" : "false") : value,
+      ]),
+    );
+
+  logEvent(analytics, eventName, normalizedParams);
 }
