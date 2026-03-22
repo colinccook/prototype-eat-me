@@ -56,8 +56,10 @@ export function trackFoodItemView(itemName: string, restaurant: string): void {
   trackEvent('food_item_view', { item_name: itemName, restaurant });
 }
 
+export type ShareResult = 'shared' | 'copied' | 'cancelled';
+
 /** User shared filters or a food item */
-export function trackShare(type: 'filters' | 'item', result: string): void {
+export function trackShare(type: 'filters' | 'item', result: ShareResult): void {
   trackEvent('share', { type, result });
 }
 
