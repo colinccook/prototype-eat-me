@@ -17,7 +17,7 @@ function DisclaimerCard({ onDismiss }: DisclaimerCardProps) {
         member serving you before making dietary decisions.
       </p>
       <div className="notice-card__actions">
-        <button className="notice-card__btn notice-card__btn--dismiss" onClick={onDismiss}>
+        <button type="button" className="notice-card__btn notice-card__btn--dismiss" onClick={onDismiss}>
           Got it, dismiss
         </button>
       </div>
