@@ -1,4 +1,3 @@
-import './FoodCard.css';
 import './NoticeCard.css';
 
 interface DisclaimerCardProps {
@@ -7,9 +6,9 @@ interface DisclaimerCardProps {
 
 function DisclaimerCard({ onDismiss }: DisclaimerCardProps) {
   return (
-    <div className="food-card notice-card notice-card--disclaimer">
-      <div className="food-card-header">
-        <h3 className="food-name">⚠️ AI Disclaimer</h3>
+    <div className="notice-card notice-card--disclaimer">
+      <div className="notice-card__header">
+        <h3 className="notice-card__title">⚠️ AI Disclaimer</h3>
       </div>
       <p className="notice-card__text">
         All nutritional statistics displayed in this app have been processed

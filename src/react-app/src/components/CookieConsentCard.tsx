@@ -1,4 +1,3 @@
-import './FoodCard.css';
 import './NoticeCard.css';
 
 interface CookieConsentCardProps {
@@ -8,9 +7,9 @@ interface CookieConsentCardProps {
 
 function CookieConsentCard({ onAccept, onRefuse }: CookieConsentCardProps) {
   return (
-    <div className="food-card notice-card notice-card--consent">
-      <div className="food-card-header">
-        <h3 className="food-name">🍪 Cookie Preferences</h3>
+    <div className="notice-card notice-card--consent">
+      <div className="notice-card__header">
+        <h3 className="notice-card__title">🍪 Cookie Preferences</h3>
       </div>
       <p className="notice-card__text">
         We use cookies for analytics only, to understand how people use Eat Me
