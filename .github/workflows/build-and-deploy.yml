@@ -37,6 +37,10 @@ jobs:
       working-directory: src/react-app
       run: npm run lint
 
+    - name: Run unit tests with coverage
+      working-directory: src/react-app
+      run: npm run test:coverage
+
     - name: Build React app
       working-directory: src/react-app
       run: npm run build
@@ -52,6 +56,14 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: src/react-app/dist
+
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: coverage-report
+        path: src/react-app/coverage/
+        retention-days: 30
 
   test:
     runs-on: ubuntu-latest
