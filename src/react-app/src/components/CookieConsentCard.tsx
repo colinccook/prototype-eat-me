@@ -18,10 +18,10 @@ function CookieConsentCard({ onAccept, onRefuse }: CookieConsentCardProps) {
         third parties.
       </p>
       <div className="notice-card__actions">
-        <button className="notice-card__btn notice-card__btn--accept" onClick={onAccept}>
+        <button type="button" className="notice-card__btn notice-card__btn--accept" onClick={onAccept}>
           Accept cookies
         </button>
-        <button className="notice-card__btn notice-card__btn--refuse" onClick={onRefuse}>
+        <button type="button" className="notice-card__btn notice-card__btn--refuse" onClick={onRefuse}>
           Refuse cookies
         </button>
       </div>
