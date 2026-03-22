@@ -25,7 +25,7 @@ export function trackSortChange(sortBy: string): void {
 
 /** User toggled a dietary filter */
 export function trackDietaryFilter(filter: 'vegetarian' | 'vegan', enabled: boolean): void {
-  trackEvent('dietary_filter', { filter, enabled });
+  trackEvent('dietary_filter', { filter, enabled: enabled ? 'true' : 'false' });
 }
 
 /** User adjusted the calorie range */
@@ -65,7 +65,7 @@ export function trackShare(type: 'filters' | 'item', result: ShareResult): void 
 
 /** User responded to the GDPR cookie consent banner */
 export function trackConsentResponse(accepted: boolean): void {
-  trackEvent('consent_response', { accepted });
+  trackEvent('consent_response', { accepted: accepted ? 'true' : 'false' });
 }
 
 /** User dismissed the AI disclaimer banner */

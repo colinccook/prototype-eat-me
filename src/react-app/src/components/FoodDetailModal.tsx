@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { shareItem } from '../urlState';
+import { trackShare } from '../analytics';
 import Tray from './Tray';
 import './FoodDetailModal.css';
 
@@ -63,6 +64,7 @@ function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProp
   const handleShareItem = useCallback(async () => {
     if (!item) return;
     const result = await shareItem(item, filters);
+    trackShare('item', result);
     if (result === 'copied') {
       setToastMessage('Link copied to clipboard');
       setShowToast(true);
