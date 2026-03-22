@@ -86,9 +86,11 @@ function App() {
   });
 
   // Sync consent to Firebase on mount and when it changes
-  if (cookieConsent === true) {
-    setAnalyticsConsent(true);
-  }
+  useEffect(() => {
+    if (cookieConsent === true) {
+      setAnalyticsConsent(true);
+    }
+  }, [cookieConsent]);
 
   // Load regions on mount
   useEffect(() => {
