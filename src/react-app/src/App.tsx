@@ -80,9 +80,11 @@ function App() {
     return null;
   });
 
-  // AI disclaimer dismissed state
+  // AI disclaimer dismissed state (resets daily at local midnight)
   const [disclaimerDismissed, setDisclaimerDismissed] = useState<boolean>(() => {
-    return localStorage.getItem('eatme-disclaimer-dismissed') === 'true';
+    const d = new Date();
+    const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    return localStorage.getItem('eatme-disclaimer-dismissed') === today;
   });
 
   // Sync consent to Firebase on mount and when it changes
@@ -205,7 +207,9 @@ function App() {
   }, []);
 
   const handleDisclaimerDismiss = useCallback(() => {
-    localStorage.setItem('eatme-disclaimer-dismissed', 'true');
+    const d = new Date();
+    const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    localStorage.setItem('eatme-disclaimer-dismissed', today);
     setDisclaimerDismissed(true);
     trackDisclaimerDismissed();
   }, []);
