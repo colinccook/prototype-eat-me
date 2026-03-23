@@ -108,7 +108,7 @@ test.describe('Notice Cards', () => {
       await expect(disclaimerCard).not.toBeVisible();
     });
 
-    test('AI disclaimer dismissal persists across page reloads', async ({ page }) => {
+    test('AI disclaimer dismissal persists across page reloads on the same day', async ({ page }) => {
       await loadWithCleanState(page, 'eatme-disclaimer-dismissed');
 
       // Dismiss the disclaimer
@@ -120,9 +120,33 @@ test.describe('Notice Cards', () => {
       await page.waitForLoadState('networkidle');
       await page.locator('.food-grid').waitFor({ state: 'visible' });
 
-      // The disclaimer card should not be visible
+      // The disclaimer card should not be visible (same day)
       const disclaimerCard = page.locator('.notice-card--disclaimer');
       await expect(disclaimerCard).not.toBeVisible();
+    });
+
+    test('AI disclaimer reappears after midnight the next day', async ({ page }) => {
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // Simulate a dismissal from yesterday
+      await page.evaluate(() => {
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const y = yesterday.getFullYear();
+        const m = String(yesterday.getMonth() + 1).padStart(2, '0');
+        const d = String(yesterday.getDate()).padStart(2, '0');
+        localStorage.setItem('eatme-disclaimer-dismissed', `${y}-${m}-${d}`);
+      });
+
+      // Reload the page
+      await page.reload();
+      await page.waitForLoadState('networkidle');
+      await page.locator('.food-grid').waitFor({ state: 'visible' });
+
+      // The disclaimer card should be visible again
+      const disclaimerCard = page.locator('.notice-card--disclaimer');
+      await expect(disclaimerCard).toBeVisible();
     });
   });
 });
