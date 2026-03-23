@@ -45,6 +45,12 @@ const updateGlobalLoadingFlag = (flag: boolean) => {
   }
 };
 
+/** Returns today's local date as YYYY-MM-DD (used for daily disclaimer reset). */
+const getLocalDateString = (): string => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
 function App() {
   const [regions, setRegions] = useState<Region[]>(DEFAULT_REGIONS);
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
@@ -82,9 +88,7 @@ function App() {
 
   // AI disclaimer dismissed state (resets daily at local midnight)
   const [disclaimerDismissed, setDisclaimerDismissed] = useState<boolean>(() => {
-    const d = new Date();
-    const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    return localStorage.getItem('eatme-disclaimer-dismissed') === today;
+    return localStorage.getItem('eatme-disclaimer-dismissed') === getLocalDateString();
   });
 
   // Sync consent to Firebase on mount and when it changes
@@ -207,9 +211,7 @@ function App() {
   }, []);
 
   const handleDisclaimerDismiss = useCallback(() => {
-    const d = new Date();
-    const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    localStorage.setItem('eatme-disclaimer-dismissed', today);
+    localStorage.setItem('eatme-disclaimer-dismissed', getLocalDateString());
     setDisclaimerDismissed(true);
     trackDisclaimerDismissed();
   }, []);
