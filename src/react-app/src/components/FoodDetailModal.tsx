@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { shareItem } from '../urlState';
 import { trackShare } from '../analytics';
+import { evaluateAll } from '../perspectives';
 import Tray from './Tray';
 import './FoodDetailModal.css';
 
@@ -57,6 +58,13 @@ function getPrimaryMetric(item: FoodItem, sortBy: SortOption): { value: string; 
   }
 }
 
+const RATING_ICONS: Record<string, string> = {
+  green: '🟢',
+  amber: '🟡',
+  red: '🔴',
+  grey: '⚪',
+};
+
 function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProps) {
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
@@ -74,25 +82,11 @@ function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProp
 
   if (!item) return null;
 
-  const proteinPerCalorie = item.calories > 0 
-    ? (item.macros.protein / item.calories * 100).toFixed(2) 
-    : '0.00';
-
-  // Calculate fibre to carb ratio
-  const fibreToCarb = item.macros.fibre && item.macros.fibre > 0
-    ? (item.macros.carbohydrates / item.macros.fibre).toFixed(1)
-    : null;
-  
-  const getFibreRatioQuality = (ratio: number): { label: string; className: string } => {
-    if (ratio < 5) return { label: 'Fantastic', className: 'fantastic' };
-    if (ratio < 10) return { label: 'Okay', className: 'okay' };
-    return { label: 'Avoid', className: 'avoid' };
-  };
-  
-  const fibreRatioQuality = fibreToCarb ? getFibreRatioQuality(parseFloat(fibreToCarb)) : null;
-  
   // Get the primary metric based on current sort filter
   const primaryMetric = getPrimaryMetric(item, sortBy);
+
+  // Evaluate all perspectives for traffic light display
+  const perspectiveResults = evaluateAll(item);
 
   return (
     <Tray isOpen={true} onClose={onClose}>
@@ -186,22 +180,24 @@ function FoodDetailModal({ item, sortBy, filters, onClose }: FoodDetailModalProp
         </div>
       </div>
 
-      {/* Calculated stats */}
+      {/* Perspectives — traffic light summary */}
       <div className="modal-section">
-        <h3 className="section-title">Nutrition Stats</h3>
-        <div className="stats-list">
-          <div className="stat-row">
-            <span className="stat-label">Protein per 100 calories</span>
-            <span className={`stat-value ${sortBy === 'protein-per-calorie-desc' ? 'highlight' : ''}`}>{proteinPerCalorie}g</span>
-          </div>
-          {fibreToCarb && fibreRatioQuality && (
-            <div className="stat-row">
-              <span className="stat-label">Carbs to fibre ratio</span>
-              <span className={`stat-value ${fibreRatioQuality.className} ${sortBy === 'fibre-to-carb-asc' ? 'highlight' : ''}`}>
-                {fibreToCarb}:1 ({fibreRatioQuality.label})
-              </span>
+        <h3 className="section-title">Nutrition Insights</h3>
+        <div className="perspectives-list" data-testid="perspectives-list">
+          {perspectiveResults.map(({ perspective, result }) => (
+            <div key={perspective.id} className={`perspective-row perspective-${result.rating}`}>
+              <span className="perspective-icon" aria-hidden="true">{RATING_ICONS[result.rating]}</span>
+              <div className="perspective-body">
+                <div className="perspective-header">
+                  <span className="perspective-name">{perspective.name}</span>
+                  <span className={`perspective-value perspective-value-${result.rating}`}>
+                    {result.value} — {result.label}
+                  </span>
+                </div>
+                <p className="perspective-description">{result.description}</p>
+              </div>
             </div>
-          )}
+          ))}
         </div>
       </div>
 

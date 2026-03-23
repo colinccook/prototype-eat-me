@@ -225,6 +225,92 @@
   color: #c62828;
 }
 
+/* Perspectives — traffic light list */
+.perspectives-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.perspective-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  background: #f8f9fa;
+}
+
+.perspective-row.perspective-green {
+  background: #e8f5e9;
+}
+
+.perspective-row.perspective-amber {
+  background: #fff8e1;
+}
+
+.perspective-row.perspective-red {
+  background: #fbe9e7;
+}
+
+.perspective-row.perspective-grey {
+  background: #f5f5f5;
+}
+
+.perspective-icon {
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.perspective-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.perspective-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.perspective-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.perspective-value {
+  font-weight: 600;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.perspective-value-green {
+  color: #2e7d32;
+}
+
+.perspective-value-amber {
+  color: #f57c00;
+}
+
+.perspective-value-red {
+  color: #c62828;
+}
+
+.perspective-value-grey {
+  color: #999;
+}
+
+.perspective-description {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
 /* Ingredients List */
 .ingredients-list {
   margin: 0;
