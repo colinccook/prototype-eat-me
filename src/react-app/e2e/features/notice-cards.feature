@@ -47,9 +47,16 @@ Scenario: Dismissing the AI disclaimer hides the card
     Then the AI disclaimer card should disappear
 
 @disclaimer
-Scenario: AI disclaimer dismissal persists across page reloads
+Scenario: AI disclaimer dismissal persists across page reloads on the same day
     Given I navigate to the application
     When food items have loaded
     And I click "Got it, dismiss" on the AI disclaimer card
     And I reload the page
     Then the AI disclaimer card should not be visible
+
+@disclaimer
+Scenario: AI disclaimer reappears after midnight the next day
+    Given I previously dismissed the AI disclaimer yesterday
+    When I navigate to the application
+    And food items have loaded
+    Then I should see the AI disclaimer card at the top of the food grid

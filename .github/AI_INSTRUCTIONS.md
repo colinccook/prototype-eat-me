@@ -233,6 +233,44 @@ with open(f'data/{region}/food.json', 'w') as f:
     json.dump({"region": "United Kingdom", "items": all_items}, f, indent=2, ensure_ascii=False)
 ```
 
+## BDD Testing Guidelines
+
+This project uses a **hybrid BDD approach**: user-facing behaviour is described in Gherkin
+`.feature` files under `src/react-app/e2e/features/`, and each scenario is implemented as a
+Playwright test in the corresponding `.spec.ts` file under `src/react-app/e2e/`.
+
+### When to Write BDD Scenarios
+
+When making any user-facing change you **must** consider whether BDD scenarios are
+appropriate. Apply this checklist:
+
+1. **Does the change alter observable behaviour?** (new feature, changed interaction,
+   different persistence rule) → **Add or update `.feature` scenarios.**
+2. **Is it a pure refactor with no behaviour change?** → BDD scenarios are not needed, but
+   verify existing scenarios still pass.
+3. **Is it a data-only change (new restaurant, updated menu)?** → BDD scenarios are not
+   needed.
+
+State your decision explicitly when proposing changes, e.g.:
+> *"BDD scenarios updated — added a new scenario for daily disclaimer reset."*
+> *"No BDD changes needed — this is a CSS-only refactor with no behaviour change."*
+
+### Writing a New Scenario
+
+1. Add the Gherkin scenario to the appropriate `.feature` file (or create a new one).
+2. Implement the matching Playwright test in the `.spec.ts` file, using BDD-style comments
+   (`// Given`, `// When`, `// Then`) to map steps.
+3. Keep feature files and spec files in sync — every scenario in the feature file must have
+   a corresponding test, and vice-versa.
+
+### Running BDD / E2E Tests
+
+```bash
+cd src/react-app
+npm run test:e2e          # headless
+npm run test:e2e:ui       # interactive UI mode
+```
+
 ## Analytics Intent Guidelines
 
 The app uses **Firebase Analytics** (analytics-only, no auth/database) gated behind GDPR
