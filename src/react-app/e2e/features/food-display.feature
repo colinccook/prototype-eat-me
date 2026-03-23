@@ -122,8 +122,8 @@ Scenario: Detail modal shows all nutritional information regardless of sort
     When food items have loaded
     And I tap on a food item
     Then the detail modal should display all core macronutrients
-    And the detail modal should display nutrition stats section
-    And the detail modal should display protein per 100 calories
+    And the detail modal should display the nutrition insights section
+    And the nutrition insights should show traffic light ratings for all perspectives
 
 @detail
 Scenario: Detail modal displays allergens when available

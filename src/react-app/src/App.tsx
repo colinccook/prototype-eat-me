@@ -22,6 +22,7 @@ import {
   trackConsentResponse,
   trackDisclaimerDismissed,
 } from './analytics';
+import { fibreToCarb, fatContent, proteinEfficiency, saltContent } from './perspectives';
 import HeaderPills from './components/HeaderPills';
 import FoodList from './components/FoodList';
 import './App.css';
@@ -337,43 +338,16 @@ function App() {
         items.sort((a, b) => b.macros.protein - a.macros.protein);
         break;
       case 'protein-per-calorie-desc':
-        items.sort((a, b) => {
-          const aRatio = a.calories > 0 ? a.macros.protein / a.calories : 0;
-          const bRatio = b.calories > 0 ? b.macros.protein / b.calories : 0;
-          return bRatio - aRatio;
-        });
+        items.sort(proteinEfficiency.sort);
         break;
       case 'fat-asc':
-        items.sort((a, b) => a.macros.fat - b.macros.fat);
+        items.sort(fatContent.sort);
         break;
       case 'fibre-to-carb-asc':
-        // Fibre to carb ratio: how many times fibre fits into carbs (carbs/fibre)
-        // Lower is better. Items without fibre data go to the end.
-        items.sort((a, b) => {
-          const aFibre = a.macros.fibre;
-          const bFibre = b.macros.fibre;
-          
-          // Items without fibre data go to the end
-          if (!aFibre || aFibre <= 0) return 1;
-          if (!bFibre || bFibre <= 0) return -1;
-          
-          const aRatio = a.macros.carbohydrates / aFibre;
-          const bRatio = b.macros.carbohydrates / bFibre;
-          return aRatio - bRatio;
-        });
+        items.sort(fibreToCarb.sort);
         break;
       case 'salt-asc':
-        // Sort by salt (low to high). Items without salt data go to the end.
-        items.sort((a, b) => {
-          const aSalt = a.macros.salt;
-          const bSalt = b.macros.salt;
-          
-          // Items without salt data go to the end
-          if (aSalt === undefined || aSalt === null) return 1;
-          if (bSalt === undefined || bSalt === null) return -1;
-          
-          return aSalt - bSalt;
-        });
+        items.sort(saltContent.sort);
         break;
     }
 

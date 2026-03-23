@@ -618,13 +618,20 @@ test.describe('Food Display', () => {
       expect(macroLabels).toContain('Carbs');
       expect(macroLabels).toContain('Fat');
 
-      // And the nutrition stats section should be visible
-      const statsSection = page.locator('.stats-list');
-      await expect(statsSection).toBeVisible();
-      
-      // And protein per 100 calories should be shown
-      const proteinPerCalorieLabel = page.locator('.stat-label').filter({ hasText: 'Protein per 100 calories' });
-      await expect(proteinPerCalorieLabel).toBeVisible();
+      // And the nutrition insights section should be visible with traffic light perspectives
+      const perspectivesList = page.locator('.perspectives-list');
+      await expect(perspectivesList).toBeVisible();
+
+      // All four perspectives should be displayed
+      const perspectiveRows = perspectivesList.locator('.perspective-row');
+      await expect(perspectiveRows).toHaveCount(4);
+
+      // Each perspective should show a name
+      const perspectiveNames = await perspectivesList.locator('.perspective-name').allTextContents();
+      expect(perspectiveNames).toContain('Protein per 100 Calories');
+      expect(perspectiveNames).toContain('Fibre to Carb Ratio');
+      expect(perspectiveNames).toContain('Fat Content');
+      expect(perspectiveNames).toContain('Salt Content');
     });
 
     test('Detail modal displays allergens when available', async ({ page }) => {
