@@ -35,7 +35,7 @@ async function touchSwipeCard(
     changedTouches: [{ clientX: startX + distance, clientY: startY, identifier: 0 }],
   });
 
-  // Wait for animation to complete
+  // Wait for swipe animation to complete (slightly longer than ANIMATION_DURATION_MS=300)
   await page.waitForTimeout(400);
 }
 

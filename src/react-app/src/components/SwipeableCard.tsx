@@ -2,6 +2,9 @@ import { useRef, useCallback, type ReactNode } from 'react';
 import './SwipeableCard.css';
 
 const SWIPE_THRESHOLD = 80; // px to trigger action
+const OPACITY_FADE_DISTANCE = 400; // px distance over which opacity fades
+const MIN_OPACITY = 0.4;
+const ANIMATION_DURATION_MS = 300;
 
 interface SwipeableCardProps {
   children: ReactNode;
@@ -24,16 +27,16 @@ function SwipeableCard({
   animateOut = true,
 }: SwipeableCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
-  const startX = useRef<number | null>(null);
-  const startY = useRef<number | null>(null);
+  const touchStartX = useRef<number | null>(null);
+  const touchStartY = useRef<number | null>(null);
   const currentX = useRef(0);
   const isHorizontalSwipe = useRef<boolean | null>(null);
 
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
     // Ignore multi-touch
     if (e.touches.length !== 1) return;
-    startX.current = e.touches[0].clientX;
-    startY.current = e.touches[0].clientY;
+    touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
     currentX.current = 0;
     isHorizontalSwipe.current = null;
     if (cardRef.current) {
@@ -43,10 +46,10 @@ function SwipeableCard({
 
   const handleTouchMove = useCallback(
     (e: React.TouchEvent) => {
-      if (startX.current === null || startY.current === null) return;
+      if (touchStartX.current === null || touchStartY.current === null) return;
 
-      const dx = e.touches[0].clientX - startX.current;
-      const dy = e.touches[0].clientY - startY.current;
+      const dx = e.touches[0].clientX - touchStartX.current;
+      const dy = e.touches[0].clientY - touchStartY.current;
 
       // Determine swipe direction once we've moved enough
       if (isHorizontalSwipe.current === null) {
@@ -65,7 +68,7 @@ function SwipeableCard({
       if (cardRef.current) {
         cardRef.current.style.transform = `translateX(${dx}px)`;
         cardRef.current.style.opacity = String(
-          Math.max(1 - Math.abs(dx) / 400, 0.4)
+          Math.max(1 - Math.abs(dx) / OPACITY_FADE_DISTANCE, MIN_OPACITY)
         );
       }
     },
@@ -74,14 +77,14 @@ function SwipeableCard({
 
   const snapBack = useCallback(() => {
     if (cardRef.current) {
-      cardRef.current.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+      cardRef.current.style.transition = `transform ${ANIMATION_DURATION_MS}ms ease, opacity ${ANIMATION_DURATION_MS}ms ease`;
       cardRef.current.style.transform = '';
       cardRef.current.style.opacity = '1';
     }
   }, []);
 
   const handleTouchEnd = useCallback(() => {
-    if (startX.current === null) return;
+    if (touchStartX.current === null) return;
 
     const dx = currentX.current;
     const absDx = Math.abs(dx);
@@ -95,11 +98,11 @@ function SwipeableCard({
           // Fly off screen
           if (cardRef.current) {
             const flyTo = direction === 'left' ? -window.innerWidth : window.innerWidth;
-            cardRef.current.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+            cardRef.current.style.transition = `transform ${ANIMATION_DURATION_MS}ms ease, opacity ${ANIMATION_DURATION_MS}ms ease`;
             cardRef.current.style.transform = `translateX(${flyTo}px)`;
             cardRef.current.style.opacity = '0';
           }
-          setTimeout(handler, 300);
+          setTimeout(handler, ANIMATION_DURATION_MS);
         } else {
           handler();
         }
@@ -110,8 +113,8 @@ function SwipeableCard({
       snapBack();
     }
 
-    startX.current = null;
-    startY.current = null;
+    touchStartX.current = null;
+    touchStartY.current = null;
     currentX.current = 0;
     isHorizontalSwipe.current = null;
   }, [onSwipeLeft, onSwipeRight, animateOut, snapBack]);
