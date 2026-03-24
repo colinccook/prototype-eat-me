@@ -349,7 +349,7 @@ function App() {
 
     element.addEventListener('touchmove', handleTouchMove, { passive: false });
     return () => {
-      element.removeEventListener('touchmove', handleTouchMove);
+      element.removeEventListener('touchmove', handleTouchMove, { passive: false } as EventListenerOptions);
     };
   }, []);
 
