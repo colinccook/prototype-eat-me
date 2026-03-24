@@ -76,6 +76,7 @@ function App() {
   const [isPulling, setIsPulling] = useState(false);
   const appRef = useRef<HTMLDivElement>(null);
   const touchStartY = useRef<number | null>(null);
+  const pullDistanceRef = useRef(0);
   
   // Initialize filters from URL query parameters
   const [filters, setFilters] = useState<FilterOptions>(() => {
@@ -318,39 +319,54 @@ function App() {
     }
   }, [isRefreshing]);
 
-  const handleTouchMove = useCallback((e: React.TouchEvent) => {
-    if (touchStartY.current === null) return;
-    
-    const currentY = e.touches[0].clientY;
-    const delta = currentY - touchStartY.current;
-    
-    if (delta > 0) {
-      setIsPulling(true);
-      // Apply resistance to make pull feel natural
-      const resistance = 0.5;
-      const resistedDelta = Math.min(delta * resistance, MAX_PULL_DISTANCE);
-      setPullDistance(resistedDelta);
-      
-      // Prevent default scrolling when pulling at top of page
-      if (window.scrollY === 0) {
-        e.preventDefault();
+  // Attach touchmove as a native event listener with { passive: false } so that
+  // e.preventDefault() works.  React 19 registers onTouchMove as passive which
+  // causes preventDefault() to throw and crash the app.
+  useEffect(() => {
+    const element = appRef.current;
+    if (!element) return;
+
+    const handleTouchMove = (e: TouchEvent) => {
+      if (touchStartY.current === null) return;
+
+      const currentY = e.touches[0].clientY;
+      const delta = currentY - touchStartY.current;
+
+      if (delta > 0) {
+        setIsPulling(true);
+        // Apply resistance to make pull feel natural
+        const resistance = 0.5;
+        const resistedDelta = Math.min(delta * resistance, MAX_PULL_DISTANCE);
+        pullDistanceRef.current = resistedDelta;
+        setPullDistance(resistedDelta);
+
+        // Prevent default scrolling when pulling at top of page
+        if (window.scrollY === 0) {
+          e.preventDefault();
+        }
       }
-    }
+    };
+
+    element.addEventListener('touchmove', handleTouchMove, { passive: false });
+    return () => {
+      element.removeEventListener('touchmove', handleTouchMove, { passive: false } as EventListenerOptions);
+    };
   }, []);
 
   const handleTouchEnd = useCallback(() => {
     if (touchStartY.current === null) return;
     
-    if (pullDistance >= PULL_THRESHOLD && !isRefreshing) {
+    if (pullDistanceRef.current >= PULL_THRESHOLD && !isRefreshing) {
       // Trigger refresh
       handleRefreshData();
     }
     
     // Reset pull state
+    pullDistanceRef.current = 0;
     setIsPulling(false);
     setPullDistance(0);
     touchStartY.current = null;
-  }, [pullDistance, isRefreshing, handleRefreshData]);
+  }, [isRefreshing, handleRefreshData]);
 
   // Filter and sort items
   const filteredItems = useMemo(() => {
@@ -415,7 +431,6 @@ function App() {
       ref={appRef}
       className={`app ${isPulling ? 'pulling' : ''}`}
       onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
       style={{
         transform: pullDistance > 0 ? `translateY(${pullDistance}px)` : undefined,
