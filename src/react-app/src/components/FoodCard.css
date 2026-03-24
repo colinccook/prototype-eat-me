@@ -20,9 +20,11 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-.food-card.clickable:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+@media (hover: hover) {
+  .food-card.clickable:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
 }
 
 .food-card.clickable:active {
@@ -114,7 +116,7 @@
 }
 
 .nutrition-label {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   color: #666;
   text-transform: uppercase;
   letter-spacing: 0.5px;

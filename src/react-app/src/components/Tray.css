@@ -92,6 +92,10 @@
   color: #333;
 }
 
+.tray-close-button:active {
+  background: #d0d0d0;
+}
+
 /* Tray Header */
 .tray-header {
   padding: 0 1.5rem 1rem;
@@ -139,6 +143,10 @@
 .tray-option:hover {
   background: #f0f1f3;
   border-color: #e0e1e3;
+}
+
+.tray-option:active {
+  background: #e8e9eb;
 }
 
 .tray-option.active {
@@ -227,6 +235,10 @@
   opacity: 0.9;
 }
 
+.tray-form-button.primary:active {
+  opacity: 0.8;
+}
+
 .tray-form-button.secondary {
   background: #f0f0f0;
   color: #666;
@@ -234,6 +246,10 @@
 
 .tray-form-button.secondary:hover {
   background: #e0e0e0;
+}
+
+.tray-form-button.secondary:active {
+  background: #d0d0d0;
 }
 
 /* Desktop/larger screen adjustments */
