@@ -188,6 +188,27 @@ test.describe('Swipe Actions & Favourites', () => {
       // Wait and check empty state
       await expect(page.locator('.food-list-status')).toContainText('No favourites yet', { timeout: 5000 });
     });
+
+    test('Swipe right on favourites view does nothing', async ({ page }) => {
+      await loadWithCleanState(page, ['eatme-hidden-items', 'eatme-favourite-items']);
+
+      // Favourite an item
+      await touchSwipeCard(page, 'right');
+      await expect(page.locator('.favourite-indicator').first()).toBeVisible({ timeout: 5000 });
+
+      // Go to favourites tab
+      const favTab = page.locator('.bottom-app-bar__tab').filter({ hasText: 'Favourites' });
+      await favTab.click();
+
+      // Should have one favourite
+      await expect(page.locator('.food-card')).toHaveCount(1);
+
+      // Attempt to swipe right – should have no effect since no onSwipeRight handler
+      await touchSwipeCard(page, 'right');
+
+      // The favourite should still be there
+      await expect(page.locator('.food-card')).toHaveCount(1);
+    });
   });
 
   test.describe('@persistence', () => {

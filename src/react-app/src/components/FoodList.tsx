@@ -117,7 +117,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     <div className="food-list">
       <div className="food-list-header">
         <span className="item-count">
-          {visibleItems.length} item{visibleItems.length !== 1 ? 's' : ''} found
+          {items.length} item{items.length !== 1 ? 's' : ''} found
           {hiddenCount > 0 && (
             <>
               {' '}
@@ -152,13 +152,15 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         {showDisclaimer && (
           <DisclaimerCard onDismiss={onDisclaimerDismiss} />
         )}
-        {visibleItems.map((item, index) => (
+        {visibleItems.map((item) => (
           <SwipeableCard
-            key={`${item.name}-${item.restaurant}-${index}`}
+            key={getItemKey(item)}
             onSwipeLeft={() => onHideItem(item)}
             onSwipeRight={() => onFavouriteItem(item)}
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
+            animateOutLeft
+            animateOutRight={false}
           >
             <FoodCard 
               item={item} 

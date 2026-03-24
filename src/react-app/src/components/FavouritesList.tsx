@@ -44,9 +44,9 @@ function FavouritesList({ allItems, favouriteItems, sortBy, filters, onUnfavouri
         <span className="item-count">{items.length} favourite{items.length !== 1 ? 's' : ''}</span>
       </div>
       <div className="food-grid">
-        {items.map((item, index) => (
+        {items.map((item) => (
           <SwipeableCard
-            key={`${item.name}-${item.restaurant}-${index}`}
+            key={getItemKey(item)}
             onSwipeLeft={() => onUnfavourite(item)}
             leftLabel=""
             rightLabel="💔 Remove"

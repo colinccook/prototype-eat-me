@@ -484,7 +484,7 @@ function App() {
             )}
             {activeTab === 'favourites' && (
               <FavouritesList
-                allItems={filteredItems}
+                allItems={foodItems}
                 favouriteItems={favouriteItems}
                 sortBy={filters.sortBy}
                 filters={filters}

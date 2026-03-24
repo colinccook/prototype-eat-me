@@ -1,4 +1,4 @@
-import { useRef, useCallback, type ReactNode } from 'react';
+import { useRef, useCallback, useEffect, type ReactNode } from 'react';
 import './SwipeableCard.css';
 
 const SWIPE_THRESHOLD = 80; // px to trigger action
@@ -14,8 +14,10 @@ interface SwipeableCardProps {
   leftLabel?: string;
   /** Text shown in the right indicator area (revealed when swiping left). */
   rightLabel?: string;
-  /** If true the card animates off-screen before invoking the callback. */
-  animateOut?: boolean;
+  /** If true, swiping left animates the card off-screen before invoking the callback. */
+  animateOutLeft?: boolean;
+  /** If true, swiping right animates the card off-screen before invoking the callback. */
+  animateOutRight?: boolean;
 }
 
 function SwipeableCard({
@@ -24,17 +26,33 @@ function SwipeableCard({
   onSwipeRight,
   leftLabel = '❤️ Favourite',
   rightLabel = '🙈 Hide',
-  animateOut = true,
+  animateOutLeft = true,
+  animateOutRight = false,
 }: SwipeableCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
   const currentX = useRef(0);
   const isHorizontalSwipe = useRef<boolean | null>(null);
+  const flyOffTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Clear any pending fly-off timer on unmount
+  useEffect(() => {
+    return () => {
+      if (flyOffTimer.current !== null) {
+        clearTimeout(flyOffTimer.current);
+      }
+    };
+  }, []);
 
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
     // Ignore multi-touch
     if (e.touches.length !== 1) return;
+    // Cancel any in-flight fly-off timer from a previous swipe
+    if (flyOffTimer.current !== null) {
+      clearTimeout(flyOffTimer.current);
+      flyOffTimer.current = null;
+    }
     touchStartX.current = e.touches[0].clientX;
     touchStartY.current = e.touches[0].clientY;
     currentX.current = 0;
@@ -59,6 +77,10 @@ function SwipeableCard({
       }
 
       if (!isHorizontalSwipe.current) return;
+
+      // Prevent horizontal swipe from bubbling to app-level touch handlers
+      // (e.g., pull-to-refresh in App.tsx)
+      e.stopPropagation();
 
       // Block left swipe if no handler, block right if no handler
       if (dx < 0 && !onSwipeLeft) return;
@@ -92,18 +114,21 @@ function SwipeableCard({
     if (absDx >= SWIPE_THRESHOLD) {
       const direction = dx < 0 ? 'left' : 'right';
       const handler = direction === 'left' ? onSwipeLeft : onSwipeRight;
+      const shouldFlyOff = direction === 'left' ? animateOutLeft : animateOutRight;
 
       if (handler) {
-        if (animateOut) {
-          // Fly off screen
+        if (shouldFlyOff) {
+          // Fly off screen then invoke handler
           if (cardRef.current) {
             const flyTo = direction === 'left' ? -window.innerWidth : window.innerWidth;
             cardRef.current.style.transition = `transform ${ANIMATION_DURATION_MS}ms ease, opacity ${ANIMATION_DURATION_MS}ms ease`;
             cardRef.current.style.transform = `translateX(${flyTo}px)`;
             cardRef.current.style.opacity = '0';
           }
-          setTimeout(handler, ANIMATION_DURATION_MS);
+          flyOffTimer.current = setTimeout(handler, ANIMATION_DURATION_MS);
         } else {
+          // Snap back then invoke handler immediately
+          snapBack();
           handler();
         }
       } else {
@@ -117,7 +142,7 @@ function SwipeableCard({
     touchStartY.current = null;
     currentX.current = 0;
     isHorizontalSwipe.current = null;
-  }, [onSwipeLeft, onSwipeRight, animateOut, snapBack]);
+  }, [onSwipeLeft, onSwipeRight, animateOutLeft, animateOutRight, snapBack]);
 
   return (
     <div className="swipeable-card-wrapper">

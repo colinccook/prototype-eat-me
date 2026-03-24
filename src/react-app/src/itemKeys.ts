@@ -22,7 +22,11 @@ function readSet(key: string): Set<string> {
 }
 
 function writeSet(key: string, set: Set<string>): void {
-  localStorage.setItem(key, JSON.stringify([...set]));
+  try {
+    localStorage.setItem(key, JSON.stringify([...set]));
+  } catch {
+    // Ignore write errors (quota exceeded, storage disabled, etc.)
+  }
 }
 
 // ──── Hidden items ────
