@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colinccook.github.io/prototype-eat-me/sitemap.xml
