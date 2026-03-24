@@ -1,0 +1,66 @@
+.bottom-app-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.06);
+  z-index: 100;
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.bottom-app-bar__tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0.5rem 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 0.7rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bottom-app-bar__tab--active {
+  color: #667eea;
+}
+
+.bottom-app-bar__icon {
+  width: 22px;
+  height: 22px;
+}
+
+.bottom-app-bar__tab--active .bottom-app-bar__icon {
+  stroke-width: 2.5;
+}
+
+.bottom-app-bar__label {
+  letter-spacing: 0.3px;
+}
+
+.bottom-app-bar__badge {
+  position: absolute;
+  top: 2px;
+  right: calc(50% - 20px);
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}

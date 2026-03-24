@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
+import { getItemKey } from '../itemKeys';
 import { shareFilters } from '../urlState';
 import { trackFoodItemView, trackShare } from '../analytics';
 import FoodCard from './FoodCard';
@@ -7,6 +8,7 @@ import FoodDetailModal from './FoodDetailModal';
 import SkeletonCard from './SkeletonCard';
 import CookieConsentCard from './CookieConsentCard';
 import DisclaimerCard from './DisclaimerCard';
+import SwipeableCard from './SwipeableCard';
 import './FoodList.css';
 import './SkeletonCard.css';
 
@@ -23,9 +25,14 @@ interface FoodListProps {
   onCookieRefuse: () => void;
   showDisclaimer: boolean;
   onDisclaimerDismiss: () => void;
+  hiddenItems: Set<string>;
+  favouriteItems: Set<string>;
+  onHideItem: (item: FoodItem) => void;
+  onFavouriteItem: (item: FoodItem) => void;
+  onShowAll: () => void;
 }
 
-function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem, showCookieConsent, onCookieAccept, onCookieRefuse, showDisclaimer, onDisclaimerDismiss }: FoodListProps) {
+function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem, showCookieConsent, onCookieAccept, onCookieRefuse, showDisclaimer, onDisclaimerDismiss, hiddenItems, favouriteItems, onHideItem, onFavouriteItem, onShowAll }: FoodListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
@@ -70,6 +77,10 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     }
   }, [filters]);
 
+  // Filter out hidden items
+  const visibleItems = items.filter(item => !hiddenItems.has(getItemKey(item)));
+  const hiddenCount = items.length - visibleItems.length;
+
   if (isLoading) {
     return (
       <div className="food-list skeleton-loading-status">
@@ -94,7 +105,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     );
   }
 
-  if (items.length === 0) {
+  if (visibleItems.length === 0 && hiddenCount === 0) {
     return (
       <div className="food-list-status">
         <p>No items match your filters. Try adjusting your criteria.</p>
@@ -105,7 +116,17 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   return (
     <div className="food-list">
       <div className="food-list-header">
-        <span className="item-count">{items.length} item{items.length !== 1 ? 's' : ''} found</span>
+        <span className="item-count">
+          {items.length} item{items.length !== 1 ? 's' : ''} found
+          {hiddenCount > 0 && (
+            <>
+              {' '}
+              <span className="hidden-count">
+                ({hiddenCount} hidden) <button className="show-all-link" onClick={onShowAll}>show all</button>
+              </span>
+            </>
+          )}
+        </span>
         <button
           className="share-button"
           onClick={handleShareFilters}
@@ -131,13 +152,23 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         {showDisclaimer && (
           <DisclaimerCard onDismiss={onDisclaimerDismiss} />
         )}
-        {items.map((item, index) => (
-          <FoodCard 
-            key={`${item.name}-${item.restaurant}-${index}`} 
-            item={item} 
-            sortBy={sortBy}
-            onClick={() => handleItemClick(item)}
-          />
+        {visibleItems.map((item) => (
+          <SwipeableCard
+            key={getItemKey(item)}
+            onSwipeLeft={() => onHideItem(item)}
+            onSwipeRight={() => onFavouriteItem(item)}
+            leftLabel="❤️ Favourite"
+            rightLabel="🙈 Hide"
+            animateOutLeft
+            animateOutRight={false}
+          >
+            <FoodCard 
+              item={item} 
+              sortBy={sortBy}
+              isFavourite={favouriteItems.has(getItemKey(item))}
+              onClick={() => handleItemClick(item)}
+            />
+          </SwipeableCard>
         ))}
       </div>
       <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} />

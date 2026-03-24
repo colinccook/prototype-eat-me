@@ -231,19 +231,14 @@ test.describe('Food Display', () => {
       await page.waitForTimeout(500); // Wait for sort to apply
 
       // Then items should be sorted by protein in descending order
-      const proteinValues = page.locator('.nutrition-item:nth-child(2) .nutrition-value');
-      const count = await proteinValues.count();
+      // Use allTextContents() to batch-read all values instead of per-element loop
+      const proteinTexts = await page.locator('.nutrition-item:nth-child(2) .nutrition-value').allTextContents();
 
-      const proteins: number[] = [];
-      for (let i = 0; i < count; i++) {
-        const text = await proteinValues.nth(i).textContent();
-        if (text) {
-          const protein = parseFloat(text.replace('g', ''));
-          if (!isNaN(protein)) {
-            proteins.push(protein);
-          }
-        }
-      }
+      const proteins = proteinTexts
+        .map(t => parseFloat(t.replace('g', '')))
+        .filter(n => !isNaN(n));
+
+      expect(proteins.length).toBeGreaterThan(0);
 
       // Verify descending order
       for (let i = 0; i < proteins.length - 1; i++) {
@@ -275,20 +270,12 @@ test.describe('Food Display', () => {
       const count = await saltInfoElements.count();
       expect(count).toBeGreaterThan(0);
 
-      // And items with salt data should be sorted by salt in ascending order
-      const saltValues: number[] = [];
-      for (let i = 0; i < count; i++) {
-        const saltValueElement = saltInfoElements.nth(i).locator('.salt-value');
-        if (await saltValueElement.count() > 0) {
-          const text = await saltValueElement.textContent();
-          if (text) {
-            const salt = parseFloat(text.replace('g', ''));
-            if (!isNaN(salt)) {
-              saltValues.push(salt);
-            }
-          }
-        }
-      }
+      // Use allTextContents() to batch-read salt values instead of per-element loop
+      const saltTexts = await page.locator('.salt-info .salt-value').allTextContents();
+
+      const saltValues = saltTexts
+        .map(t => parseFloat(t.replace('g', '')))
+        .filter(n => !isNaN(n));
 
       // Verify ascending order for items with salt data
       for (let i = 0; i < saltValues.length - 1; i++) {

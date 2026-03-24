@@ -23,8 +23,18 @@ import {
   trackDisclaimerDismissed,
 } from './analytics';
 import { fibreToCarb, fatContent, proteinEfficiency, saltContent } from './perspectives';
+import {
+  getItemKey,
+  loadHiddenItems,
+  saveHiddenItems,
+  loadFavouriteItems,
+  saveFavouriteItems,
+} from './itemKeys';
 import HeaderPills from './components/HeaderPills';
 import FoodList from './components/FoodList';
+import FavouritesList from './components/FavouritesList';
+import BottomAppBar from './components/BottomAppBar';
+import type { AppTab } from './components/BottomAppBar';
 import './App.css';
 
 const DEFAULT_REGION_ID = 'uk';
@@ -91,6 +101,13 @@ function App() {
   const [disclaimerDismissed, setDisclaimerDismissed] = useState<boolean>(() => {
     return localStorage.getItem('eatme-disclaimer-dismissed') === getLocalDateString();
   });
+
+  // Hidden & favourite items – persisted in localStorage
+  const [hiddenItems, setHiddenItems] = useState<Set<string>>(() => loadHiddenItems());
+  const [favouriteItems, setFavouriteItems] = useState<Set<string>>(() => loadFavouriteItems());
+
+  // Bottom app bar tab
+  const [activeTab, setActiveTab] = useState<AppTab>('search');
 
   // Sync consent to Firebase on mount and when it changes
   useEffect(() => {
@@ -215,6 +232,45 @@ function App() {
     localStorage.setItem('eatme-disclaimer-dismissed', getLocalDateString());
     setDisclaimerDismissed(true);
     trackDisclaimerDismissed();
+  }, []);
+
+  // ── Hide / Favourite handlers ──
+
+  const handleHideItem = useCallback((item: FoodItem) => {
+    setHiddenItems(prev => {
+      const next = new Set(prev);
+      next.add(getItemKey(item));
+      saveHiddenItems(next);
+      return next;
+    });
+  }, []);
+
+  const handleFavouriteItem = useCallback((item: FoodItem) => {
+    setFavouriteItems(prev => {
+      const next = new Set(prev);
+      const key = getItemKey(item);
+      if (next.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+      }
+      saveFavouriteItems(next);
+      return next;
+    });
+  }, []);
+
+  const handleUnfavouriteItem = useCallback((item: FoodItem) => {
+    setFavouriteItems(prev => {
+      const next = new Set(prev);
+      next.delete(getItemKey(item));
+      saveFavouriteItems(next);
+      return next;
+    });
+  }, []);
+
+  const handleShowAll = useCallback(() => {
+    setHiddenItems(new Set());
+    saveHiddenItems(new Set());
   }, []);
 
   const handleRegionChange = useCallback((regionId: string | null) => {
@@ -405,20 +461,36 @@ function App() {
 
         {selectedRegion && (
           <section className="main-content">
-            <FoodList
-              items={filteredItems}
-              sortBy={filters.sortBy}
-              filters={filters}
-              isLoading={isLoading}
-              error={error}
-              initialItem={initialItem}
-              onClearInitialItem={handleClearInitialItem}
-              showCookieConsent={cookieConsent === null}
-              onCookieAccept={handleCookieAccept}
-              onCookieRefuse={handleCookieRefuse}
-              showDisclaimer={!disclaimerDismissed}
-              onDisclaimerDismiss={handleDisclaimerDismiss}
-            />
+            {activeTab === 'search' && (
+              <FoodList
+                items={filteredItems}
+                sortBy={filters.sortBy}
+                filters={filters}
+                isLoading={isLoading}
+                error={error}
+                initialItem={initialItem}
+                onClearInitialItem={handleClearInitialItem}
+                showCookieConsent={cookieConsent === null}
+                onCookieAccept={handleCookieAccept}
+                onCookieRefuse={handleCookieRefuse}
+                showDisclaimer={!disclaimerDismissed}
+                onDisclaimerDismiss={handleDisclaimerDismiss}
+                hiddenItems={hiddenItems}
+                favouriteItems={favouriteItems}
+                onHideItem={handleHideItem}
+                onFavouriteItem={handleFavouriteItem}
+                onShowAll={handleShowAll}
+              />
+            )}
+            {activeTab === 'favourites' && (
+              <FavouritesList
+                allItems={foodItems}
+                favouriteItems={favouriteItems}
+                sortBy={filters.sortBy}
+                filters={filters}
+                onUnfavourite={handleUnfavouriteItem}
+              />
+            )}
           </section>
         )}
 
@@ -439,6 +511,12 @@ function App() {
       <footer className="app-footer">
         <p>Eat Me - Making informed food choices easier</p>
       </footer>
+
+      <BottomAppBar
+        activeTab={activeTab}
+        onTabChange={setActiveTab}
+        favouriteCount={favouriteItems.size}
+      />
     </div>
   );
 }
