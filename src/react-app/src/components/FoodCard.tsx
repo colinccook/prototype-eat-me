@@ -5,9 +5,10 @@ interface FoodCardProps {
   item: FoodItem;
   sortBy: SortOption;
   onClick?: () => void;
+  isFavourite?: boolean;
 }
 
-function FoodCard({ item, sortBy, onClick }: FoodCardProps) {
+function FoodCard({ item, sortBy, onClick, isFavourite }: FoodCardProps) {
   const proteinPerCalorie = item.calories > 0 
     ? (item.macros.protein / item.calories * 100).toFixed(2) 
     : '0.00';
@@ -27,7 +28,7 @@ function FoodCard({ item, sortBy, onClick }: FoodCardProps) {
 
   return (
     <div 
-      className={`food-card ${onClick ? 'clickable' : ''}`}
+      className={`food-card ${onClick ? 'clickable' : ''} ${isFavourite ? 'food-card--favourite' : ''}`}
       onClick={onClick}
       role={onClick ? 'button' : undefined}
       tabIndex={onClick ? 0 : undefined}
@@ -35,7 +36,10 @@ function FoodCard({ item, sortBy, onClick }: FoodCardProps) {
       aria-label={onClick ? `View details for ${item.name}` : undefined}
     >
       <div className="food-card-header">
-        <h3 className="food-name">{item.name}</h3>
+        <h3 className="food-name">
+          {isFavourite && <span className="favourite-indicator" aria-label="Favourited">❤️ </span>}
+          {item.name}
+        </h3>
         {item.restaurant && (
           <span className="restaurant-tag">{item.restaurant}</span>
         )}
