@@ -76,6 +76,10 @@
   border-color: #e0e1e3;
 }
 
+.quick-calorie-button:active {
+  background: #e0e1e3;
+}
+
 .quick-calorie-button.active {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;

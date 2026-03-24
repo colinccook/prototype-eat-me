@@ -47,7 +47,8 @@
 }
 
 .share-item-button:active {
-  transform: scale(0.95);
+  transform: scale(0.92);
+  background: #e8e8ff;
 }
 
 .share-item-button .share-icon {

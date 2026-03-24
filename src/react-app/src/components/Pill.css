@@ -3,6 +3,7 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.5rem 0.85rem;
+  min-height: 44px;
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
@@ -13,11 +14,19 @@
   transition: all 0.2s ease;
   backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.15);
+  -webkit-tap-highlight-color: transparent;
 }
 
-.pill:hover {
-  background: rgba(255, 255, 255, 0.25);
-  border-color: rgba(255, 255, 255, 0.4);
+@media (hover: hover) {
+  .pill:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.pill:active {
+  background: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .pill.active {
@@ -46,9 +55,16 @@
   color: #333;
 }
 
-.pill.light-bg:hover {
-  background: #f0f1f3;
-  border-color: #d0d1d3;
+@media (hover: hover) {
+  .pill.light-bg:hover {
+    background: #f0f1f3;
+    border-color: #d0d1d3;
+  }
+}
+
+.pill.light-bg:active {
+  background: #e8e9eb;
+  border-color: #c0c1c3;
 }
 
 .pill.light-bg.active {

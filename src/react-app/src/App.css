@@ -28,6 +28,7 @@ body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 1.5rem 2rem;
+  padding-top: calc(1.5rem + env(safe-area-inset-top, 0px));
 }
 
 .header-top {
@@ -56,6 +57,7 @@ body {
 @media (max-width: 480px) {
   .app-header {
     padding: 1rem 1rem;
+    padding-top: calc(1rem + env(safe-area-inset-top, 0px));
   }
   
   .app-header h1 {
@@ -70,6 +72,8 @@ body {
 .app-main {
   flex: 1;
   padding: 1.5rem;
+  padding-left: max(1.5rem, env(safe-area-inset-left, 0px));
+  padding-right: max(1.5rem, env(safe-area-inset-right, 0px));
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;

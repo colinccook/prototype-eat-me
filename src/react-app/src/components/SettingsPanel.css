@@ -12,6 +12,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1rem;
+  min-height: 48px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -19,10 +20,15 @@
   font-weight: 600;
   color: #333;
   transition: background-color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .settings-toggle:hover {
   background: #f5f7fa;
+}
+
+.settings-toggle:active {
+  background: #eef0f4;
 }
 
 .settings-icon {
