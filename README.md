@@ -18,6 +18,30 @@ Find food that fits your dietary goals when eating out on the UK high street.
 - 💪 Find high-protein foods
 - 📊 Sort by protein per calorie for optimal nutrition
 - 🏪 Browse multiple restaurant chains
+- 👈 Swipe left on a food item to hide it from the list
+- ❤️ Swipe right on a food item to favourite it
+- ⭐ Dedicated Favourites tab to view all your saved items
+- 🙈 Hidden items counter with a "show all" link to restore them
+- 💾 Hidden and favourite choices persist across sessions
+
+## Screenshots
+
+> **Adding screenshots:** Run the app locally (`npm run dev` from `src/react-app`), then capture screenshots of the main features below. Place the image files in the repository or link to hosted URLs and update the paths accordingly.
+
+### Main Search View
+The default view shows all food items with filter pills, a results count, and the bottom app bar for navigating between Search and Favourites.
+
+<!-- Replace the URL below with a screenshot of the main search view -->
+![Main search view with bottom app bar](https://github.com/user-attachments/assets/925229ab-3407-4543-be8e-1cd328d00219)
+
+### Favourites View
+Tap the Favourites tab in the bottom bar to see your saved items. Swipe left on any favourite to remove it.
+
+<!-- Replace the URL below with a screenshot of the favourites view -->
+![Favourites empty state](https://github.com/user-attachments/assets/6d0a750e-59cb-4fb5-937f-ac6c3ec91ce7)
+
+### Swipe to Hide / Favourite
+On the main view, swipe a card left to hide it or right to favourite it. Hidden items are tracked in the header with a "show all" link to restore them.
 
 ## Project Structure
 
