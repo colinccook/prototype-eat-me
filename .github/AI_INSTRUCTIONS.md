@@ -319,8 +319,8 @@ Apply this checklist for any change under `src/react-app/src/components/` or
    - Props table (name, type, description)
    - Internal state table (if any `useState` / class state)
    - Key behaviours and interactions
-   - Update the [Component Hierarchy](#component-hierarchy) tree to show where it fits
-   - Update the [Table of Contents](#table-of-contents)
+   - Update the [Component Hierarchy](docs/components.md#component-hierarchy) tree to show where it fits
+   - Update the [Table of Contents](docs/components.md#table-of-contents)
 2. **Removing a component** → Remove its section from the docs and update the hierarchy tree.
 3. **Changing a component's props or behaviour** → Update the relevant props table,
    state table, or behaviour description.
