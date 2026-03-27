@@ -303,3 +303,51 @@ valuable and follow these principles:
 2. Call it at the appropriate interaction point
 3. Verify the event appears in Firebase DebugView during development
 4. Update this table if a new *category* of intent is introduced
+
+## Component Documentation Guidelines
+
+Component documentation lives in `docs/components.md`. It must be kept in sync with the
+codebase whenever components are added, removed, or significantly changed.
+
+### When to Update `docs/components.md`
+
+Apply this checklist for any change under `src/react-app/src/components/` or
+`src/react-app/src/perspectives/`:
+
+1. **Adding a new component** → Add a full section to `docs/components.md` including:
+   - Component name, file path, and purpose
+   - Props table (name, type, description)
+   - Internal state table (if any `useState` / class state)
+   - Key behaviours and interactions
+   - Update the [Component Hierarchy](docs/components.md#component-hierarchy) tree to show where it fits
+   - Update the [Table of Contents](docs/components.md#table-of-contents)
+2. **Removing a component** → Remove its section from the docs and update the hierarchy tree.
+3. **Changing a component's props or behaviour** → Update the relevant props table,
+   state table, or behaviour description.
+4. **Adding a new perspective** → Add a row to the perspectives table in the
+   [Perspectives System](#perspectives-system) section.
+5. **Pure CSS / styling refactor with no API change** → No docs update needed.
+
+State your decision explicitly when proposing changes, e.g.:
+> *"Updated docs/components.md — added section for new FilterChip component."*
+> *"No docs update needed — this is an internal refactor with no prop or behaviour change."*
+
+### Documentation Structure
+
+The document is organised top-down by role:
+
+1. **Layout & Navigation** — App, HeaderPills, BottomAppBar
+2. **Food Display** — FoodList, FoodCard, FoodDetailModal, FavouritesList
+3. **Interactive Primitives** — SwipeableCard, Pill, Tray
+4. **Notice Cards** — CookieConsentCard, DisclaimerCard
+5. **Utility Components** — SkeletonCard, ErrorBoundary
+6. **Perspectives System** — Nutrition insight perspectives
+
+Place new components in the category that best matches their role. If a new category
+is needed, add it in a logical position and update the table of contents.
+
+### Screenshots
+
+Screenshots are stored in `docs/screenshots/`. If a new component introduces a
+significant visual change, add a screenshot and reference it from the component's section
+using a relative path: `![Alt text](screenshots/filename.png)`.

@@ -52,7 +52,13 @@ On the main view, swipe a card left to hide it or right to favourite it. Hidden 
 /data/{region}/{restaurant}/food.json - Menu items per restaurant
 /data/{region}/food.json - Merged menu items for the entire region
 /src/react-app - React frontend application
+/docs/components.md - React component documentation
+/docs/screenshots/ - Screenshot assets used in documentation
 ```
+
+### Further Documentation
+
+- [Component Documentation](docs/components.md) — Props, state, behaviours, and screenshots for every React component
 
 ## Getting Started
 
