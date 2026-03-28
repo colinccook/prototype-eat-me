@@ -28,7 +28,13 @@ for (const region of regionsIndex.regions) {
 
   for (const restaurant of restaurantsIndex.restaurants) {
     const foodPath = join(regionDir, restaurant.id, 'food.json');
-    const foodData = JSON.parse(readFileSync(foodPath, 'utf-8'));
+    let foodData;
+    try {
+      foodData = JSON.parse(readFileSync(foodPath, 'utf-8'));
+    } catch (err) {
+      console.error(`Error reading ${foodPath} for restaurant "${restaurant.name}": ${err.message}`);
+      process.exit(1);
+    }
 
     for (const item of foodData.items) {
       allItems.push({ ...item, restaurant: restaurant.name });
