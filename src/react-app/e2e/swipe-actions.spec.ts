@@ -298,6 +298,9 @@ test.describe('Swipe Actions & Favourites', () => {
     test('Favourite items persist across page reloads', async ({ page }) => {
       await loadWithCleanState(page, ['eatme-hidden-items', 'eatme-favourite-items']);
 
+      // Remember the first item name before favouriting
+      const firstCardName = await page.locator('.food-name').first().textContent();
+
       // Favourite an item
       await touchSwipeCard(page, 'right');
       await expect(page.locator('.hidden-count')).toBeVisible({ timeout: 5000 });
@@ -309,8 +312,11 @@ test.describe('Swipe Actions & Favourites', () => {
       // Badge should show (item is still favourited)
       await expect(page.locator('.bottom-app-bar__badge')).toBeVisible();
 
-      // Item should still be hidden from search (in favourites)
-      await expect(page.locator('.hidden-count')).toBeVisible();
+      // Navigate to Favourites tab and verify the item is present
+      const favTab = page.locator('.bottom-app-bar__tab').filter({ hasText: 'Favourites' });
+      await favTab.click();
+      await expect(page.locator('.food-card')).toHaveCount(1);
+      await expect(page.locator('.food-name').first()).toContainText(firstCardName!);
     });
   });
 

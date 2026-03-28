@@ -92,8 +92,10 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const displayedItems = visibleItems.slice(0, displayCount);
   const hasMore = displayCount < visibleItems.length;
 
-  // Reset displayCount when the underlying item list or sort order changes
-  const resetKey = `${items.length}|${filters.sortBy}`;
+  // Reset displayCount when the underlying item list or filter/sort state changes.
+  // A stable JSON key of the full filter bag ensures any filter change (restaurant,
+  // diet, calories, sort) resets progressive rendering back to the first batch.
+  const resetKey = JSON.stringify(filters) + '|' + items.length;
   const [prevResetKey, setPrevResetKey] = useState(resetKey);
   if (prevResetKey !== resetKey) {
     setPrevResetKey(resetKey);
