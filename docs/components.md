@@ -204,10 +204,10 @@ The primary content view for the Search tab. Renders food items in a responsive 
 | `showDisclaimer` | `boolean` | Whether to show the AI disclaimer |
 | `onDisclaimerDismiss` | `() => void` | Disclaimer dismiss callback |
 | `hiddenItems` | `Set<string>` | Set of hidden item keys |
-| `favouriteItems` | `Set<string>` | Set of favourite item keys |
+| `favouriteItems` | `Set<string>` | Set of favourite item keys (also hidden from search) |
 | `onHideItem` | `(item: FoodItem) => void` | Hide callback (swipe left) |
-| `onFavouriteItem` | `(item: FoodItem) => void` | Favourite callback (swipe right) |
-| `onShowAll` | `() => void` | Reveals all hidden items |
+| `onFavouriteItem` | `(item: FoodItem) => void` | Favourite callback (swipe right, also hides from search) |
+| `onShowAll` | `() => void` | Resets all hidden and favourited items |
 
 #### State
 
@@ -216,13 +216,16 @@ The primary content view for the Search tab. Renders food items in a responsive 
 | `selectedItem` | `FoodItem \| null` | Item currently shown in the detail modal |
 | `showToast` | `boolean` | Toast notification visibility for share feedback |
 | `initialItemConsumed` | `boolean` | Whether the deep-linked item has been auto-opened |
+| `displayCount` | `number` | Number of items currently rendered (progressive rendering) |
 
 #### Key Behaviours
 
+- **Progressive rendering**: Items load in batches of 6. An `IntersectionObserver` on a sentinel element at the bottom of the grid loads the next batch when the user scrolls near it.
+- **Favourite hides from search**: Favourited items are filtered out of the search view (they appear in the Favourites tab instead). Swiping right animates the card off-screen.
 - **Loading state**: Renders 6 `SkeletonCard` placeholders with shimmer animation.
 - **Grid layout**: CSS Grid with `auto-fill`, minimum column width of 280px.
 - **Share button**: Copies current filter URL to clipboard or opens the native share dialog.
-- **Hidden items counter**: Shows a "Show all" button with count of hidden items.
+- **Hidden items counter**: Shows a "Show all" button with count of hidden items (includes both swiped-left and favourited items). Clicking "Show all" resets both hidden and favourite lists.
 - **Toast notification**: 2-second notification after sharing.
 - **Deep linking**: Auto-opens `FoodDetailModal` if `initialItem` matches a loaded item.
 
@@ -316,6 +319,7 @@ Favourites tab content — displays only items the user has marked as favourites
 | `sortBy` | `SortOption` | Current sort option |
 | `filters` | `FilterOptions` | Current filters (for sharing) |
 | `onUnfavourite` | `(item: FoodItem) => void` | Remove-from-favourites callback |
+| `onClearAll` | `() => void` | Clears all favourites |
 
 #### State
 
@@ -327,6 +331,7 @@ Favourites tab content — displays only items the user has marked as favourites
 
 - Filters `allItems` to only those in the `favouriteItems` set.
 - Swipe left on a card to unfavourite (❤️ → 💔 Remove).
+- **Clear all button**: Removes all favourites at once.
 - Shows an empty state message when no items are favourited: *"No favourites yet. Swipe right on a food item to add it here."*
 - Opens the same `FoodDetailModal` on card tap.
 

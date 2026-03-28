@@ -249,12 +249,7 @@ function App() {
   const handleFavouriteItem = useCallback((item: FoodItem) => {
     setFavouriteItems(prev => {
       const next = new Set(prev);
-      const key = getItemKey(item);
-      if (next.has(key)) {
-        next.delete(key);
-      } else {
-        next.add(key);
-      }
+      next.add(getItemKey(item));
       saveFavouriteItems(next);
       return next;
     });
@@ -272,6 +267,13 @@ function App() {
   const handleShowAll = useCallback(() => {
     setHiddenItems(new Set());
     saveHiddenItems(new Set());
+    setFavouriteItems(new Set());
+    saveFavouriteItems(new Set());
+  }, []);
+
+  const handleClearAllFavourites = useCallback(() => {
+    setFavouriteItems(new Set());
+    saveFavouriteItems(new Set());
   }, []);
 
   const handleRegionChange = useCallback((regionId: string | null) => {
@@ -517,6 +519,7 @@ function App() {
                 sortBy={filters.sortBy}
                 filters={filters}
                 onUnfavourite={handleUnfavouriteItem}
+                onClearAll={handleClearAllFavourites}
               />
             )}
           </section>

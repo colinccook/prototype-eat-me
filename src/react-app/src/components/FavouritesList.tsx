@@ -14,9 +14,10 @@ interface FavouritesListProps {
   sortBy: SortOption;
   filters: FilterOptions;
   onUnfavourite: (item: FoodItem) => void;
+  onClearAll: () => void;
 }
 
-function FavouritesList({ allItems, favouriteItems, sortBy, filters, onUnfavourite }: FavouritesListProps) {
+function FavouritesList({ allItems, favouriteItems, sortBy, filters, onUnfavourite, onClearAll }: FavouritesListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
 
   const items = allItems.filter(item => favouriteItems.has(getItemKey(item)));
@@ -42,6 +43,7 @@ function FavouritesList({ allItems, favouriteItems, sortBy, filters, onUnfavouri
     <div className="food-list">
       <div className="food-list-header">
         <span className="item-count">{items.length} favourite{items.length !== 1 ? 's' : ''}</span>
+        <button className="clear-all-button" onClick={onClearAll}>Clear all</button>
       </div>
       <div className="food-grid">
         {items.map((item) => (

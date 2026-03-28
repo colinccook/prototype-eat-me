@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { getItemKey } from '../itemKeys';
 import { shareFilters } from '../urlState';
@@ -11,6 +11,8 @@ import DisclaimerCard from './DisclaimerCard';
 import SwipeableCard from './SwipeableCard';
 import './FoodList.css';
 import './SkeletonCard.css';
+
+const BATCH_SIZE = 6;
 
 interface FoodListProps {
   items: FoodItem[];
@@ -37,6 +39,8 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
+  const [displayCount, setDisplayCount] = useState(BATCH_SIZE);
+  const observerRef = useRef<IntersectionObserver | null>(null);
 
   // Handle initial item deep-link: auto-open the matching item once items are loaded.
   // Uses React's "adjusting state during rendering" pattern (per React docs) because
@@ -77,9 +81,60 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     }
   }, [filters]);
 
-  // Filter out hidden items
-  const visibleItems = items.filter(item => !hiddenItems.has(getItemKey(item)));
+  // Filter out hidden and favourited items
+  const visibleItems = items.filter(item => {
+    const key = getItemKey(item);
+    return !hiddenItems.has(key) && !favouriteItems.has(key);
+  });
   const hiddenCount = items.length - visibleItems.length;
+
+  // Progressive rendering: only show items up to displayCount
+  const displayedItems = visibleItems.slice(0, displayCount);
+  const hasMore = displayCount < visibleItems.length;
+
+  // Reset displayCount when the underlying item list or filter/sort state changes.
+  // A stable JSON key of the full filter bag ensures any filter change (restaurant,
+  // diet, calories, sort) resets progressive rendering back to the first batch.
+  const resetKey = JSON.stringify(filters) + '|' + items.length;
+  const [prevResetKey, setPrevResetKey] = useState(resetKey);
+  if (prevResetKey !== resetKey) {
+    setPrevResetKey(resetKey);
+    if (displayCount !== BATCH_SIZE) {
+      setDisplayCount(BATCH_SIZE);
+    }
+  }
+
+  // Callback ref for the sentinel – sets up / tears down the IntersectionObserver
+  // when the sentinel element is mounted or unmounted. This avoids timing issues
+  // with useRef + useEffect where the ref may not be set when the effect runs.
+  const sentinelCallbackRef = useCallback((node: HTMLDivElement | null) => {
+    // Disconnect previous observer if any
+    if (observerRef.current) {
+      observerRef.current.disconnect();
+      observerRef.current = null;
+    }
+    if (!node) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setDisplayCount(prev => prev + BATCH_SIZE);
+        }
+      },
+      { rootMargin: '200px' }
+    );
+    observer.observe(node);
+    observerRef.current = observer;
+  }, []);
+
+  // Clean up observer on unmount
+  useEffect(() => {
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, []);
 
   if (isLoading) {
     return (
@@ -152,7 +207,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         {showDisclaimer && (
           <DisclaimerCard onDismiss={onDisclaimerDismiss} />
         )}
-        {visibleItems.map((item) => (
+        {displayedItems.map((item) => (
           <SwipeableCard
             key={getItemKey(item)}
             onSwipeLeft={() => onHideItem(item)}
@@ -160,16 +215,19 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
             animateOutLeft
-            animateOutRight={false}
+            animateOutRight
           >
             <FoodCard 
               item={item} 
               sortBy={sortBy}
-              isFavourite={favouriteItems.has(getItemKey(item))}
+              isFavourite={false} /* Favourited items are filtered out of the search view */
               onClick={() => handleItemClick(item)}
             />
           </SwipeableCard>
         ))}
+        {hasMore && (
+          <div ref={sentinelCallbackRef} className="load-more-sentinel" aria-hidden="true" />
+        )}
       </div>
       <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} />
     </div>
