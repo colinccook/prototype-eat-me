@@ -293,13 +293,26 @@ function App() {
   }, [selectedRegion]);
 
   const handleRefreshData = useCallback(async () => {
+    if (!selectedRegion) return;
     setIsRefreshing(true);
-    // Attempt to clear the service worker cache, then reload regardless
+    // Clear the service worker data cache so fresh data is fetched from the network
     await clearDataCache().catch(() => {
-      // Ignore errors - we'll reload anyway
+      // Ignore errors - we'll re-fetch anyway
     });
-    window.location.reload();
-  }, []);
+    try {
+      const [foodData, restaurantData] = await Promise.all([
+        fetchRegionFood(selectedRegion),
+        fetchRestaurants(selectedRegion),
+      ]);
+      setFoodItems(foodData.items);
+      setRestaurants(restaurantData.restaurants);
+    } catch (err) {
+      setError('Unable to refresh. Please check your connection and try again.');
+      console.error(err);
+    } finally {
+      setIsRefreshing(false);
+    }
+  }, [selectedRegion]);
 
   // Pull-to-refresh handlers
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
