@@ -92,11 +92,11 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const displayedItems = visibleItems.slice(0, displayCount);
   const hasMore = displayCount < visibleItems.length;
 
-  // Reset displayCount when the item list changes (e.g. filter/sort change)
-  const itemsFingerprint = items.length + '-' + filters.sortBy;
-  const [prevFingerprint, setPrevFingerprint] = useState(itemsFingerprint);
-  if (prevFingerprint !== itemsFingerprint) {
-    setPrevFingerprint(itemsFingerprint);
+  // Reset displayCount when the underlying item list or sort order changes
+  const resetKey = `${items.length}|${filters.sortBy}`;
+  const [prevResetKey, setPrevResetKey] = useState(resetKey);
+  if (prevResetKey !== resetKey) {
+    setPrevResetKey(resetKey);
     if (displayCount !== BATCH_SIZE) {
       setDisplayCount(BATCH_SIZE);
     }
@@ -218,7 +218,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             <FoodCard 
               item={item} 
               sortBy={sortBy}
-              isFavourite={false}
+              isFavourite={false} /* Favourited items are filtered out of the search view */
               onClick={() => handleItemClick(item)}
             />
           </SwipeableCard>
