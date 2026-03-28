@@ -59,6 +59,9 @@ function SwipeableCard({
     isHorizontalSwipe.current = null;
     if (cardRef.current) {
       cardRef.current.style.transition = 'none';
+      // Promote to GPU layer only while the gesture is active to avoid
+      // exhausting GPU memory when hundreds of cards are rendered at once.
+      cardRef.current.style.willChange = 'transform, opacity';
     }
   }, []);
 
@@ -102,6 +105,11 @@ function SwipeableCard({
       cardRef.current.style.transition = `transform ${ANIMATION_DURATION_MS}ms ease, opacity ${ANIMATION_DURATION_MS}ms ease`;
       cardRef.current.style.transform = '';
       cardRef.current.style.opacity = '1';
+      // Release the GPU layer once the snap-back animation has finished.
+      const el = cardRef.current;
+      setTimeout(() => {
+        el.style.willChange = 'auto';
+      }, ANIMATION_DURATION_MS);
     }
   }, []);
 
@@ -125,7 +133,12 @@ function SwipeableCard({
             cardRef.current.style.transform = `translateX(${flyTo}px)`;
             cardRef.current.style.opacity = '0';
           }
-          flyOffTimer.current = setTimeout(handler, ANIMATION_DURATION_MS);
+          flyOffTimer.current = setTimeout(() => {
+            if (cardRef.current) {
+              cardRef.current.style.willChange = 'auto';
+            }
+            handler();
+          }, ANIMATION_DURATION_MS);
         } else {
           // Snap back then invoke handler immediately
           snapBack();
@@ -144,6 +157,18 @@ function SwipeableCard({
     isHorizontalSwipe.current = null;
   }, [onSwipeLeft, onSwipeRight, animateOutLeft, animateOutRight, snapBack]);
 
+  // Handle iOS Safari cancelling the touch gesture (e.g., when it intercepts
+  // a right-edge swipe for back-navigation). Without this, the card is left
+  // visually displaced and its GPU layer is never released.
+  const handleTouchCancel = useCallback(() => {
+    if (touchStartX.current === null) return;
+    snapBack();
+    touchStartX.current = null;
+    touchStartY.current = null;
+    currentX.current = 0;
+    isHorizontalSwipe.current = null;
+  }, [snapBack]);
+
   return (
     <div className="swipeable-card-wrapper">
       {/* Background indicators */}
@@ -160,6 +185,7 @@ function SwipeableCard({
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchCancel}
       >
         {children}
       </div>
