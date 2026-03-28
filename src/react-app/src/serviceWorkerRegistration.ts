@@ -32,13 +32,21 @@ export function registerServiceWorker(): void {
     // When a new service worker takes control, reload to get fresh content
     // This ensures users always see the latest version without manual cache clearing
     // Only reload when updating an existing SW (skip first-time install)
+    // Guard against reloading during pull-to-refresh to prevent reload loops on iOS Safari
     let reloadOnChange = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-      if (reloadOnChange) {
+      if (reloadOnChange && !(window as unknown as Record<string, unknown>).__eatMeLoading) {
         console.log('[PWA] New service worker activated, reloading for latest content...');
         window.location.reload();
       }
       reloadOnChange = true;
+    });
+
+    // Forward service worker errors to the console so they appear in Safari remote inspector
+    navigator.serviceWorker.addEventListener('message', (event) => {
+      if (event.data?.type === 'SW_ERROR') {
+        console.error('[PWA/SW Error]', event.data.error, event.data.url);
+      }
     });
   } else {
     console.log('[PWA] Service Workers are not supported in this browser');

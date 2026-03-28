@@ -163,10 +163,24 @@ self.addEventListener('fetch', (event) => {
             });
           }
           return networkResponse;
+        }).catch((err) => {
+          // Forward error to all clients so it appears in remote Safari inspector
+          self.clients.matchAll().then((clients) => {
+            clients.forEach((c) => c.postMessage({ type: 'SW_ERROR', error: String(err), url: event.request.url }));
+          }).catch(() => {});
+          // Return a proper error response instead of a rejected promise
+          return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
         });
       })
     );
   }
+});
+
+self.addEventListener('unhandledrejection', (event) => {
+  console.error('[Service Worker] Unhandled rejection:', event.reason);
+  self.clients.matchAll().then((clients) => {
+    clients.forEach((c) => c.postMessage({ type: 'SW_ERROR', error: String(event.reason), url: 'unhandled-rejection' }));
+  }).catch(() => {});
 });
 
 // Handle messages from the main thread
