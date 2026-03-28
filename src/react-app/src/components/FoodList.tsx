@@ -40,7 +40,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const [toastMessage, setToastMessage] = useState('');
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
   const [displayCount, setDisplayCount] = useState(BATCH_SIZE);
-  const sentinelRef = useRef<HTMLDivElement>(null);
+  const observerRef = useRef<IntersectionObserver | null>(null);
 
   // Handle initial item deep-link: auto-open the matching item once items are loaded.
   // Uses React's "adjusting state during rendering" pattern (per React docs) because
@@ -102,10 +102,16 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     }
   }
 
-  // IntersectionObserver to load more items when sentinel becomes visible
-  useEffect(() => {
-    const sentinel = sentinelRef.current;
-    if (!sentinel) return;
+  // Callback ref for the sentinel – sets up / tears down the IntersectionObserver
+  // when the sentinel element is mounted or unmounted. This avoids timing issues
+  // with useRef + useEffect where the ref may not be set when the effect runs.
+  const sentinelCallbackRef = useCallback((node: HTMLDivElement | null) => {
+    // Disconnect previous observer if any
+    if (observerRef.current) {
+      observerRef.current.disconnect();
+      observerRef.current = null;
+    }
+    if (!node) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -115,10 +121,18 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
       },
       { rootMargin: '200px' }
     );
+    observer.observe(node);
+    observerRef.current = observer;
+  }, []);
 
-    observer.observe(sentinel);
-    return () => observer.disconnect();
-  }, [visibleItems.length]);
+  // Clean up observer on unmount
+  useEffect(() => {
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, []);
 
   if (isLoading) {
     return (
@@ -210,7 +224,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
           </SwipeableCard>
         ))}
         {hasMore && (
-          <div ref={sentinelRef} className="load-more-sentinel" aria-hidden="true" />
+          <div ref={sentinelCallbackRef} className="load-more-sentinel" aria-hidden="true" />
         )}
       </div>
       <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} />
