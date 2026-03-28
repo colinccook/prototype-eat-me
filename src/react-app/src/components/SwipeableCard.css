@@ -7,7 +7,6 @@
 .swipeable-card-inner {
   position: relative;
   z-index: 1;
-  will-change: transform, opacity;
 }
 
 /* Indicators behind the card */
