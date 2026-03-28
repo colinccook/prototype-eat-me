@@ -41,6 +41,10 @@ jobs:
       working-directory: src/react-app
       run: npm run test:coverage
 
+    - name: Merge restaurant food data
+      working-directory: src/react-app
+      run: npm run merge-food-data
+
     - name: Build React app
       working-directory: src/react-app
       run: npm run build

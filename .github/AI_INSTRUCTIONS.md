@@ -14,12 +14,18 @@ This document provides instructions for AI agents to process restaurant menu doc
 ```
 /raw/{region}/{restaurant}/{document.extension}  - Original PDF/document sources
 /schemas/food.json.md                            - Schema for food.json files
+/scripts/merge-food-data.mjs                     - Merges restaurant data into regional food.json
 /data/index.json                                 - List of all regions
 /data/{region}/index.json                        - List of restaurants in region
 /data/{region}/{restaurant}/food.json            - Menu items per restaurant
-/data/{region}/food.json                         - Merged items for entire region
+/src/react-app/public/data/{region}/food.json    - Small regional food.json for local dev/BDD tests
 /src                                             - Application source code
 ```
+
+> **Note:** The regional merged `food.json` (`/data/{region}/food.json`) is no longer committed
+> to the repository. It is automatically generated at build time by `scripts/merge-food-data.mjs`
+> and written to `src/react-app/public/data/{region}/food.json` (overwriting the small
+> committed version). See [Build-Time Data Merging](#build-time-data-merging) for details.
 
 ## Processing Workflow
 
@@ -80,25 +86,16 @@ Ensure the restaurant is listed in `/data/{region}/index.json`:
 
 **Note**: Keep restaurants sorted alphabetically by `id`.
 
-### 5. Update Regional Merged food.json
+### 5. Verify Merge Script
 
-Regenerate `/data/{region}/food.json` by merging all restaurant items. Each item should include the restaurant name:
+The regional merged `food.json` is now generated automatically at build time by `scripts/merge-food-data.mjs`. You no longer need to manually regenerate it. To verify locally:
 
-```json
-{
-  "region": "Region Display Name",
-  "items": [
-    {
-      "name": "Item Name",
-      "restaurant": "Restaurant Display Name",
-      "calories": 100,
-      "macros": { ... },
-      "vegetarian": true,
-      "vegan": false
-    }
-  ]
-}
+```bash
+cd src/react-app
+npm run merge-food-data
 ```
+
+This reads all restaurant `food.json` files and writes the merged output to `src/react-app/public/data/{region}/food.json`.
 
 ### 6. Update Global Index (if new region)
 
@@ -123,15 +120,18 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 4. **Validate schema**: Ensure all data conforms to the food.json schema
 5. **Remove duplicates**: Prevent duplicate entries when regenerating merged files
 
-## Important: Always Update Regional Merged Data
+## Build-Time Data Merging
 
-**Whenever a restaurant's data is added, updated, or removed, you MUST regenerate the regional merged `food.json`.**
+The regional merged `food.json` is **automatically generated** at build time by `scripts/merge-food-data.mjs`. The CI pipeline runs this before building the React app, so the deployed application always has the full merged data from all restaurants.
 
-The regional merged file (`/data/{region}/food.json`) contains all items from all restaurants in that region. It must always be kept in sync with the individual restaurant data files. Failing to update this file will cause the application to show stale or incomplete data.
+**You do NOT need to manually regenerate the merged file.** Simply update the individual restaurant `food.json` and the merge script handles the rest during CI.
+
+A small committed version of `src/react-app/public/data/{region}/food.json` exists for local development and BDD testing. It contains a representative subset of items covering all test scenarios (see [Maintaining the Small food.json for BDD Tests](#maintaining-the-small-foodjson-for-bdd-tests)).
 
 After any restaurant change:
-1. Regenerate `/data/{region}/food.json` by merging all restaurant items
-2. Sync the updated data to `/src/react-app/public/data/` so the application serves the latest data
+1. Update the individual restaurant's `food.json` under `data/{region}/{restaurant}/`
+2. Sync non-merged data to `/src/react-app/public/data/` (restaurant files, index files)
+3. The CI pipeline will auto-merge all restaurant data at build time
 
 ## Common Tasks
 
@@ -140,31 +140,32 @@ After any restaurant change:
 1. Place source document in `/raw/{region}/{restaurant}/`
 2. Create `/data/{region}/{restaurant}/food.json` with extracted items
 3. Add restaurant to `/data/{region}/index.json`
-4. Regenerate `/data/{region}/food.json` (merge all restaurant items)
-5. Sync data to `/src/react-app/public/data/`
+4. Sync data to `/src/react-app/public/data/` (restaurant files and index)
+5. The CI pipeline will auto-merge all restaurant data at build time
 
 ### Updating Restaurant Menu
 
 1. Update source document in `/raw/{region}/{restaurant}/`
 2. Re-extract items to `/data/{region}/{restaurant}/food.json`
-3. Regenerate `/data/{region}/food.json` (merge all restaurant items)
-4. Sync data to `/src/react-app/public/data/`
+3. Sync updated restaurant data to `/src/react-app/public/data/`
+4. The CI pipeline will auto-merge all restaurant data at build time
 
 ### Removing a Restaurant
 
 1. Remove `/data/{region}/{restaurant}/` directory
 2. Remove restaurant from `/data/{region}/index.json`
-3. Regenerate `/data/{region}/food.json` (merge remaining restaurant items)
-4. Sync data to `/src/react-app/public/data/`
+3. Sync changes to `/src/react-app/public/data/`
+4. The CI pipeline will auto-merge remaining restaurant data at build time
 
 ### Adding a New Region
 
 1. Create `/raw/{region}/` directory
 2. Create `/data/{region}/` directory
 3. Create `/data/{region}/index.json` with empty restaurants array
-4. Create `/data/{region}/food.json` with empty items array
-5. Add region to `/data/index.json`
-6. Sync data to `/src/react-app/public/data/`
+4. Add region to `/data/index.json`
+5. Create `/src/react-app/public/data/{region}/` directory with a small `food.json` for local dev
+6. Sync index data to `/src/react-app/public/data/`
+7. The CI pipeline will auto-merge restaurant data at build time
 
 ## Quick Reference: Current State
 
@@ -201,37 +202,52 @@ This section summarises the current data so agents can orient quickly without re
 
 ### Syncing Data
 
-After any data change, sync canonical data to the app's public directory:
+After any data change, sync canonical data to the app's public directory (excluding the
+regional merged `food.json` which is auto-generated):
 
 ```bash
-rsync -av --delete data/ src/react-app/public/data/
+# Sync restaurant data and indexes (not the regional food.json)
+rsync -av --delete --exclude='food.json' data/ src/react-app/public/data/
+# Then copy only the restaurant-level food.json files
+find data -path '*/*/food.json' -not -path 'data/*/food.json' | while read f; do
+  dest="src/react-app/public/${f}"
+  mkdir -p "$(dirname "$dest")"
+  cp "$f" "$dest"
+done
 ```
 
-### Regenerating Regional Merged food.json
+### Running the Merge Script Locally
 
-Use this Python snippet to regenerate `/data/{region}/food.json` from all restaurant files:
+To generate the full merged regional food.json locally (e.g. for manual testing with all data):
 
-```python
-import json, os
-
-region = "uk"
-with open(f'data/{region}/index.json') as f:
-    index = json.load(f)
-
-all_items = []
-for r in index['restaurants']:
-    path = f'data/{region}/{r["id"]}/food.json'
-    if os.path.exists(path):
-        with open(path) as f:
-            data = json.load(f)
-        for item in data['items']:
-            item['restaurant'] = r['name']
-            all_items.append(item)
-
-all_items.sort(key=lambda x: (x['name'].lower(), x['restaurant'].lower()))
-with open(f'data/{region}/food.json', 'w') as f:
-    json.dump({"region": "United Kingdom", "items": all_items}, f, indent=2, ensure_ascii=False)
+```bash
+cd src/react-app
+npm run merge-food-data
 ```
+
+This reads `data/{region}/index.json` and all restaurant `food.json` files, then writes the
+merged output to `src/react-app/public/data/{region}/food.json`. The CI pipeline runs this
+automatically before each build.
+
+### Maintaining the Small food.json for BDD Tests
+
+A small representative `food.json` is committed at `src/react-app/public/data/{region}/food.json`
+for local development and BDD testing. This file contains a curated subset of items that covers
+all test scenarios. **When adding a new BDD test that requires specific food data characteristics
+(e.g. a new allergen type, a new dietary flag, or a specific nutritional range), you MUST add
+appropriate items to this small `food.json` to ensure the test passes locally and in CI
+before the merge step runs.**
+
+The small `food.json` must always satisfy these requirements:
+
+- Items from **multiple restaurants** (including McDonald's — referenced in sharing tests)
+- At least 1 **vegetarian** item and 1 **non-vegetarian** item
+- At least 1 **vegan** item
+- Items **≤300 calories** and items **>300 calories**
+- Items **with** and **without** salt data (for "items without salt at end" sort tests)
+- Items **with** and **without** fibre data (for "items without fibre at end" sort tests)
+- At least 1 item **with allergen data** (for allergen display tests)
+- Items with **saturated fat** and **sugar** data (for detail modal tests)
 
 ## BDD Testing Guidelines
 

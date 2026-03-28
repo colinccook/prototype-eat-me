@@ -21,3 +21,6 @@ Thumbs.db
 test-results/
 playwright-report/
 playwright/.cache/
+
+# Generated regional food.json (auto-merged from restaurant data at build time)
+data/*/food.json
