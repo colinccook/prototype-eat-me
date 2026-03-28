@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { getItemKey } from '../itemKeys';
 import { shareFilters } from '../urlState';
@@ -11,6 +11,8 @@ import DisclaimerCard from './DisclaimerCard';
 import SwipeableCard from './SwipeableCard';
 import './FoodList.css';
 import './SkeletonCard.css';
+
+const BATCH_SIZE = 6;
 
 interface FoodListProps {
   items: FoodItem[];
@@ -37,6 +39,8 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
+  const [displayCount, setDisplayCount] = useState(BATCH_SIZE);
+  const sentinelRef = useRef<HTMLDivElement>(null);
 
   // Handle initial item deep-link: auto-open the matching item once items are loaded.
   // Uses React's "adjusting state during rendering" pattern (per React docs) because
@@ -77,9 +81,44 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     }
   }, [filters]);
 
-  // Filter out hidden items
-  const visibleItems = items.filter(item => !hiddenItems.has(getItemKey(item)));
+  // Filter out hidden and favourited items
+  const visibleItems = items.filter(item => {
+    const key = getItemKey(item);
+    return !hiddenItems.has(key) && !favouriteItems.has(key);
+  });
   const hiddenCount = items.length - visibleItems.length;
+
+  // Progressive rendering: only show items up to displayCount
+  const displayedItems = visibleItems.slice(0, displayCount);
+  const hasMore = displayCount < visibleItems.length;
+
+  // Reset displayCount when the item list changes (e.g. filter/sort change)
+  const itemsFingerprint = items.length + '-' + filters.sortBy;
+  const [prevFingerprint, setPrevFingerprint] = useState(itemsFingerprint);
+  if (prevFingerprint !== itemsFingerprint) {
+    setPrevFingerprint(itemsFingerprint);
+    if (displayCount !== BATCH_SIZE) {
+      setDisplayCount(BATCH_SIZE);
+    }
+  }
+
+  // IntersectionObserver to load more items when sentinel becomes visible
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setDisplayCount(prev => prev + BATCH_SIZE);
+        }
+      },
+      { rootMargin: '200px' }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [visibleItems.length]);
 
   if (isLoading) {
     return (
@@ -152,7 +191,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         {showDisclaimer && (
           <DisclaimerCard onDismiss={onDisclaimerDismiss} />
         )}
-        {visibleItems.map((item) => (
+        {displayedItems.map((item) => (
           <SwipeableCard
             key={getItemKey(item)}
             onSwipeLeft={() => onHideItem(item)}
@@ -160,16 +199,19 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
             animateOutLeft
-            animateOutRight={false}
+            animateOutRight
           >
             <FoodCard 
               item={item} 
               sortBy={sortBy}
-              isFavourite={favouriteItems.has(getItemKey(item))}
+              isFavourite={false}
               onClick={() => handleItemClick(item)}
             />
           </SwipeableCard>
         ))}
+        {hasMore && (
+          <div ref={sentinelRef} className="load-more-sentinel" aria-hidden="true" />
+        )}
       </div>
       <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} />
     </div>
