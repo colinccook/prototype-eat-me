@@ -12,7 +12,7 @@
   font-weight: 700;
   color: #1a1a1a;
   line-height: 1.3;
-  padding-right: 40px;
+  padding-right: 80px;
 }
 
 .modal-restaurant {
@@ -23,36 +23,6 @@
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-weight: 500;
-}
-
-.share-item-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  margin-top: 0.75rem;
-  padding: 0.4rem 0.85rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-  color: #667eea;
-  font-size: 0.8rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.share-item-button:hover {
-  background: #f0f0ff;
-  border-color: #667eea;
-}
-
-.share-item-button:active {
-  transform: scale(0.92);
-  background: #e8e8ff;
-}
-
-.share-item-button .share-icon {
-  flex-shrink: 0;
 }
 
 /* Dietary Badges */

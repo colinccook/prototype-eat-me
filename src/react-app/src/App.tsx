@@ -276,6 +276,22 @@ function App() {
     saveFavouriteItems(new Set());
   }, []);
 
+  const handleHideRestaurant = useCallback((restaurant: string) => {
+    setFilters(prev => ({
+      ...prev,
+      selectedRestaurants: prev.selectedRestaurants.length > 0
+        ? prev.selectedRestaurants.filter(r => r !== restaurant)
+        : restaurants.map(r => r.name).filter(r => r !== restaurant),
+    }));
+  }, [restaurants]);
+
+  const handleOnlyShowRestaurant = useCallback((restaurant: string) => {
+    setFilters(prev => ({
+      ...prev,
+      selectedRestaurants: [restaurant],
+    }));
+  }, []);
+
   const handleRegionChange = useCallback((regionId: string | null) => {
     if (regionId === selectedRegion) {
       return;
@@ -510,6 +526,8 @@ function App() {
                 onHideItem={handleHideItem}
                 onFavouriteItem={handleFavouriteItem}
                 onShowAll={handleShowAll}
+                onHideRestaurant={handleHideRestaurant}
+                onOnlyShowRestaurant={handleOnlyShowRestaurant}
               />
             )}
             {activeTab === 'favourites' && (

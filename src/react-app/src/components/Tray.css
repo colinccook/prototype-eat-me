@@ -66,11 +66,19 @@
   margin: 0 auto;
 }
 
-/* Close Button */
-.tray-close-button {
+/* Header Actions Container */
+.tray-header-actions {
   position: absolute;
   top: 12px;
   right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+/* Close Button */
+.tray-close-button {
   width: 32px;
   height: 32px;
   border: none;
@@ -84,7 +92,6 @@
   align-items: center;
   justify-content: center;
   transition: background 0.2s, color 0.2s;
-  z-index: 10;
 }
 
 .tray-close-button:hover {
