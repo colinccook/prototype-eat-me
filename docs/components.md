@@ -294,7 +294,8 @@ Full-detail view of a food item, rendered inside a `Tray` modal. Shows comprehen
 
 #### Display Sections
 
-1. **Header** — Item name, restaurant, context menu (⋮ button)
+1. **Header** — Item name, restaurant
+2. **Top-right actions** — Context menu (⋮ button) and close button (×), styled consistently side by side
 2. **Dietary badges** — Vegetarian / Vegan
 3. **Primary metric** — Dynamic based on `sortBy` (highlights the user's focus area)
 4. **Macronutrients grid** — All 8 macros: calories, protein, carbohydrates, fat, saturated fat, sugar, fibre, salt
@@ -317,7 +318,7 @@ Full-detail view of a food item, rendered inside a `Tray` modal. Shows comprehen
 
 **File:** `src/react-app/src/components/FoodItemContextMenu.tsx`
 
-A dropdown context menu rendered inside the `FoodDetailModal` header. Replaces the standalone share button with a ⋮ (vertical dots) trigger that opens a menu with contextual actions.
+A dropdown context menu rendered in the `Tray` header area, next to the close button. Replaces the standalone share button with a ⋮ (vertical dots) trigger that opens a menu with contextual actions. The trigger is styled to match the close button (circular, grey background) for visual consistency.
 
 #### Props
 
@@ -469,6 +470,7 @@ A modal drawer component used for filter panels and the food detail modal. Appea
 | `isOpen` | `boolean` | Controls visibility |
 | `onClose` | `() => void` | Close callback |
 | `title` | `string` | Optional title shown in the tray header |
+| `headerActions` | `ReactNode` | Optional extra buttons rendered next to the close button in the top-right corner |
 | `children` | `ReactNode` | Tray content |
 
 #### State

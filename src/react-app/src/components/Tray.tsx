@@ -9,10 +9,11 @@ interface TrayProps {
   isOpen: boolean;
   onClose: () => void;
   title?: string;
+  headerActions?: ReactNode;
   children: ReactNode;
 }
 
-function Tray({ isOpen, onClose, title, children }: TrayProps) {
+function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
   const contentRef = useRef<HTMLDivElement>(null);
   const startY = useRef<number | null>(null);
   const currentY = useRef<number | null>(null);
@@ -110,13 +111,16 @@ function Tray({ isOpen, onClose, title, children }: TrayProps) {
           </div>
 
           {/* Close button */}
-          <button 
-            className="tray-close-button" 
-            onClick={onClose}
-            aria-label="Close"
-          >
-            ×
-          </button>
+          <div className="tray-header-actions">
+            {headerActions}
+            <button 
+              className="tray-close-button" 
+              onClick={onClose}
+              aria-label="Close"
+            >
+              ×
+            </button>
+          </div>
 
           {/* Title */}
           {title && (

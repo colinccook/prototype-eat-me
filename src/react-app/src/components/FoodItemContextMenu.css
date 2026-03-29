@@ -1,39 +1,37 @@
 .context-menu-wrapper {
   position: relative;
   display: inline-block;
-  margin-top: 0.75rem;
 }
 
 .context-menu-trigger {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-  color: #667eea;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #666;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background 0.2s, color 0.2s;
 }
 
 @media (hover: hover) {
   .context-menu-trigger:hover {
-    background: #f0f0ff;
-    border-color: #667eea;
+    background: #e0e0e0;
+    color: #333;
   }
 }
 
 .context-menu-trigger:active {
-  transform: scale(0.92);
-  background: #e8e8ff;
+  background: #d0d0d0;
 }
 
 .context-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: 10;
   min-width: 220px;
   margin-top: 0.5rem;

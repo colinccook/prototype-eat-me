@@ -92,19 +92,24 @@ function FoodDetailModal({ item, sortBy, filters, onClose, onHideRestaurant, onO
   const perspectiveResults = evaluateAll(item);
 
   return (
-    <Tray isOpen={true} onClose={onClose}>
-      {/* Header */}
-      <div className="modal-header">
-        <h2 id="modal-title" className="modal-title">{item.name}</h2>
-        {item.restaurant && (
-          <span className="modal-restaurant">{item.restaurant}</span>
-        )}
+    <Tray
+      isOpen={true}
+      onClose={onClose}
+      headerActions={
         <FoodItemContextMenu
           restaurantName={item.restaurant}
           onShare={handleShareItem}
           onHideRestaurant={onHideRestaurant}
           onOnlyShowRestaurant={onOnlyShowRestaurant}
         />
+      }
+    >
+      {/* Header */}
+      <div className="modal-header">
+        <h2 id="modal-title" className="modal-title">{item.name}</h2>
+        {item.restaurant && (
+          <span className="modal-restaurant">{item.restaurant}</span>
+        )}
       </div>
 
       {showToast && (
