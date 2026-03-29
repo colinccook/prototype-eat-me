@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import type { FoodItem } from '../types';
 import './LongPressContextMenu.css';
 
@@ -14,6 +14,7 @@ interface LongPressContextMenuProps {
 
 function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHideRestaurant, onOnlyShowRestaurant, onClose }: LongPressContextMenuProps) {
   const restaurantName = item.restaurant;
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const handleShare = useCallback(() => {
     onShare();
@@ -72,21 +73,38 @@ function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHi
       document.body.style.overflow = previousOverflow;
     };
   }, []);
+
+  // Move focus into the menu when it opens
+  useEffect(() => {
+    const firstButton = menuRef.current?.querySelector('button');
+    if (firstButton) {
+      (firstButton as HTMLElement).focus();
+    } else {
+      menuRef.current?.focus();
+    }
+  }, []);
+
   return (
-    <div className="long-press-overlay" onClick={onClose} role="presentation">
+    <div
+      className="long-press-overlay"
+      onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="long-press-menu-title"
+    >
       <div
+        ref={menuRef}
         className="long-press-menu"
-        role="menu"
+        tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="long-press-menu-header">
-          <span className="long-press-menu-title">{item.name}</span>
+          <span id="long-press-menu-title" className="long-press-menu-title">{item.name}</span>
         </div>
 
         <button
           className="context-menu-item"
           onClick={handleShare}
-          role="menuitem"
         >
           <svg className="context-menu-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="18" cy="5" r="3"/>
@@ -102,7 +120,6 @@ function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHi
           <button
             className="context-menu-item"
             onClick={handleFavouriteItem}
-            role="menuitem"
           >
             <svg className="context-menu-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
@@ -115,7 +132,6 @@ function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHi
           <button
             className="context-menu-item"
             onClick={handleHideItem}
-            role="menuitem"
           >
             <svg className="context-menu-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>
@@ -130,7 +146,6 @@ function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHi
           <button
             className="context-menu-item"
             onClick={handleHideRestaurant}
-            role="menuitem"
           >
             <svg className="context-menu-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>
@@ -145,7 +160,6 @@ function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHi
           <button
             className="context-menu-item"
             onClick={handleOnlyShowRestaurant}
-            role="menuitem"
           >
             <svg className="context-menu-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>

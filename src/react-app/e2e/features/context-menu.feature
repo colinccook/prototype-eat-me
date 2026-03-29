@@ -125,6 +125,14 @@ Scenario: Hide from the long press context menu hides the item
     Then the item should disappear from the list
 
 @long-press-context-menu
+Scenario: Long press context menu closes when pressing Escape
+    Given I navigate to the application
+    When food items have loaded
+    And I long press on a food item
+    And I press the Escape key
+    Then the long press context menu should close
+
+@long-press-context-menu
 Scenario: Favourite from the long press context menu favourites the item
     Given I navigate to the application
     When food items have loaded
