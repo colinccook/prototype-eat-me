@@ -35,7 +35,7 @@ test.describe('Sharing', () => {
       await expect(toast).toHaveText('Link copied to clipboard');
     });
 
-    test('Share button is visible on the item detail modal', async ({ page }) => {
+    test('Share button is visible on the item detail modal via context menu', async ({ page }) => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
@@ -52,13 +52,19 @@ test.describe('Sharing', () => {
       const tray = page.locator('.tray-overlay');
       await expect(tray).toBeVisible();
 
-      // And I should see a share button in the detail modal
-      const shareItemButton = page.locator('.share-item-button');
-      await expect(shareItemButton).toBeVisible();
-      await expect(shareItemButton).toContainText('Share');
+      // And I should see a context menu trigger button (replaces the old share button)
+      const contextMenuTrigger = page.locator('.context-menu-trigger');
+      await expect(contextMenuTrigger).toBeVisible();
+
+      // When I open the context menu
+      await contextMenuTrigger.click();
+
+      // Then I should see a Share action in the menu
+      const shareAction = page.locator('.context-menu-item').filter({ hasText: 'Share' });
+      await expect(shareAction).toBeVisible();
     });
 
-    test('Clicking the share button on a detail modal shows a toast message', async ({ page }) => {
+    test('Clicking the share action on a detail modal context menu shows a toast message', async ({ page }) => {
       // Given I navigate to the application
       await page.goto('/');
       await page.waitForLoadState('networkidle');
@@ -75,9 +81,11 @@ test.describe('Sharing', () => {
       const tray = page.locator('.tray-overlay');
       await expect(tray).toBeVisible();
 
-      // When I click the share button on the detail modal
-      const shareItemButton = page.locator('.share-item-button');
-      await shareItemButton.click();
+      // When I open the context menu and click Share
+      const contextMenuTrigger = page.locator('.context-menu-trigger');
+      await contextMenuTrigger.click();
+      const shareAction = page.locator('.context-menu-item').filter({ hasText: 'Share' });
+      await shareAction.click();
 
       // Then I should see a "Link copied to clipboard" toast
       const toast = page.locator('.share-toast');

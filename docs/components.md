@@ -18,6 +18,7 @@ This document covers every React component in the app, organised from the top-le
   - [FoodList](#foodlist)
   - [FoodCard](#foodcard)
   - [FoodDetailModal](#fooddetailmodal)
+  - [FoodItemContextMenu](#fooditemcontextmenu)
   - [FavouritesList](#favouriteslist)
 - **Interactive Primitives**
   - [SwipeableCard](#swipeablecard)
@@ -209,6 +210,8 @@ The primary content view for the Search tab. Renders food items in a responsive 
 | `onHideItem` | `(item: FoodItem) => void` | Hide callback (swipe left) |
 | `onFavouriteItem` | `(item: FoodItem) => void` | Favourite callback (swipe right, also hides from search) |
 | `onShowAll` | `() => void` | Resets all hidden and favourited items |
+| `onHideRestaurant` | `(restaurant: string) => void` | Callback to filter out all items from a restaurant (via context menu) |
+| `onOnlyShowRestaurant` | `(restaurant: string) => void` | Callback to show only items from a restaurant (via context menu) |
 
 #### State
 
@@ -286,10 +289,12 @@ Full-detail view of a food item, rendered inside a `Tray` modal. Shows comprehen
 | `sortBy` | `SortOption` | Current sort option (highlights primary metric) |
 | `filters` | `FilterOptions` | Current filters (used when sharing the item) |
 | `onClose` | `() => void` | Close callback |
+| `onHideRestaurant` | `(restaurant: string) => void` | Callback to filter out all items from a restaurant |
+| `onOnlyShowRestaurant` | `(restaurant: string) => void` | Callback to show only items from a restaurant |
 
 #### Display Sections
 
-1. **Header** — Item name, restaurant, share button
+1. **Header** — Item name, restaurant, context menu (⋮ button)
 2. **Dietary badges** — Vegetarian / Vegan
 3. **Primary metric** — Dynamic based on `sortBy` (highlights the user's focus area)
 4. **Macronutrients grid** — All 8 macros: calories, protein, carbohydrates, fat, saturated fat, sugar, fibre, salt
@@ -299,9 +304,45 @@ Full-detail view of a food item, rendered inside a `Tray` modal. Shows comprehen
 
 #### Key Behaviours
 
-- **Share**: Generates a deep-link URL with `?item=Name&itemRestaurant=Restaurant` plus current filters.
+- **Context menu**: A ⋮ (vertical dots) button opens a dropdown menu with Share, Hide all [restaurant], and Only show [restaurant] actions.
+- **Share**: Generates a deep-link URL with `?item=Name&itemRestaurant=Restaurant` plus current filters (accessed via context menu).
+- **Hide all [restaurant]**: Closes the modal and updates the restaurant filter to exclude the current item's restaurant.
+- **Only show [restaurant]**: Closes the modal and updates the restaurant filter to show only the current item's restaurant.
 - **Toast notification**: 2-second feedback after sharing.
 - Renders inside a `Tray` component (swipe-down or Escape to close).
+
+---
+
+### FoodItemContextMenu
+
+**File:** `src/react-app/src/components/FoodItemContextMenu.tsx`
+
+A dropdown context menu rendered inside the `FoodDetailModal` header. Replaces the standalone share button with a ⋮ (vertical dots) trigger that opens a menu with contextual actions.
+
+#### Props
+
+| Prop | Type | Description |
+|------|------|-------------|
+| `restaurantName` | `string \| undefined` | Restaurant name for the current item (hides restaurant actions when absent) |
+| `onShare` | `() => void` | Share callback |
+| `onHideRestaurant` | `(restaurant: string) => void` | Callback to exclude a restaurant from results |
+| `onOnlyShowRestaurant` | `(restaurant: string) => void` | Callback to show only a restaurant's items |
+
+#### Menu Actions
+
+| Action | Description |
+|--------|-------------|
+| **Share** | Always visible. Triggers the share callback (copies link or opens native share dialog) |
+| **Hide all [restaurant]** | Visible when item has a restaurant. Filters out all items from that restaurant |
+| **Only show [restaurant]** | Visible when item has a restaurant. Filters to show only that restaurant's items |
+
+#### Key Behaviours
+
+- **Open/close toggle**: Clicking the ⋮ trigger toggles the menu open/closed.
+- **Click outside to close**: Menu closes when clicking anywhere outside the menu wrapper.
+- **Actions close menu**: Each action closes the menu after executing its callback.
+- **Accessible**: Uses `role="menu"` and `role="menuitem"` for screen readers, `aria-expanded` on the trigger.
+- **Animated entrance**: Menu slides in with a subtle opacity/scale animation.
 
 ---
 
