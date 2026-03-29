@@ -290,8 +290,12 @@ npm run test:e2e:ui       # interactive UI mode
 ## Analytics Intent Guidelines
 
 The app uses **Firebase Analytics** (analytics-only, no auth/database) gated behind GDPR
-cookie consent. When adding new features, consider what user-intent signals would be
-valuable and follow these principles:
+cookie consent. **When adding any user-facing feature or interaction, you MUST always
+consider whether Google Analytics events are appropriate.** If the change introduces a new
+user action (button click, gesture, navigation, etc.), add a tracking event. State your
+decision explicitly, e.g.:
+> *"Added `context_menu_open` and `favourite_item` analytics events for the new context menu."*
+> *"No analytics changes needed — this is a styling-only change with no new interactions."*
 
 ### What to Track
 
@@ -299,7 +303,7 @@ valuable and follow these principles:
 |----------|---------------|-----|
 | **Navigation** | `region_change`, `restaurant_filter` | Understand which regions/restaurants are popular and guide data expansion |
 | **Discovery** | `sort_change`, `dietary_filter`, `calorie_filter` | Learn which filters matter most to users for feature prioritisation |
-| **Engagement** | `food_item_view`, `share` | Measure how deeply users engage with individual items |
+| **Engagement** | `food_item_view`, `share`, `context_menu_open`, `favourite_item`, `hide_item` | Measure how deeply users engage with individual items and which actions they take |
 | **Consent** | `consent_response`, `disclaimer_dismissed` | Monitor opt-in rates and trust signals |
 
 ### Rules for New Events

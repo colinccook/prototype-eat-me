@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { getItemKey } from '../itemKeys';
 import { shareFilters, shareItem, updateUrlWithItem, updateUrlWithFilters } from '../urlState';
-import { trackFoodItemView, trackShare } from '../analytics';
+import { trackFoodItemView, trackShare, trackContextMenuOpen, trackFavouriteItem, trackHideItem } from '../analytics';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
 import LongPressContextMenu from './LongPressContextMenu';
@@ -98,8 +98,9 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     }
   }, [filters, showCopiedToast]);
 
-  const handleLongPress = useCallback((item: FoodItem) => {
+  const handleLongPress = useCallback((item: FoodItem, trigger: 'long_press' | 'right_click') => {
     setLongPressItem(item);
+    trackContextMenuOpen(item.name, item.restaurant ?? '', trigger);
   }, []);
 
   const handleLongPressShare = useCallback(async () => {
@@ -117,12 +118,14 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
 
   const handleLongPressHideItem = useCallback(() => {
     if (longPressItem) {
+      trackHideItem(longPressItem.name, longPressItem.restaurant ?? '');
       onHideItem(longPressItem);
     }
   }, [longPressItem, onHideItem]);
 
   const handleLongPressFavouriteItem = useCallback(() => {
     if (longPressItem) {
+      trackFavouriteItem(longPressItem.name, longPressItem.restaurant ?? '');
       onFavouriteItem(longPressItem);
     }
   }, [longPressItem, onFavouriteItem]);
@@ -277,8 +280,8 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             key={getItemKey(item)}
             onSwipeLeft={() => onHideItem(item)}
             onSwipeRight={() => onFavouriteItem(item)}
-            onLongPress={() => handleLongPress(item)}
-            onContextMenu={() => handleLongPress(item)}
+            onLongPress={() => handleLongPress(item, 'long_press')}
+            onContextMenu={() => handleLongPress(item, 'right_click')}
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
             animateOutLeft
