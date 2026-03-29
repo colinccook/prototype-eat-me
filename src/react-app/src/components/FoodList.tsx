@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { getItemKey } from '../itemKeys';
-import { shareFilters } from '../urlState';
+import { shareFilters, shareItem, updateUrlWithItem, updateUrlWithFilters } from '../urlState';
 import { trackFoodItemView, trackShare } from '../analytics';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
@@ -62,18 +62,31 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const handleItemClick = useCallback((item: FoodItem) => {
     setSelectedItem(item);
     trackFoodItemView(item.name, item.restaurant ?? '');
-  }, []);
+    updateUrlWithItem(filters, item.name, item.restaurant);
+  }, [filters]);
 
   const handleCloseModal = useCallback(() => {
     setSelectedItem(null);
     if (initialItem && onClearInitialItem) {
       onClearInitialItem();
+    } else {
+      updateUrlWithFilters(filters);
     }
-  }, [initialItem, onClearInitialItem]);
+  }, [initialItem, onClearInitialItem, filters]);
 
   const handleShareFilters = useCallback(async () => {
     const result = await shareFilters(filters);
     trackShare('filters', result);
+    if (result === 'copied') {
+      setToastMessage('Link copied to clipboard');
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 2000);
+    }
+  }, [filters]);
+
+  const handleLongPress = useCallback(async (item: FoodItem) => {
+    const result = await shareItem(item, filters);
+    trackShare('item', result);
     if (result === 'copied') {
       setToastMessage('Link copied to clipboard');
       setShowToast(true);
@@ -212,6 +225,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             key={getItemKey(item)}
             onSwipeLeft={() => onHideItem(item)}
             onSwipeRight={() => onFavouriteItem(item)}
+            onLongPress={() => handleLongPress(item)}
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
             animateOutLeft
