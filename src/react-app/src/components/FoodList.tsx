@@ -106,19 +106,17 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
 
   const handleHideRestaurant = useCallback((restaurant: string) => {
     setSelectedItem(null);
-    updateUrlWithFilters(filters);
     if (onHideRestaurant) {
       onHideRestaurant(restaurant);
     }
-  }, [filters, onHideRestaurant]);
+  }, [onHideRestaurant]);
 
   const handleOnlyShowRestaurant = useCallback((restaurant: string) => {
     setSelectedItem(null);
-    updateUrlWithFilters(filters);
     if (onOnlyShowRestaurant) {
       onOnlyShowRestaurant(restaurant);
     }
-  }, [filters, onOnlyShowRestaurant]);
+  }, [onOnlyShowRestaurant]);
 
   // Filter out hidden and favourited items
   const visibleItems = items.filter(item => {
