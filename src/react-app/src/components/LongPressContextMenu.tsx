@@ -59,6 +59,19 @@ function LongPressContextMenu({ item, onShare, onHideItem, onFavouriteItem, onHi
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
 
+  // Prevent background scrolling while the context menu is open
+  useEffect(() => {
+    if (typeof document === 'undefined') {
+      return;
+    }
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, []);
   return (
     <div className="long-press-overlay" onClick={onClose} role="presentation">
       <div
