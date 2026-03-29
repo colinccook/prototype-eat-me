@@ -41,6 +41,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
   const [displayCount, setDisplayCount] = useState(BATCH_SIZE);
   const observerRef = useRef<IntersectionObserver | null>(null);
+  const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Handle initial item deep-link: auto-open the matching item once items are loaded.
   // Uses React's "adjusting state during rendering" pattern (per React docs) because
@@ -74,9 +75,15 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   }, [initialItem, onClearInitialItem, filters]);
 
   const showCopiedToast = useCallback(() => {
+    if (toastTimerRef.current !== null) {
+      clearTimeout(toastTimerRef.current);
+    }
     setToastMessage('Link copied to clipboard');
     setShowToast(true);
-    setTimeout(() => setShowToast(false), 2000);
+    toastTimerRef.current = setTimeout(() => {
+      setShowToast(false);
+      toastTimerRef.current = null;
+    }, 2000);
   }, []);
 
   const handleShareFilters = useCallback(async () => {
@@ -141,11 +148,15 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     observerRef.current = observer;
   }, []);
 
-  // Clean up observer on unmount
+  // Clean up observer and toast timer on unmount
   useEffect(() => {
     return () => {
       if (observerRef.current) {
         observerRef.current.disconnect();
+      }
+      if (toastTimerRef.current !== null) {
+        clearTimeout(toastTimerRef.current);
+      }
       }
     };
   }, []);

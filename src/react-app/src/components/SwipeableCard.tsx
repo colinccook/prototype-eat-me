@@ -213,6 +213,16 @@ function SwipeableCard({
     isHorizontalSwipe.current = null;
   }, [snapBack]);
 
+  // Suppress the synthetic click that fires after touchend when a long press
+  // was detected. Without this the child FoodCard onClick would still fire.
+  const handleClickCapture = useCallback((e: React.MouseEvent) => {
+    if (longPressFired.current) {
+      e.stopPropagation();
+      e.preventDefault();
+      longPressFired.current = false;
+    }
+  }, []);
+
   return (
     <div className="swipeable-card-wrapper">
       {/* Background indicators */}
@@ -230,6 +240,7 @@ function SwipeableCard({
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
         onTouchCancel={handleTouchCancel}
+        onClickCapture={handleClickCapture}
       >
         {children}
       </div>
