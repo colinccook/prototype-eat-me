@@ -367,6 +367,28 @@ test.describe('Food Item Context Menu', () => {
       await expect(longPressMenu).not.toBeVisible();
     });
 
+    test('Long press context menu closes when pressing Escape', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When food items have loaded
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // And I long press on a food item
+      await longPressCard(page);
+
+      // Then the long press context menu should be visible
+      const longPressMenu = page.locator('.long-press-menu');
+      await expect(longPressMenu).toBeVisible();
+
+      // When I press Escape
+      await page.keyboard.press('Escape');
+
+      // Then the long press context menu should close
+      await expect(longPressMenu).not.toBeVisible();
+    });
     test('Sharing from the long press context menu copies a link', async ({ page }) => {
       // Given I navigate to the application
       await page.goto('/');
