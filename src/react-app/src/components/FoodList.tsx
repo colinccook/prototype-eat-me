@@ -157,7 +157,6 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
       if (toastTimerRef.current !== null) {
         clearTimeout(toastTimerRef.current);
       }
-      }
     };
   }, []);
 
