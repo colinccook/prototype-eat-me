@@ -545,7 +545,12 @@ function App() {
 
       <BottomAppBar
         activeTab={activeTab}
-        onTabChange={setActiveTab}
+        onTabChange={(tab) => {
+          setActiveTab(tab);
+          if (tab === 'search') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }}
         favouriteCount={favouriteItems.size}
       />
     </div>

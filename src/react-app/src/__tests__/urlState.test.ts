@@ -1,8 +1,10 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import {
   filtersToSearchParams,
   searchParamsToFilters,
   getItemFromSearchParams,
+  updateUrlWithItem,
+  updateUrlWithFilters,
 } from '../urlState';
 import type { FilterOptions } from '../types';
 
@@ -160,5 +162,50 @@ describe('round-trip: filters -> params -> filters', () => {
     const params = filtersToSearchParams(original);
     const restored = searchParamsToFilters(params);
     expect(restored).toEqual(original);
+  });
+});
+
+describe('updateUrlWithItem', () => {
+  let replaceStateSpy: ReturnType<typeof vi.spyOn>;
+
+  beforeEach(() => {
+    replaceStateSpy = vi.spyOn(window.history, 'replaceState').mockImplementation(() => {});
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it('updates the URL with item and restaurant params', () => {
+    updateUrlWithItem(DEFAULT_FILTERS, 'Big Mac', 'McDonalds');
+    const url = replaceStateSpy.mock.calls[0][2] as string;
+    expect(url).toContain('item=Big+Mac');
+    expect(url).toContain('itemRestaurant=McDonalds');
+  });
+
+  it('updates the URL with item param only when no restaurant', () => {
+    updateUrlWithItem(DEFAULT_FILTERS, 'Fries');
+    const url = replaceStateSpy.mock.calls[0][2] as string;
+    expect(url).toContain('item=Fries');
+    expect(url).not.toContain('itemRestaurant');
+  });
+});
+
+describe('updateUrlWithFilters', () => {
+  let replaceStateSpy: ReturnType<typeof vi.spyOn>;
+
+  beforeEach(() => {
+    replaceStateSpy = vi.spyOn(window.history, 'replaceState').mockImplementation(() => {});
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it('clears item params from URL', () => {
+    updateUrlWithFilters(DEFAULT_FILTERS);
+    const url = replaceStateSpy.mock.calls[0][2] as string;
+    expect(url).not.toContain('item=');
+    expect(url).not.toContain('itemRestaurant=');
   });
 });

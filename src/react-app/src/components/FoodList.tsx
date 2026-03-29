@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import type { FoodItem, SortOption, FilterOptions } from '../types';
 import { getItemKey } from '../itemKeys';
-import { shareFilters } from '../urlState';
+import { shareFilters, shareItem, updateUrlWithItem, updateUrlWithFilters } from '../urlState';
 import { trackFoodItemView, trackShare } from '../analytics';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
@@ -41,6 +41,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
   const [displayCount, setDisplayCount] = useState(BATCH_SIZE);
   const observerRef = useRef<IntersectionObserver | null>(null);
+  const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Handle initial item deep-link: auto-open the matching item once items are loaded.
   // Uses React's "adjusting state during rendering" pattern (per React docs) because
@@ -62,24 +63,44 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
   const handleItemClick = useCallback((item: FoodItem) => {
     setSelectedItem(item);
     trackFoodItemView(item.name, item.restaurant ?? '');
-  }, []);
+    updateUrlWithItem(filters, item.name, item.restaurant);
+  }, [filters]);
 
   const handleCloseModal = useCallback(() => {
     setSelectedItem(null);
+    updateUrlWithFilters(filters);
     if (initialItem && onClearInitialItem) {
       onClearInitialItem();
     }
-  }, [initialItem, onClearInitialItem]);
+  }, [initialItem, onClearInitialItem, filters]);
+
+  const showCopiedToast = useCallback(() => {
+    if (toastTimerRef.current !== null) {
+      clearTimeout(toastTimerRef.current);
+    }
+    setToastMessage('Link copied to clipboard');
+    setShowToast(true);
+    toastTimerRef.current = setTimeout(() => {
+      setShowToast(false);
+      toastTimerRef.current = null;
+    }, 2000);
+  }, []);
 
   const handleShareFilters = useCallback(async () => {
     const result = await shareFilters(filters);
     trackShare('filters', result);
     if (result === 'copied') {
-      setToastMessage('Link copied to clipboard');
-      setShowToast(true);
-      setTimeout(() => setShowToast(false), 2000);
+      showCopiedToast();
     }
-  }, [filters]);
+  }, [filters, showCopiedToast]);
+
+  const handleLongPress = useCallback(async (item: FoodItem) => {
+    const result = await shareItem(item, filters);
+    trackShare('item', result);
+    if (result === 'copied') {
+      showCopiedToast();
+    }
+  }, [filters, showCopiedToast]);
 
   // Filter out hidden and favourited items
   const visibleItems = items.filter(item => {
@@ -127,11 +148,15 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     observerRef.current = observer;
   }, []);
 
-  // Clean up observer on unmount
+  // Clean up observer and toast timer on unmount
   useEffect(() => {
     return () => {
       if (observerRef.current) {
         observerRef.current.disconnect();
+      }
+      if (toastTimerRef.current !== null) {
+        clearTimeout(toastTimerRef.current);
+      }
       }
     };
   }, []);
@@ -212,6 +237,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             key={getItemKey(item)}
             onSwipeLeft={() => onHideItem(item)}
             onSwipeRight={() => onFavouriteItem(item)}
+            onLongPress={() => handleLongPress(item)}
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
             animateOutLeft

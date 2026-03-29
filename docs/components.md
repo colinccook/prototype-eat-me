@@ -171,6 +171,7 @@ Fixed bottom navigation bar providing tab switching between Search and Favourite
 
 - Uses SVG icons for Search (magnifying glass) and Favourites (heart).
 - Active tab is highlighted in blue.
+- Tapping the Search tab scrolls the page to the top with a smooth animation.
 - Favourites tab shows a count badge when `favouriteCount > 0`.
 - Respects `env(safe-area-inset-bottom)` for notched devices.
 - Minimum 48px touch targets for accessibility.
@@ -225,6 +226,8 @@ The primary content view for the Search tab. Renders food items in a responsive 
 - **Loading state**: Renders 6 `SkeletonCard` placeholders with shimmer animation.
 - **Grid layout**: CSS Grid with `auto-fill`, minimum column width of 280px.
 - **Share button**: Copies current filter URL to clipboard or opens the native share dialog.
+- **Long press to share**: Long-pressing a food card (500ms) triggers the Web Share API or copies the item's share URL to clipboard.
+- **URL reflects selected item**: When a food item is clicked the browser URL is updated with `item` and `itemRestaurant` query params so the URL can be copied and pasted directly. Closing the detail modal restores the filter-only URL.
 - **Hidden items counter**: Shows a "Show all" button with count of hidden items (includes both swiped-left and favourited items). Clicking "Show all" resets both hidden and favourite lists.
 - **Toast notification**: 2-second notification after sharing.
 - **Deep linking**: Auto-opens `FoodDetailModal` if `initialItem` matches a loaded item.
@@ -352,6 +355,7 @@ A gesture wrapper that adds horizontal swipe actions to any child content (prima
 | `children` | `ReactNode` | Card content to wrap |
 | `onSwipeLeft` | `() => void` | Left swipe callback (e.g. hide item) |
 | `onSwipeRight` | `() => void` | Right swipe callback (e.g. favourite item) |
+| `onLongPress` | `() => void` | Long press callback (e.g. share item) |
 | `leftLabel` | `string` | Label shown behind the card on right swipe (e.g. "❤️ Favourite") |
 | `rightLabel` | `string` | Label shown behind the card on left swipe (e.g. "🙈 Hide") |
 | `animateOutLeft` | `boolean` | Whether to fly the card off-screen left after action |
@@ -365,6 +369,8 @@ A gesture wrapper that adds horizontal swipe actions to any child content (prima
 | Opacity fade distance | 400px | Card fades to transparent over this distance |
 | Fly-off duration | 300ms | Animation duration when card exits screen |
 | Vertical lock | 10px | If vertical movement exceeds this before horizontal exceeds 10px, the gesture is treated as a scroll |
+| Long press duration | 500ms | Hold time to trigger the long press callback |
+| Long press move tolerance | 10px | Movement beyond this cancels the long press |
 
 #### State
 
@@ -378,6 +384,7 @@ A gesture wrapper that adds horizontal swipe actions to any child content (prima
 
 - Background indicators reveal the action label as the card is swiped.
 - Snaps back with animation if the threshold is not met.
+- Long press (500ms hold without moving) triggers the `onLongPress` callback and suppresses the subsequent click/swipe.
 - Prevents app-level touch handlers (stops pull-to-refresh during swipe).
 - Cleans up pending animation timers on unmount.
 

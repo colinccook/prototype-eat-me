@@ -135,6 +135,17 @@ export function updateUrlWithFilters(filters: FilterOptions): void {
   window.history.replaceState(null, '', newUrl);
 }
 
+export function updateUrlWithItem(filters: FilterOptions, itemName: string, itemRestaurant?: string): void {
+  const params = filtersToSearchParams(filters);
+  params.set('item', itemName);
+  if (itemRestaurant) {
+    params.set('itemRestaurant', itemRestaurant);
+  }
+  const search = params.toString();
+  const newUrl = `${window.location.pathname}?${search}`;
+  window.history.replaceState(null, '', newUrl);
+}
+
 function getFilterDescription(filters: FilterOptions): string {
   const parts: string[] = [];
   const sortDesc = SORT_DESCRIPTIONS[filters.sortBy];
