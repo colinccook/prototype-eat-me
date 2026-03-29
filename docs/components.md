@@ -347,6 +347,33 @@ A dropdown context menu rendered in the `Tray` header area, next to the close bu
 
 ---
 
+### LongPressContextMenu
+
+**File:** `src/react-app/src/components/LongPressContextMenu.tsx`
+
+A fullscreen overlay context menu that appears when the user long-presses a food item in the list view. Provides the same actions as `FoodItemContextMenu` (Share, Hide all [restaurant], Only show [restaurant]) without needing to open the detail modal first.
+
+#### Props
+
+| Prop | Type | Description |
+|------|------|-------------|
+| `item` | `FoodItem` | The food item that was long-pressed |
+| `onShare` | `() => void` | Share callback |
+| `onHideRestaurant` | `(restaurant: string) => void \| undefined` | Callback to exclude a restaurant from results |
+| `onOnlyShowRestaurant` | `(restaurant: string) => void \| undefined` | Callback to show only a restaurant's items |
+| `onClose` | `() => void` | Callback to close the overlay |
+
+#### Key Behaviours
+
+- **Overlay backdrop**: Renders a semi-transparent backdrop over the entire screen with the menu centred.
+- **Tap outside to close**: Tapping the backdrop (outside the menu) closes the overlay.
+- **Escape to close**: Pressing the Escape key closes the overlay.
+- **Item name header**: Displays the long-pressed item's name at the top of the menu.
+- **Same actions as detail view**: Share, Hide all [restaurant], and Only show [restaurant] (restaurant actions only visible when item has a restaurant).
+- **Animated entrance**: Overlay fades in, menu scales in with a subtle animation.
+
+---
+
 ### FavouritesList
 
 **File:** `src/react-app/src/components/FavouritesList.tsx`

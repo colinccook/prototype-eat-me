@@ -5,6 +5,7 @@ import { shareFilters, shareItem, updateUrlWithItem, updateUrlWithFilters } from
 import { trackFoodItemView, trackShare } from '../analytics';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
+import LongPressContextMenu from './LongPressContextMenu';
 import SkeletonCard from './SkeletonCard';
 import CookieConsentCard from './CookieConsentCard';
 import DisclaimerCard from './DisclaimerCard';
@@ -38,6 +39,7 @@ interface FoodListProps {
 
 function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem, showCookieConsent, onCookieAccept, onCookieRefuse, showDisclaimer, onDisclaimerDismiss, hiddenItems, favouriteItems, onHideItem, onFavouriteItem, onShowAll, onHideRestaurant, onOnlyShowRestaurant }: FoodListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
+  const [longPressItem, setLongPressItem] = useState<FoodItem | null>(null);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const [initialItemConsumed, setInitialItemConsumed] = useState(false);
@@ -96,16 +98,26 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     }
   }, [filters, showCopiedToast]);
 
-  const handleLongPress = useCallback(async (item: FoodItem) => {
-    const result = await shareItem(item, filters);
+  const handleLongPress = useCallback((item: FoodItem) => {
+    setLongPressItem(item);
+  }, []);
+
+  const handleLongPressShare = useCallback(async () => {
+    if (!longPressItem) return;
+    const result = await shareItem(longPressItem, filters);
     trackShare('item', result);
     if (result === 'copied') {
       showCopiedToast();
     }
-  }, [filters, showCopiedToast]);
+  }, [longPressItem, filters, showCopiedToast]);
+
+  const handleLongPressClose = useCallback(() => {
+    setLongPressItem(null);
+  }, []);
 
   const handleHideRestaurant = useCallback((restaurant: string) => {
     setSelectedItem(null);
+    setLongPressItem(null);
     if (onHideRestaurant) {
       onHideRestaurant(restaurant);
     }
@@ -113,6 +125,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
 
   const handleOnlyShowRestaurant = useCallback((restaurant: string) => {
     setSelectedItem(null);
+    setLongPressItem(null);
     if (onOnlyShowRestaurant) {
       onOnlyShowRestaurant(restaurant);
     }
@@ -270,6 +283,15 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
           <div ref={sentinelCallbackRef} className="load-more-sentinel" aria-hidden="true" />
         )}
       </div>
+      {longPressItem && (
+        <LongPressContextMenu
+          item={longPressItem}
+          onShare={handleLongPressShare}
+          onHideRestaurant={onHideRestaurant ? handleHideRestaurant : undefined}
+          onOnlyShowRestaurant={onOnlyShowRestaurant ? handleOnlyShowRestaurant : undefined}
+          onClose={handleLongPressClose}
+        />
+      )}
       <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} onHideRestaurant={handleHideRestaurant} onOnlyShowRestaurant={handleOnlyShowRestaurant} />
     </div>
   );

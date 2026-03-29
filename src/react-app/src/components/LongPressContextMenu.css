@@ -1,0 +1,58 @@
+.long-press-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: longPressOverlayIn 0.15s ease;
+}
+
+@keyframes longPressOverlayIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.long-press-menu {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  min-width: 260px;
+  max-width: 90vw;
+  animation: longPressMenuIn 0.15s ease;
+}
+
+@keyframes longPressMenuIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.long-press-menu-header {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.long-press-menu-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
