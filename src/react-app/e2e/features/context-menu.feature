@@ -81,6 +81,8 @@ Scenario: Long pressing a food item in the list opens a context menu
     And I long press on a food item
     Then I should see a long press context menu with the item name
     And the long press context menu should contain a "Share" action
+    And the long press context menu should contain a "Favourite" action
+    And the long press context menu should contain a "Hide" action
 
 @long-press-context-menu
 Scenario: Long press context menu contains restaurant filter actions
@@ -105,3 +107,27 @@ Scenario: Sharing from the long press context menu copies a link
     And I long press on a food item
     And I click the "Share" action on the long press context menu
     Then I should see a "Link copied to clipboard" toast
+
+@long-press-context-menu
+Scenario: Right clicking a food item opens the context menu
+    Given I navigate to the application
+    When food items have loaded
+    And I right click on a food item
+    Then I should see a long press context menu with the item name
+    And the long press context menu should contain a "Share" action
+
+@long-press-context-menu
+Scenario: Hide from the long press context menu hides the item
+    Given I navigate to the application
+    When food items have loaded
+    And I long press on a food item
+    And I click the "Hide" action on the long press context menu
+    Then the item should disappear from the list
+
+@long-press-context-menu
+Scenario: Favourite from the long press context menu favourites the item
+    Given I navigate to the application
+    When food items have loaded
+    And I long press on a food item
+    And I click the "Favourite" action on the long press context menu
+    Then the item should disappear from the search list

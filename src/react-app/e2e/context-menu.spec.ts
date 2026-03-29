@@ -236,6 +236,10 @@ test.describe('Food Item Context Menu', () => {
   });
 
   test.describe('@long-press-context-menu', () => {
+    test.use({
+      storageState: { cookies: [], origins: [] },
+    });
+
     /** Simulate a long press via touch events (hold for > 500ms). */
     async function longPressCard(
       page: import('@playwright/test').Page,
@@ -257,6 +261,15 @@ test.describe('Food Item Context Menu', () => {
       await card.dispatchEvent('touchend', {
         changedTouches: [{ clientX: x, clientY: y, identifier: 0 }],
       });
+    }
+
+    /** Navigate with clean localStorage for the given keys. */
+    async function loadWithCleanState(page: import('@playwright/test').Page, keys: string[]): Promise<void> {
+      await page.goto('/');
+      await page.evaluate((ks) => ks.forEach((k) => localStorage.removeItem(k)), keys);
+      await page.reload();
+      await page.waitForLoadState('networkidle');
+      await page.locator('.food-grid').waitFor({ state: 'visible' });
     }
 
     test('Long pressing a food item opens a context menu', async ({ page }) => {
@@ -281,9 +294,15 @@ test.describe('Food Item Context Menu', () => {
       const titleText = await menuTitle.textContent();
       expect(titleText!.length).toBeGreaterThan(0);
 
-      // And it should contain a "Share" action
+      // And it should contain Share, Favourite, and Hide actions
       const shareAction = longPressMenu.locator('.context-menu-item').filter({ hasText: 'Share' });
       await expect(shareAction).toBeVisible();
+
+      const favouriteAction = longPressMenu.locator('.context-menu-item').filter({ hasText: 'Favourite' });
+      await expect(favouriteAction).toBeVisible();
+
+      const hideAction = longPressMenu.locator('.context-menu-item').filter({ hasText: /^Hide$/ });
+      await expect(hideAction).toBeVisible();
     });
 
     test('Long press context menu contains restaurant filter actions', async ({ page }) => {
@@ -372,6 +391,78 @@ test.describe('Food Item Context Menu', () => {
       const toast = page.locator('.share-toast');
       await expect(toast).toBeVisible();
       await expect(toast).toHaveText('Link copied to clipboard');
+    });
+
+    test('Right clicking a food item opens the context menu', async ({ page }) => {
+      // Given I navigate to the application
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      // When food items have loaded
+      const foodGrid = page.locator('.food-grid');
+      await foodGrid.waitFor({ state: 'visible' });
+
+      // And I right click on a food item
+      const firstCard = page.locator('.food-card').first();
+      await firstCard.click({ button: 'right' });
+
+      // Then I should see a long press context menu
+      const longPressMenu = page.locator('.long-press-menu');
+      await expect(longPressMenu).toBeVisible();
+
+      // And it should contain a "Share" action
+      const shareAction = longPressMenu.locator('.context-menu-item').filter({ hasText: 'Share' });
+      await expect(shareAction).toBeVisible();
+    });
+
+    test('Hide from the long press context menu hides the item', async ({ page }) => {
+      await loadWithCleanState(page, ['eatme-hidden-items', 'eatme-favourite-items']);
+
+      // Get the name of the first food item
+      const firstCardName = await page.locator('.food-name').first().textContent();
+      expect(firstCardName).toBeTruthy();
+
+      // Long press on the first food item
+      await longPressCard(page);
+
+      // Click the "Hide" action
+      const longPressMenu = page.locator('.long-press-menu');
+      await expect(longPressMenu).toBeVisible();
+      const hideAction = longPressMenu.locator('.context-menu-item').filter({ hasText: /^Hide$/ });
+      await hideAction.click();
+
+      // The menu should close
+      await expect(longPressMenu).not.toBeVisible();
+
+      // The item should disappear from the list
+      await expect(page.locator('.hidden-count')).toBeVisible({ timeout: 5000 });
+      const visibleNames = await page.locator('.food-name').allTextContents();
+      expect(visibleNames).not.toContain(firstCardName);
+    });
+
+    test('Favourite from the long press context menu favourites the item', async ({ page }) => {
+      await loadWithCleanState(page, ['eatme-hidden-items', 'eatme-favourite-items']);
+
+      // Get the name of the first food item
+      const firstCardName = await page.locator('.food-name').first().textContent();
+      expect(firstCardName).toBeTruthy();
+
+      // Long press on the first food item
+      await longPressCard(page);
+
+      // Click the "Favourite" action
+      const longPressMenu = page.locator('.long-press-menu');
+      await expect(longPressMenu).toBeVisible();
+      const favouriteAction = longPressMenu.locator('.context-menu-item').filter({ hasText: 'Favourite' });
+      await favouriteAction.click();
+
+      // The menu should close
+      await expect(longPressMenu).not.toBeVisible();
+
+      // The item should disappear from the search list (favourited items are hidden from search)
+      await expect(page.locator('.hidden-count')).toBeVisible({ timeout: 5000 });
+      const visibleNames = await page.locator('.food-name').allTextContents();
+      expect(visibleNames).not.toContain(firstCardName);
     });
   });
 });

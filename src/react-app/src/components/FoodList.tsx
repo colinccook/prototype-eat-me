@@ -115,6 +115,18 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
     setLongPressItem(null);
   }, []);
 
+  const handleLongPressHideItem = useCallback(() => {
+    if (longPressItem) {
+      onHideItem(longPressItem);
+    }
+  }, [longPressItem, onHideItem]);
+
+  const handleLongPressFavouriteItem = useCallback(() => {
+    if (longPressItem) {
+      onFavouriteItem(longPressItem);
+    }
+  }, [longPressItem, onFavouriteItem]);
+
   const handleHideRestaurant = useCallback((restaurant: string) => {
     setSelectedItem(null);
     setLongPressItem(null);
@@ -266,6 +278,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
             onSwipeLeft={() => onHideItem(item)}
             onSwipeRight={() => onFavouriteItem(item)}
             onLongPress={() => handleLongPress(item)}
+            onContextMenu={() => handleLongPress(item)}
             leftLabel="❤️ Favourite"
             rightLabel="🙈 Hide"
             animateOutLeft
@@ -287,6 +300,8 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
         <LongPressContextMenu
           item={longPressItem}
           onShare={handleLongPressShare}
+          onHideItem={handleLongPressHideItem}
+          onFavouriteItem={handleLongPressFavouriteItem}
           onHideRestaurant={onHideRestaurant ? handleHideRestaurant : undefined}
           onOnlyShowRestaurant={onOnlyShowRestaurant ? handleOnlyShowRestaurant : undefined}
           onClose={handleLongPressClose}
