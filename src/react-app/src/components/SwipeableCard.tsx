@@ -21,6 +21,8 @@ interface SwipeableCardProps {
   animateOutLeft?: boolean;
   /** If true, swiping right animates the card off-screen before invoking the callback. */
   animateOutRight?: boolean;
+  /** Called when the user right-clicks the card (contextmenu event). */
+  onContextMenu?: () => void;
 }
 
 function SwipeableCard({
@@ -32,6 +34,7 @@ function SwipeableCard({
   rightLabel = '🙈 Hide',
   animateOutLeft = true,
   animateOutRight = false,
+  onContextMenu,
 }: SwipeableCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   const touchStartX = useRef<number | null>(null);
@@ -223,6 +226,13 @@ function SwipeableCard({
     }
   }, []);
 
+  const handleContextMenu = useCallback((e: React.MouseEvent) => {
+    if (onContextMenu) {
+      e.preventDefault();
+      onContextMenu();
+    }
+  }, [onContextMenu]);
+
   return (
     <div className="swipeable-card-wrapper">
       {/* Background indicators */}
@@ -241,6 +251,7 @@ function SwipeableCard({
         onTouchEnd={handleTouchEnd}
         onTouchCancel={handleTouchCancel}
         onClickCapture={handleClickCapture}
+        onContextMenu={handleContextMenu}
       >
         {children}
       </div>

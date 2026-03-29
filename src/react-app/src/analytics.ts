@@ -63,6 +63,21 @@ export function trackShare(type: 'filters' | 'item', result: ShareResult): void 
   trackEvent('share', { type, result });
 }
 
+/** User opened the long-press / right-click context menu on a food item */
+export function trackContextMenuOpen(itemName: string, restaurant: string, trigger: 'long_press' | 'right_click'): void {
+  trackEvent('context_menu_open', { item_name: itemName, restaurant, trigger });
+}
+
+/** User favourited a food item */
+export function trackFavouriteItem(itemName: string, restaurant: string): void {
+  trackEvent('favourite_item', { item_name: itemName, restaurant });
+}
+
+/** User hid a food item */
+export function trackHideItem(itemName: string, restaurant: string): void {
+  trackEvent('hide_item', { item_name: itemName, restaurant });
+}
+
 /** User responded to the GDPR cookie consent banner */
 export function trackConsentResponse(accepted: boolean): void {
   trackEvent('consent_response', { accepted: accepted ? 'true' : 'false' });

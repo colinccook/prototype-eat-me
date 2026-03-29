@@ -347,6 +347,36 @@ A dropdown context menu rendered in the `Tray` header area, next to the close bu
 
 ---
 
+### LongPressContextMenu
+
+**File:** `src/react-app/src/components/LongPressContextMenu.tsx`
+
+A fullscreen overlay context menu that appears when the user long-presses or right-clicks a food item in the list view. Provides the same actions as `FoodItemContextMenu` (Share, Hide all [restaurant], Only show [restaurant]) plus item-level Favourite and Hide actions, without needing to open the detail modal first.
+
+#### Props
+
+| Prop | Type | Description |
+|------|------|-------------|
+| `item` | `FoodItem` | The food item that was long-pressed or right-clicked |
+| `onShare` | `() => void` | Share callback |
+| `onHideItem` | `() => void \| undefined` | Callback to hide the item from the list |
+| `onFavouriteItem` | `() => void \| undefined` | Callback to favourite the item |
+| `onHideRestaurant` | `(restaurant: string) => void \| undefined` | Callback to exclude a restaurant from results |
+| `onOnlyShowRestaurant` | `(restaurant: string) => void \| undefined` | Callback to show only a restaurant's items |
+| `onClose` | `() => void` | Callback to close the overlay |
+
+#### Key Behaviours
+
+- **Overlay backdrop**: Renders a semi-transparent backdrop over the entire screen with the menu centred.
+- **Tap outside to close**: Tapping the backdrop (outside the menu) closes the overlay.
+- **Escape to close**: Pressing the Escape key closes the overlay.
+- **Item name header**: Displays the long-pressed item's name at the top of the menu.
+- **Triggered by long press or right click**: Both gestures open the same menu on a food card in the list view.
+- **Menu actions**: Share, Favourite, Hide, Hide all [restaurant], and Only show [restaurant] (restaurant actions only visible when item has a restaurant).
+- **Animated entrance**: Overlay fades in, menu scales in with a subtle animation.
+
+---
+
 ### FavouritesList
 
 **File:** `src/react-app/src/components/FavouritesList.tsx`
@@ -397,11 +427,12 @@ A gesture wrapper that adds horizontal swipe actions to any child content (prima
 | `children` | `ReactNode` | Card content to wrap |
 | `onSwipeLeft` | `() => void` | Left swipe callback (e.g. hide item) |
 | `onSwipeRight` | `() => void` | Right swipe callback (e.g. favourite item) |
-| `onLongPress` | `() => void` | Long press callback (e.g. share item) |
+| `onLongPress` | `() => void` | Long press callback (e.g. open context menu) |
 | `leftLabel` | `string` | Label shown behind the card on right swipe (e.g. "❤️ Favourite") |
 | `rightLabel` | `string` | Label shown behind the card on left swipe (e.g. "🙈 Hide") |
 | `animateOutLeft` | `boolean` | Whether to fly the card off-screen left after action |
 | `animateOutRight` | `boolean` | Whether to fly the card off-screen right after action |
+| `onContextMenu` | `() => void` | Right-click callback (e.g. open context menu) |
 
 #### Gesture Logic
 
@@ -427,6 +458,7 @@ A gesture wrapper that adds horizontal swipe actions to any child content (prima
 - Background indicators reveal the action label as the card is swiped.
 - Snaps back with animation if the threshold is not met.
 - Long press (500ms hold without moving) triggers the `onLongPress` callback and suppresses the subsequent click/swipe.
+- Right click triggers the `onContextMenu` callback and suppresses the browser's default context menu.
 - Prevents app-level touch handlers (stops pull-to-refresh during swipe).
 - Cleans up pending animation timers on unmount.
 
