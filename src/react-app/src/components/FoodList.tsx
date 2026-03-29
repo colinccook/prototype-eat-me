@@ -32,9 +32,11 @@ interface FoodListProps {
   onHideItem: (item: FoodItem) => void;
   onFavouriteItem: (item: FoodItem) => void;
   onShowAll: () => void;
+  onHideRestaurant?: (restaurant: string) => void;
+  onOnlyShowRestaurant?: (restaurant: string) => void;
 }
 
-function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem, showCookieConsent, onCookieAccept, onCookieRefuse, showDisclaimer, onDisclaimerDismiss, hiddenItems, favouriteItems, onHideItem, onFavouriteItem, onShowAll }: FoodListProps) {
+function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onClearInitialItem, showCookieConsent, onCookieAccept, onCookieRefuse, showDisclaimer, onDisclaimerDismiss, hiddenItems, favouriteItems, onHideItem, onFavouriteItem, onShowAll, onHideRestaurant, onOnlyShowRestaurant }: FoodListProps) {
   const [selectedItem, setSelectedItem] = useState<FoodItem | null>(null);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
@@ -101,6 +103,22 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
       showCopiedToast();
     }
   }, [filters, showCopiedToast]);
+
+  const handleHideRestaurant = useCallback((restaurant: string) => {
+    setSelectedItem(null);
+    updateUrlWithFilters(filters);
+    if (onHideRestaurant) {
+      onHideRestaurant(restaurant);
+    }
+  }, [filters, onHideRestaurant]);
+
+  const handleOnlyShowRestaurant = useCallback((restaurant: string) => {
+    setSelectedItem(null);
+    updateUrlWithFilters(filters);
+    if (onOnlyShowRestaurant) {
+      onOnlyShowRestaurant(restaurant);
+    }
+  }, [filters, onOnlyShowRestaurant]);
 
   // Filter out hidden and favourited items
   const visibleItems = items.filter(item => {
@@ -254,7 +272,7 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
           <div ref={sentinelCallbackRef} className="load-more-sentinel" aria-hidden="true" />
         )}
       </div>
-      <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} />
+      <FoodDetailModal item={selectedItem} sortBy={sortBy} filters={filters} onClose={handleCloseModal} onHideRestaurant={handleHideRestaurant} onOnlyShowRestaurant={handleOnlyShowRestaurant} />
     </div>
   );
 }
