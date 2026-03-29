@@ -67,32 +67,33 @@ function FoodList({ items, sortBy, filters, isLoading, error, initialItem, onCle
 
   const handleCloseModal = useCallback(() => {
     setSelectedItem(null);
+    updateUrlWithFilters(filters);
     if (initialItem && onClearInitialItem) {
       onClearInitialItem();
-    } else {
-      updateUrlWithFilters(filters);
     }
   }, [initialItem, onClearInitialItem, filters]);
+
+  const showCopiedToast = useCallback(() => {
+    setToastMessage('Link copied to clipboard');
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 2000);
+  }, []);
 
   const handleShareFilters = useCallback(async () => {
     const result = await shareFilters(filters);
     trackShare('filters', result);
     if (result === 'copied') {
-      setToastMessage('Link copied to clipboard');
-      setShowToast(true);
-      setTimeout(() => setShowToast(false), 2000);
+      showCopiedToast();
     }
-  }, [filters]);
+  }, [filters, showCopiedToast]);
 
   const handleLongPress = useCallback(async (item: FoodItem) => {
     const result = await shareItem(item, filters);
     trackShare('item', result);
     if (result === 'copied') {
-      setToastMessage('Link copied to clipboard');
-      setShowToast(true);
-      setTimeout(() => setShowToast(false), 2000);
+      showCopiedToast();
     }
-  }, [filters]);
+  }, [filters, showCopiedToast]);
 
   // Filter out hidden and favourited items
   const visibleItems = items.filter(item => {
