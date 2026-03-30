@@ -410,9 +410,12 @@ function App() {
     // Apply item type filter (food shows food+other, drink shows drinks only)
     // Items with type='other' (condiments, milk alternatives) are shown in the
     // food view as they are relevant alongside food items.
+    // Treat missing/unknown type as 'food' so older cached items without a type
+    // are still shown in the Food view.
     items = items.filter(item => {
-      if (filters.itemType === 'drink') return item.type === 'drink';
-      return item.type === 'food' || item.type === 'other';
+      const type = item.type || 'food';
+      if (filters.itemType === 'drink') return type === 'drink';
+      return type === 'food' || type === 'other';
     });
 
     // Apply restaurant filter (if specific restaurants are selected)

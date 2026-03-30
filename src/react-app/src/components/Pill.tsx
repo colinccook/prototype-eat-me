@@ -5,10 +5,11 @@ interface PillProps {
   value?: string;
   onClick: () => void;
   isActive?: boolean;
+  isExpanded?: boolean;
   icon?: string;
 }
 
-function Pill({ label, value, onClick, isActive = false, icon }: PillProps) {
+function Pill({ label, value, onClick, isActive = false, isExpanded, icon }: PillProps) {
   const displayText = value ? `${label}: ${value}` : label;
   const ariaLabel = value 
     ? `${label} filter, currently set to ${value}. Click to change.` 
@@ -20,7 +21,7 @@ function Pill({ label, value, onClick, isActive = false, icon }: PillProps) {
       onClick={onClick}
       type="button"
       aria-label={ariaLabel}
-      aria-expanded={isActive}
+      aria-expanded={isExpanded ?? isActive}
       aria-haspopup="dialog"
     >
       {icon && <span className="pill-icon" aria-hidden="true">{icon}</span>}

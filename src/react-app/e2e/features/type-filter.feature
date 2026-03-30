@@ -10,6 +10,7 @@ Scenario: Default view shows food items
     Then the type pill should show "Food"
     And food items should be visible
     And drink items should not be visible
+    And the URL should not contain a type parameter
 
 @type-filter
 Scenario: Switch to drinks view
@@ -19,6 +20,7 @@ Scenario: Switch to drinks view
     Then the type pill should show "Drinks"
     And drink items should be visible
     And food items should not be visible
+    And the URL should contain "type=drink"
 
 @type-filter
 Scenario: Switch back to food view
@@ -28,3 +30,4 @@ Scenario: Switch back to food view
     And I select the "Food" type
     Then the type pill should show "Food"
     And food items should be visible
+    And the URL should not contain a type parameter

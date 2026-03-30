@@ -272,6 +272,7 @@ function HeaderPills({
           value={getTypeDisplayValue()}
           onClick={() => openTray('type')}
           isActive={activeTrays.type || filters.itemType === 'drink'}
+          isExpanded={activeTrays.type}
           icon="🍽️"
         />
         <Pill
