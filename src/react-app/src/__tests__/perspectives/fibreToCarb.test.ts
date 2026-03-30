@@ -6,6 +6,7 @@ const makeItem = (carbs: number, fibre: number | null | undefined): FoodItem => 
   name: 'Test',
   calories: 200,
   macros: { protein: 10, carbohydrates: carbs, fat: 5, fibre },
+  type: 'food',
 });
 
 describe('evaluateFibreToCarb', () => {

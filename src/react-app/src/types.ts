@@ -26,6 +26,8 @@ export interface Allergens {
   lupin?: boolean | null;
 }
 
+export type FoodItemType = 'food' | 'drink' | 'other';
+
 export interface FoodItem {
   name: string;
   calories: number;
@@ -35,6 +37,7 @@ export interface FoodItem {
   vegetarian?: boolean;
   vegan?: boolean;
   restaurant?: string;
+  type: FoodItemType;
 }
 
 export interface Restaurant {
@@ -82,4 +85,5 @@ export interface FilterOptions {
   maxCalories: number | null;
   sortBy: SortOption;
   selectedRestaurants: string[];  // Empty array means all restaurants
+  itemType: 'food' | 'drink';
 }

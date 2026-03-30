@@ -18,6 +18,7 @@ Find food that fits your dietary goals when eating out on the UK high street.
 - 💪 Find high-protein foods
 - 📊 Sort by protein per calorie for optimal nutrition
 - 🏪 Browse multiple restaurant chains
+- 🍽️ Filter by item type: **Food** (default) or **Drinks**
 - 👈 Swipe left on a food item to hide it from the list
 - ❤️ Swipe right on a food item to favourite it
 - ⭐ Dedicated Favourites tab to view all your saved items

@@ -14,7 +14,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BLT Sandwich",
@@ -29,7 +30,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Butter Croissant",
@@ -44,7 +46,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chef's Italian Chicken Salad",
@@ -59,7 +62,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken & Avo Protein Bowl",
@@ -74,7 +78,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Caesar & Bacon Baguette",
@@ -89,7 +94,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Pesto Wrap",
@@ -104,7 +110,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken, Avocado & Basil Sandwich",
@@ -119,7 +126,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Brownie Bar",
@@ -134,7 +142,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Chunk Cookie",
@@ -149,7 +158,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Croissant",
@@ -164,7 +174,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cinnamon Danish",
@@ -179,7 +190,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Classic Super Club Sandwich",
@@ -194,7 +206,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crayfish & Rocket Sandwich",
@@ -209,7 +222,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Dark Chocolate & Almond Butter Cookie",
@@ -224,7 +238,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Double Berry Muffin",
@@ -239,7 +254,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Egg & Spinach Protein Pot",
@@ -254,7 +270,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Falafel, Avocado & Chipotle Salad Wrap",
@@ -269,7 +286,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Free-Range Egg Mayo Sandwich",
@@ -284,7 +302,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hoisin Duck Salad Wrap",
@@ -299,7 +318,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mature Cheddar & Pickle Sandwich",
@@ -314,7 +334,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mozzarella & Tomato Croissant",
@@ -329,7 +350,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pain aux Raisin",
@@ -344,7 +366,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Posh Cheddar & Pickle Baguette",
@@ -359,7 +382,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pret's Proper Porridge",
@@ -374,7 +398,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sea Salt Crisps",
@@ -389,7 +414,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Superfruit Salad",
@@ -404,7 +430,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "The VLT Sandwich",
@@ -419,7 +446,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Tuna Mayo & Cucumber Baguette",
@@ -434,7 +462,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Nicoise Salad",
@@ -449,7 +478,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Very Berry Croissant",
@@ -464,7 +494,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Wiltshire-Cured Ham & Greve Baguette",
@@ -479,7 +510,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     }
   ]
 }

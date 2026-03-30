@@ -83,6 +83,19 @@ const DIET_OPTIONS = [
   }
 ];
 
+const TYPE_OPTIONS = [
+  {
+    value: 'food' as 'food' | 'drink',
+    label: 'Food',
+    description: 'Show food items: meals, snacks, and desserts.'
+  },
+  {
+    value: 'drink' as 'food' | 'drink',
+    label: 'Drinks',
+    description: 'Show drink items: coffees, teas, shakes, and other beverages.'
+  }
+];
+
 const QUICK_CALORIE_OPTIONS = [100, 200, 400, 600, 800, 1000, 1200];
 
 function HeaderPills({
@@ -99,7 +112,8 @@ function HeaderPills({
     restaurants: false,
     sort: false,
     calories: false,
-    diet: false
+    diet: false,
+    type: false
   });
   
   const [calorieInput, setCalorieInput] = useState<string>(
@@ -110,11 +124,11 @@ function HeaderPills({
   );
 
   const openTray = (tray: keyof typeof activeTrays) => {
-    setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false, [tray]: true });
+    setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false, type: false, [tray]: true });
   };
 
   const closeTray = () => {
-    setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false });
+    setActiveTrays({ region: false, restaurants: false, sort: false, calories: false, diet: false, type: false });
   };
 
   // Get display values for pills
@@ -229,6 +243,15 @@ function HeaderPills({
     closeTray();
   };
 
+  const getTypeDisplayValue = () => {
+    return filters.itemType === 'drink' ? 'Drinks' : 'Food';
+  };
+
+  const handleTypeSelect = (itemType: 'food' | 'drink') => {
+    onFiltersChange({ ...filters, itemType });
+    closeTray();
+  };
+
   return (
     <div className="header-pills">
       {/* Region pill on its own row at the top */}
@@ -242,14 +265,21 @@ function HeaderPills({
         />
       </div>
 
-      {/* Second row with restaurant pill first, then other filters */}
+      {/* Second row with type pill first, then restaurant and other filters */}
       <div className="pills-row pills-row-filters">
+        <Pill
+          label="Type"
+          value={getTypeDisplayValue()}
+          onClick={() => openTray('type')}
+          isActive={activeTrays.type || filters.itemType === 'drink'}
+          icon="🍽️"
+        />
         <Pill
           label="Restaurants"
           value={getRestaurantsDisplayValue()}
           onClick={() => openTray('restaurants')}
           isActive={activeTrays.restaurants || filters.selectedRestaurants.length > 0}
-          icon="🍽️"
+          icon="🏪"
         />
         <Pill
           label="Sort"
@@ -436,6 +466,22 @@ function HeaderPills({
               key={option.value}
               className={`tray-option ${getDietMode() === option.value ? 'active' : ''}`}
               onClick={() => handleDietSelect(option.value)}
+            >
+              <span className="tray-option-label">{option.label}</span>
+              <span className="tray-option-description">{option.description}</span>
+            </button>
+          ))}
+        </div>
+      </Tray>
+
+      {/* Type Tray */}
+      <Tray isOpen={activeTrays.type} onClose={closeTray} title="Item Type">
+        <div className="tray-options">
+          {TYPE_OPTIONS.map((option) => (
+            <button
+              key={option.value}
+              className={`tray-option ${filters.itemType === option.value ? 'active' : ''}`}
+              onClick={() => handleTypeSelect(option.value)}
             >
               <span className="tray-option-label">{option.label}</span>
               <span className="tray-option-description">{option.description}</span>

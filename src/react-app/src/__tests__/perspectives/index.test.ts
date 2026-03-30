@@ -6,12 +6,14 @@ const fullItem: FoodItem = {
   name: 'Test Item',
   calories: 400,
   macros: { protein: 25, carbohydrates: 40, fat: 12, fibre: 6, salt: 0.8 },
+  type: 'food',
 };
 
 const minimalItem: FoodItem = {
   name: 'Minimal Item',
   calories: 200,
   macros: { protein: 5, carbohydrates: 30, fat: 2 },
+  type: 'food',
 };
 
 describe('allPerspectives', () => {

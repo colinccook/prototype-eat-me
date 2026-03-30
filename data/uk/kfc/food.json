@@ -13,7 +13,8 @@
         "sugar": 1.9
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Aero Peppermint Krushems Shake",
@@ -30,7 +31,8 @@
       "vegan": false,
       "allergens": {
         "milk": true
-      }
+      },
+      "type": "drink"
     },
     {
       "name": "BBQ Fillet Tower Burger",
@@ -54,7 +56,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "BBQ Mini Wrap",
@@ -68,7 +71,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cajun Dirty Rice",
@@ -82,7 +86,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Cheesy Melt Burger",
@@ -106,7 +111,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Cherry Boba Refresher",
@@ -120,7 +126,8 @@
         "sugar": 21.0
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Corn Cobette",
@@ -134,7 +141,8 @@
         "sugar": 1.9
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Creamy Original Crispy Naan",
@@ -148,7 +156,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Dirty Loaded Fries",
@@ -171,7 +180,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Fillet Burger",
@@ -195,7 +205,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Fillet Tower Burger",
@@ -219,7 +230,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Flamin' Mini Wrap",
@@ -233,7 +245,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hash Brown (per piece, average)",
@@ -256,7 +269,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Kansas BBQ Drip\u2019d Bites",
@@ -279,7 +293,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Kentucky Mayo Twister",
@@ -303,7 +318,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Kids Mini Fillet Burger",
@@ -327,7 +343,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Large BBQ Beans",
@@ -347,7 +364,8 @@
         "gluten": true,
         "mustard": true,
         "celery": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Large Coleslaw",
@@ -364,7 +382,8 @@
       "vegan": false,
       "allergens": {
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Large Creamy Mash",
@@ -381,7 +400,8 @@
       "vegan": false,
       "allergens": {
         "milk": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Large Gravy",
@@ -395,7 +415,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Large Popcorn Chicken",
@@ -409,7 +430,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Large Signature Fries",
@@ -426,7 +448,8 @@
       "vegan": false,
       "allergens": {
         "sulphites": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Mega Mozzarella Sticks",
@@ -440,7 +463,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "MilkyBar Krushems Shake",
@@ -457,7 +481,8 @@
       "vegan": false,
       "allergens": {
         "milk": true
-      }
+      },
+      "type": "drink"
     },
     {
       "name": "Mini Fillet (per piece, average)",
@@ -480,7 +505,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Mini Fillet Burger",
@@ -504,7 +530,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Oreo Krushems Shake",
@@ -524,7 +551,8 @@
         "wheat": true,
         "gluten": true,
         "soya": true
-      }
+      },
+      "type": "drink"
     },
     {
       "name": "Original Ranch Rice Bowl",
@@ -538,7 +566,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Original Recipe Chicken (per piece, average)",
@@ -561,7 +590,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Original Recipe Chicken Fillet Roll",
@@ -575,7 +605,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Raspberry Ripple Krushems Shake",
@@ -592,7 +623,8 @@
       "vegan": false,
       "allergens": {
         "milk": true
-      }
+      },
+      "type": "drink"
     },
     {
       "name": "Regular BBQ Beans",
@@ -612,7 +644,8 @@
         "gluten": true,
         "mustard": true,
         "celery": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Regular Coleslaw",
@@ -629,7 +662,8 @@
       "vegan": false,
       "allergens": {
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Regular Creamy Mash",
@@ -646,7 +680,8 @@
       "vegan": false,
       "allergens": {
         "milk": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Regular Gravy",
@@ -660,7 +695,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Regular Popcorn Chicken",
@@ -674,7 +710,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Regular Signature Fries",
@@ -691,7 +728,8 @@
       "vegan": false,
       "allergens": {
         "sulphites": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Side Salad",
@@ -705,7 +743,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Smokey BBQ Twister",
@@ -719,7 +758,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sparkling Raspberry Lemonade",
@@ -733,7 +773,8 @@
         "sugar": 22.0
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry Boba Refresher",
@@ -747,7 +788,8 @@
         "sugar": 27.0
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Supercharger Twister",
@@ -761,7 +803,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sweet Chilli Drip\u2019d Bites",
@@ -784,7 +827,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Sweet Chilli Twister",
@@ -798,7 +842,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Zinger Crispy Naan",
@@ -812,7 +857,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Vegan Burger",
@@ -836,7 +882,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Veggie Ranch Rice Bowl",
@@ -850,7 +897,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Zinger Burger",
@@ -874,7 +922,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Zinger Fillet Roll",
@@ -898,7 +947,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Zinger Mozzarella Burger",
@@ -922,7 +972,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Zinger Ranch Rice Bowl",
@@ -945,7 +996,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Zinger Stacker",
@@ -968,7 +1020,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     },
     {
       "name": "Zinger Supercharger Tower Burger",
@@ -992,7 +1045,8 @@
         "soya": true,
         "celery": true,
         "eggs": true
-      }
+      },
+      "type": "food"
     }
   ]
 }

@@ -15,7 +15,8 @@
       },
       "vegetarian": false,
       "vegan": false,
-      "restaurant": "McDonald's"
+      "restaurant": "McDonald's",
+      "type": "food"
     },
     {
       "name": "Veggie Dippers (4 pieces)",
@@ -31,7 +32,8 @@
       },
       "vegetarian": true,
       "vegan": true,
-      "restaurant": "McDonald's"
+      "restaurant": "McDonald's",
+      "type": "food"
     },
     {
       "name": "Grilled Chicken Salad",
@@ -47,7 +49,8 @@
       },
       "vegetarian": false,
       "vegan": false,
-      "restaurant": "McDonald's"
+      "restaurant": "McDonald's",
+      "type": "food"
     },
     {
       "name": "Side Salad",
@@ -63,7 +66,8 @@
       },
       "vegetarian": true,
       "vegan": true,
-      "restaurant": "McDonald's"
+      "restaurant": "McDonald's",
+      "type": "food"
     },
     {
       "name": "Almond Croissant",
@@ -95,7 +99,8 @@
       },
       "vegetarian": true,
       "vegan": false,
-      "restaurant": "Caffè Nero"
+      "restaurant": "Caff\u00e8 Nero",
+      "type": "food"
     },
     {
       "name": "Americano - Black Regular",
@@ -127,7 +132,8 @@
       },
       "vegetarian": true,
       "vegan": true,
-      "restaurant": "Caffè Nero"
+      "restaurant": "Caff\u00e8 Nero",
+      "type": "drink"
     },
     {
       "name": "Almond Biscotti",
@@ -159,7 +165,8 @@
       },
       "vegetarian": true,
       "vegan": false,
-      "restaurant": "Caffè Nero"
+      "restaurant": "Caff\u00e8 Nero",
+      "type": "food"
     },
     {
       "name": "Apple Crumble & Custard Tart",
@@ -191,7 +198,8 @@
       },
       "vegetarian": true,
       "vegan": true,
-      "restaurant": "Caffè Nero"
+      "restaurant": "Caff\u00e8 Nero",
+      "type": "food"
     },
     {
       "name": "All Butter Croissant",
@@ -207,7 +215,8 @@
       },
       "vegetarian": true,
       "vegan": false,
-      "restaurant": "Greggs"
+      "restaurant": "Greggs",
+      "type": "food"
     },
     {
       "name": "Vegan Sausage Breakfast Roll",
@@ -223,7 +232,8 @@
       },
       "vegetarian": true,
       "vegan": true,
-      "restaurant": "Greggs"
+      "restaurant": "Greggs",
+      "type": "food"
     },
     {
       "name": "Chicken Bake",
@@ -239,7 +249,8 @@
       },
       "vegetarian": false,
       "vegan": false,
-      "restaurant": "Greggs"
+      "restaurant": "Greggs",
+      "type": "food"
     },
     {
       "name": "Apple and Strawberry Fruit Pot",
@@ -255,7 +266,8 @@
       },
       "vegetarian": false,
       "vegan": false,
-      "restaurant": "Greggs"
+      "restaurant": "Greggs",
+      "type": "food"
     },
     {
       "name": "Barely Baked Brownie",
@@ -288,7 +300,8 @@
       },
       "vegetarian": true,
       "vegan": false,
-      "restaurant": "Nando's"
+      "restaurant": "Nando's",
+      "type": "food"
     },
     {
       "name": "Balsamic Vinaigrette",
@@ -321,7 +334,8 @@
       },
       "vegetarian": true,
       "vegan": true,
-      "restaurant": "Nando's"
+      "restaurant": "Nando's",
+      "type": "food"
     },
     {
       "name": "Caesar Dressing",
@@ -354,7 +368,8 @@
       },
       "vegetarian": false,
       "vegan": false,
-      "restaurant": "Nando's"
+      "restaurant": "Nando's",
+      "type": "food"
     },
     {
       "name": "Boneless Chicken Breast",
@@ -387,7 +402,8 @@
       },
       "vegetarian": true,
       "vegan": false,
-      "restaurant": "Nando's"
+      "restaurant": "Nando's",
+      "type": "food"
     }
   ]
 }

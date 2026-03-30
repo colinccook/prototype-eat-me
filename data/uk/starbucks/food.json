@@ -14,7 +14,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Blueberry Muffin",
@@ -29,7 +30,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Carrot Cake",
@@ -44,7 +46,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese Twist",
@@ -59,7 +62,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Caesar Wrap",
@@ -74,7 +78,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Muffin",
@@ -89,7 +94,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Twist",
@@ -104,7 +110,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cookie Straw",
@@ -119,7 +126,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ginger Biscuit",
@@ -134,7 +142,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Gingerbread Cookie",
@@ -149,7 +158,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lemon Muffin",
@@ -164,7 +174,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lemon Tart",
@@ -179,7 +190,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Luxury Fruit Toast",
@@ -194,7 +206,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mini Caramel Waffles",
@@ -209,7 +222,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pain au Chocolat",
@@ -224,7 +238,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pistachio Scroll",
@@ -239,7 +254,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Raspberry & Coconut",
@@ -254,7 +270,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Smoked Bacon Roll",
@@ -269,7 +286,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sour Crisps",
@@ -284,7 +302,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese and Red Onion Crisps",
@@ -299,7 +318,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     }
   ]
 }

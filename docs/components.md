@@ -147,6 +147,7 @@ Renders a horizontal row of filter pill buttons in the app header. Each pill ope
 | Tray | Controls | Description |
 |------|----------|-------------|
 | **Region** | Dropdown select | Pick from available regions |
+| **Type** | Radio buttons | Food (default) / Drinks — filters items by their `type` field |
 | **Restaurants** | Multi-select checkboxes | Filter by one or more restaurants |
 | **Sort** | Radio buttons | 8 sort options (protein, calories, fat, salt, fibre-to-carb, name) |
 | **Calories** | Quick-select buttons + custom range | Preset calorie caps (100–1200) or custom min/max |

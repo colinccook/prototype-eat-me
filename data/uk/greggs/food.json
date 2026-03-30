@@ -14,7 +14,8 @@
         "sugar": 4.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "All Day Breakfast Baguette",
@@ -29,7 +30,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Americano Large",
@@ -44,7 +46,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano Large Decaf",
@@ -59,7 +62,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano Regular",
@@ -74,7 +78,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano Regular Decaf",
@@ -89,7 +94,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Apple & Cinnamon Flavour Porridge",
@@ -104,7 +110,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Apple Danish",
@@ -119,7 +126,8 @@
         "sugar": 28.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Apple and Strawberry Fruit Pot",
@@ -134,7 +142,8 @@
         "sugar": 8.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Bites Meal Box",
@@ -149,7 +158,8 @@
         "sugar": 4.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Chicken & Bacon Pizza",
@@ -164,7 +174,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Chicken & Bacon Pizza Box 2 Pack",
@@ -179,7 +190,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Chicken & Bacon Pizza Box 4 Pack",
@@ -194,7 +206,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Chicken & Bacon Pizza Box 6 Pack",
@@ -209,7 +222,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BLT",
@@ -224,7 +238,8 @@
         "sugar": 8.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon & Lorne Breakfast Baguette",
@@ -239,7 +254,8 @@
         "sugar": 3.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon & Omelette Breakfast Roll",
@@ -254,7 +270,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon & Sausage Breakfast Baguette",
@@ -269,7 +286,8 @@
         "sugar": 3.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon Breakfast Baguette",
@@ -284,7 +302,8 @@
         "sugar": 2.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon Breakfast Roll",
@@ -299,7 +318,8 @@
         "sugar": 5.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon and Cheese Wrap",
@@ -314,7 +334,8 @@
         "sugar": 0.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon and Lorne Breakfast Roll",
@@ -329,7 +350,8 @@
         "sugar": 5.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon and Omelette Breakfast Baguette",
@@ -344,7 +366,8 @@
         "sugar": 3.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon and Sausage Breakfast Roll",
@@ -359,7 +382,8 @@
         "sugar": 5.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Baguettes",
@@ -374,7 +398,8 @@
         "sugar": 2.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bavarian Slice",
@@ -389,7 +414,8 @@
         "sugar": 29.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Belgian Buns",
@@ -404,7 +430,8 @@
         "sugar": 47.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cappuccino Large",
@@ -419,7 +446,8 @@
         "sugar": 10.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino Large Decaf",
@@ -434,7 +462,8 @@
         "sugar": 10.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino Regular",
@@ -449,7 +478,8 @@
         "sugar": 8.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino Regular Decaf",
@@ -464,7 +494,8 @@
         "sugar": 8.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Crispy",
@@ -479,7 +510,8 @@
         "sugar": 29.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Caramel Custard Doughnut",
@@ -494,7 +526,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Caramel Latte Large",
@@ -509,7 +542,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Latte Large Decaf",
@@ -524,7 +558,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Latte Regular",
@@ -539,7 +574,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Latte Regular Decaf",
@@ -554,7 +590,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramelised Biscuit Latte Large",
@@ -569,7 +606,8 @@
         "sugar": 25.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramelised Biscuit Latte Large Decaf",
@@ -584,7 +622,8 @@
         "sugar": 25.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramelised Biscuit Latte Regular",
@@ -599,7 +638,8 @@
         "sugar": 25.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramelised Biscuit Latte Regular Decaf",
@@ -614,7 +654,8 @@
         "sugar": 25.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cheese & Onion Bake",
@@ -629,7 +670,8 @@
         "sugar": 1.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese & Onion Roll",
@@ -644,7 +686,8 @@
         "sugar": 8.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese & Onion Stottie",
@@ -659,7 +702,8 @@
         "sugar": 11.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese & Pickle",
@@ -674,7 +718,8 @@
         "sugar": 8.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese & Tomato",
@@ -689,7 +734,8 @@
         "sugar": 6.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese Sandwich",
@@ -704,7 +750,8 @@
         "sugar": 4.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese Scones",
@@ -719,7 +766,8 @@
         "sugar": 0.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese and Caramelised Onion Toastie",
@@ -734,7 +782,8 @@
         "sugar": 15.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cherry & Mango Cooler",
@@ -749,7 +798,8 @@
         "sugar": 18.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cherry Lemonade",
@@ -764,7 +814,8 @@
         "sugar": 13.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chicken & Bacon Pasta",
@@ -779,7 +830,8 @@
         "sugar": 9.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Bake",
@@ -794,7 +846,8 @@
         "sugar": 1.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Goujon Sharing Box",
@@ -809,7 +862,8 @@
         "sugar": 0.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Sharing Box",
@@ -824,7 +878,8 @@
         "sugar": 0.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken and Cheese Baguette",
@@ -839,7 +894,8 @@
         "sugar": 4.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken, Sweetcorn & Red Onion Pizza",
@@ -854,7 +910,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken, Sweetcorn & Red Onion Pizza Box 2 Pack",
@@ -869,7 +926,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken, Sweetcorn & Red Onion Pizza Box 4 Pack",
@@ -884,7 +942,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken, Sweetcorn & Red Onion Pizza Box 6 Pack",
@@ -899,7 +958,8 @@
         "sugar": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Brownie Bar",
@@ -914,7 +974,8 @@
         "sugar": 19.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Cake Bar",
@@ -929,7 +990,8 @@
         "sugar": 23.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cloudy Lemonade",
@@ -944,7 +1006,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Corn Topped Roll",
@@ -959,7 +1022,8 @@
         "sugar": 5.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Corned Beef Bake",
@@ -974,7 +1038,8 @@
         "sugar": 1.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cream Iced Finger",
@@ -989,7 +1054,8 @@
         "sugar": 21.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cream \u00c9clair",
@@ -1004,7 +1070,8 @@
         "sugar": 16.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crispy Chicken Bites (6 pieces)",
@@ -1019,7 +1086,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crispy Chicken Bites Sharing Box",
@@ -1034,7 +1102,8 @@
         "sugar": 0.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Double Up Mayo Crispy Chicken Burger",
@@ -1049,7 +1118,8 @@
         "sugar": 8.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Easter Buns (4 pack)",
@@ -1064,7 +1134,8 @@
         "sugar": 38.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Easter Jammy Biscuit",
@@ -1079,7 +1150,8 @@
         "sugar": 26.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Egg & Tomato Roll (HS)",
@@ -1094,7 +1166,8 @@
         "sugar": 8.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Egg Mayonnaise & Tomato",
@@ -1109,7 +1182,8 @@
         "sugar": 7.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Egg Mayonnaise Sandwich",
@@ -1124,7 +1198,8 @@
         "sugar": 5.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Empire Biscuit",
@@ -1139,7 +1214,8 @@
         "sugar": 26.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Espresso Extra Shot",
@@ -1154,7 +1230,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Espresso Extra Shot Decaf",
@@ -1169,7 +1246,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Espresso Shot",
@@ -1184,7 +1262,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Espresso Shot Decaf",
@@ -1199,7 +1278,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Extra Bacon",
@@ -1214,7 +1294,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Breakfast Sausage",
@@ -1229,7 +1310,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Caramel Syrup",
@@ -1244,7 +1326,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Caramelised Biscuit Syrup",
@@ -1259,7 +1342,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Cream",
@@ -1274,7 +1358,8 @@
         "sugar": 0.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Double-Up Crispy Chicken (Fillet Only)",
@@ -1289,7 +1374,8 @@
         "sugar": 0.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Hot Chocolate Powder",
@@ -1304,7 +1390,8 @@
         "sugar": 0.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Extra Lorne Sausage",
@@ -1319,7 +1406,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Omelette with Cheese",
@@ -1334,7 +1422,8 @@
         "sugar": 0.8
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Sweetcure Bacon",
@@ -1349,7 +1438,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Vanilla Syrup",
@@ -1364,7 +1454,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Vegan Breakfast Sausage with Quorn\u2122",
@@ -1379,7 +1470,8 @@
         "sugar": 0.5
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Fairtrade Apple Juice from Concentrate",
@@ -1394,7 +1486,8 @@
         "sugar": 17.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Fairtrade Orange Juice from Concentrate 250ml",
@@ -1409,7 +1502,8 @@
         "sugar": 10.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Fairtrade Orange Juice from Concentrate 500ml",
@@ -1424,7 +1518,8 @@
         "sugar": 10.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Fat Free Greek Style Yoghurt with Strawberry Compote",
@@ -1439,7 +1534,8 @@
         "sugar": 17.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Filled Milk Chocolate Doughnut",
@@ -1454,7 +1550,8 @@
         "sugar": 20.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Firecracker Chicken Pizza",
@@ -1469,7 +1566,8 @@
         "sugar": 9.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Firecracker Chicken Pizza Box 2 Pack",
@@ -1484,7 +1582,8 @@
         "sugar": 9.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Firecracker Chicken Pizza Box 4 Pack",
@@ -1499,7 +1598,8 @@
         "sugar": 9.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Firecracker Chicken Pizza Box 6 Pack",
@@ -1514,7 +1614,8 @@
         "sugar": 9.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Flat White Regular",
@@ -1529,7 +1630,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Flat White Regular Decaf",
@@ -1544,7 +1646,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Free Range Egg Mayonnaise",
@@ -1559,7 +1662,8 @@
         "sugar": 6.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Free Range Egg Pot",
@@ -1574,7 +1678,8 @@
         "sugar": 0.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Free Range Egg Salad (HS)",
@@ -1589,7 +1694,8 @@
         "sugar": 6.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Fruit Scones",
@@ -1604,7 +1710,8 @@
         "sugar": 19.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Fruity Flapjack",
@@ -1619,7 +1726,8 @@
         "sugar": 25.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Garlic & Herb Dip",
@@ -1634,7 +1742,8 @@
         "sugar": 1.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Gingerbread Men",
@@ -1649,7 +1758,8 @@
         "sugar": 13.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Glazed Ring Doughnut",
@@ -1664,7 +1774,8 @@
         "sugar": 21.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Glazed Ring Doughnuts (2 pack)",
@@ -1679,7 +1790,8 @@
         "sugar": 21.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Golden Syrup Flavour Porridge",
@@ -1694,7 +1806,8 @@
         "sugar": 14.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Greggs Mature Cheddar & Onion Hand Cooked Crisps 40g",
@@ -1709,7 +1822,8 @@
         "sugar": 2.2
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Greggs Sea Salt & Cider Vinegar Hand Cooked Crisps 40g",
@@ -1724,7 +1838,8 @@
         "sugar": 1.8
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Greggs Thai Sweet Chilli Flavour Hand Cooked Crisps 40g",
@@ -1739,7 +1854,8 @@
         "sugar": 4.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham & Cheese Baguette",
@@ -1754,7 +1870,8 @@
         "sugar": 2.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham Sandwich",
@@ -1769,7 +1886,8 @@
         "sugar": 4.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham and Cheese Half Baguette",
@@ -1784,7 +1902,8 @@
         "sugar": 1.5
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham and Cheese Toastie",
@@ -1799,7 +1918,8 @@
         "sugar": 6.2
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hash Browns",
@@ -1814,7 +1934,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Honey Roast Ham & Egg (HS)",
@@ -1829,7 +1950,8 @@
         "sugar": 5.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Honey Roast Ham & Egg Salad",
@@ -1844,7 +1966,8 @@
         "sugar": 6.8
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Honey Roast Ham (HS)",
@@ -1859,7 +1982,8 @@
         "sugar": 2.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Honey Roast Ham and Egg Salad Roll",
@@ -1874,7 +1998,8 @@
         "sugar": 7.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot & Spicy Chicken Wrap",
@@ -1889,7 +2014,8 @@
         "sugar": 15.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Chocolate Brownies",
@@ -1904,7 +2030,8 @@
         "sugar": 59.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate Large",
@@ -1919,7 +2046,8 @@
         "sugar": 42.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate Regular",
@@ -1934,7 +2062,8 @@
         "sugar": 30.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Cinnamon Yum Yums",
@@ -1949,7 +2078,8 @@
         "sugar": 37.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Ham & Cheese Baguette",
@@ -1964,7 +2094,8 @@
         "sugar": 3.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Mexican Chicken Baguette",
@@ -1979,7 +2110,8 @@
         "sugar": 18.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Milk Chocolate Cookies",
@@ -1994,7 +2126,8 @@
         "sugar": 41.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Sauce",
@@ -2009,7 +2142,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Yum Yums",
@@ -2024,7 +2158,8 @@
         "sugar": 33.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Iced Americano",
@@ -2039,7 +2174,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Americano Decaf",
@@ -2054,7 +2190,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Caramel Latte Regular",
@@ -2069,7 +2206,8 @@
         "sugar": 22.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Caramel Latte Regular Decaf",
@@ -2084,7 +2222,8 @@
         "sugar": 22.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Caramelised Biscuit Latte",
@@ -2099,7 +2238,8 @@
         "sugar": 22.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Caramelised Biscuit Latte Regular Decaf",
@@ -2114,7 +2254,8 @@
         "sugar": 22.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Latte Regular",
@@ -2129,7 +2270,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Latte Regular Decaf",
@@ -2144,7 +2286,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Matcha Latte",
@@ -2159,7 +2302,8 @@
         "sugar": 9.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Vanilla Latte Regular",
@@ -2174,7 +2318,8 @@
         "sugar": 23.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Vanilla Latte Regular Decaf",
@@ -2189,7 +2334,8 @@
         "sugar": 23.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Jam Doughnut",
@@ -2204,7 +2350,8 @@
         "sugar": 15.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Jammy Heart Biscuit",
@@ -2219,7 +2366,8 @@
         "sugar": 13.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Latte Large",
@@ -2234,7 +2382,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte Large Decaf",
@@ -2249,7 +2398,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte Regular",
@@ -2264,7 +2414,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte Regular Decaf",
@@ -2279,7 +2430,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Lemon Meringue Muffin",
@@ -2294,7 +2446,8 @@
         "sugar": 41.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lorne & Omelette Breakfast Baguette",
@@ -2309,7 +2462,8 @@
         "sugar": 3.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lorne & Omelette Breakfast Roll",
@@ -2324,7 +2478,8 @@
         "sugar": 6.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lorne Breakfast Baguette",
@@ -2339,7 +2494,8 @@
         "sugar": 3.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lorne Breakfast Roll",
@@ -2354,7 +2510,8 @@
         "sugar": 5.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mac & Cheese",
@@ -2369,7 +2526,8 @@
         "sugar": 5.2
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mango and Strawberry Cooler",
@@ -2384,7 +2542,8 @@
         "sugar": 18.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Margherita Pizza",
@@ -2399,7 +2558,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Margherita Pizza Box 2 Pack",
@@ -2414,7 +2574,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Margherita Pizza Box 4 Pack",
@@ -2429,7 +2590,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Margherita Pizza Box 6 Pack",
@@ -2444,7 +2606,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mature Cheddar Cheese Ploughman's Oval Bite",
@@ -2459,7 +2622,8 @@
         "sugar": 13.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mature Cheddar Cheese Salad Baguette",
@@ -2474,7 +2638,8 @@
         "sugar": 4.2
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mayo Chicken Wrap",
@@ -2489,7 +2654,8 @@
         "sugar": 3.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mayo Crispy Chicken Burger",
@@ -2504,7 +2670,8 @@
         "sugar": 7.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Melon and Grape Fruit Pot",
@@ -2519,7 +2686,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mexican Chicken Baguette",
@@ -2534,7 +2702,8 @@
         "sugar": 17.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mexican Chicken Flatbread",
@@ -2549,7 +2718,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mexican Chicken Oval Bite",
@@ -2564,7 +2734,8 @@
         "sugar": 21.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mexican Chicken Sandwich",
@@ -2579,7 +2750,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Milk Chocolate Caramel Shortbread Offcuts",
@@ -2594,7 +2766,8 @@
         "sugar": 114.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Milk Chocolate Caramel Shortbreads",
@@ -2609,7 +2782,8 @@
         "sugar": 27.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Milk Chocolate Cookies",
@@ -2624,7 +2798,8 @@
         "sugar": 20.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Milk Chocolate Dipping Sauce",
@@ -2639,7 +2814,8 @@
         "sugar": 26.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mocha Large",
@@ -2654,7 +2830,8 @@
         "sugar": 34.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Large Decaf",
@@ -2669,7 +2846,8 @@
         "sugar": 34.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Regular",
@@ -2684,7 +2862,8 @@
         "sugar": 30.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Regular Decaf",
@@ -2699,7 +2878,8 @@
         "sugar": 30.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mozzarella & Cheddar Bites",
@@ -2714,7 +2894,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Novelty Bun (Pink)",
@@ -2729,7 +2910,8 @@
         "sugar": 18.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Novelty Bun (White)",
@@ -2744,7 +2926,8 @@
         "sugar": 19.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Omelette Breakfast Baguette",
@@ -2759,7 +2942,8 @@
         "sugar": 4.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Omelette Breakfast Roll",
@@ -2774,7 +2958,8 @@
         "sugar": 6.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Oval Bites",
@@ -2789,7 +2974,8 @@
         "sugar": 7.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Overnight Oats with Seeds & Dried Fruit",
@@ -2804,7 +2990,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pain au Chocolat",
@@ -2819,7 +3006,8 @@
         "sugar": 7.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Peach Melba",
@@ -2834,7 +3022,8 @@
         "sugar": 27.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pepperoni Pizza",
@@ -2849,7 +3038,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pepperoni Pizza Box 2 Pack",
@@ -2864,7 +3054,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pepperoni Pizza Box 4 Pack",
@@ -2879,7 +3070,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pepperoni Pizza Box 6 Pack",
@@ -2894,7 +3086,8 @@
         "sugar": 5.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pesto and Mozzarella Pasta",
@@ -2909,7 +3102,8 @@
         "sugar": 4.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pineapple Cake",
@@ -2924,7 +3118,8 @@
         "sugar": 28.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pink Jammie Doughnut",
@@ -2939,7 +3134,8 @@
         "sugar": 23.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Portion of Cheddar Cheese",
@@ -2954,7 +3150,8 @@
         "sugar": 0.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ready to Drink Caramel Latte",
@@ -2969,7 +3166,8 @@
         "sugar": 5.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Ready to Drink Latte",
@@ -2984,7 +3182,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Roast Chicken & Bacon Club Baguette",
@@ -2999,7 +3198,8 @@
         "sugar": 5.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roast Chicken Mayonnaise Baguette",
@@ -3014,7 +3214,8 @@
         "sugar": 4.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roast Chicken Salad",
@@ -3029,7 +3230,8 @@
         "sugar": 6.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roast Chicken Salad Roll",
@@ -3044,7 +3246,8 @@
         "sugar": 8.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roast Chicken and Bacon Club Half Baguette",
@@ -3059,7 +3262,8 @@
         "sugar": 3.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roast Chicken with Honey Mustard Mayonnaise Oval Bite",
@@ -3074,7 +3278,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Salted Caramel Dipping Sauce",
@@ -3089,7 +3294,8 @@
         "sugar": 28.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage Breakfast Baguette",
@@ -3104,7 +3310,8 @@
         "sugar": 3.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage Breakfast Roll",
@@ -3119,7 +3326,8 @@
         "sugar": 5.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage Roll (4 pack)",
@@ -3134,7 +3342,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage Rolls",
@@ -3149,7 +3358,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage and Omelette Breakfast Baguette",
@@ -3164,7 +3374,8 @@
         "sugar": 4.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage and Omelette Breakfast Roll",
@@ -3179,7 +3390,8 @@
         "sugar": 6.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sausage, Bean & Cheese Melt",
@@ -3194,7 +3406,8 @@
         "sugar": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Savoury Mince Pie",
@@ -3209,7 +3422,8 @@
         "sugar": 1.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Scotch Pie",
@@ -3224,7 +3438,8 @@
         "sugar": 1.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Side Salad",
@@ -3239,7 +3454,8 @@
         "sugar": 1.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Simply Creamy Porridge",
@@ -3254,7 +3470,8 @@
         "sugar": 6.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Smoky BBQ Dip",
@@ -3269,7 +3486,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Smoky Cajun Rice with BBQ Chicken and Sweetcorn Fritters",
@@ -3284,7 +3502,8 @@
         "sugar": 5.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Southern Fried Chicken Baguette",
@@ -3299,7 +3518,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Southern Fried Chicken Goujons",
@@ -3314,7 +3534,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Southern Fried Potato Wedges",
@@ -3329,7 +3550,8 @@
         "sugar": 1.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sparkling Raspberry Lemonade",
@@ -3344,7 +3566,8 @@
         "sugar": 0.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spicy BBQ Chicken Bites",
@@ -3359,7 +3582,8 @@
         "sugar": 2.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Pizza",
@@ -3374,7 +3598,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Pizza Box 2 Pack",
@@ -3389,7 +3614,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Pizza Box 4 Pack",
@@ -3404,7 +3630,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Pizza Box 6 Pack",
@@ -3419,7 +3646,8 @@
         "sugar": 6.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Crispy Chicken Burger",
@@ -3434,7 +3662,8 @@
         "sugar": 7.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spread",
@@ -3449,7 +3678,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Star Biscuit",
@@ -3464,7 +3694,8 @@
         "sugar": 10.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Steak Bake",
@@ -3479,7 +3710,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Stottie",
@@ -3494,7 +3726,8 @@
         "sugar": 4.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Strawberry Iced Matcha Latte",
@@ -3509,7 +3742,8 @@
         "sugar": 19.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Lemonade",
@@ -3524,7 +3758,8 @@
         "sugar": 12.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Sugar Strand Doughnut",
@@ -3539,7 +3774,8 @@
         "sugar": 13.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sweet Chilli Chicken Wrap",
@@ -3554,7 +3790,8 @@
         "sugar": 11.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken",
@@ -3569,7 +3806,8 @@
         "sugar": 8.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Baguette",
@@ -3584,7 +3822,8 @@
         "sugar": 7.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Half Baguette",
@@ -3599,7 +3838,8 @@
         "sugar": 4.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Pizza",
@@ -3614,7 +3854,8 @@
         "sugar": 7.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Pizza Box 2 Pack",
@@ -3629,7 +3870,8 @@
         "sugar": 8.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Pizza Box 4 Pack",
@@ -3644,7 +3886,8 @@
         "sugar": 8.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Pizza Box 6 Pack",
@@ -3659,7 +3902,8 @@
         "sugar": 8.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tandoori Chicken Roll",
@@ -3674,7 +3918,8 @@
         "sugar": 9.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tomato Soup",
@@ -3689,7 +3934,8 @@
         "sugar": 22.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tottenham Cake",
@@ -3704,7 +3950,8 @@
         "sugar": 38.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Triple Chocolate Cookies",
@@ -3719,7 +3966,8 @@
         "sugar": 21.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Triple Chocolate Doughnut",
@@ -3734,7 +3982,8 @@
         "sugar": 20.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Triple Chocolate Muffin",
@@ -3749,7 +3998,8 @@
         "sugar": 39.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Crunch (HS)",
@@ -3764,7 +4014,8 @@
         "sugar": 6.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Crunch Baguette",
@@ -3779,7 +4030,8 @@
         "sugar": 7.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Crunch Roll",
@@ -3794,7 +4046,8 @@
         "sugar": 9.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Mayonnaise & Cucumber",
@@ -3809,7 +4062,8 @@
         "sugar": 6.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Mayonnaise Stottie",
@@ -3824,7 +4078,8 @@
         "sugar": 9.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Pasta",
@@ -3839,7 +4094,8 @@
         "sugar": 8.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Vanilla Custard Slice",
@@ -3854,7 +4110,8 @@
         "sugar": 31.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Vanilla Iced Matcha Latte",
@@ -3869,7 +4126,8 @@
         "sugar": 20.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Latte Large",
@@ -3884,7 +4142,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Latte Large Decaf",
@@ -3899,7 +4158,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Latte Regular",
@@ -3914,7 +4174,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Latte Regular Decaf",
@@ -3929,7 +4190,8 @@
         "sugar": 24.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vegan Lattice (Steak-Free)",
@@ -3944,7 +4206,8 @@
         "sugar": 1.0
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Vegan Roll Pork-Free",
@@ -3959,7 +4222,8 @@
         "sugar": 1.5
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Vegan Sausage Breakfast Roll",
@@ -3974,7 +4238,8 @@
         "sugar": 6.4
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Vegetable Bake",
@@ -3989,7 +4254,8 @@
         "sugar": 2.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie Feast Pizza",
@@ -4004,7 +4270,8 @@
         "sugar": 8.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie Feast Pizza Box 2 Pack",
@@ -4019,7 +4286,8 @@
         "sugar": 8.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie Feast Pizza Box 4 Pack",
@@ -4034,7 +4302,8 @@
         "sugar": 8.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie Feast Pizza Box 6 Pack",
@@ -4049,7 +4318,8 @@
         "sugar": 8.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Wedges Sharing Box",
@@ -4064,7 +4334,8 @@
         "sugar": 3.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White & Wholemeal Loaf",
@@ -4079,7 +4350,8 @@
         "sugar": 2.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White & Wholemeal Rolls",
@@ -4094,7 +4366,8 @@
         "sugar": 5.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White Bread made with Sourdough",
@@ -4109,7 +4382,8 @@
         "sugar": 2.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White Chocolate Cookies",
@@ -4124,7 +4398,8 @@
         "sugar": 21.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White Coffee Large",
@@ -4139,7 +4414,8 @@
         "sugar": 3.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Coffee Large Decaf",
@@ -4154,7 +4430,8 @@
         "sugar": 3.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Coffee Regular",
@@ -4169,7 +4446,8 @@
         "sugar": 2.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Coffee Regular Decaf",
@@ -4184,7 +4462,8 @@
         "sugar": 2.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Tea Large",
@@ -4199,7 +4478,8 @@
         "sugar": 1.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Tea Regular",
@@ -4214,7 +4494,8 @@
         "sugar": 0.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Yum Yum",
@@ -4229,7 +4510,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Yum Yums (2 pack)",
@@ -4244,7 +4526,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     }
   ]
 }

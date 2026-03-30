@@ -7,6 +7,7 @@ Menu items conform to this schema. The schema is designed to capture nutritional
 ```json
 {
   "name": "string",
+  "type": "\"food\" | \"drink\" | \"other\"",
   "calories": "number",
   "macros": {
     "protein": "number",
@@ -47,6 +48,7 @@ Menu items conform to this schema. The schema is designed to capture nutritional
 | Field | Type | Description |
 |-------|------|-------------|
 | `name` | string | The name of the food item |
+| `type` | `"food"` \| `"drink"` \| `"other"` | The category of the item: `food` for meals and snacks, `drink` for beverages, `other` for condiments and add-ons |
 | `calories` | number | Energy content in kcal |
 | `macros.protein` | number | Protein content in grams |
 | `macros.carbohydrates` | number | Carbohydrate content in grams |

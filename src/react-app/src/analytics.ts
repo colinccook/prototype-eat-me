@@ -87,3 +87,8 @@ export function trackConsentResponse(accepted: boolean): void {
 export function trackDisclaimerDismissed(): void {
   trackEvent('disclaimer_dismissed');
 }
+
+/** User changed the item type filter (food/drink) */
+export function trackTypeFilter(itemType: 'food' | 'drink'): void {
+  trackEvent('type_filter', { item_type: itemType });
+}

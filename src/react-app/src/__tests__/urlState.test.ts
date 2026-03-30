@@ -15,6 +15,7 @@ const DEFAULT_FILTERS: FilterOptions = {
   maxCalories: null,
   sortBy: 'protein-per-calorie-desc',
   selectedRestaurants: [],
+  itemType: 'food',
 };
 
 describe('filtersToSearchParams', () => {
@@ -67,6 +68,17 @@ describe('filtersToSearchParams', () => {
     };
     const params = filtersToSearchParams(filters);
     expect(params.get('restaurants')).toBe('mcdonalds,kfc');
+  });
+
+  it('sets type=drink when itemType is drink', () => {
+    const filters: FilterOptions = { ...DEFAULT_FILTERS, itemType: 'drink' };
+    const params = filtersToSearchParams(filters);
+    expect(params.get('type')).toBe('drink');
+  });
+
+  it('does not set type param when itemType is food (default)', () => {
+    const params = filtersToSearchParams({ ...DEFAULT_FILTERS, itemType: 'food' });
+    expect(params.has('type')).toBe(false);
   });
 });
 
@@ -128,6 +140,18 @@ describe('searchParamsToFilters', () => {
     const filters = searchParamsToFilters(params);
     expect(filters.selectedRestaurants).toEqual(['mcdonalds', 'kfc']);
   });
+
+  it('parses type=drink', () => {
+    const params = new URLSearchParams('type=drink');
+    const filters = searchParamsToFilters(params);
+    expect(filters.itemType).toBe('drink');
+  });
+
+  it('defaults itemType to food when type param is absent', () => {
+    const params = new URLSearchParams();
+    const filters = searchParamsToFilters(params);
+    expect(filters.itemType).toBe('food');
+  });
 });
 
 describe('getItemFromSearchParams', () => {
@@ -158,10 +182,18 @@ describe('round-trip: filters -> params -> filters', () => {
       maxCalories: 800,
       sortBy: 'fat-asc',
       selectedRestaurants: ['subway', 'greggs'],
+      itemType: 'food',
     };
     const params = filtersToSearchParams(original);
     const restored = searchParamsToFilters(params);
     expect(restored).toEqual(original);
+  });
+
+  it('preserves itemType=drink through round-trip', () => {
+    const original: FilterOptions = { ...DEFAULT_FILTERS, itemType: 'drink' };
+    const params = filtersToSearchParams(original);
+    const restored = searchParamsToFilters(params);
+    expect(restored.itemType).toBe('drink');
   });
 });
 

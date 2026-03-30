@@ -6,6 +6,7 @@ const makeItem = (salt: number | null | undefined): FoodItem => ({
   name: 'Test',
   calories: 300,
   macros: { protein: 15, carbohydrates: 30, fat: 10, salt },
+  type: 'food',
 });
 
 describe('evaluateSaltContent', () => {

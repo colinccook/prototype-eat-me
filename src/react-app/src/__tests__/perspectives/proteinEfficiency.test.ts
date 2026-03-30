@@ -6,6 +6,7 @@ const makeItem = (protein: number, calories: number): FoodItem => ({
   name: 'Test',
   calories,
   macros: { protein, carbohydrates: 20, fat: 5 },
+  type: 'food',
 });
 
 describe('evaluateProteinEfficiency', () => {

@@ -14,7 +14,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "McChicken Sandwich",
@@ -29,7 +30,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Filet-O-Fish",
@@ -44,7 +46,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie Dippers (4 pieces)",
@@ -59,7 +62,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "McPlant",
@@ -74,7 +78,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Chicken McNuggets (6 pieces)",
@@ -89,7 +94,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Quarter Pounder with Cheese",
@@ -104,7 +110,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Egg McMuffin",
@@ -119,7 +126,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hash Brown",
@@ -134,7 +142,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Grilled Chicken Salad",
@@ -149,7 +158,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Side Salad",
@@ -164,7 +174,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Medium Fries",
@@ -179,7 +190,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     }
   ]
 }

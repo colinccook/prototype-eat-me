@@ -14,7 +14,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate & Almond Croissant",
@@ -29,7 +30,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cinnamon Bun",
@@ -44,7 +46,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Croissant",
@@ -59,7 +62,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham & Cheese Croissant",
@@ -74,7 +78,8 @@
         "salt": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pain au Chocolat",
@@ -89,7 +94,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spinach & Feta Roll",
@@ -104,7 +110,8 @@
         "salt": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     }
   ]
 }

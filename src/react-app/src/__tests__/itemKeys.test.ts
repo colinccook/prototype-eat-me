@@ -15,6 +15,7 @@ function makeItem(overrides: Partial<FoodItem> = {}): FoodItem {
     calories: 500,
     macros: { protein: 25, carbohydrates: 40, fat: 20 },
     restaurant: 'Test Restaurant',
+    type: 'food',
     ...overrides,
   };
 }

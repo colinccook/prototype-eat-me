@@ -1,5 +1,5 @@
 {
-  "restaurant": "Caffè Nero",
+  "restaurant": "Caff\u00e8 Nero",
   "items": [
     {
       "name": "Almond Biscotti",
@@ -30,7 +30,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Almond Croissant",
@@ -61,7 +62,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Americano - Almond Grande",
@@ -92,7 +94,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Almond Regular",
@@ -123,7 +126,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Black Grande",
@@ -154,7 +158,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Black Regular",
@@ -185,7 +190,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Coconut Grande",
@@ -216,7 +222,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Coconut Regular",
@@ -247,7 +254,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Oat Grande",
@@ -278,7 +286,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Oat Regular",
@@ -309,7 +318,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Semi Skimmed Milk Grande",
@@ -340,7 +350,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano - Semi Skimmed Milk Regular",
@@ -371,7 +382,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano - Skimmed Milk Grande",
@@ -402,7 +414,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano - Skimmed Milk Regular",
@@ -433,7 +446,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano - Soya Grande",
@@ -464,7 +478,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Soya Regular",
@@ -495,7 +510,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Americano - Whole Milk Grande",
@@ -526,7 +542,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Americano - Whole Milk Regular",
@@ -557,7 +574,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Apple Crumble & Custard Tart",
@@ -588,7 +606,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Apricot Croissant",
@@ -619,7 +638,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Arrabbiata Meatball Pasta",
@@ -650,7 +670,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Bacon Ciabatta",
@@ -681,7 +702,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Baileys Iced Latte - Almond Milk",
@@ -712,7 +734,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Iced Latte - Coconut Milk",
@@ -743,7 +766,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Iced Latte - Oat Milk",
@@ -774,7 +798,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Iced Latte - Semi Skimmed Milk",
@@ -805,7 +830,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Baileys Iced Latte - Skimmed Milk",
@@ -836,7 +862,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Baileys Iced Latte - Soya Milk",
@@ -867,7 +894,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Iced Latte - Whole Milk",
@@ -898,7 +926,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Almond Milk Grande",
@@ -929,7 +958,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Coconut Milk Grande",
@@ -960,7 +990,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Oat Milk Grande",
@@ -991,7 +1022,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Semi Skimmed Milk Grande",
@@ -1022,7 +1054,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Skimmed Milk Grande",
@@ -1053,7 +1086,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Soya Milk Grande",
@@ -1084,7 +1118,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Baileys Latte - Whole milk Grande",
@@ -1115,7 +1150,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Banana & Walnut Loaf Cake",
@@ -1146,7 +1182,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Banana Chips",
@@ -1177,7 +1214,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Belgian Chocolate Brownie",
@@ -1208,7 +1246,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Belgian Chocolate Fudge Cake",
@@ -1239,7 +1278,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Berry Granola",
@@ -1270,7 +1310,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BLT Sandwich",
@@ -1301,7 +1342,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Blueberry Muffin",
@@ -1332,7 +1374,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Blueberry Oat Muffin Protein Balls",
@@ -1363,7 +1406,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Brie & Bacon Panini",
@@ -1394,7 +1438,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Butcher's Sausage Ciabatta",
@@ -1425,7 +1470,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Butter Croissant",
@@ -1456,7 +1502,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cappuccino - Almond Grande",
@@ -1487,7 +1534,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Almond Regular",
@@ -1518,7 +1566,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Coconut Grande",
@@ -1549,7 +1598,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Coconut Regular",
@@ -1580,7 +1630,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Oat Grande",
@@ -1611,7 +1662,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Oat Regular",
@@ -1642,7 +1694,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Semi Skimmed Milk Grande",
@@ -1673,7 +1726,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Semi Skimmed Milk Regular",
@@ -1704,7 +1758,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Skimmed Milk Grande",
@@ -1735,7 +1790,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Skimmed Milk Regular",
@@ -1766,7 +1822,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Soya Grande",
@@ -1797,7 +1854,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Soya Regular",
@@ -1828,7 +1886,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Whole Milk Grande",
@@ -1859,7 +1918,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino - Whole Milk Regular",
@@ -1890,7 +1950,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cappuccino Cake",
@@ -1921,7 +1982,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Almond",
@@ -1952,7 +2014,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Coconut",
@@ -1983,7 +2046,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Oat",
@@ -2014,7 +2078,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Semi Skimmed Milk",
@@ -2045,7 +2110,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Skimmed Milk",
@@ -2076,7 +2142,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Soya",
@@ -2107,7 +2174,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Caramel Iced Latte - Whole Milk",
@@ -2138,7 +2206,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Shortbread",
@@ -2169,7 +2238,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Caramel Waffle",
@@ -2200,7 +2270,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Carrot Cake",
@@ -2231,7 +2302,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chai Latte - Almond",
@@ -2262,7 +2334,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chai Latte - Coconut",
@@ -2293,7 +2366,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chai Latte - Oat",
@@ -2324,7 +2398,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chai Latte - Semi Skimmed Milk",
@@ -2355,7 +2430,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chai Latte - Skimmed Milk",
@@ -2386,7 +2462,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chai Latte - Soya",
@@ -2417,7 +2494,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chai Latte - Whole Milk",
@@ -2448,7 +2526,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cheese and Tomato Toastie",
@@ -2479,7 +2558,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cherry Cream Choux Bun",
@@ -2510,7 +2590,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken & Bacon Caesar Wrap (Airport stores only)",
@@ -2541,7 +2622,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken & Mixed Grain Salad",
@@ -2572,7 +2654,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken and Bacon Tostati",
@@ -2603,7 +2686,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Salad Sandwich",
@@ -2634,7 +2718,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken, Tomato & Basil Hot Wrap",
@@ -2665,7 +2750,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Chip Cookie",
@@ -2696,7 +2782,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Chocolate Chips",
@@ -2727,7 +2814,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Chocolate Milkshake - Almond",
@@ -2758,7 +2846,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake - Coconut",
@@ -2789,7 +2878,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake - Oat",
@@ -2820,7 +2910,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake - Semi Skimmed Milk",
@@ -2851,7 +2942,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake - Skimmed Milk",
@@ -2882,7 +2974,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake - Soya",
@@ -2913,7 +3006,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake - Whole Milk",
@@ -2944,7 +3038,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Almond",
@@ -2975,7 +3070,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Coconut",
@@ -3006,7 +3102,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Oat",
@@ -3037,7 +3134,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Semi Skimmed Milk",
@@ -3068,7 +3166,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Skimmed Milk",
@@ -3099,7 +3198,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Soya",
@@ -3130,7 +3230,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Milkshake with Whipped Cream - Whole Milk",
@@ -3161,7 +3262,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Chocolate Muffin",
@@ -3192,7 +3294,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cinnamon",
@@ -3223,7 +3326,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Cinnamon Bun",
@@ -3254,7 +3358,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cinnamon Swirl",
@@ -3285,7 +3390,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cortado - Almond",
@@ -3316,7 +3422,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cortado - Coconut",
@@ -3347,7 +3454,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cortado - Oat",
@@ -3378,7 +3486,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cortado - Semi Skimmed Milk",
@@ -3409,7 +3518,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cortado - Skimmed Milk",
@@ -3440,7 +3550,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Cortado - Soya",
@@ -3471,7 +3582,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Cortado - Whole Milk",
@@ -3502,7 +3614,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Dark Chocolate & Hazelnut Chocolate Bar",
@@ -3532,7 +3645,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Dates & Pecan Nuts",
@@ -3562,7 +3676,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Deliciously Ella Apple & Raisin Oat Bar",
@@ -3593,7 +3708,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Deliciously Ella Cacao & Almond Oat Bar",
@@ -3624,7 +3740,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Egg, Mushroom & Tomato Ciabatta",
@@ -3655,7 +3772,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Feta & Mixed Grain Salad",
@@ -3686,7 +3804,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Flat White - Almond",
@@ -3717,7 +3836,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Flat White - Coconut",
@@ -3748,7 +3868,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Flat White - Oat",
@@ -3779,7 +3900,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Flat White - Semi Skimmed Milk",
@@ -3810,7 +3932,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Flat White - Skimmed Milk",
@@ -3841,7 +3964,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Flat White - Soya",
@@ -3872,7 +3996,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Flat White - Whole Milk",
@@ -3903,7 +4028,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Forest Feast Dark Chocolate Cherries",
@@ -3934,7 +4060,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Forest Feast Dried Mango Slices",
@@ -3965,7 +4092,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Forest Feast Salted Dark Chocolate Almonds",
@@ -3996,7 +4124,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Frappe Latte - Almond",
@@ -4027,7 +4156,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte - Coconut",
@@ -4058,7 +4188,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte - Oat",
@@ -4089,7 +4220,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte - Semi Skimmed Milk",
@@ -4120,7 +4252,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte - Skimmed Milk",
@@ -4151,7 +4284,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte - Soya",
@@ -4182,7 +4316,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte - Whole Milk",
@@ -4213,7 +4348,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Almond",
@@ -4244,7 +4380,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Coconut",
@@ -4275,7 +4412,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Oat",
@@ -4306,7 +4444,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Semi Skimmed Milk",
@@ -4337,7 +4476,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Skimmed Milk",
@@ -4368,7 +4508,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Soya",
@@ -4399,7 +4540,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Frappe Latte with Whipped Cream - Whole Milk",
@@ -4430,7 +4572,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Free Range Egg Mayo Sandwich",
@@ -4461,7 +4604,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Fruit Salad",
@@ -4492,7 +4636,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Fruit Scone",
@@ -4523,7 +4668,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Fruit Teacake",
@@ -4554,7 +4700,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Gianduja Chocolate",
@@ -4585,7 +4732,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Ginger Crumble Loaf",
@@ -4616,7 +4764,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Gingerbread Biscuit",
@@ -4647,7 +4796,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Gluten Free Mozzarella, Tomato & Pesto Tostati",
@@ -4678,7 +4828,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Granola Flapjack",
@@ -4709,7 +4860,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Ham & Cheese Croissant",
@@ -4740,7 +4892,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham & Cheese Tostati Melt",
@@ -4771,7 +4924,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ham & Mozzarella Panini",
@@ -4802,7 +4956,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Almond Milk",
@@ -4833,7 +4988,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Coconut Milk",
@@ -4864,7 +5020,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Oat Milk",
@@ -4895,7 +5052,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Semi Skimmed Milk",
@@ -4926,7 +5084,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Skimmed Milk",
@@ -4957,7 +5116,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Soya Milk",
@@ -4988,7 +5148,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Honeycomb Iced Matcha Latte - Whole Milk",
@@ -5019,7 +5180,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Almond Grande",
@@ -5050,7 +5212,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Almond Regular",
@@ -5081,7 +5244,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Coconut Grande",
@@ -5112,7 +5276,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Coconut Regular",
@@ -5143,7 +5308,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Oat Grande",
@@ -5174,7 +5340,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Oat Regular",
@@ -5205,7 +5372,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Semi Skimmed Milk Grande",
@@ -5236,7 +5404,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Semi Skimmed Milk Regular",
@@ -5267,7 +5436,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Skimmed Milk Grande",
@@ -5298,7 +5468,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Skimmed Milk Regular",
@@ -5329,7 +5500,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Soya Grande",
@@ -5360,7 +5532,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Soya Regular",
@@ -5391,7 +5564,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Whole Milk Grande",
@@ -5422,7 +5596,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Hot Chocolate - Whole Milk Regular",
@@ -5453,7 +5628,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Americano",
@@ -5484,7 +5660,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Brown Sugar Latte - Almond Milk",
@@ -5515,7 +5692,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Brown Sugar Latte - Coconut Milk",
@@ -5546,7 +5724,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Brown Sugar Latte - Oat Milk",
@@ -5577,7 +5756,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Brown Sugar Latte - Skimmed Milk",
@@ -5608,7 +5788,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Brown Sugar Latte - Soya Milk",
@@ -5639,7 +5820,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Brown Sugar Latte - Whole Milk",
@@ -5670,7 +5852,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Cappuccino",
@@ -5701,7 +5884,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte - Almond Milk",
@@ -5732,7 +5916,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte - Coconut Milk",
@@ -5763,7 +5948,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte - Oat Milk",
@@ -5794,7 +5980,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte - Semi Skimmed Milk",
@@ -5825,7 +6012,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte - Soya Milk",
@@ -5856,7 +6044,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte - Whole Milk",
@@ -5887,7 +6076,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Cherry Latte -Skimmed Milk",
@@ -5918,7 +6108,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Flat White",
@@ -5949,7 +6140,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Honey Foamed Americano NONE",
@@ -5980,7 +6172,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Honey Oat Pecan Latte - Oat Milk",
@@ -6011,7 +6204,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Honey Oat Pecan Latte - Soya Milk",
@@ -6042,7 +6236,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Almond",
@@ -6073,7 +6268,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Coconut",
@@ -6104,7 +6300,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Oat",
@@ -6135,7 +6332,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Semi Skimmed Milk",
@@ -6166,7 +6364,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Skimmed Milk",
@@ -6197,7 +6396,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Soya",
@@ -6228,7 +6428,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Latte - Whole Milk",
@@ -6259,7 +6460,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Almond",
@@ -6290,7 +6492,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Coconut",
@@ -6321,7 +6524,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Oat",
@@ -6352,7 +6556,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Semi Skimmed Milk",
@@ -6383,7 +6588,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Skimmed Milk",
@@ -6414,7 +6620,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Soya",
@@ -6445,7 +6652,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Iced Pistachio Matcha Latte - Whole Milk",
@@ -6476,7 +6684,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Italian Cream Bun 'Maritozzo'",
@@ -6507,7 +6716,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Italian Fennel Salami, Cotto Ham & Mozzarella Focaccia",
@@ -6538,7 +6748,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Italian Mozzarella, Pesto & Tomato Pizzetta",
@@ -6569,7 +6780,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Italian Prosciutto & Yellow Datterini Tomato Flatbread",
@@ -6600,7 +6812,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Italian Sausage & Spicy Nduja Pizzetta",
@@ -6631,7 +6844,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Italian Tiramisu",
@@ -6662,7 +6876,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Kettle Cheddar & Onion Crisps",
@@ -6692,7 +6907,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Kettle Sea Salt & Vinegar Crisps",
@@ -6722,7 +6938,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Kettle Sea Salt Crisps",
@@ -6752,7 +6969,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Kids Hot Chocolate - Almond",
@@ -6783,7 +7001,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Kids Hot Chocolate - Coconut",
@@ -6814,7 +7033,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Kids Hot Chocolate - Oat",
@@ -6845,7 +7065,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Kids Hot Chocolate - Semi Skimmed Milk",
@@ -6876,7 +7097,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Kids Hot Chocolate - Skimmed Milk",
@@ -6907,7 +7129,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Kids Hot Chocolate - Soya",
@@ -6938,7 +7161,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Kids Hot Chocolate - Whole Milk",
@@ -6969,7 +7193,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Lakeland Butter",
@@ -6999,7 +7224,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Latte - Almond Grande",
@@ -7030,7 +7256,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Almond Regular",
@@ -7061,7 +7288,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Coconut Grande",
@@ -7092,7 +7320,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Coconut Regular",
@@ -7123,7 +7352,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Oat Grande",
@@ -7154,7 +7384,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Oat Regular",
@@ -7185,7 +7416,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Semi Skimmed Milk Grande",
@@ -7216,7 +7448,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte - Semi Skimmed Milk Regular",
@@ -7247,7 +7480,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte - Skimmed Milk Grande",
@@ -7278,7 +7512,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte - Skimmed Milk Regular",
@@ -7309,7 +7544,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte - Soya Grande",
@@ -7340,7 +7576,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Soya Regular",
@@ -7371,7 +7608,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Latte - Whole Milk Grande",
@@ -7402,7 +7640,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Latte - Whole Milk Regular",
@@ -7433,7 +7672,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Lemon & Pistachio Protein Balls",
@@ -7464,7 +7704,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Lemon Drizzle Loaf Cake",
@@ -7495,7 +7736,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lindor Milk Chocolate Bar",
@@ -7525,7 +7767,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Lindor Salted Caramel Bar",
@@ -7555,7 +7798,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Loacker Napolitaner",
@@ -7585,7 +7829,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Loacker Vanille",
@@ -7615,7 +7860,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Almond",
@@ -7646,7 +7892,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Coconut",
@@ -7677,7 +7924,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Oat",
@@ -7708,7 +7956,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Semi Skimmed Milk",
@@ -7739,7 +7988,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Skimmed Milk",
@@ -7770,7 +8020,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Soya",
@@ -7801,7 +8052,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Luxury Caramelatte - Whole Milk",
@@ -7832,7 +8084,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Luxury Hot Chocolate",
@@ -7863,7 +8116,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Luxury Mocha",
@@ -7894,7 +8148,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Almond Grande",
@@ -7925,7 +8180,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Almond Regular",
@@ -7956,7 +8212,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Coconut Double",
@@ -7987,7 +8244,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Coconut Single",
@@ -8018,7 +8276,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Oat Double",
@@ -8049,7 +8308,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Oat Single",
@@ -8080,7 +8340,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Semi Skimmed Milk Double",
@@ -8111,7 +8372,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Semi Skimmed Milk Single",
@@ -8142,7 +8404,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Skimmed Milk Double",
@@ -8173,7 +8436,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Skimmed Milk Single",
@@ -8204,7 +8468,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Soya Double",
@@ -8235,7 +8500,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Soya Single",
@@ -8266,7 +8532,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Whole Milk Double",
@@ -8297,7 +8564,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Macchiato - Whole Milk Single",
@@ -8328,7 +8596,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mango & Passionfruit",
@@ -8359,7 +8628,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Mango & Passionfruit Plant Based Cheesecake",
@@ -8390,7 +8660,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Mango & Pineapple Fruit Pot",
@@ -8421,7 +8692,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Marshmallows",
@@ -8451,7 +8723,8 @@
         "molluscs": false
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Matcha Latte - Almond Grande",
@@ -8482,7 +8755,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Almond Regular",
@@ -8513,7 +8787,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Coconut Grande",
@@ -8544,7 +8819,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Coconut Regular",
@@ -8575,7 +8851,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Oat Grande",
@@ -8606,7 +8883,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Oat Regular",
@@ -8637,7 +8915,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Semi Skimmed Milk Grande",
@@ -8668,7 +8947,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Semi Skimmed Milk Regular",
@@ -8699,7 +8979,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Skimmed Milk Grande",
@@ -8730,7 +9011,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Skimmed Milk Regular",
@@ -8761,7 +9043,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Soya Grande",
@@ -8792,7 +9075,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Soya Regular",
@@ -8823,7 +9107,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Whole Milk Grande",
@@ -8854,7 +9139,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Whole Milk Regular",
@@ -8885,7 +9171,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Milk Chocolate Stracciatella Bar",
@@ -8916,7 +9203,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Milk Grande",
@@ -8947,7 +9235,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Millionaires Luxury Frappe - Almond",
@@ -8978,7 +9267,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Millionaires Luxury Frappe - Coconut",
@@ -9009,7 +9299,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Millionaires Luxury Frappe - Oat",
@@ -9040,7 +9331,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Millionaires Luxury Frappe - Semi Skimmed Milk",
@@ -9071,7 +9363,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Millionaires Luxury Frappe - Skimmed Milk",
@@ -9102,7 +9395,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Millionaires Luxury Frappe - Soya",
@@ -9133,7 +9427,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Millionaires Luxury Frappe - Whole Milk",
@@ -9164,7 +9459,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mini Gingerbread Topping",
@@ -9195,7 +9491,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mocha - Almond Grande",
@@ -9226,7 +9523,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mocha - Almond Regular",
@@ -9257,7 +9555,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mocha - Coconut Grande",
@@ -9288,7 +9587,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Coconut Regular",
@@ -9319,7 +9619,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Oat Grande",
@@ -9350,7 +9651,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Oat Regular",
@@ -9381,7 +9683,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Semi Skimmed Milk Grande",
@@ -9412,7 +9715,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Semi Skimmed Milk Regular",
@@ -9443,7 +9747,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Skimmed Milk Grande",
@@ -9474,7 +9779,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Skimmed Milk Regular",
@@ -9505,7 +9811,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Soya Grande",
@@ -9536,7 +9843,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Soya Regular",
@@ -9567,7 +9875,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Whole Milk Grande",
@@ -9598,7 +9907,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha - Whole Milk Regular",
@@ -9629,7 +9939,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Almond",
@@ -9660,7 +9971,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Coconut",
@@ -9691,7 +10003,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Oat",
@@ -9722,7 +10035,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Semi Skimmed Milk",
@@ -9753,7 +10067,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Skimmed Milk",
@@ -9784,7 +10099,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Soya",
@@ -9815,7 +10131,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe - Whole Milk",
@@ -9846,7 +10163,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Almond",
@@ -9877,7 +10195,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Coconut",
@@ -9908,7 +10227,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Oat",
@@ -9939,7 +10259,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Semi Skimmed Milk",
@@ -9970,7 +10291,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Skimmed Milk",
@@ -10001,7 +10323,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Soya",
@@ -10032,7 +10355,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mocha Frappe with Whipped Cream - Whole Milk",
@@ -10063,7 +10387,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mozzarella & Roasted Tomato Tostati Melt",
@@ -10094,7 +10419,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mozzarella & Tomato Panini",
@@ -10125,7 +10451,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mushroom & Tomato Ragu Panini",
@@ -10156,7 +10483,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Neapolitan Cheesecake/ Raspberry and Vanilla Cheesecake",
@@ -10187,7 +10515,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte - Almond",
@@ -10218,7 +10547,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte - Coconut",
@@ -10249,7 +10579,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte - Oat",
@@ -10280,7 +10611,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte - Semi Skimmed Milk",
@@ -10311,7 +10643,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte - Skimmed Milk",
@@ -10342,7 +10675,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte - Whole Milk",
@@ -10373,7 +10707,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Iced Matcha Latte- Soya",
@@ -10404,7 +10739,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Nero Baileys Tiramisu - Almond Grande",
@@ -10435,7 +10771,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Nero Baileys Tiramisu - Coconut Grande",
@@ -10466,7 +10803,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Nero Baileys Tiramisu - Oat Grande",
@@ -10497,7 +10835,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Nero Baileys Tiramisu - Soya Grande",
@@ -10528,7 +10867,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Nero Baileys Tiramisu - Whole Milk Grande",
@@ -10559,7 +10899,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Oat & Cranberry Cookie",
@@ -10590,7 +10931,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Orange & Gingerbread Cake",
@@ -10621,7 +10963,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pain au Chocolat",
@@ -10652,7 +10995,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pain aux Raisins",
@@ -10683,7 +11027,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Panettone",
@@ -10714,7 +11059,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pastel De Nata",
@@ -10745,7 +11091,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pistachio & Chocolate Mousse Cake",
@@ -10776,7 +11123,8 @@
         "molluscs": false
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pistachio Croissant",
@@ -10807,7 +11155,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pistachio Iced Latte - Almond",
@@ -10838,7 +11187,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Iced Latte - Coconut",
@@ -10869,7 +11219,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Iced Latte - Oat",
@@ -10900,7 +11251,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Iced Latte - Skimmed Milk",
@@ -10931,7 +11283,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pistachio Iced Latte - Soya",
@@ -10962,7 +11315,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Iced Latte - Whole Milk",
@@ -10993,7 +11347,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Almond Grande",
@@ -11024,7 +11379,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Almond Regular",
@@ -11055,7 +11411,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Coconut Grande",
@@ -11086,7 +11443,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Coconut Regular",
@@ -11117,7 +11475,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Oat Grande",
@@ -11148,7 +11507,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Oat Regular",
@@ -11179,7 +11539,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Semi Skimmed Regular",
@@ -11210,7 +11571,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Skimmed Milk Grande",
@@ -11241,7 +11603,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Skimmed Milk Regular",
@@ -11272,7 +11635,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Soya Grande",
@@ -11303,7 +11667,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Soya Regular",
@@ -11334,7 +11699,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Whole Milk Grande",
@@ -11365,7 +11731,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pistachio Latte - Whole Milk Regular",
@@ -11396,7 +11763,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Pork & Pancetta Sausage Roll",
@@ -11427,7 +11795,8 @@
         "molluscs": false
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Porridge made with Alpro Barista Almond",
@@ -11458,7 +11827,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Porridge made with Alpro Barista Coconut",
@@ -11489,7 +11859,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Porridge made with Alpro Barista Oat",
@@ -11520,7 +11891,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Porridge made with Alpro Barista Soya",
@@ -11551,7 +11923,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Porridge made with Semi Skimmed Milk",
@@ -11582,7 +11955,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Porridge made with Skimmed Milk",
@@ -11613,7 +11987,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Porridge made with Whole Milk",
@@ -11644,7 +12019,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Proper Corn Sea Salted Popcorn",
@@ -11675,7 +12051,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Proper Corn Sweet & Salty Popcorn",
@@ -11706,7 +12083,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Raspberry Croissant",
@@ -11737,7 +12115,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Raspberry Jam",
@@ -11767,7 +12146,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Ristretto Espresso",
@@ -11798,7 +12178,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Roasted Vegetable Plant Based Savoury Roll",
@@ -11829,7 +12210,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Rocky Road",
@@ -11860,7 +12242,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Rodda's Cornish Clotted Cream",
@@ -11890,7 +12273,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Salted Caramel Iced Velvet Americano",
@@ -11921,7 +12305,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Santa Gingerbread Person",
@@ -11952,7 +12337,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Seeds & Fruit Mix Topper",
@@ -11983,7 +12369,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Sicilian Lemon",
@@ -12014,7 +12401,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Sicilian Lemon Curd Muffin",
@@ -12045,7 +12433,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sicilian Lemon Meringue Cheesecake",
@@ -12076,7 +12465,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Smoky Three Bean Wrap (Airport Stores Only)",
@@ -12107,7 +12497,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sourdough Bread Roll",
@@ -12138,7 +12529,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Stem Ginger Biscuit",
@@ -12168,7 +12560,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Sticky Toffee Pudding Cheesecake",
@@ -12199,7 +12592,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Almond",
@@ -12230,7 +12624,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Coconut",
@@ -12261,7 +12656,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Oat",
@@ -12292,7 +12688,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Semi Skimmed Milk",
@@ -12323,7 +12720,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Skimmed Milk",
@@ -12354,7 +12752,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Soya",
@@ -12385,7 +12784,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry & Vanilla Iced Matcha - Whole Milk",
@@ -12416,7 +12816,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Almond",
@@ -12447,7 +12848,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Coconut",
@@ -12478,7 +12880,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Oat",
@@ -12509,7 +12912,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Semi Skimmed Milk",
@@ -12540,7 +12944,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Skimmed Milk",
@@ -12571,7 +12976,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Soya",
@@ -12602,7 +13008,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry & White Chocolate Luxury Frappe - Whole Milk",
@@ -12633,7 +13040,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Jam",
@@ -12663,7 +13071,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Strawberry Lemonade Spritz",
@@ -12694,7 +13103,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Almond",
@@ -12725,7 +13135,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Coconut",
@@ -12756,7 +13167,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Oat",
@@ -12787,7 +13199,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Semi Skimmed Milk",
@@ -12818,7 +13231,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Skimmed Milk",
@@ -12849,7 +13263,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Soya",
@@ -12880,7 +13295,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake - Whole Milk",
@@ -12911,7 +13327,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Almond",
@@ -12942,7 +13359,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Coconut",
@@ -12973,7 +13391,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Oat",
@@ -13004,7 +13423,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Semi Skimmed Milk",
@@ -13035,7 +13455,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Skimmed Milk",
@@ -13066,7 +13487,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Soya",
@@ -13097,7 +13519,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Milkshake with Whipped Cream - Whole Milk",
@@ -13128,10 +13551,11 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
-      "name": "Tim’s Raspberry Yogurt",
+      "name": "Tim\u2019s Raspberry Yogurt",
       "calories": 249,
       "macros": {
         "protein": 8.6,
@@ -13159,10 +13583,11 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
-      "name": "Tim’s Vanilla Yogurt",
+      "name": "Tim\u2019s Vanilla Yogurt",
       "calories": 250,
       "macros": {
         "protein": 8.8,
@@ -13190,7 +13615,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tiramisu Iced Latte - Almond",
@@ -13221,7 +13647,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Tiramisu Iced Latte - Coconut",
@@ -13252,7 +13679,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Tiramisu Iced Latte - Oat",
@@ -13283,7 +13711,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Tiramisu Iced Latte - Semi Skimmed Milk",
@@ -13314,7 +13743,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Tiramisu Iced Latte - Skimmed Milk",
@@ -13345,7 +13775,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Tiramisu Iced Latte - Soya",
@@ -13376,7 +13807,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Tiramisu Iced Latte - Whole Milk",
@@ -13407,7 +13839,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Tomato & Basil Soup",
@@ -13438,7 +13871,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Totally Nutty",
@@ -13469,7 +13903,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Tuna & Cucumber Sandwich",
@@ -13500,7 +13935,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tuna Melt Panini",
@@ -13531,7 +13967,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Vanilla Iced Latte - Almond",
@@ -13562,7 +13999,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Latte - Coconut",
@@ -13593,7 +14031,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Latte - Oat",
@@ -13624,7 +14063,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Latte - Semi Skimmed Milk",
@@ -13655,7 +14095,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Latte - Skimmed Milk",
@@ -13686,7 +14127,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Latte - Soya",
@@ -13717,7 +14159,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Latte - Whole Milk",
@@ -13748,7 +14191,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Almond",
@@ -13779,7 +14223,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Coconut",
@@ -13810,7 +14255,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Oat",
@@ -13841,7 +14287,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Semi Skimmed Milk",
@@ -13872,7 +14319,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Skimmed Milk",
@@ -13903,7 +14351,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Soya",
@@ -13934,7 +14383,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Matcha - Whole Milk",
@@ -13965,7 +14415,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Iced Velvet Americano",
@@ -13996,7 +14447,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Almond",
@@ -14027,7 +14479,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Coconut",
@@ -14058,7 +14511,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Oat",
@@ -14089,7 +14543,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Semi Skimmed Milk",
@@ -14120,7 +14575,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Skimmed Milk",
@@ -14151,7 +14607,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Soya",
@@ -14182,7 +14639,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake - Whole Milk",
@@ -14213,7 +14671,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Almond",
@@ -14244,7 +14703,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Coconut",
@@ -14275,7 +14735,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Oat",
@@ -14306,7 +14767,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Semi Skimmed Milk",
@@ -14337,7 +14799,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Skimmed Milk",
@@ -14368,7 +14831,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Soya",
@@ -14399,7 +14863,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Milkshake with Whipped Cream - Whole Milk",
@@ -14430,7 +14895,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vegetarian Grande",
@@ -14461,7 +14927,8 @@
         "molluscs": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White Chocolate Mocha - Almond",
@@ -14492,7 +14959,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Chocolate Mocha - Coconut",
@@ -14523,7 +14991,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Chocolate Mocha - Oat",
@@ -14554,7 +15023,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Chocolate Mocha - Semi Skimmed Milk",
@@ -14585,7 +15055,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Chocolate Mocha - Skimmed Milk",
@@ -14616,7 +15087,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Chocolate Mocha - Soya",
@@ -14647,7 +15119,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "White Chocolate Mocha - Whole Milk",
@@ -14678,7 +15151,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Wrapped All Butter Shortbread",
@@ -14708,7 +15182,8 @@
         "molluscs": false
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Wrapped Chocolate Brownie",
@@ -14739,7 +15214,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Wrapped Flapjack",
@@ -14770,7 +15246,8 @@
         "molluscs": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     }
   ]
 }

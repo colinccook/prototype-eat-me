@@ -13,7 +13,8 @@
         "sugar": 4.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "12oz Rump",
@@ -27,7 +28,8 @@
         "sugar": 4.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "7oz Gammon Steak with Fried Free-Range Egg",
@@ -41,7 +43,8 @@
         "sugar": 1.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "7oz Gammon Steak with Pineapple",
@@ -55,7 +58,8 @@
         "sugar": 7.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "8oz Rump",
@@ -69,7 +73,8 @@
         "sugar": 4.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "8oz Sirloin",
@@ -83,7 +88,8 @@
         "sugar": 4.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "8oz Skinny Rump",
@@ -97,7 +103,8 @@
         "sugar": 3.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Add BBQ Pulled Pork",
@@ -111,7 +118,8 @@
         "sugar": 21.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Add Chipotle BBQ Beans",
@@ -125,7 +133,8 @@
         "sugar": 12.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Apple, Raspberry & Watermelon Granola Crumble",
@@ -139,7 +148,8 @@
         "sugar": 73.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Chicken Stack",
@@ -153,7 +163,8 @@
         "sugar": 19.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "BBQ Pulled Pork",
@@ -167,7 +178,8 @@
         "sugar": 21.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Belgian Chocolate Sauce",
@@ -181,7 +193,8 @@
         "sugar": 10.2
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Breaded Button Mushrooms",
@@ -195,7 +208,8 @@
         "sugar": 2.1
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Buffalo Chicken Wings",
@@ -209,7 +223,8 @@
         "sugar": 1.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Buttered Green Beans",
@@ -223,7 +238,8 @@
         "sugar": 3.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Buttery Garlic Mash",
@@ -237,7 +253,8 @@
         "sugar": 2.5
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cauliflower Cheese and Tomato Tart",
@@ -251,7 +268,8 @@
         "sugar": 11.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cellentini Pasta in a Tomato Salsa Sauce",
@@ -265,7 +283,8 @@
         "sugar": 9.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese and Bacon",
@@ -279,7 +298,8 @@
         "sugar": 11.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheesy Garlic Bread Board",
@@ -293,7 +313,8 @@
         "sugar": 18.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheesy Garlic Ciabatta",
@@ -307,7 +328,8 @@
         "sugar": 2.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheesy Garlic Corn on the Cob",
@@ -321,7 +343,8 @@
         "sugar": 5.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken & Chorizo Skewers",
@@ -335,7 +358,8 @@
         "sugar": 9.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Breast",
@@ -349,7 +373,8 @@
         "sugar": 22.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Wings",
@@ -363,7 +388,8 @@
         "sugar": 13.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chipotle BBQ Beans",
@@ -377,7 +403,8 @@
         "sugar": 12.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chocolate Fudge Cake",
@@ -391,7 +418,8 @@
         "sugar": 128.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chorizo & Padron Pepper",
@@ -405,7 +433,8 @@
         "sugar": 9.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chorizo Melt",
@@ -419,7 +448,8 @@
         "sugar": 1.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Classic Burger",
@@ -433,7 +463,8 @@
         "sugar": 7.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cornish Smoked Back Ribs",
@@ -447,7 +478,8 @@
         "sugar": 32.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crispy Lightly Spiced Cauliflower",
@@ -461,7 +493,8 @@
         "sugar": 6.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crispy Wholetail Scampi",
@@ -475,7 +508,8 @@
         "sugar": 6.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cropwell Bishop Stilton & Thick-Cut Bacon",
@@ -489,7 +523,8 @@
         "sugar": 0.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Deep Fill Bramley Apple Pie",
@@ -503,7 +538,8 @@
         "sugar": 19.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Devon Cream Toffee Sauce",
@@ -517,7 +553,8 @@
         "sugar": 10.1
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Dirty Rice",
@@ -531,7 +568,8 @@
         "sugar": 2.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Duck Wings",
@@ -545,7 +583,8 @@
         "sugar": 8.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Dukes Smokey BBQ Gravy",
@@ -559,7 +598,8 @@
         "sugar": 4.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Eton Mess Cheesecake with Raspberries in Sauce and Fluffy Cream",
@@ -573,7 +613,8 @@
         "sugar": 9.5
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Fruit Salad",
@@ -587,7 +628,8 @@
         "sugar": 21.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Fruit Salad with Ice Cream",
@@ -601,7 +643,8 @@
         "sugar": 2.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Full Rack of Ribs",
@@ -615,7 +658,8 @@
         "sugar": 36.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Garlic Ciabatta",
@@ -629,7 +673,8 @@
         "sugar": 2.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Grilled Chorizo",
@@ -643,7 +688,8 @@
         "sugar": 1.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Grilled Fish & Chips - buttered peas.",
@@ -657,7 +703,8 @@
         "sugar": 4.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Grilled Fish & Chips - mushy peas.",
@@ -671,7 +718,8 @@
         "sugar": 4.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Grilled Salmon Fillet",
@@ -685,7 +733,8 @@
         "sugar": 27.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Half Aromatic Boneless Duck",
@@ -699,7 +748,8 @@
         "sugar": 46.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Half Rack of Ribs with our BBQ Sauce",
@@ -713,7 +763,8 @@
         "sugar": 9.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Half Rotisserie Chicken",
@@ -727,7 +778,8 @@
         "sugar": 22.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Halloumi Skewers",
@@ -741,7 +793,8 @@
         "sugar": 14.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Harvester Chilli-Seasoned Fries",
@@ -755,7 +808,8 @@
         "sugar": 2.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Herb Battered Halloumi & Chips",
@@ -769,7 +823,8 @@
         "sugar": 4.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hollandaise",
@@ -783,7 +838,8 @@
         "sugar": 0.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Honeycomb Explosion",
@@ -797,7 +853,8 @@
         "sugar": 92.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "I Want It All - For One",
@@ -811,7 +868,8 @@
         "sugar": 56.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "I Want It All - For Two To Share",
@@ -825,7 +883,8 @@
         "sugar": 99.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Jacket Potato with Butter",
@@ -839,7 +898,8 @@
         "sugar": 1.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Jacket Potato with Sour Cream",
@@ -853,7 +913,8 @@
         "sugar": 2.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Jamaican Boneless Beef Rib",
@@ -867,7 +928,8 @@
         "sugar": 42.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Just Half Chicken",
@@ -881,7 +943,8 @@
         "sugar": 1.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Key Lime Pie with Fluffy Cream",
@@ -895,7 +958,8 @@
         "sugar": 43.5
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "King Prawns in Garlic Butter",
@@ -909,7 +973,8 @@
         "sugar": 0.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mac & Cheddar Cheese Bites",
@@ -923,7 +988,8 @@
         "sugar": 4.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mega Ribs",
@@ -937,7 +1003,8 @@
         "sugar": 32.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mini M&M\u2019s\u00ae",
@@ -951,7 +1018,8 @@
         "sugar": 20.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mini Rolo's\u00ae",
@@ -965,7 +1033,8 @@
         "sugar": 16.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mint Aero Bubbles\u00ae",
@@ -979,7 +1048,8 @@
         "sugar": 18.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mixed Grill",
@@ -993,7 +1063,8 @@
         "sugar": 7.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "NGCI Sticky Toffee Pudding with custard",
@@ -1007,7 +1078,8 @@
         "sugar": 39.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Onion Petals",
@@ -1021,7 +1093,8 @@
         "sugar": 3.0
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Oreo Cookie \u2018n\u2019 Cream",
@@ -1035,7 +1108,8 @@
         "sugar": 85.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Original Combo",
@@ -1049,7 +1123,8 @@
         "sugar": 31.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pepper-Crumb Fried Chicken Strips",
@@ -1063,7 +1138,8 @@
         "sugar": 13.1
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Peppercorn",
@@ -1077,7 +1153,8 @@
         "sugar": 1.9
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pork Riblets",
@@ -1091,7 +1168,8 @@
         "sugar": 20.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Potato Skins",
@@ -1105,7 +1183,8 @@
         "sugar": 0.6
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Raspberry Sauce",
@@ -1119,7 +1198,8 @@
         "sugar": 10.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Red Velvet Cake with Fresh Strawberries and Fluffy Cream",
@@ -1133,7 +1213,8 @@
         "sugar": 2.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Rocky Horror",
@@ -1147,7 +1228,8 @@
         "sugar": 66.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Salsa Chicken & Pepper Stack",
@@ -1161,7 +1243,8 @@
         "sugar": 25.4
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Salted Caramel Profiteroles with Devon Toffee Sauce & Fluffy Cream",
@@ -1175,7 +1258,8 @@
         "sugar": 9.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Seasoned Fries",
@@ -1189,7 +1273,8 @@
         "sugar": 0.3
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Signature 12oz Rump Steak with Dukes Smokey Ketchup Glaze",
@@ -1203,7 +1288,8 @@
         "sugar": 1.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Signature 12oz Rump Steak with Harvesters Black Pepper Herb & Mustard Dry Rub",
@@ -1217,7 +1303,8 @@
         "sugar": 4.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Signature Fish & Chips - buttered peas",
@@ -1231,7 +1318,8 @@
         "sugar": 4.7
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Signature Fish & Chips - mushy peas",
@@ -1245,7 +1333,8 @@
         "sugar": 8.2
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Simple Grilled Chicken",
@@ -1259,7 +1348,8 @@
         "sugar": 4.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Smoked Bacon Belly",
@@ -1273,7 +1363,8 @@
         "sugar": 52.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Smoked Pork & Bramley Apple Sausage Whirl",
@@ -1287,7 +1378,8 @@
         "sugar": 56.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Crackerjack Prawns",
@@ -1301,7 +1393,8 @@
         "sugar": 15.0
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Strawberry Sauce",
@@ -1315,7 +1408,8 @@
         "sugar": 8.1
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Summer Pudding",
@@ -1329,7 +1423,8 @@
         "sugar": 74.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sundae Best",
@@ -1343,7 +1438,8 @@
         "sugar": 32.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sweet Potato & Red Onion Skewers",
@@ -1357,7 +1453,8 @@
         "sugar": 25.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sweet Potato Fries",
@@ -1371,7 +1468,8 @@
         "sugar": 14.8
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "The Harvester 83 Combo For One",
@@ -1385,7 +1483,8 @@
         "sugar": 32.8
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "The Harvester 83 Combo For Two to Share",
@@ -1399,7 +1498,8 @@
         "sugar": 50.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "The Nacho Burger",
@@ -1413,7 +1513,8 @@
         "sugar": 1.7
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Triple Chicken",
@@ -1427,7 +1528,8 @@
         "sugar": 19.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ultimate Nachos",
@@ -1441,7 +1543,8 @@
         "sugar": 9.6
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie BBQ",
@@ -1455,7 +1558,8 @@
         "sugar": 9.4
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Waffle & Ice Cream Sandwich with Raspberries in Sauce & Fresh Strawberries",
@@ -1469,7 +1573,8 @@
         "sugar": 9.5
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Whole Rotisserie Chicken",
@@ -1483,7 +1588,8 @@
         "sugar": 29.3
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Why not add a grilled chicken breast",
@@ -1497,7 +1603,8 @@
         "sugar": 9.5
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Jacket Potato without Butter",
@@ -1511,7 +1618,8 @@
         "sugar": 1.9
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     }
   ]
 }

@@ -28,7 +28,8 @@ const DEFAULT_FILTERS: FilterOptions = {
   minCalories: null,
   maxCalories: null,
   sortBy: 'protein-per-calorie-desc',
-  selectedRestaurants: []
+  selectedRestaurants: [],
+  itemType: 'food'
 };
 
 export function filtersToSearchParams(filters: FilterOptions): URLSearchParams {
@@ -54,6 +55,10 @@ export function filtersToSearchParams(filters: FilterOptions): URLSearchParams {
 
   if (filters.selectedRestaurants.length > 0) {
     params.set('restaurants', filters.selectedRestaurants.join(','));
+  }
+
+  if (filters.itemType !== DEFAULT_FILTERS.itemType) {
+    params.set('type', filters.itemType);
   }
 
   return params;
@@ -93,6 +98,11 @@ export function searchParamsToFilters(params: URLSearchParams): FilterOptions {
   const restaurants = params.get('restaurants');
   if (restaurants) {
     filters.selectedRestaurants = restaurants.split(',').filter(r => r.length > 0);
+  }
+
+  const type = params.get('type');
+  if (type === 'drink' || type === 'food') {
+    filters.itemType = type;
   }
 
   return filters;

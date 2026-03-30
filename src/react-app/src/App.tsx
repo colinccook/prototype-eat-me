@@ -19,6 +19,7 @@ import {
   trackDietaryFilter,
   trackCalorieFilter,
   trackRestaurantFilter,
+  trackTypeFilter,
   trackConsentResponse,
   trackDisclaimerDismissed,
 } from './analytics';
@@ -206,6 +207,9 @@ function App() {
     }
     if (prev.selectedRestaurants.join(',') !== filters.selectedRestaurants.join(',')) {
       trackRestaurantFilter(filters.selectedRestaurants);
+    }
+    if (prev.itemType !== filters.itemType) {
+      trackTypeFilter(filters.itemType);
     }
     prevFiltersRef.current = filters;
   }, [filters]);
@@ -402,6 +406,14 @@ function App() {
   // Filter and sort items
   const filteredItems = useMemo(() => {
     let items = [...foodItems];
+
+    // Apply item type filter (food shows food+other, drink shows drinks only)
+    // Items with type='other' (condiments, milk alternatives) are shown in the
+    // food view as they are relevant alongside food items.
+    items = items.filter(item => {
+      if (filters.itemType === 'drink') return item.type === 'drink';
+      return item.type === 'food' || item.type === 'other';
+    });
 
     // Apply restaurant filter (if specific restaurants are selected)
     if (filters.selectedRestaurants.length > 0) {

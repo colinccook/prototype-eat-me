@@ -14,7 +14,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "other"
     },
     {
       "name": "Alpro Plant Alternative - Oat",
@@ -29,7 +30,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "other"
     },
     {
       "name": "Alpro Plant Alternative - Soya",
@@ -44,7 +46,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "other"
     },
     {
       "name": "Black Forest Hot Chocolate - Oat Drink - Medium",
@@ -59,7 +62,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Black Forest Hot Chocolate - Soya Drink - Medium",
@@ -74,7 +78,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Black Forest Hot Chocolate - Whole Milk - Medium",
@@ -89,7 +94,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Caramel Chocolate Flavour Sauce",
@@ -104,7 +110,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Caramel Nut Syrup",
@@ -119,7 +126,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Caramel Syrup",
@@ -134,7 +142,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chai Syrup",
@@ -149,7 +158,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Condensed Milk Flavoured Sauce",
@@ -164,7 +174,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hot Chocolate Powder",
@@ -179,7 +190,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Matcha Latte - Oat Drink - Large - Take Away",
@@ -194,7 +206,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Matcha Latte - Skimmed Milk - Medium - In Store",
@@ -209,7 +222,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Matcha Latte - Soya Drink - Large - Take Away",
@@ -224,7 +238,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Iced Matcha Latte - Whole Milk - Large - Take Away",
@@ -239,7 +254,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Light Whip",
@@ -254,7 +270,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mango Flavour Bubbles",
@@ -269,7 +286,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mango Sauce",
@@ -284,7 +302,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Marshmallow",
@@ -299,7 +318,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Matcha Latte - Coconut Drink - Large",
@@ -314,7 +334,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Oat Drink - Large",
@@ -329,7 +350,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Semi-Skimmed Milk - Large",
@@ -344,7 +366,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Skimmed Milk - Large",
@@ -359,7 +382,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Soya Drink - Large",
@@ -374,7 +398,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Matcha Latte - Whole Milk - Large",
@@ -389,7 +414,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Mini Gingerbread Person",
@@ -404,7 +430,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Mint Flavour Syrup",
@@ -419,7 +446,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pure Cane Sugar Syrup",
@@ -434,7 +462,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roasted Hazelnut Flavour Syrup",
@@ -449,7 +478,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Salted Caramel Sauce",
@@ -464,7 +494,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Semi Skimmed Milk",
@@ -479,7 +510,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Signature Latte - Coconut Drink - Large",
@@ -494,7 +526,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Signature Latte - Oat Drink - Large",
@@ -509,7 +542,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Signature Latte - Semi-Skimmed Milk - Large",
@@ -524,7 +558,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Signature Latte - Skimmed Milk - Large",
@@ -539,7 +574,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Signature Latte - Soya Drink - Large",
@@ -554,7 +590,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Signature Latte - Whole Milk - Large",
@@ -569,7 +606,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Skimmed Milk",
@@ -584,7 +622,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spanish Caramelo Latte - Coconut Drink - Medium",
@@ -599,7 +638,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Caramelo Latte - Oat Drink - Medium",
@@ -614,7 +654,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Caramelo Latte - Skimmed Milk - Medium",
@@ -629,7 +670,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Caramelo Latte - Soya Drink - Medium",
@@ -644,7 +686,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Caramelo Latte - Whole Milk - Medium",
@@ -659,7 +702,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Iced Latte - Oat Drink - Medium - In Store",
@@ -674,7 +718,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Iced Latte - Skimmed Milk - Small - In Store",
@@ -689,7 +734,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Iced Latte - Soya Drink - Medium - In Store",
@@ -704,7 +750,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Iced Latte - Whole Milk - Medium - In Store",
@@ -719,7 +766,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Latte - Coconut Drink - Medium",
@@ -734,7 +782,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Latte - Oat Drink - Medium",
@@ -749,7 +798,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Latte - Semi-Skimmed Milk - Medium",
@@ -764,7 +814,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Latte - Skimmed Milk - Medium",
@@ -779,7 +830,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Latte - Soya Drink - Medium",
@@ -794,7 +846,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Spanish Latte - Whole Milk - Medium",
@@ -809,7 +862,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Strawberry Sauce",
@@ -824,7 +878,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Ube Flavour Syrup",
@@ -839,7 +894,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Vanilla Oat Latte - Oat Drink - Small - In Store",
@@ -854,7 +910,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "drink"
     },
     {
       "name": "Vanilla Syrup",
@@ -869,7 +926,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Whipping Cream",
@@ -884,7 +942,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White Chocolate Sauce",
@@ -899,7 +958,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "White Peach Syrup",
@@ -914,7 +974,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Whole Milk",
@@ -929,7 +990,8 @@
         "fibre": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     }
   ]
 }

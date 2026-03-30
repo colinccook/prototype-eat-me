@@ -31,7 +31,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "1/2 Chicken and Chips",
@@ -63,7 +64,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "1/4 Chicken Breast",
@@ -95,7 +97,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "1/4 Chicken Leg",
@@ -127,7 +130,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Apple Slices",
@@ -159,7 +163,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Avocado (1/2 avocado)",
@@ -191,7 +196,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Balsamic Vinaigrette",
@@ -223,7 +229,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Balsamic Vinegar",
@@ -255,7 +262,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Barely Baked Brownie",
@@ -287,7 +295,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Blood Orange Mango Lemonade 16 oz",
@@ -319,7 +328,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Blood Orange Mango Lemonade 32 oz",
@@ -351,7 +361,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Blood Orange Mango Lemonade Gallon",
@@ -383,7 +394,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Boneless Chicken Breast",
@@ -415,7 +427,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Boneless Chicken Thighs (1)",
@@ -447,7 +460,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Braai BBQ Bowl",
@@ -479,7 +493,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Caesar Dressing",
@@ -511,7 +526,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Carrot Cake",
@@ -543,7 +559,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Cheese",
@@ -575,7 +592,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Breast Sandwich, Plainish",
@@ -607,7 +625,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Breast, Plainish",
@@ -639,7 +658,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Burger, Plainish",
@@ -671,7 +691,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Thigh Skewer (1)",
@@ -703,7 +724,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chicken Thigh Skewers (2)",
@@ -735,7 +757,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Chilli Jam",
@@ -767,7 +790,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Coleslaw",
@@ -799,7 +823,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Coleslaw, Large",
@@ -831,7 +856,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Coleslaw, Regular",
@@ -863,7 +889,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Coleslaw, X-Large",
@@ -895,7 +922,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Corn (1/2 cob)",
@@ -927,7 +955,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Corn on the Cob (1 cob)",
@@ -959,7 +988,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Corn on the Cob (1 cob), No Butter",
@@ -991,7 +1021,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Crispy Brussels Sprouts, Large",
@@ -1023,7 +1054,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crispy Brussels Sprouts, Regular",
@@ -1055,7 +1087,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Crispy Brussels Sprouts, X-Large",
@@ -1087,7 +1120,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Drumstick and Thigh, Plainish",
@@ -1119,7 +1153,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Extra Hot Sauce",
@@ -1151,7 +1186,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Garlic Bread",
@@ -1183,7 +1219,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Garlic Sauce",
@@ -1215,7 +1252,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Grilled Cheese",
@@ -1247,7 +1285,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Grilled Chicken Breast Strips, Plainish",
@@ -1279,7 +1318,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Halloumi",
@@ -1311,7 +1351,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Hot Sauce",
@@ -1343,7 +1384,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Hummus Scoop",
@@ -1375,7 +1417,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Hummus, Superseed crunch, PERi Drizzle with Pita and Veggies",
@@ -1407,7 +1450,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Hummus, Superseed Crunch, PERi Drizzle with Veggies",
@@ -1439,7 +1483,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Iced Tea Strawberry Gallon",
@@ -1471,7 +1516,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Ketchup",
@@ -1503,7 +1549,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Latte, Can",
@@ -1535,7 +1582,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Lavender Lemonade Lavender 16 oz",
@@ -1567,7 +1615,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Lemon & Herb Sauce",
@@ -1599,7 +1648,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Lemonade La Colombe, Oatmilk 32 oz",
@@ -1631,7 +1681,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Lemonade Strawberry 16 oz",
@@ -1663,7 +1714,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Lemonade Topo Chico 32 oz",
@@ -1695,7 +1747,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Mac & Cheese",
@@ -1727,7 +1780,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Macho Peas, Large",
@@ -1759,7 +1813,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Macho Peas, X-Large",
@@ -1791,7 +1846,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Medium Sauce",
@@ -1823,7 +1879,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Nandocas\u2019 Choice, Plainish",
@@ -1855,7 +1912,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Naughty Natas",
@@ -1887,7 +1945,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Olive Oil",
@@ -1919,7 +1978,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Peach Iced Tea Rubro Peach 32 oz",
@@ -1951,7 +2011,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "PERi Chips (aka Fries)",
@@ -1983,7 +2044,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi Chips (aka Fries), Large",
@@ -2015,7 +2077,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi Chips (aka Fries), Regular",
@@ -2047,7 +2110,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi Chips (aka Fries), X-Large",
@@ -2079,7 +2143,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi Croutons",
@@ -2111,7 +2176,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi Drizzle",
@@ -2143,7 +2209,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi Honey",
@@ -2175,7 +2242,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Honey Sweet Potatoes, Large",
@@ -2207,7 +2275,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Honey Sweet Potatoes, Regular",
@@ -2239,7 +2308,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Honey Sweet Potatoes, X-Large",
@@ -2271,7 +2341,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Mac, Large",
@@ -2303,7 +2374,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Mac, Regular",
@@ -2335,7 +2407,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Mac, X-Large",
@@ -2367,7 +2440,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Q Bowl - Breast",
@@ -2399,7 +2473,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Q Bowl - Halloumi",
@@ -2431,7 +2506,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Q Bowl - Pulled Chicken",
@@ -2463,7 +2539,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Q Bowl - Thigh",
@@ -2495,7 +2572,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Peri Q Chips Plate - Breast",
@@ -2527,7 +2605,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Peri Q Mac Plate - Breast",
@@ -2559,7 +2638,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Peri Q Mac Plate - Thigh",
@@ -2591,7 +2671,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Q Sandwich",
@@ -2623,7 +2704,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Ranch",
@@ -2655,7 +2737,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Ranch Crunch Salad, Plainish, Breast (with dressing)",
@@ -2687,7 +2770,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Ranch Crunch Salad, Plainish, Halloumi (with dressing)",
@@ -2719,7 +2803,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Ranch Crunch Salad, Plainish, Pulled Chicken (with dressing)",
@@ -2751,7 +2836,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Ranch Crunch Salad, Plainish, Thighs (with dressing)",
@@ -2783,7 +2869,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi Tamer",
@@ -2815,7 +2902,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Bowl, Plainish, Breast",
@@ -2847,7 +2935,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Bowl, Plainish, Grilled Halloumi",
@@ -2879,7 +2968,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Bowl, Plainish, Pulled Chicken",
@@ -2911,7 +3001,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Bowl, Plainish, Thighs",
@@ -2943,7 +3034,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Breast",
@@ -2975,7 +3067,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Grilled",
@@ -3007,7 +3100,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Pulled Chicken",
@@ -3039,7 +3133,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Thighs",
@@ -3071,7 +3166,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Wings (12) with PERi Ranch, Plainish",
@@ -3103,7 +3199,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Wings (24) with PERi Ranch, Plainish",
@@ -3135,7 +3232,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERi-PERi Wings (6) with PERi Ranch, Plainish",
@@ -3167,7 +3265,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "PERinaise",
@@ -3199,7 +3298,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Pineapple Lemonade 16 oz",
@@ -3231,7 +3331,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pineapple Lemonade 32 oz",
@@ -3263,7 +3364,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Pineapple Lemonade Rubro Gallon",
@@ -3295,7 +3397,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Portguese Roll",
@@ -3327,7 +3430,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Portuguese Rice",
@@ -3359,7 +3463,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Portuguese Rice, Large",
@@ -3391,7 +3496,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Portuguese Rice, Regular",
@@ -3423,7 +3529,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Portuguese Rice, X-Large",
@@ -3455,7 +3562,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Raspberry White Chocolate Cheesecake",
@@ -3487,7 +3595,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Raw Veggies",
@@ -3519,7 +3628,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Red Skin Mashed Potatoes",
@@ -3551,7 +3661,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Red Skin Mashed Potatoes, Large",
@@ -3583,7 +3694,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Red Skin Mashed Potatoes, Regular",
@@ -3615,7 +3727,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roasted Brussels Sprouts, Large",
@@ -3647,7 +3760,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roasted Brussels Sprouts, Regular",
@@ -3679,7 +3793,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roasted Brussels Sprouts, X-Large",
@@ -3711,7 +3826,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Roasted Red Pepper",
@@ -3743,7 +3859,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Sliced Tomatoes",
@@ -3775,7 +3892,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Caesar Wrap",
@@ -3807,7 +3925,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Caesar, Plainish, Breast (with dressing)",
@@ -3839,7 +3958,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Caesar, Plainish, Halloumi (with dressing)",
@@ -3871,7 +3991,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Caesar, Plainish, Pulled Chicken (with dressing)",
@@ -3903,7 +4024,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Caesar, Plainish, Thighs (with dressing)",
@@ -3935,7 +4057,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Kale Caesar, Plainish, Breast (with dressing)",
@@ -3967,7 +4090,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Kale Caesar, Plainish, Halloumi (with dressing)",
@@ -3999,7 +4123,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Chicken Kale Caesar, Plainish, Thighs (with dressing)",
@@ -4031,7 +4156,8 @@
         "lupin": null
       },
       "vegetarian": false,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Spicy Mixed Olives",
@@ -4063,7 +4189,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Superseed Crunch",
@@ -4095,7 +4222,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Sweet Potato & Halloumi Wrap, Plainish",
@@ -4127,7 +4255,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Thigh and Mighty Sandwich, Plainish",
@@ -4159,7 +4288,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Tomato Cucumber Onion Salad",
@@ -4191,7 +4321,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "Veggie Burger Patty, Plainish",
@@ -4223,7 +4354,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Watermelon Mint Lemonade 11.5 oz",
@@ -4255,7 +4387,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Watermelon Mint Lemonade 16 oz",
@@ -4287,7 +4420,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "drink"
     },
     {
       "name": "Wild Herb Sauce",
@@ -4319,7 +4453,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     },
     {
       "name": "Wings (3), Plainish",
@@ -4351,7 +4486,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": false
+      "vegan": false,
+      "type": "food"
     },
     {
       "name": "XXX Hot Sauce",
@@ -4383,7 +4519,8 @@
         "lupin": null
       },
       "vegetarian": true,
-      "vegan": true
+      "vegan": true,
+      "type": "food"
     }
   ]
 }
