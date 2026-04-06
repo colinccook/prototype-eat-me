@@ -42,7 +42,7 @@ function FavouritesList({ allItems, favouriteItems, sortBy, filters, onUnfavouri
       <div className="flex justify-between items-center mb-4">
         <span className="text-[0.9rem] text-gray-500">{items.length} favourite{items.length !== 1 ? 's' : ''}</span>
         <button
-          className="clear-all-button bg-transparent border border-[#e53935] text-[#e53935] cursor-pointer px-3 py-[0.3rem] text-[0.85rem] font-medium rounded-md min-h-[44px] transition-[background,color] duration-200 hover:bg-[#e53935] hover:text-white active:bg-[#e53935] active:text-white"
+          className="clear-all-button bg-transparent border border-[#e53935] text-[#e53935] cursor-pointer px-3 py-[0.3rem] text-[0.85rem] font-medium rounded-md min-h-[44px] transition-[background,color] duration-200 clear-all-hover active:bg-[#e53935] active:text-white"
           onClick={onClearAll}
         >
           Clear all

@@ -34,7 +34,7 @@ function FoodCard({ item, sortBy, onClick, isFavourite }: FoodCardProps) {
 
   return (
     <div 
-      className={`food-card bg-white rounded-xl p-5 shadow-[0_2px_8px_rgba(0,0,0,0.08)] transition-[transform,box-shadow] duration-200${isFavourite ? ' border-l-[3px] border-l-pink-600' : ''}${onClick ? ' cursor-pointer select-none [-webkit-tap-highlight-color:transparent] active:shadow-[0_2px_8px_rgba(0,0,0,0.08)] focus:outline-2 focus:outline-[#667eea] focus:outline-offset-2 food-card-hover' : ''}`}
+      className={`food-card bg-white rounded-xl p-5 shadow-[0_2px_8px_rgba(0,0,0,0.08)] transition-[transform,box-shadow] duration-200${isFavourite ? ' border-l-[3px] border-l-pink-600' : ''}${onClick ? ' cursor-pointer select-none [-webkit-tap-highlight-color:transparent] active:translate-y-0 active:shadow-[0_2px_8px_rgba(0,0,0,0.08)] focus:outline-2 focus:outline-[#667eea] focus:outline-offset-2 food-card-hover' : ''}`}
       onClick={onClick}
       role={onClick ? 'button' : undefined}
       tabIndex={onClick ? 0 : undefined}
@@ -76,14 +76,14 @@ function FoodCard({ item, sortBy, onClick, isFavourite }: FoodCardProps) {
       </div>
 
       {sortBy === 'protein-per-calorie-desc' && (
-        <div className="mt-2 flex items-baseline gap-2">
+        <div className="mt-3 flex items-baseline gap-2">
           <span className="text-[1.1rem] font-bold text-[#667eea]">{proteinPerCalorie}g</span>
           <span className="text-[0.8rem] text-gray-500">protein per 100 calories</span>
         </div>
       )}
 
       {sortBy === 'fibre-to-carb-asc' && (
-        <div className="mt-2 flex items-baseline gap-2">
+        <div className="mt-2 flex items-baseline gap-2 bg-gray-100 rounded-md p-2">
           {fibreToCarb && fibreRatioQuality ? (
             <>
               <span className={`text-[1.1rem] font-bold mr-2 ${fibreValueColor}`}>
@@ -101,10 +101,10 @@ function FoodCard({ item, sortBy, onClick, isFavourite }: FoodCardProps) {
       )}
 
       {sortBy === 'salt-asc' && (
-        <div className="salt-info mt-2 flex items-baseline gap-2">
+        <div className="salt-info mt-2 flex items-baseline gap-2 bg-[#e8f5e9] rounded-md p-2">
           {item.macros.salt !== undefined && item.macros.salt !== null ? (
             <>
-              <span className="salt-value text-[1.1rem] font-bold text-[#667eea]">{item.macros.salt}g</span>
+              <span className="salt-value text-[1.1rem] font-bold text-[#2e7d32]">{item.macros.salt}g</span>
               <span className="text-[0.8rem] text-gray-500">salt per serving</span>
             </>
           ) : (

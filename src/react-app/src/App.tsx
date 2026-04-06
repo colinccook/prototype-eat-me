@@ -485,13 +485,13 @@ function App() {
       )}
 
       <header
-        className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white px-8 py-6"
-        style={{ paddingTop: 'calc(1.5rem + env(safe-area-inset-top, 0px))' }}
+        className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white px-4 py-4 sm:px-8 sm:py-6"
+        style={{ paddingTop: 'calc(1rem + env(safe-area-inset-top, 0px))' }}
       >
         <div className="flex justify-between items-center mb-4">
           <div>
-            <h1 className="m-0 text-3xl font-bold">Eat Me</h1>
-            <p className="mt-1 mb-0 text-[0.95rem] opacity-90">Find food that fits your goals</p>
+            <h1 className="m-0 text-2xl sm:text-3xl font-bold">Eat Me</h1>
+            <p className="mt-1 mb-0 text-[0.85rem] sm:text-[0.95rem] opacity-90">Find food that fits your goals</p>
           </div>
         </div>
         <HeaderPills
