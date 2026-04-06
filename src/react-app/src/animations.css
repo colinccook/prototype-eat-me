@@ -1,0 +1,84 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes traySlideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes trayFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes loading-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes longPressOverlayIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes longPressMenuIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes contextMenuIn {
+  from { opacity: 0; transform: translateY(-4px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Pull spinner animation */
+.animate-spin { animation: spin 1s linear infinite; }
+/* Tray slide up */
+.animate-tray-slide-up { animation: traySlideUp 0.3s ease-out; }
+/* Tray fade in */
+.animate-tray-fade-in { animation: trayFadeIn 0.2s ease-out; }
+/* Shimmer text */
+.animate-shimmer {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+  background-size: 200% 100%;
+  animation: loading-shimmer 2s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Skeleton shimmer */
+.animate-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+}
+
+/* Long press overlay animation */
+.animate-long-press-overlay { animation: longPressOverlayIn 0.15s ease; }
+/* Long press menu animation */
+.animate-long-press-menu { animation: longPressMenuIn 0.15s ease; }
+/* Context menu animation */
+.animate-context-menu { animation: contextMenuIn 0.15s ease; }
+/* Toast animation */
+.animate-toast { animation: toastIn 0.3s ease; }
+
+/* Hover effects only for pointer devices */
+@media (hover: hover) {
+  .food-card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+}

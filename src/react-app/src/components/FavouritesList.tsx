@@ -5,10 +5,8 @@ import { trackFoodItemView } from '../analytics';
 import FoodCard from './FoodCard';
 import FoodDetailModal from './FoodDetailModal';
 import SwipeableCard from './SwipeableCard';
-import './FoodList.css';
 
 interface FavouritesListProps {
-  /** All food items in the current region (used to resolve keys back to items). */
   allItems: FoodItem[];
   favouriteItems: Set<string>;
   sortBy: SortOption;
@@ -33,19 +31,24 @@ function FavouritesList({ allItems, favouriteItems, sortBy, filters, onUnfavouri
 
   if (items.length === 0) {
     return (
-      <div className="food-list-status">
+      <div className="food-list-status text-center py-12 text-gray-500">
         <p>No favourites yet. Swipe right on a food item to add it here.</p>
       </div>
     );
   }
 
   return (
-    <div className="food-list">
-      <div className="food-list-header">
-        <span className="item-count">{items.length} favourite{items.length !== 1 ? 's' : ''}</span>
-        <button className="clear-all-button" onClick={onClearAll}>Clear all</button>
+    <div>
+      <div className="flex justify-between items-center mb-4">
+        <span className="text-[0.9rem] text-gray-500">{items.length} favourite{items.length !== 1 ? 's' : ''}</span>
+        <button
+          className="clear-all-button bg-transparent border border-[#e53935] text-[#e53935] cursor-pointer px-3 py-[0.3rem] text-[0.85rem] font-medium rounded-md min-h-[44px] transition-[background,color] duration-200 hover:bg-[#e53935] hover:text-white active:bg-[#e53935] active:text-white"
+          onClick={onClearAll}
+        >
+          Clear all
+        </button>
       </div>
-      <div className="food-grid">
+      <div className="food-grid grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4">
         {items.map((item) => (
           <SwipeableCard
             key={getItemKey(item)}

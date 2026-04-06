@@ -35,7 +35,7 @@ import FoodList from './components/FoodList';
 import FavouritesList from './components/FavouritesList';
 import BottomAppBar from './components/BottomAppBar';
 import type { AppTab } from './components/BottomAppBar';
-import './App.css';
+
 
 const DEFAULT_REGION_ID = 'uk';
 const DEFAULT_REGIONS: Region[] = [
@@ -460,7 +460,7 @@ function App() {
   return (
     <div 
       ref={appRef}
-      className={`app ${isPulling ? 'pulling' : ''}`}
+      className={`min-h-screen flex flex-col relative${isPulling ? ' select-none' : ''}`}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
       style={{
@@ -471,24 +471,27 @@ function App() {
       {/* Pull-to-refresh indicator */}
       {(isPulling || isRefreshing) && (
         <div 
-          className={`pull-to-refresh-indicator ${isRefreshing ? 'refreshing' : ''} ${pullDistance >= PULL_THRESHOLD ? 'ready' : ''}`}
+          className="fixed top-0 left-0 right-0 flex items-center justify-center gap-2 p-4 bg-gray-200 text-gray-800 text-sm z-[1000] pointer-events-none shadow-[0_2px_8px_rgba(0,0,0,0.1)]"
           style={{ 
             opacity: isRefreshing ? 1 : Math.min(pullDistance / PULL_THRESHOLD, 1),
             transform: `translateY(${isRefreshing ? 0 : -50 + (pullDistance / 2)}px)`
           }}
         >
-          <div className="pull-spinner"></div>
-          <span className="pull-text">
+          <div className={`w-5 h-5 border-2 border-gray-300 border-t-gray-800 rounded-full${isRefreshing ? ' animate-spin' : ''}`}></div>
+          <span className={pullDistance >= PULL_THRESHOLD ? 'font-semibold' : ''}>
             {isRefreshing ? 'Refreshing...' : pullDistance >= PULL_THRESHOLD ? 'Release to refresh' : 'Pull to refresh'}
           </span>
         </div>
       )}
 
-      <header className="app-header">
-        <div className="header-top">
-          <div className="header-title">
-            <h1>Eat Me</h1>
-            <p className="tagline">Find food that fits your goals</p>
+      <header
+        className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white px-8 py-6"
+        style={{ paddingTop: 'calc(1.5rem + env(safe-area-inset-top, 0px))' }}
+      >
+        <div className="flex justify-between items-center mb-4">
+          <div>
+            <h1 className="m-0 text-3xl font-bold">Eat Me</h1>
+            <p className="mt-1 mb-0 text-[0.95rem] opacity-90">Find food that fits your goals</p>
           </div>
         </div>
         <HeaderPills
@@ -502,11 +505,16 @@ function App() {
         />
       </header>
 
-      <main className="app-main">
-
+      <main
+        className="flex-1 px-6 max-w-[1400px] mx-auto w-full relative"
+        style={{
+          paddingLeft: 'max(1.5rem, env(safe-area-inset-left, 0px))',
+          paddingRight: 'max(1.5rem, env(safe-area-inset-right, 0px))'
+        }}
+      >
 
         {selectedRegion && (
-          <section className="main-content">
+          <section className="w-full">
             {activeTab === 'search' && (
               <FoodList
                 items={filteredItems}
@@ -544,21 +552,21 @@ function App() {
         )}
 
         {!selectedRegion && (
-          <div className="welcome-message">
-            <h2>Welcome to Eat Me</h2>
-            <p>Use the pills above to select a region and start exploring food options that match your dietary goals.</p>
-            <ul className="feature-list">
-              <li>🥗 Filter by vegetarian or vegan options</li>
-              <li>🔥 Set your calorie budget</li>
-              <li>💪 Find high-protein foods</li>
-              <li>📊 Sort by protein per calorie for optimal nutrition</li>
+          <div className="bg-white rounded-xl p-12 text-center shadow-[0_2px_8px_rgba(0,0,0,0.08)]">
+            <h2 className="mt-0 mb-4 text-gray-900">Welcome to Eat Me</h2>
+            <p className="text-gray-500 mb-8">Use the pills above to select a region and start exploring food options that match your dietary goals.</p>
+            <ul className="list-none p-0 m-0 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 text-left">
+              <li className="bg-gray-50 p-4 rounded-lg text-[0.95rem]">🥗 Filter by vegetarian or vegan options</li>
+              <li className="bg-gray-50 p-4 rounded-lg text-[0.95rem]">🔥 Set your calorie budget</li>
+              <li className="bg-gray-50 p-4 rounded-lg text-[0.95rem]">💪 Find high-protein foods</li>
+              <li className="bg-gray-50 p-4 rounded-lg text-[0.95rem]">📊 Sort by protein per calorie for optimal nutrition</li>
             </ul>
           </div>
         )}
       </main>
 
-      <footer className="app-footer">
-        <p>Eat Me - Making informed food choices easier</p>
+      <footer className="bg-gray-500 text-gray-100 text-center px-6 py-6 mt-auto" style={{ paddingBottom: 'calc(1.5rem + 60px)' }}>
+        <p className="m-0 text-[0.9rem]">Eat Me - Making informed food choices easier</p>
       </footer>
 
       <BottomAppBar

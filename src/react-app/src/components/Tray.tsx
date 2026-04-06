@@ -1,9 +1,8 @@
 import { useEffect, useRef, useCallback, type ReactNode } from 'react';
-import './Tray.css';
 
 // Swipe gesture constants
-const SWIPE_CLOSE_THRESHOLD = 100; // pixels needed to trigger close
-const MAX_DRAG_DISTANCE = 300; // maximum drag distance in pixels
+const SWIPE_CLOSE_THRESHOLD = 100;
+const MAX_DRAG_DISTANCE = 300;
 
 interface TrayProps {
   isOpen: boolean;
@@ -18,7 +17,6 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
   const startY = useRef<number | null>(null);
   const currentY = useRef<number | null>(null);
 
-  // Handle escape key to close
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -29,7 +27,6 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
     if (isOpen) {
       document.addEventListener('keydown', handleEscape);
       document.body.style.overflow = 'hidden';
-      // Set data attribute to indicate a tray is open (used to disable pull-to-refresh)
       document.body.dataset.trayOpen = 'true';
     }
     
@@ -40,10 +37,8 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
     };
   }, [isOpen, onClose]);
 
-  // Handle swipe down to close
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
     const content = contentRef.current;
-    // Only allow swipe-to-close when scrolled to top
     if (content && content.scrollTop === 0) {
       startY.current = e.touches[0].clientY;
     } else {
@@ -58,7 +53,6 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
     const delta = currentY.current - startY.current;
     
     if (delta > 0 && contentRef.current) {
-      // Dragging down - move the tray
       const translateY = Math.min(delta, MAX_DRAG_DISTANCE);
       contentRef.current.style.transform = `translateY(${translateY}px)`;
     }
@@ -75,10 +69,8 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
     
     if (contentRef.current) {
       if (delta > SWIPE_CLOSE_THRESHOLD) {
-        // Swiped down enough - close
         onClose();
       } else {
-        // Snap back
         contentRef.current.style.transform = '';
       }
     }
@@ -91,30 +83,30 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
 
   return (
     <div 
-      className="tray-overlay" 
+      className="tray-overlay fixed inset-0 bg-black/50 z-[1000] flex items-end justify-center md:items-center animate-tray-fade-in"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-labelledby={title ? "tray-title" : undefined}
     >
-      <div className="tray-container" onClick={(e) => e.stopPropagation()}>
+      <div className="w-full max-w-[500px] max-h-[85vh] flex flex-col" onClick={(e) => e.stopPropagation()}>
         <div 
           ref={contentRef}
-          className="tray-sheet"
+          className="bg-white rounded-t-[20px] md:rounded-[20px] relative max-h-[85vh] flex flex-col animate-tray-slide-up transition-transform duration-200 will-change-transform"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
           {/* Drag handle */}
-          <div className="tray-drag-handle">
-            <div className="tray-drag-indicator"></div>
+          <div className="pt-3 pb-2 cursor-grab touch-none">
+            <div className="w-10 h-1 bg-gray-300 rounded mx-auto"></div>
           </div>
 
           {/* Close button */}
-          <div className="tray-header-actions">
+          <div className="absolute top-3 right-4 flex items-center gap-2 z-10">
             {headerActions}
             <button 
-              className="tray-close-button" 
+              className="tray-close-button w-8 h-8 border-0 bg-gray-100 rounded-full text-2xl text-gray-500 cursor-pointer flex items-center justify-center hover:bg-gray-200 hover:text-gray-800 active:bg-gray-300"
               onClick={onClose}
               aria-label="Close"
             >
@@ -124,13 +116,13 @@ function Tray({ isOpen, onClose, title, headerActions, children }: TrayProps) {
 
           {/* Title */}
           {title && (
-            <div className="tray-header">
-              <h2 id="tray-title" className="tray-title">{title}</h2>
+            <div className="px-6 pb-4">
+              <h2 id="tray-title" className="m-0 text-[1.25rem] md:text-2xl font-bold text-gray-900 pr-10">{title}</h2>
             </div>
           )}
 
           {/* Scrollable content */}
-          <div className="tray-scroll-content">
+          <div className="overflow-y-auto overscroll-contain px-6 pb-8 flex-1 [-webkit-overflow-scrolling:touch]">
             {children}
           </div>
         </div>

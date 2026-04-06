@@ -32,7 +32,7 @@ Find food that fits your dietary goals when eating out on the UK high street.
 The default view shows all food items with filter pills, a results count, and the bottom app bar for navigating between Search and Favourites.
 
 <!-- Replace the URL below with a screenshot of the main search view -->
-![Main search view with bottom app bar](https://github.com/user-attachments/assets/925229ab-3407-4543-be8e-1cd328d00219)
+![Main search view with bottom app bar](docs/screenshots/food-list.png)
 
 ### Favourites View
 Tap the Favourites tab in the bottom bar to see your saved items. Swipe left on any favourite to remove it.
