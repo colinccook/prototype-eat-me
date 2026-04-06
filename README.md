@@ -26,19 +26,25 @@ Find food that fits your dietary goals when eating out on the UK high street.
 
 ## Screenshots
 
-> **Adding screenshots:** Run the app locally (`npm run dev` from `src/react-app`), then capture screenshots of the main features below. Place the image files in the repository or link to hosted URLs and update the paths accordingly.
-
 ### Main Search View
-The default view shows all food items with filter pills, a results count, and the bottom app bar for navigating between Search and Favourites.
+The default view shows all food items sorted by protein per calorie, with filter pills, a results count, and the bottom app bar for navigating between Search and Favourites.
 
-<!-- Replace the URL below with a screenshot of the main search view -->
 ![Main search view with bottom app bar](docs/screenshots/food-list.png)
+
+### Sort Options
+Tap a sort pill (e.g. "Protein per Calorie") to open the sort tray and choose from 8 sorting options.
+
+![Sort options tray](docs/screenshots/sort-tray.png)
+
+### Item Detail Modal
+Tap any food card to open the full nutritional detail, allergens, ingredients, and sharing options.
+
+![Food item detail modal](docs/screenshots/food-detail-modal.png)
 
 ### Favourites View
 Tap the Favourites tab in the bottom bar to see your saved items. Swipe left on any favourite to remove it.
 
-<!-- Replace the URL below with a screenshot of the favourites view -->
-![Favourites empty state](https://github.com/user-attachments/assets/6d0a750e-59cb-4fb5-937f-ac6c3ec91ce7)
+![Favourites empty state](docs/screenshots/favourites-empty.png)
 
 ### Swipe to Hide / Favourite
 On the main view, swipe a card left to hide it or right to favourite it. Hidden items are tracked in the header with a "show all" link to restore them.
