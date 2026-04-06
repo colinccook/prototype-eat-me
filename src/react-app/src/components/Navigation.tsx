@@ -18,7 +18,7 @@ function Navigation({ restaurants, selectedRestaurant, onRestaurantChange, isLoa
             value={selectedRestaurant || ''}
             onChange={(e) => onRestaurantChange(e.target.value || null)}
             disabled={isLoading}
-            className="px-3 py-2 border border-gray-300 rounded-md text-[0.95rem] bg-white cursor-pointer transition-[border-color] duration-200 focus:outline-none focus:border-[#0066cc] disabled:bg-gray-100 disabled:cursor-not-allowed"
+            className="px-3 py-2 border border-gray-300 rounded-md text-[0.95rem] bg-white cursor-pointer transition-[border-color] duration-200 focus:outline-none focus:border-[#667eea] disabled:bg-gray-100 disabled:cursor-not-allowed"
           >
             <option value="">All Restaurants</option>
             {restaurants.map((restaurant) => (

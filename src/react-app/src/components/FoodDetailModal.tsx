@@ -146,7 +146,7 @@ function FoodDetailModal({ item, sortBy, filters, onClose, onHideRestaurant, onO
       {/* Macros grid */}
       <div className="mb-5">
         <h3 className="text-[0.85rem] font-semibold text-gray-500 uppercase tracking-[0.5px] mb-3 mt-0">Macronutrients</h3>
-        <div className="macros-grid grid grid-cols-3 gap-3 sm:grid-cols-2">
+        <div className="macros-grid grid grid-cols-2 gap-3 sm:grid-cols-3">
           <div className={`macro-item bg-gray-50 rounded-xl p-4 text-center transition-all duration-200${sortBy === 'calories-asc' || sortBy === 'calories-desc' || sortBy === 'name-asc' ? ' bg-gradient-to-br from-[rgba(102,126,234,0.15)] to-[rgba(118,75,162,0.15)] border-2 border-[#667eea]' : ''}`}>
             <span className="block text-xl font-bold text-gray-900">{item.calories}</span>
             <span className="macro-label block text-xs text-gray-500 mt-1 uppercase tracking-[0.5px]">Calories</span>

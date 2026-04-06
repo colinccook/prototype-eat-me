@@ -7,6 +7,10 @@ interface BottomAppBarProps {
 }
 
 function BottomAppBar({ activeTab, onTabChange, favouriteCount }: BottomAppBarProps) {
+  const tabBase = 'bottom-app-bar__tab flex-1 flex flex-col items-center justify-center gap-[0.2rem] py-2 min-h-[48px] border-0 bg-transparent cursor-pointer text-[0.7rem] font-medium relative transition-colors duration-200 [-webkit-tap-highlight-color:transparent] active:bg-[rgba(102,126,234,0.08)]';
+  const tabActive = 'text-[#667eea]';
+  const tabInactive = 'text-gray-400';
+
   return (
     <nav
       className="bottom-app-bar fixed bottom-0 left-0 right-0 flex bg-white border-t border-gray-200 shadow-[0_-2px_8px_rgba(0,0,0,0.06)] z-[100]"
@@ -14,7 +18,7 @@ function BottomAppBar({ activeTab, onTabChange, favouriteCount }: BottomAppBarPr
       aria-label="Main navigation"
     >
       <button
-        className={`bottom-app-bar__tab flex-1 flex flex-col items-center justify-center gap-[0.2rem] py-2 min-h-[48px] border-0 bg-transparent cursor-pointer text-[0.7rem] font-medium relative transition-colors duration-200 [-webkit-tap-highlight-color:transparent] active:bg-[rgba(102,126,234,0.08)] ${activeTab === 'search' ? 'text-[#667eea]' : 'text-gray-400'}`}
+        className={`${tabBase} ${activeTab === 'search' ? tabActive : tabInactive}`}
         onClick={() => onTabChange('search')}
         aria-current={activeTab === 'search' ? 'page' : undefined}
       >
@@ -29,7 +33,7 @@ function BottomAppBar({ activeTab, onTabChange, favouriteCount }: BottomAppBarPr
       </button>
 
       <button
-        className={`bottom-app-bar__tab flex-1 flex flex-col items-center justify-center gap-[0.2rem] py-2 min-h-[48px] border-0 bg-transparent cursor-pointer text-[0.7rem] font-medium relative transition-colors duration-200 [-webkit-tap-highlight-color:transparent] active:bg-[rgba(102,126,234,0.08)] ${activeTab === 'favourites' ? 'text-[#667eea]' : 'text-gray-400'}`}
+        className={`${tabBase} ${activeTab === 'favourites' ? tabActive : tabInactive}`}
         onClick={() => onTabChange('favourites')}
         aria-current={activeTab === 'favourites' ? 'page' : undefined}
       >

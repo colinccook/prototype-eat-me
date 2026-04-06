@@ -29,7 +29,7 @@ function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
             onChange={handleMaxCaloriesChange}
             min="0"
             step="50"
-            className="flex-1 px-3 py-2 border border-gray-300 rounded-md text-[0.95rem] focus:outline-none focus:border-[#0066cc]"
+            className="flex-1 px-3 py-2 border border-gray-300 rounded-md text-[0.95rem] focus:outline-none focus:border-[#667eea]"
           />
           <span className="text-[0.85rem] text-gray-500">kcal</span>
         </div>
@@ -40,7 +40,7 @@ function FilterPanel({ filters, onFiltersChange }: FilterPanelProps) {
         <select
           value={filters.sortBy}
           onChange={handleSortChange}
-          className="w-full px-3 py-2 border border-gray-300 rounded-md text-[0.95rem] bg-white cursor-pointer focus:outline-none focus:border-[#0066cc]"
+          className="w-full px-3 py-2 border border-gray-300 rounded-md text-[0.95rem] bg-white cursor-pointer focus:outline-none focus:border-[#667eea]"
         >
           <option value="name-asc">Name (A-Z)</option>
           <option value="calories-asc">Calories (Low to High)</option>
