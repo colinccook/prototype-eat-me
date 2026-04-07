@@ -69,6 +69,13 @@ Create or update `/data/{region}/{restaurant}/food.json` with the format:
 }
 ```
 
+Each item may include optional `url`, `ingestionDate`, and `archiveDate` fields.
+
+- If the source material or restaurant site provides a stable product or menu page URL for the item, record it in `url`.
+- Set `ingestionDate` to your current local date whenever you create a new item or materially refresh an item's extracted data from source documents.
+- If you omit it, the merge step will backfill today's local date automatically when generating merged regional data.
+- If an item existed previously but is no longer present in the latest source documents, do not delete it from the restaurant `food.json`; instead set `archiveDate` to your current local date so the record remains historically traceable while being excluded from merged active data.
+
 ### 4. Update Region Index
 
 Ensure the restaurant is listed in `/data/{region}/index.json`:
@@ -119,6 +126,8 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 3. **Consistent ordering**: Sort arrays alphabetically to ensure consistent diffs
 4. **Validate schema**: Ensure all data conforms to the food.json schema
 5. **Remove duplicates**: Prevent duplicate entries when regenerating merged files
+6. **Stamp ingestion date**: Set `ingestionDate` to the local `YYYY-MM-DD` date for newly ingested or refreshed items; if missed, the merge step will apply today's date
+7. **Archive removals**: When an item disappears from the latest source data, set `archiveDate` to today's local `YYYY-MM-DD` date instead of deleting the historical record
 
 ## Build-Time Data Merging
 
@@ -147,8 +156,9 @@ After any restaurant change:
 
 1. Update source document in `/raw/{region}/{restaurant}/`
 2. Re-extract items to `/data/{region}/{restaurant}/food.json`
-3. Sync updated restaurant data to `/src/react-app/public/data/`
-4. The CI pipeline will auto-merge all restaurant data at build time
+3. For any previously known item missing from the latest source, keep the record and set `archiveDate` to today's local date instead of removing it
+4. Sync updated restaurant data to `/src/react-app/public/data/`
+5. The CI pipeline will auto-merge all restaurant data at build time
 
 ### Removing a Restaurant
 
@@ -187,7 +197,7 @@ This section summarises the current data so agents can orient quickly without re
 | Greggs | `greggs` | ~283 | Various in `/raw/uk/greggs/` | Full nutrition including fibre, salt, saturatedFat, sugar. |
 | Harvester | `harvester` | ~108 | Various in `/raw/uk/harvester/` | Full nutrition including salt, saturatedFat, sugar. |
 | KFC | `kfc` | ~54 | Various in `/raw/uk/kfc/` | |
-| McDonald's | `mcdonalds` | ~12 | Various in `/raw/uk/mcdonalds/` | |
+| McDonald's | `mcdonalds` | ~32 | Web (mcdonalds.com) + PDFs in `/raw/uk/mcdonalds/` | Live web source — see `raw/uk/mcdonalds/INGESTION.md` for scraping guide. |
 | Nando's | `nandos` | ~137 | `Nandos-Calories.pdf.pdf` | Sodium converted to salt (×2.5/1000). Excludes alcohol/baste items. |
 | Pret A Manger | `pret` | ~32 | Various in `/raw/uk/pret/` | |
 | Starbucks | `starbucks` | ~20 | Various in `/raw/uk/starbucks/` | |
@@ -200,34 +210,26 @@ This section summarises the current data so agents can orient quickly without re
 - Always use **per-portion** nutritional values, not per-100g.
 - For `<X` values (e.g. `<0.1`, `<1`), use the value itself as an approximation (e.g., `0.1`, `0.5`).
 
-### Syncing Data
+### Web Scraping Tips (Live Websites)
 
-After any data change, sync canonical data to the app's public directory (excluding the
-regional merged `food.json` which is auto-generated):
+- **Always check for a restaurant-specific INGESTION.md** in `raw/{region}/{restaurant}/` before scraping — it documents site structure, DOM selectors, and known pitfalls.
+- **Cross-check extracted calories** using `protein×4 + carbs×4 + fat×9 ≈ calories (±15%)`. If an item fails this check, re-inspect the page — you likely read the wrong column.
+- **Multiple nutrition columns are common**: e.g. McDonald's pages show per-100g, per-portion, and %RI side by side. Always confirm which column index maps to per-portion values.
+- **Diet flags are not always displayed**: Check the product description text for meat/dairy/egg keywords to infer vegetarian/vegan status. A false negative is safer than a false positive.
+- **Product names may have prefixes**: Strip prefixes like `"Limited Time Only "` or `"Not available in all Restaurants "` before storing.
+- **Collapsed sections**: Nutrition summaries may be behind an expandable toggle — check `aria-expanded` and click if needed before reading the table.
+- Use `raw/{region}/mapping.csv` to track which menu category URLs to scrape for each restaurant.
 
-```bash
-# Sync restaurant data and indexes (not the regional food.json)
-rsync -av --delete --exclude='food.json' data/ src/react-app/public/data/
-# Then copy only the restaurant-level food.json files
-find data -path '*/*/food.json' -not -path 'data/*/food.json' | while read f; do
-  dest="src/react-app/public/${f}"
-  mkdir -p "$(dirname "$dest")"
-  cp "$f" "$dest"
-done
-```
+### Data Sync (After Ingestion)
 
-### Running the Merge Script Locally
-
-To generate the full merged regional food.json locally (e.g. for manual testing with all data):
+After updating `data/{region}/{restaurant}/food.json`, sync the restaurant file to the app's public directory:
 
 ```bash
-cd src/react-app
-npm run merge-food-data
+mkdir -p src/react-app/public/data/{region}/{restaurant}
+cp data/{region}/{restaurant}/food.json src/react-app/public/data/{region}/{restaurant}/food.json
 ```
 
-This reads `data/{region}/index.json` and all restaurant `food.json` files, then writes the
-merged output to `src/react-app/public/data/{region}/food.json`. The CI pipeline runs this
-automatically before each build.
+**Do NOT run `npm run merge-food-data` locally.** The CI pipeline runs it at build time. Running it locally overwrites the small 16-item BDD test file at `src/react-app/public/data/{region}/food.json` — this file must remain intact for local tests to pass.
 
 ### Maintaining the Small food.json for BDD Tests
 
