@@ -7,6 +7,9 @@ Menu items conform to this schema. The schema is designed to capture nutritional
 ```json
 {
   "name": "string",
+  "url": "string | null (optional)",
+  "ingestionDate": "string | null (optional, YYYY-MM-DD)",
+  "archiveDate": "string | null (optional, YYYY-MM-DD)",
   "calories": "number",
   "macros": {
     "protein": "number",
@@ -89,6 +92,9 @@ All allergen fields are optional and nullable. A `true` value indicates the alle
 
 | Field | Type | Description |
 |-------|------|-------------|
+| `url` | string \| null | Canonical product or menu page URL for the item when the source provides one |
+| `ingestionDate` | string \| null | The local date the item batch was ingested, stored as `YYYY-MM-DD`; AI ingestion agents should set this to their current local date, and the merge step will backfill today's date if omitted |
+| `archiveDate` | string \| null | The local date the item was archived after disappearing from the latest source data, stored as `YYYY-MM-DD`; archived items stay in source files for history but should be omitted from merged active datasets |
 | `ingredients` | array of strings \| null | List of ingredients if available |
 
 ## Data Sources

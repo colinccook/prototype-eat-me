@@ -18,7 +18,14 @@ const ROOT = join(import.meta.dirname, '..');
 const DATA_DIR = join(ROOT, 'data');
 const PUBLIC_DATA_DIR = join(ROOT, 'src', 'react-app', 'public', 'data');
 
+function getLocalDateString() {
+  const now = new Date();
+
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+}
+
 const regionsIndex = JSON.parse(readFileSync(join(DATA_DIR, 'index.json'), 'utf-8'));
+const today = getLocalDateString();
 
 for (const region of regionsIndex.regions) {
   const regionDir = join(DATA_DIR, region.id);
@@ -37,7 +44,15 @@ for (const region of regionsIndex.regions) {
     }
 
     for (const item of foodData.items) {
-      allItems.push({ ...item, restaurant: restaurant.name });
+      if (item.archiveDate != null) {
+        continue;
+      }
+
+      allItems.push({
+        ...item,
+        ingestionDate: item.ingestionDate ?? today,
+        restaurant: restaurant.name,
+      });
     }
   }
 
