@@ -371,3 +371,12 @@ is needed, add it in a logical position and update the table of contents.
 Screenshots are stored in `docs/screenshots/`. If a new component introduces a
 significant visual change, add a screenshot and reference it from the component's section
 using a relative path: `![Alt text](screenshots/filename.png)`.
+
+### Ingestion process
+
+Can you read `raw/mapping.csv`. This is a CSV list of places to read nutritional information from. It consists of region, restaurant, and a url to inspect.
+
+When asked to to run the 'ingestion process', can you go to each url specified, retrieve information as defined in `schemas/food.json.md`, and then update the results in `/data/{region}/{restaurant}/food.json`.
+
+Do not hallucinate any information from the website. The websites may be javascript heavy. Do your best to navigate them with Playwright, browse and extract the information. Browse and extract all the menu items you find connected to that URL.
+
