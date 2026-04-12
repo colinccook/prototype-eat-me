@@ -110,6 +110,8 @@ If an item fails this check, re-inspect the product page — you may have read t
 {
   "name": "Egg McMuffin",
   "url": "https://www.mcdonalds.com/gb/en-gb/product/egg-mcmuffin.html",
+  "type": "food",
+  "categories": ["breakfast"],
   "ingestionDate": "2025-04-07",
   "calories": 310,
   "macros": {
@@ -126,7 +128,7 @@ If an item fails this check, re-inspect the product page — you may have read t
 }
 ```
 
-Set `ingestionDate` to the local `YYYY-MM-DD` date when you run the ingestion. Set `url` to the product page URL.
+Set `ingestionDate` to the local `YYYY-MM-DD` date when you run the ingestion. Set `url` to the product page URL. Set `type` to `"food"` or `"drink"` based on the item (e.g., McFlurry → `"food"`, Coca-Cola → `"drink"`). Set `categories` to the menu section(s) you navigated to find the item (e.g., `["breakfast"]`, `["chicken & fish"]`, `["drinks"]`).
 
 ## Sync & Data Flow
 

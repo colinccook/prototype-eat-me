@@ -32,6 +32,8 @@ export interface FoodItem {
   macros: Macros;
   allergens?: Allergens;
   ingredients?: string[] | null;
+  type?: 'food' | 'drink' | 'other' | null;
+  categories?: string[] | null;
   vegetarian?: boolean;
   vegan?: boolean;
   restaurant?: string;
