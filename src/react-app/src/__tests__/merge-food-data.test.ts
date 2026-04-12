@@ -2,6 +2,16 @@ import { describe, it, expect } from 'vitest';
 import type { FoodItem } from '../types';
 
 /**
+ * Replicates the food data normalization from scripts/merge-food-data.mjs.
+ * The script accepts both plain arrays and {items: [...]} objects.
+ */
+function normalizeItems(foodData: unknown): Record<string, unknown>[] {
+  return Array.isArray(foodData)
+    ? foodData
+    : (foodData as { items: Record<string, unknown>[] }).items;
+}
+
+/**
  * Replicates the per-item merge transformation from scripts/merge-food-data.mjs.
  * This keeps the test self-contained without requiring Node fs/child_process APIs.
  */
@@ -133,5 +143,28 @@ describe('merge-food-data transformation logic', () => {
 
     expect(item.type).toBeNull();
     expect(item.categories).toBeNull();
+  });
+
+  it('normalizes plain array food.json to items list', () => {
+    const arrayData = [
+      { name: 'Item A', calories: 100 },
+      { name: 'Item B', calories: 200 },
+    ];
+
+    const items = normalizeItems(arrayData);
+    expect(items).toHaveLength(2);
+    expect(items[0]).toMatchObject({ name: 'Item A' });
+  });
+
+  it('normalizes object-wrapped food.json to items list', () => {
+    const objectData = {
+      items: [
+        { name: 'Item C', calories: 300 },
+      ],
+    };
+
+    const items = normalizeItems(objectData);
+    expect(items).toHaveLength(1);
+    expect(items[0]).toMatchObject({ name: 'Item C' });
   });
 });

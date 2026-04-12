@@ -43,7 +43,9 @@ for (const region of regionsIndex.regions) {
       process.exit(1);
     }
 
-    for (const item of foodData.items) {
+    const items = Array.isArray(foodData) ? foodData : foodData.items;
+
+    for (const item of items) {
       if (item.archiveDate != null) {
         continue;
       }
