@@ -195,24 +195,25 @@ This section summarises the current data so agents can orient quickly without re
 
 ### UK Restaurant Summary
 
-| Restaurant | ID | Items | Source PDF | Notes |
-|------------|----|-------|------------|-------|
+| Restaurant | ID | Items | Source | Notes |
+|------------|----|-------|--------|-------|
 | Caffè Nero | `caffe-nero` | ~477 | `caffenero_nutrition_allergens-en_GB.pdf` | Full nutrition + allergens. Has (V)/(Vg) diet markers. Includes food and beverages. |
 | Costa Coffee | `costa` | ~62 | Various in `/raw/uk/costa/` | |
 | GAIL's Bakery | `gails` | ~7 | N/A (web-sourced from gails.com, FatSecret, MyNetDiary) | Calories from gails.com; macros from FatSecret/MyNetDiary where available. Per-item values. |
-| Greggs | `greggs` | ~283 | Various in `/raw/uk/greggs/` | Full nutrition including fibre, salt, saturatedFat, sugar. |
-| Harvester | `harvester` | ~108 | Various in `/raw/uk/harvester/` | Full nutrition including salt, saturatedFat, sugar. |
+| Greggs | `greggs` | ~270 | PDF via mapping.csv | Full nutrition including fibre. See `raw/uk/greggs/INGESTION.md`. |
+| Harvester | `harvester` | ~108 | PDF via mapping.csv | Full nutrition (no fibre in source). See `raw/uk/harvester/INGESTION.md`. |
 | KFC | `kfc` | ~54 | Various in `/raw/uk/kfc/` | |
-| McDonald's | `mcdonalds` | ~32 | Web (mcdonalds.com) + PDFs in `/raw/uk/mcdonalds/` | Live web source — see `raw/uk/mcdonalds/INGESTION.md` for scraping guide. |
-| Nando's | `nandos` | ~137 | `Nandos-Calories.pdf.pdf` | Sodium converted to salt (×2.5/1000). Excludes alcohol/baste items. |
-| Pret A Manger | `pret` | ~32 | Various in `/raw/uk/pret/` | |
+| McDonald's | `mcdonalds` | ~95 | Web (mcdonalds.com) | Live web source — see `raw/uk/mcdonalds/INGESTION.md` for scraping guide. |
+| Nando's | `nandos` | ~118 | Web (nandos.co.uk) | **Calories only** — no detailed macros available on site. See `raw/uk/nandos/INGESTION.md`. |
+| Pret A Manger | `pret` | ~205 | Web (pret.co.uk, Next.js) | Full nutrition. Requires Playwright. See `raw/uk/pret/INGESTION.md`. |
 | Starbucks | `starbucks` | ~20 | Various in `/raw/uk/starbucks/` | |
+| Wetherspoons | `wetherspoons` | ~292 | JSON API (allergens.jdwetherspoon.com) | Full nutrition. API requires Playwright for auth. See `raw/uk/wetherspoons/INGESTION.md`. |
 
 ### PDF Processing Tips
 
 - **Install pdfplumber** (`pip install pdfplumber`) for PDF extraction — it handles tables and text well.
 - **Caffe Nero PDFs** use a mixed layout: allergen tables on early pages, then nutrition data interleaved with ingredient text. Extract per-portion values (second column), not per-100g.
-- **Nando's PDFs** use a tabular US-style format with Sodium (mg) — convert to Salt (g) via `salt_g = sodium_mg × 2.5 / 1000`. Values like `<1` should be approximated as `0.5`.
+- **Nando's** only provides calories (kcal) on their website — no detailed macros. Macro fields are set to `null`.
 - Always use **per-portion** nutritional values, not per-100g.
 - For `<X` values (e.g. `<0.1`, `<1`), use the value itself as an approximation (e.g., `0.1`, `0.5`).
 

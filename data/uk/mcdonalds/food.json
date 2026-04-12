@@ -1,485 +1,2000 @@
-{
-  "restaurant": "McDonald's",
-  "items": [
-    {
-      "name": "Apple Slices",
-      "calories": 46,
-      "macros": {
-        "protein": 0.2,
-        "carbohydrates": 9.9,
-        "fat": 0.0,
-        "saturatedFat": 0.1,
-        "sugar": 9.9,
-        "fibre": 2.2,
-        "salt": 0.0
-      },
-      "vegetarian": true,
-      "vegan": true
+[
+  {
+    "name": "6 Piece Chicken McNuggets®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/chicken-mcnuggets-6-pieces.html",
+    "type": "food",
+    "categories": [
+      "chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 261,
+    "macros": {
+      "protein": 15,
+      "carbohydrates": 21,
+      "fat": 13,
+      "saturatedFat": 1.5,
+      "sugar": 0.6,
+      "fibre": 1.4,
+      "salt": 0.57
     },
-    {
-      "name": "Bacon & Egg McMuffin®",
-      "calories": 336,
-      "macros": {
-        "protein": 20.0,
-        "carbohydrates": 27.0,
-        "fat": 16.0,
-        "saturatedFat": 5.8,
-        "sugar": 2.6,
-        "fibre": 1.8,
-        "salt": 1.4
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "9 Piece Chicken McNuggets®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/chicken-mcnuggets-9-pieces.html",
+    "type": "food",
+    "categories": [
+      "chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 391,
+    "macros": {
+      "protein": 22,
+      "carbohydrates": 31,
+      "fat": 19,
+      "saturatedFat": 2.2,
+      "sugar": 0.9,
+      "fibre": 2,
+      "salt": 0.86
     },
-    {
-      "name": "Big Mac",
-      "calories": 508,
-      "macros": {
-        "protein": 26.0,
-        "carbohydrates": 43.0,
-        "fat": 25.0,
-        "saturatedFat": 10.0,
-        "sugar": 9.0,
-        "fibre": 3.0,
-        "salt": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Americano",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/americano-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 6,
+    "macros": {
+      "protein": 0.6,
+      "carbohydrates": 0.8,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0.01
     },
-    {
-      "name": "Breakfast Wrap with Brown Sauce",
-      "calories": 666,
-      "macros": {
-        "protein": 35.0,
-        "carbohydrates": 53.0,
-        "fat": 34.0,
-        "saturatedFat": 10.0,
-        "sugar": 6.7,
-        "fibre": 4.8,
-        "salt": 2.3
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Apple Pie",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/apple-pie.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 243,
+    "macros": {
+      "protein": 2.3,
+      "carbohydrates": 27,
+      "fat": 14,
+      "saturatedFat": 3,
+      "sugar": 9.2,
+      "fibre": 1,
+      "salt": 0.31
     },
-    {
-      "name": "Breakfast Wrap with Ketchup",
-      "calories": 662,
-      "macros": {
-        "protein": 35.0,
-        "carbohydrates": 52.0,
-        "fat": 34.0,
-        "saturatedFat": 10.0,
-        "sugar": 5.9,
-        "fibre": 5.2,
-        "salt": 2.5
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Apple Slices",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/apple-slices.html",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 46,
+    "macros": {
+      "protein": 0.2,
+      "carbohydrates": 9.9,
+      "fat": 0,
+      "saturatedFat": 0.1,
+      "sugar": 9.9,
+      "fibre": 2.2,
+      "salt": 0
     },
-    {
-      "name": "Cheesy Bacon Flatbread",
-      "calories": 280,
-      "macros": {
-        "protein": 14.0,
-        "carbohydrates": 28.0,
-        "fat": 12.0,
-        "saturatedFat": 5.9,
-        "sugar": 2.4,
-        "fibre": 1.4,
-        "salt": 1.5
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Bacon & Egg McMuffin®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/bacon-egg-mcmuffin.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 336,
+    "macros": {
+      "protein": 20,
+      "carbohydrates": 27,
+      "fat": 16,
+      "saturatedFat": 5.8,
+      "sugar": 2.6,
+      "fibre": 1.8,
+      "salt": 1.4
     },
-    {
-      "name": "Chicken McNuggets (6 pieces)",
-      "calories": 259,
-      "macros": {
-        "protein": 15.0,
-        "carbohydrates": 15.0,
-        "fat": 15.0,
-        "saturatedFat": null,
-        "sugar": null,
-        "fibre": null,
-        "salt": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Banana Milkshake",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/banana-milkshake-medium.html",
+    "type": "drink",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 363,
+    "macros": {
+      "protein": 11,
+      "carbohydrates": 64,
+      "fat": 7,
+      "saturatedFat": 4.9,
+      "sugar": 57,
+      "fibre": 1.3,
+      "salt": 0.38
     },
-    {
-      "name": "Double Bacon & Egg McMuffin®",
-      "calories": 377,
-      "macros": {
-        "protein": 24.0,
-        "carbohydrates": 27.0,
-        "fat": 19.0,
-        "saturatedFat": 6.7,
-        "sugar": 2.7,
-        "fibre": 1.8,
-        "salt": 1.8
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Big Arch®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/big-arch.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1057,
+    "macros": {
+      "protein": 57,
+      "carbohydrates": 54,
+      "fat": 67,
+      "saturatedFat": 26,
+      "sugar": 15,
+      "fibre": 4,
+      "salt": 4.1
     },
-    {
-      "name": "Double Sausage & Egg McMuffin®",
-      "calories": 552,
-      "macros": {
-        "protein": 36.0,
-        "carbohydrates": 28.0,
-        "fat": 33.0,
-        "saturatedFat": 11.0,
-        "sugar": 3.7,
-        "fibre": 2.5,
-        "salt": 2.3
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Big Mac®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/big-mac.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 509,
+    "macros": {
+      "protein": 27,
+      "carbohydrates": 41,
+      "fat": 25,
+      "saturatedFat": 9.6,
+      "sugar": 8.1,
+      "fibre": 3.4,
+      "salt": 2
     },
-    {
-      "name": "Egg & Cheese McMuffin®",
-      "calories": 296,
-      "macros": {
-        "protein": 15.0,
-        "carbohydrates": 27.0,
-        "fat": 14.0,
-        "saturatedFat": 5.0,
-        "sugar": 2.6,
-        "fibre": 1.8,
-        "salt": 0.96
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Breakfast Wrap with Brown Sauce",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/breakfast-wrap-with-brown-sauce.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 666,
+    "macros": {
+      "protein": 35,
+      "carbohydrates": 53,
+      "fat": 34,
+      "saturatedFat": 10,
+      "sugar": 6.7,
+      "fibre": 4.8,
+      "salt": 2.3
     },
-    {
-      "name": "Egg McMuffin",
-      "calories": 286,
-      "macros": {
-        "protein": 17.0,
-        "carbohydrates": 26.0,
-        "fat": 12.0,
-        "saturatedFat": 6.0,
-        "sugar": 3.0,
-        "fibre": 2.0,
-        "salt": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Breakfast Wrap with Ketchup",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/breakfast-wrap-with-ketchup.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 662,
+    "macros": {
+      "protein": 35,
+      "carbohydrates": 52,
+      "fat": 34,
+      "saturatedFat": 10,
+      "sugar": 5.9,
+      "fibre": 5.2,
+      "salt": 2.5
     },
-    {
-      "name": "Filet-O-Fish",
-      "calories": 329,
-      "macros": {
-        "protein": 15.0,
-        "carbohydrates": 35.0,
-        "fat": 14.0,
-        "saturatedFat": 4.0,
-        "sugar": 5.0,
-        "fibre": 2.0,
-        "salt": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cadbury Creme Egg® McFlurry®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/cadbury-creme-egg-mcflurry.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 352,
+    "macros": {
+      "protein": 5.6,
+      "carbohydrates": 55,
+      "fat": 12,
+      "saturatedFat": 7.8,
+      "sugar": 47,
+      "fibre": 1.7,
+      "salt": 0.21
     },
-    {
-      "name": "Flahavan’s® Quick Oats®",
-      "calories": 194,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 28.0,
-        "fat": 4.3,
-        "saturatedFat": 2.0,
-        "sugar": 8.8,
-        "fibre": 2.5,
-        "salt": 0.26
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cadbury Mini Eggs® Frappé",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/regular-mini-eggs-frappe.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 309,
+    "macros": {
+      "protein": 6.4,
+      "carbohydrates": 39,
+      "fat": 13,
+      "saturatedFat": 8.2,
+      "sugar": 35,
+      "fibre": 1.5,
+      "salt": 0.34
     },
-    {
-      "name": "Grilled Chicken Salad",
-      "calories": 133,
-      "macros": {
-        "protein": 23.0,
-        "carbohydrates": 4.0,
-        "fat": 3.0,
-        "saturatedFat": null,
-        "sugar": null,
-        "fibre": null,
-        "salt": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cadbury Mini Eggs® McFlurry®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mini-egg-mcflurry.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 355,
+    "macros": {
+      "protein": 6,
+      "carbohydrates": 51,
+      "fat": 14,
+      "saturatedFat": 9.4,
+      "sugar": 48,
+      "fibre": 1.8,
+      "salt": 0.3
     },
-    {
-      "name": "Hash Brown",
-      "calories": 127,
-      "macros": {
-        "protein": 1.1,
-        "carbohydrates": 13.0,
-        "fat": 7.4,
-        "saturatedFat": 0.7,
-        "sugar": 0.2,
-        "fibre": 1.2,
-        "salt": 0.64
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cappuccino",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/cappuccino-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 97,
+    "macros": {
+      "protein": 6.6,
+      "carbohydrates": 10,
+      "fat": 3.3,
+      "saturatedFat": 2,
+      "sugar": 9.9,
+      "fibre": 0.2,
+      "salt": 0.2
     },
-    {
-      "name": "McChicken Sandwich",
-      "calories": 388,
-      "macros": {
-        "protein": 17.0,
-        "carbohydrates": 40.0,
-        "fat": 17.0,
-        "saturatedFat": null,
-        "sugar": null,
-        "fibre": null,
-        "salt": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Caramel Iced Frappé",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/caramel-iced-frapp-regular.html",
+    "type": "drink",
+    "categories": [
+      "drinks",
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 319,
+    "macros": {
+      "protein": 6.4,
+      "carbohydrates": 38,
+      "fat": 16,
+      "saturatedFat": 10,
+      "sugar": 33,
+      "fibre": 0.7,
+      "salt": 0.31
     },
-    {
-      "name": "McPlant",
-      "calories": 425,
-      "macros": {
-        "protein": 19.0,
-        "carbohydrates": 44.0,
-        "fat": 18.0,
-        "saturatedFat": null,
-        "sugar": null,
-        "fibre": null,
-        "salt": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Carrot Sticks",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/carrot-sticks.html",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 34,
+    "macros": {
+      "protein": 0.5,
+      "carbohydrates": 6.2,
+      "fat": 0.2,
+      "saturatedFat": 0.1,
+      "sugar": 5.8,
+      "fibre": 2.4,
+      "salt": 0.08
     },
-    {
-      "name": "Medium Fries",
-      "calories": 337,
-      "macros": {
-        "protein": 4.0,
-        "carbohydrates": 42.0,
-        "fat": 16.0,
-        "saturatedFat": null,
-        "sugar": null,
-        "fibre": null,
-        "salt": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cheeseburger",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/cheeseburger.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 303,
+    "macros": {
+      "protein": 16,
+      "carbohydrates": 30,
+      "fat": 13,
+      "saturatedFat": 5.8,
+      "sugar": 7.5,
+      "fibre": 2.1,
+      "salt": 1.4
     },
-    {
-      "name": "Muffin with Jam",
-      "calories": 214,
-      "macros": {
-        "protein": 5.5,
-        "carbohydrates": 35.0,
-        "fat": 5.6,
-        "saturatedFat": 1.4,
-        "sugar": 11.0,
-        "fibre": 1.9,
-        "salt": 0.44
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cheesy Bacon Flatbread",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/cheesy-bacon-flatbread.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 280,
+    "macros": {
+      "protein": 14,
+      "carbohydrates": 28,
+      "fat": 12,
+      "saturatedFat": 5.9,
+      "sugar": 2.4,
+      "fibre": 1.4,
+      "salt": 1.5
     },
-    {
-      "name": "Pancakes & Sausage with Syrup",
-      "calories": 592,
-      "macros": {
-        "protein": 19.0,
-        "carbohydrates": 99.0,
-        "fat": 12.0,
-        "saturatedFat": 3.8,
-        "sugar": 41.0,
-        "fibre": 3.2,
-        "salt": 2.1
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cheesy Garlic Bread Dippers",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/cheesy-garlic-bread-dippers.html",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 219,
+    "macros": {
+      "protein": 9.3,
+      "carbohydrates": 15,
+      "fat": 13,
+      "saturatedFat": 4.9,
+      "sugar": 0.8,
+      "fibre": 1.4,
+      "salt": 0.86
     },
-    {
-      "name": "Pancakes & Syrup",
-      "calories": 464,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 98.0,
-        "fat": 3.2,
-        "saturatedFat": 0.5,
-        "sugar": 41.0,
-        "fibre": 2.8,
-        "salt": 1.4
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Selects®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/chicken-selects-3-pieces.html",
+    "type": "food",
+    "categories": [
+      "chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 336,
+    "macros": {
+      "protein": 23,
+      "carbohydrates": 22,
+      "fat": 17,
+      "saturatedFat": 1.6,
+      "sugar": 0,
+      "fibre": 1.4,
+      "salt": 1.6
     },
-    {
-      "name": "Porridge",
-      "calories": 154,
-      "macros": {
-        "protein": 7.8,
-        "carbohydrates": 23.0,
-        "fat": 3.0,
-        "saturatedFat": 1.3,
-        "sugar": 6.4,
-        "fibre": 1.9,
-        "salt": 0.17
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Brownie",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/chocolate-brownie.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 278,
+    "macros": {
+      "protein": 3.2,
+      "carbohydrates": 29,
+      "fat": 16,
+      "saturatedFat": 6.3,
+      "sugar": 24,
+      "fibre": 1.6,
+      "salt": 0.04
     },
-    {
-      "name": "Porridge with Lyle’s Golden Syrup®",
-      "calories": 217,
-      "macros": {
-        "protein": 7.8,
-        "carbohydrates": 39.0,
-        "fat": 3.0,
-        "saturatedFat": 1.3,
-        "sugar": 22.0,
-        "fibre": 1.9,
-        "salt": 0.3
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Brownie Pie",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/brownie-pie.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 299,
+    "macros": {
+      "protein": 4.1,
+      "carbohydrates": 35,
+      "fat": 16,
+      "saturatedFat": 4.4,
+      "sugar": 11,
+      "fibre": 1.6,
+      "salt": 0.35
     },
-    {
-      "name": "Porridge with Strawberry Jam",
-      "calories": 193,
-      "macros": {
-        "protein": 7.8,
-        "carbohydrates": 33.0,
-        "fat": 3.0,
-        "saturatedFat": 1.3,
-        "sugar": 16.0,
-        "fibre": 2.0,
-        "salt": 0.17
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/chocolate-milkshake-medium.html",
+    "type": "drink",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 364,
+    "macros": {
+      "protein": 11,
+      "carbohydrates": 61,
+      "fat": 7.8,
+      "saturatedFat": 5.3,
+      "sugar": 50,
+      "fibre": 2.1,
+      "salt": 0.66
     },
-    {
-      "name": "Porridge with Sugar",
-      "calories": 166,
-      "macros": {
-        "protein": 7.8,
-        "carbohydrates": 26.0,
-        "fat": 3.0,
-        "saturatedFat": 1.3,
-        "sugar": 9.4,
-        "fibre": 1.9,
-        "salt": 0.17
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Coca-Cola® Classic",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/coca-cola-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 170,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 42,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 42,
+      "fibre": 0,
+      "salt": 0
     },
-    {
-      "name": "Quarter Pounder with Cheese",
-      "calories": 518,
-      "macros": {
-        "protein": 31.0,
-        "carbohydrates": 37.0,
-        "fat": 27.0,
-        "saturatedFat": 21.0,
-        "sugar": 10.0,
-        "fibre": 3.0,
-        "salt": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Coca-Cola® Zero Sugar",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/coca-cola-zero-sugar-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0.1
     },
-    {
-      "name": "Sausage & Egg McGriddles®",
-      "calories": 492,
-      "macros": {
-        "protein": 24.0,
-        "carbohydrates": 46.0,
-        "fat": 24.0,
-        "saturatedFat": 10.0,
-        "sugar": 17.0,
-        "fibre": 1.6,
-        "salt": 3.1
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Crispy BBQ & Bacon Wrap",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/the-bbq-chicken-bacon-one-crispy.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 477,
+    "macros": {
+      "protein": 23,
+      "carbohydrates": 54,
+      "fat": 18,
+      "saturatedFat": 2.4,
+      "sugar": 5.5,
+      "fibre": 4.5,
+      "salt": 2.1
     },
-    {
-      "name": "Sausage & Egg McMuffin®",
-      "calories": 424,
-      "macros": {
-        "protein": 25.0,
-        "carbohydrates": 27.0,
-        "fat": 23.0,
-        "saturatedFat": 8.2,
-        "sugar": 3.1,
-        "fibre": 2.1,
-        "salt": 1.6
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Crispy Chicken and Bacon Salad",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/crispy-chicken-bacon-salad.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 401,
+    "macros": {
+      "protein": 26,
+      "carbohydrates": 25,
+      "fat": 21,
+      "saturatedFat": 4.5,
+      "sugar": 3.8,
+      "fibre": 3.5,
+      "salt": 1.7
     },
-    {
-      "name": "Sausage Sandwich with Brown Sauce",
-      "calories": 330,
-      "macros": {
-        "protein": 17.0,
-        "carbohydrates": 31.0,
-        "fat": 15.0,
-        "saturatedFat": 5.7,
-        "sugar": 8.5,
-        "fibre": 1.9,
-        "salt": 1.6
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Crispy Chicken Salad",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/crispy-chicken-salad.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 355,
+    "macros": {
+      "protein": 21,
+      "carbohydrates": 24,
+      "fat": 18,
+      "saturatedFat": 3.5,
+      "sugar": 3.7,
+      "fibre": 3.5,
+      "salt": 1.3
     },
-    {
-      "name": "Sausage Sandwich with Ketchup",
-      "calories": 327,
-      "macros": {
-        "protein": 18.0,
-        "carbohydrates": 30.0,
-        "fat": 15.0,
-        "saturatedFat": 5.7,
-        "sugar": 8.0,
-        "fibre": 2.2,
-        "salt": 1.7
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Crispy Sweet Chilli Chicken Wrap",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/the-sweet-chilli-chicken-one-crispy.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 453,
+    "macros": {
+      "protein": 21,
+      "carbohydrates": 53,
+      "fat": 16,
+      "saturatedFat": 1.9,
+      "sugar": 6.5,
+      "fibre": 4.7,
+      "salt": 1.9
     },
-    {
-      "name": "Side Salad",
-      "calories": 15,
-      "macros": {
-        "protein": 1.0,
-        "carbohydrates": 2.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 1.0,
-        "fibre": 1.0,
-        "salt": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Crispy Tikka Chicken Wrap",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/the-tikka-chicken-one-crispy.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 455,
+    "macros": {
+      "protein": 21,
+      "carbohydrates": 50,
+      "fat": 18,
+      "saturatedFat": 2,
+      "sugar": 4.2,
+      "fibre": 4.8,
+      "salt": 1.8
     },
-    {
-      "name": "Veggie Dippers (4 pieces)",
-      "calories": 179,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 18.0,
-        "fat": 10.0,
-        "saturatedFat": null,
-        "sugar": null,
-        "fibre": null,
-        "salt": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    }
-  ]
-}
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Diet Coke®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/diet-coke-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0.07
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Donut Crumble Latte",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/donut-latte.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 195,
+    "macros": {
+      "protein": 8,
+      "carbohydrates": 27,
+      "fat": 6.1,
+      "saturatedFat": 3.9,
+      "sugar": 26,
+      "fibre": 0,
+      "salt": 0.27
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Double Bacon & Egg McMuffin®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-bacon-egg-mcmuffin.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 377,
+    "macros": {
+      "protein": 24,
+      "carbohydrates": 27,
+      "fat": 19,
+      "saturatedFat": 6.7,
+      "sugar": 2.7,
+      "fibre": 1.8,
+      "salt": 1.8
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Big Mac®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-big-mac.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 715,
+    "macros": {
+      "protein": 45,
+      "carbohydrates": 42,
+      "fat": 40,
+      "saturatedFat": 16,
+      "sugar": 8.4,
+      "fibre": 3.8,
+      "salt": 2.5
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Big Mac® with Bacon",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-big-mac-with-bacon.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 762,
+    "macros": {
+      "protein": 50,
+      "carbohydrates": 42,
+      "fat": 43,
+      "saturatedFat": 17,
+      "sugar": 8.5,
+      "fibre": 3.8,
+      "salt": 2.9
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Cheeseburger",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-cheeseburger.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 452,
+    "macros": {
+      "protein": 27,
+      "carbohydrates": 31,
+      "fat": 24,
+      "saturatedFat": 11,
+      "sugar": 8.2,
+      "fibre": 2.2,
+      "salt": 2.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Filet-O-Fish®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-filet-o-fish.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 453,
+    "macros": {
+      "protein": 24,
+      "carbohydrates": 45,
+      "fat": 19,
+      "saturatedFat": 3.7,
+      "sugar": 5.9,
+      "fibre": 2.5,
+      "salt": 2.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Quarter Pounder™ with Cheese",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-quarter-pounder-with-cheese.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 749,
+    "macros": {
+      "protein": 50,
+      "carbohydrates": 36,
+      "fat": 44,
+      "saturatedFat": 20,
+      "sugar": 11,
+      "fibre": 2.5,
+      "salt": 2.8
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Sausage & Egg McMuffin®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/double-sausage-egg-mcmuffin.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 552,
+    "macros": {
+      "protein": 36,
+      "carbohydrates": 28,
+      "fat": 33,
+      "saturatedFat": 11,
+      "sugar": 3.7,
+      "fibre": 2.5,
+      "salt": 2.3
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Egg & Cheese McMuffin®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/egg-cheese-mcmuffin.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 296,
+    "macros": {
+      "protein": 15,
+      "carbohydrates": 27,
+      "fat": 14,
+      "saturatedFat": 5,
+      "sugar": 2.6,
+      "fibre": 1.8,
+      "salt": 0.96
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Espresso",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/espresso.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1,
+    "macros": {
+      "protein": 0.1,
+      "carbohydrates": 0.2,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Espresso Single",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/espresso-single.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1,
+    "macros": {
+      "protein": 0.1,
+      "carbohydrates": 0.1,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Fanta® Orange Zero",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/fanta-orange-zero-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 4,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Filet-O-Fish®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/filet-o-fish.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 316,
+    "macros": {
+      "protein": 14,
+      "carbohydrates": 36,
+      "fat": 13,
+      "saturatedFat": 2.1,
+      "sugar": 5.4,
+      "fibre": 2.2,
+      "salt": 1.4
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Flahavan's® Quick Oats®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/flahavans-quick-oats.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 194,
+    "macros": {
+      "protein": 9,
+      "carbohydrates": 28,
+      "fat": 4.3,
+      "saturatedFat": 2,
+      "sugar": 8.8,
+      "fibre": 2.5,
+      "salt": 0.26
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Flat White",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/flat-white.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 86,
+    "macros": {
+      "protein": 6.3,
+      "carbohydrates": 8.4,
+      "fat": 3.1,
+      "saturatedFat": 1.9,
+      "sugar": 8.2,
+      "fibre": 0,
+      "salt": 0.19
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Frozen Strawberry Lemonade",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/frozen-strawberry-lemonade-regular.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 120,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 29,
+      "fat": 0.1,
+      "saturatedFat": 0,
+      "sugar": 25,
+      "fibre": 0,
+      "salt": 0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Galaxy® Caramel McFlurry®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/galaxy-caramel-mcflurry.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 356,
+    "macros": {
+      "protein": 5.9,
+      "carbohydrates": 54,
+      "fat": 12,
+      "saturatedFat": 8.2,
+      "sugar": 45,
+      "fibre": 1.6,
+      "salt": 0.34
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Grilled BBQ & Bacon Wrap",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/the-bbq-chicken-bacon-one-grilled.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 364,
+    "macros": {
+      "protein": 31,
+      "carbohydrates": 40,
+      "fat": 7.6,
+      "saturatedFat": 1.7,
+      "sugar": 6,
+      "fibre": 3.6,
+      "salt": 1.7
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Chicken and Bacon Salad",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/grilled-chicken-bacon-salad.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 245,
+    "macros": {
+      "protein": 26,
+      "carbohydrates": 10,
+      "fat": 11,
+      "saturatedFat": 3.4,
+      "sugar": 4,
+      "fibre": 2.3,
+      "salt": 1.4
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/grilled-chicken-salad.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 220,
+    "macros": {
+      "protein": 26,
+      "carbohydrates": 8.8,
+      "fat": 8.4,
+      "saturatedFat": 2.4,
+      "sugar": 3.8,
+      "fibre": 2.3,
+      "salt": 0.91
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Sweet Chilli Chicken Wrap",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/the-sweet-chilli-chicken-one-grilled.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 340,
+    "macros": {
+      "protein": 29,
+      "carbohydrates": 39,
+      "fat": 6.4,
+      "saturatedFat": 1.2,
+      "sugar": 7,
+      "fibre": 3.8,
+      "salt": 1.5
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Tikka Chicken Wrap",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/the-tikka-chicken-one-grilled.html",
+    "type": "food",
+    "categories": [
+      "wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 332,
+    "macros": {
+      "protein": 29,
+      "carbohydrates": 36,
+      "fat": 7.4,
+      "saturatedFat": 1.3,
+      "sugar": 3.6,
+      "fibre": 3.3,
+      "salt": 1.4
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Hamburger",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/hamburger.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 255,
+    "macros": {
+      "protein": 13,
+      "carbohydrates": 29,
+      "fat": 9.2,
+      "saturatedFat": 3.5,
+      "sugar": 6.9,
+      "fibre": 2.1,
+      "salt": 1.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Hash Brown",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/hash-brown.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 127,
+    "macros": {
+      "protein": 1.1,
+      "carbohydrates": 13,
+      "fat": 7.4,
+      "saturatedFat": 0.7,
+      "sugar": 0.2,
+      "fibre": 1.2,
+      "salt": 0.64
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Hot Chocolate",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/hot-chocolate-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 173,
+    "macros": {
+      "protein": 2.2,
+      "carbohydrates": 30,
+      "fat": 4.3,
+      "saturatedFat": 2.2,
+      "sugar": 27,
+      "fibre": 2.3,
+      "salt": 0.57
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Iced Latte",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/iced-latte.html",
+    "type": "drink",
+    "categories": [
+      "drinks",
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 6.5,
+      "carbohydrates": 19,
+      "fat": 3.1,
+      "saturatedFat": 1.9,
+      "sugar": 17,
+      "fibre": 1,
+      "salt": 0.43
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "IRN-BRU®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/irn-bru-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 76,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 18,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 18,
+      "fibre": 0,
+      "salt": 0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Latte",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/latte-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 145,
+    "macros": {
+      "protein": 11,
+      "carbohydrates": 14,
+      "fat": 5.2,
+      "saturatedFat": 3.2,
+      "sugar": 14,
+      "fibre": 0,
+      "salt": 0.32
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mango & Pineapple Smoothie",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mango-pineapple-iced-fruit-smoothie-regular.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 153,
+    "macros": {
+      "protein": 1.2,
+      "carbohydrates": 34,
+      "fat": 0.5,
+      "saturatedFat": 0.1,
+      "sugar": 32,
+      "fibre": 1.5,
+      "salt": 0.1
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mayo Chicken",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mayo-chicken.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 282,
+    "macros": {
+      "protein": 12,
+      "carbohydrates": 36,
+      "fat": 9.4,
+      "saturatedFat": 1,
+      "sugar": 5.1,
+      "fibre": 2.1,
+      "salt": 0.92
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "McChicken® Sandwich",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mcchicken-sandwich.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 371,
+    "macros": {
+      "protein": 17,
+      "carbohydrates": 41,
+      "fat": 15,
+      "saturatedFat": 1.5,
+      "sugar": 7,
+      "fibre": 2.7,
+      "salt": 1.2
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "McCrispy®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mccrispy.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 484,
+    "macros": {
+      "protein": 26,
+      "carbohydrates": 53,
+      "fat": 18,
+      "saturatedFat": 2,
+      "sugar": 6.9,
+      "fibre": 3.7,
+      "salt": 1.9
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "McDonald's Fries",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/fries-medium.html",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 337,
+    "macros": {
+      "protein": 3.3,
+      "carbohydrates": 42,
+      "fat": 17,
+      "saturatedFat": 1.5,
+      "sugar": 0.6,
+      "fibre": 3.6,
+      "salt": 0.62
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "McPlant®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/vegan-mcplant.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 426,
+    "macros": {
+      "protein": 19,
+      "carbohydrates": 40,
+      "fat": 20,
+      "saturatedFat": 6.5,
+      "sugar": 11,
+      "fibre": 4.1,
+      "salt": 2.1
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "McSpicy®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mcspicy.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 454,
+    "macros": {
+      "protein": 24,
+      "carbohydrates": 49,
+      "fat": 17,
+      "saturatedFat": 3.9,
+      "sugar": 6.9,
+      "fibre": 3.2,
+      "salt": 1.9
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mixed Berry Muffin",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/mixed-berry-muffin.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 298,
+    "macros": {
+      "protein": 5,
+      "carbohydrates": 48,
+      "fat": 7.6,
+      "saturatedFat": 1.1,
+      "sugar": 25,
+      "fibre": 5.2,
+      "salt": 0.43
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Muffin with Jam",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/muffin-jam.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 214,
+    "macros": {
+      "protein": 5.5,
+      "carbohydrates": 35,
+      "fat": 5.6,
+      "saturatedFat": 1.4,
+      "sugar": 11,
+      "fibre": 1.9,
+      "salt": 0.44
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Oasis® Summer Fruits Zero",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/oasis-zero-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 12,
+    "macros": {
+      "protein": 0,
+      "carbohydrates": 2,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 2,
+      "fibre": 0,
+      "salt": 0.32
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Oreo® McFlurry®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/oreo-mcflurry.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 260,
+    "macros": {
+      "protein": 5.2,
+      "carbohydrates": 39,
+      "fat": 9,
+      "saturatedFat": 6,
+      "sugar": 32,
+      "fibre": 1.8,
+      "salt": 0.3
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Organic Milk",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/organic-milk.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 125,
+    "macros": {
+      "protein": 9,
+      "carbohydrates": 12,
+      "fat": 4.5,
+      "saturatedFat": 2.8,
+      "sugar": 12,
+      "fibre": 0,
+      "salt": 0.28
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pancakes & Sausage with Syrup",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/pancakes-sausage-with-syrup.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 592,
+    "macros": {
+      "protein": 19,
+      "carbohydrates": 99,
+      "fat": 12,
+      "saturatedFat": 3.8,
+      "sugar": 41,
+      "fibre": 3.2,
+      "salt": 2.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pancakes & Syrup",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/pancakes-syrup.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 464,
+    "macros": {
+      "protein": 9,
+      "carbohydrates": 98,
+      "fat": 3.2,
+      "saturatedFat": 0.5,
+      "sugar": 41,
+      "fibre": 2.8,
+      "salt": 1.4
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Porridge",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/plain-porridge.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 154,
+    "macros": {
+      "protein": 7.8,
+      "carbohydrates": 23,
+      "fat": 3,
+      "saturatedFat": 1.3,
+      "sugar": 6.4,
+      "fibre": 1.9,
+      "salt": 0.17
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Porridge with Lyle's Golden Syrup®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/golden-syrup-porridge.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 217,
+    "macros": {
+      "protein": 7.8,
+      "carbohydrates": 39,
+      "fat": 3,
+      "saturatedFat": 1.3,
+      "sugar": 22,
+      "fibre": 1.9,
+      "salt": 0.3
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Porridge with Strawberry Jam",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/jam-porridge.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 193,
+    "macros": {
+      "protein": 7.8,
+      "carbohydrates": 33,
+      "fat": 3,
+      "saturatedFat": 1.3,
+      "sugar": 16,
+      "fibre": 2,
+      "salt": 0.17
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Porridge with Sugar",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sugar-porridge.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 166,
+    "macros": {
+      "protein": 7.8,
+      "carbohydrates": 26,
+      "fat": 3,
+      "saturatedFat": 1.3,
+      "sugar": 9.4,
+      "fibre": 1.9,
+      "salt": 0.17
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Quarter Pounder™ with Cheese",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/quarter-pounder-with-cheese.html",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 514,
+    "macros": {
+      "protein": 31,
+      "carbohydrates": 36,
+      "fat": 27,
+      "saturatedFat": 13,
+      "sugar": 11,
+      "fibre": 2.3,
+      "salt": 2.3
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sausage & Egg McGriddles®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sausage-and-egg-mcgriddles.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 492,
+    "macros": {
+      "protein": 24,
+      "carbohydrates": 46,
+      "fat": 24,
+      "saturatedFat": 10,
+      "sugar": 17,
+      "fibre": 1.6,
+      "salt": 3.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sausage & Egg McMuffin®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sausage-egg-mcmuffin.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 424,
+    "macros": {
+      "protein": 25,
+      "carbohydrates": 27,
+      "fat": 23,
+      "saturatedFat": 8.2,
+      "sugar": 3.1,
+      "fibre": 2.1,
+      "salt": 1.6
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sausage Sandwich with Brown Sauce",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sausage-sandwich-with-brown-sauce.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 330,
+    "macros": {
+      "protein": 17,
+      "carbohydrates": 31,
+      "fat": 15,
+      "saturatedFat": 5.7,
+      "sugar": 8.5,
+      "fibre": 1.9,
+      "salt": 1.6
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sausage Sandwich with Ketchup",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sausage-sandwich-with-ketchup.html",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 327,
+    "macros": {
+      "protein": 18,
+      "carbohydrates": 30,
+      "fat": 15,
+      "saturatedFat": 5.7,
+      "sugar": 8,
+      "fibre": 2.2,
+      "salt": 1.7
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Side Salad",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/shaker-side-salad.html",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 58,
+    "macros": {
+      "protein": 1.4,
+      "carbohydrates": 4,
+      "fat": 3.7,
+      "saturatedFat": 1.1,
+      "sugar": 2,
+      "fibre": 1.5,
+      "salt": 0.12
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Smarties® McFlurry®",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/smarties-mcflurry.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 273,
+    "macros": {
+      "protein": 5.2,
+      "carbohydrates": 40,
+      "fat": 10,
+      "saturatedFat": 6.7,
+      "sugar": 37,
+      "fibre": 1.5,
+      "salt": 0.19
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Spicy Chicken McNuggets® 6 pieces",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/spicy-chicken-mcnuggets-6-pieces.html",
+    "type": "food",
+    "categories": [
+      "chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 261,
+    "macros": {
+      "protein": 16,
+      "carbohydrates": 21,
+      "fat": 13,
+      "saturatedFat": 1.7,
+      "sugar": 0.5,
+      "fibre": 1,
+      "salt": 0.65
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy Chicken McNuggets® 9 pieces",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/spicy-chicken-mcnuggets-9-pieces.html",
+    "type": "food",
+    "categories": [
+      "chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 391,
+    "macros": {
+      "protein": 24,
+      "carbohydrates": 31,
+      "fat": 19,
+      "saturatedFat": 2.5,
+      "sugar": 0.8,
+      "fibre": 1.4,
+      "salt": 0.97
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sprite® Zero",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sprite-zero-medium.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 4,
+    "macros": {
+      "protein": 0.1,
+      "carbohydrates": 0,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 0,
+      "fibre": 0,
+      "salt": 0.05
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/strawberry-milkshake-medium.html",
+    "type": "drink",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 356,
+    "macros": {
+      "protein": 11,
+      "carbohydrates": 62,
+      "fat": 7,
+      "saturatedFat": 4.9,
+      "sugar": 57,
+      "fibre": 1.3,
+      "salt": 0.41
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Sugar Donut",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/sugar-donut.html",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 197,
+    "macros": {
+      "protein": 3.5,
+      "carbohydrates": 21,
+      "fat": 11,
+      "saturatedFat": 4.6,
+      "sugar": 5.7,
+      "fibre": 0.8,
+      "salt": 0.33
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Tea",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/tea-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 6,
+    "macros": {
+      "protein": 0.4,
+      "carbohydrates": 0.8,
+      "fat": 0.2,
+      "saturatedFat": 0.1,
+      "sugar": 0.5,
+      "fibre": 0,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Toffee Latte",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/toffee-latte-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 186,
+    "macros": {
+      "protein": 7.9,
+      "carbohydrates": 25,
+      "fat": 6.1,
+      "saturatedFat": 4,
+      "sugar": 23,
+      "fibre": 0,
+      "salt": 0.25
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Tropicana® Orange Juice",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/tropicana-orange-juice.html",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 100,
+    "macros": {
+      "protein": 2,
+      "carbohydrates": 23,
+      "fat": 0,
+      "saturatedFat": 0,
+      "sugar": 22,
+      "fibre": 0,
+      "salt": 0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vanilla Milkshake",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/vanilla-milkshake-medium.html",
+    "type": "drink",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 365,
+    "macros": {
+      "protein": 11,
+      "carbohydrates": 64,
+      "fat": 7,
+      "saturatedFat": 4.9,
+      "sugar": 60,
+      "fibre": 1.3,
+      "salt": 0.38
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "White Coffee",
+    "url": "https://www.mcdonalds.com/gb/en-gb/product/white-coffee-regular.html",
+    "type": "drink",
+    "categories": [
+      "mccafe"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 54,
+    "macros": {
+      "protein": 4.1,
+      "carbohydrates": 5.5,
+      "fat": 1.8,
+      "saturatedFat": 1.1,
+      "sugar": 4.7,
+      "fibre": 0,
+      "salt": 0.11
+    },
+    "vegetarian": true,
+    "vegan": false
+  }
+]

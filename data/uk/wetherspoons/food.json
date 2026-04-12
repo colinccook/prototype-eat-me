@@ -1,0 +1,6134 @@
+[
+  {
+    "name": "11\" Garlic pizza bread",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 778,
+    "macros": {
+      "protein": 20.0,
+      "carbohydrates": 115.0,
+      "fat": 25.0,
+      "saturatedFat": 4.0,
+      "sugar": 3.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "6oz beef patty",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 337,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 3.0,
+      "fat": 22.0,
+      "saturatedFat": 10.0,
+      "sugar": 2.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "8\" Garlic pizza bread",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 389,
+    "macros": {
+      "protein": 10.0,
+      "carbohydrates": 58.0,
+      "fat": 13.0,
+      "saturatedFat": 2.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Add broccoli",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 18,
+    "macros": {
+      "protein": 2.0,
+      "carbohydrates": 1.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 1.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Add hash brown",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 82,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 12.0,
+      "fat": 3.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Add: Chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 602,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 85.0,
+      "fat": 24.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 6.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Add: Maple-cured bacon",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 91,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 1.0,
+      "fat": 6.0,
+      "saturatedFat": 3.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Add: Side salad",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 111,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 6.0,
+      "fat": 9.0,
+      "saturatedFat": 1.0,
+      "sugar": 4.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Add: Spicy rice",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 203,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 42.0,
+      "fat": 2.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "All-day brunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1245,
+    "macros": {
+      "protein": 49.0,
+      "carbohydrates": 107.0,
+      "fat": 67.0,
+      "saturatedFat": 17.0,
+      "sugar": 6.0,
+      "fibre": 12.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "American breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1286,
+    "macros": {
+      "protein": 45.0,
+      "carbohydrates": 152.0,
+      "fat": 54.0,
+      "saturatedFat": 15.0,
+      "sugar": 64.0,
+      "fibre": 7.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "American burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1131,
+    "macros": {
+      "protein": 44.0,
+      "carbohydrates": 126.0,
+      "fat": 48.0,
+      "saturatedFat": 12.0,
+      "sugar": 14.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "American cheese burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1211,
+    "macros": {
+      "protein": 48.0,
+      "carbohydrates": 128.0,
+      "fat": 54.0,
+      "saturatedFat": 16.0,
+      "sugar": 16.0,
+      "fibre": 10.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "American-style pancakes",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 114.0,
+      "fat": 8.0,
+      "saturatedFat": 1.0,
+      "sugar": 60.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "American-style pancakes with bacon and maple-flavour syrup",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 672,
+    "macros": {
+      "protein": 19.0,
+      "carbohydrates": 116.0,
+      "fat": 14.0,
+      "saturatedFat": 3.0,
+      "sugar": 61.0,
+      "fibre": 3.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "American-style pancakes with fresh fruit",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 722,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 146.0,
+      "fat": 8.0,
+      "saturatedFat": 1.0,
+      "sugar": 88.0,
+      "fibre": 7.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "American-style pancakes with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 668,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 125.0,
+      "fat": 12.0,
+      "saturatedFat": 4.0,
+      "sugar": 71.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "American-style pancakes with maple-flavour syrup",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 114.0,
+      "fat": 8.0,
+      "saturatedFat": 1.0,
+      "sugar": 60.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Apple",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 46,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 10.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 10.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Apple bag",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 46,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 10.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 10.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Bacon butty",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 565,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 49.0,
+      "fat": 28.0,
+      "saturatedFat": 8.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Baked beans",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 126,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 18.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 4.0,
+      "fibre": 7.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Banana",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 110,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 25.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 23.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Bangers and mash",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 896,
+    "macros": {
+      "protein": 29.0,
+      "carbohydrates": 64.0,
+      "fat": 56.0,
+      "saturatedFat": 23.0,
+      "sugar": 7.0,
+      "fibre": 8.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "BBQ beef brisket",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 154,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 18.0,
+      "fat": 4.0,
+      "saturatedFat": 1.0,
+      "sugar": 16.0,
+      "fibre": 1.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "BBQ chicken",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 562,
+    "macros": {
+      "protein": 32.0,
+      "carbohydrates": 71.0,
+      "fat": 16.0,
+      "saturatedFat": 9.0,
+      "sugar": 12.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "BBQ chicken melt",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 605,
+    "macros": {
+      "protein": 54.0,
+      "carbohydrates": 34.0,
+      "fat": 27.0,
+      "saturatedFat": 10.0,
+      "sugar": 21.0,
+      "fibre": 6.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "BBQ chicken, bacon and Cheddar cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 602,
+    "macros": {
+      "protein": 39.0,
+      "carbohydrates": 74.0,
+      "fat": 16.0,
+      "saturatedFat": 8.0,
+      "sugar": 16.0,
+      "fibre": 3.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "BBQ stack",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1360,
+    "macros": {
+      "protein": 32.0,
+      "carbohydrates": 178.0,
+      "fat": 54.0,
+      "saturatedFat": 11.0,
+      "sugar": 31.0,
+      "fibre": 18.0,
+      "salt": 5.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Beans on toast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 558,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 77.0,
+      "fat": 15.0,
+      "saturatedFat": 3.0,
+      "sugar": 7.0,
+      "fibre": 13.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Beef Madras",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1084,
+    "macros": {
+      "protein": 47.0,
+      "carbohydrates": 129.0,
+      "fat": 39.0,
+      "saturatedFat": 12.0,
+      "sugar": 19.0,
+      "fibre": 14.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Blue cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 15.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Blueberries",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 17,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 4.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Bombay potatoes",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 318,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 31.0,
+      "fat": 19.0,
+      "saturatedFat": 2.0,
+      "sugar": 5.0,
+      "fibre": 5.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Boneless basket",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 712,
+    "macros": {
+      "protein": 41.0,
+      "carbohydrates": 59.0,
+      "fat": 34.0,
+      "saturatedFat": 6.0,
+      "sugar": 23.0,
+      "fibre": 2.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bowl of chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 964,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 136.0,
+      "fat": 39.0,
+      "saturatedFat": 4.0,
+      "sugar": 3.0,
+      "fibre": 10.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Bowl of chips with curry sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1073,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 143.0,
+      "fat": 47.0,
+      "saturatedFat": 6.0,
+      "sugar": 5.0,
+      "fibre": 12.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Breakfast muffin",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 520,
+    "macros": {
+      "protein": 27.0,
+      "carbohydrates": 43.0,
+      "fat": 26.0,
+      "saturatedFat": 9.0,
+      "sugar": 5.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Breakfast roll with potato bread",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 280,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 45.0,
+      "fat": 7.0,
+      "saturatedFat": 2.0,
+      "sugar": 6.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Breakfast sandwich",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 659,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 55.0,
+      "fat": 35.0,
+      "saturatedFat": 10.0,
+      "sugar": 2.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Breakfast wrap",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 751,
+    "macros": {
+      "protein": 32.0,
+      "carbohydrates": 67.0,
+      "fat": 39.0,
+      "saturatedFat": 13.0,
+      "sugar": 2.0,
+      "fibre": 4.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "British beef & pancetta lasagne",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 815,
+    "macros": {
+      "protein": 40.0,
+      "carbohydrates": 64.0,
+      "fat": 43.0,
+      "saturatedFat": 19.0,
+      "sugar": 16.0,
+      "fibre": 4.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "British Bramley apple crumble",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 583,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 92.0,
+      "fat": 21.0,
+      "saturatedFat": 10.0,
+      "sugar": 59.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Brunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 734,
+    "macros": {
+      "protein": 37.0,
+      "carbohydrates": 55.0,
+      "fat": 40.0,
+      "saturatedFat": 15.0,
+      "sugar": 2.0,
+      "fibre": 3.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Buffalo burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1815,
+    "macros": {
+      "protein": 55.0,
+      "carbohydrates": 190.0,
+      "fat": 90.0,
+      "saturatedFat": 12.0,
+      "sugar": 18.0,
+      "fibre": 14.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Caledonian burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1725,
+    "macros": {
+      "protein": 65.0,
+      "carbohydrates": 174.0,
+      "fat": 81.0,
+      "saturatedFat": 22.0,
+      "sugar": 20.0,
+      "fibre": 15.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Char-grilled tandoori chicken breast skewer",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 210,
+    "macros": {
+      "protein": 26.0,
+      "carbohydrates": 7.0,
+      "fat": 8.0,
+      "saturatedFat": 1.0,
+      "sugar": 4.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cheddar cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 82,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 0.0,
+      "fat": 7.0,
+      "saturatedFat": 4.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cheddar cheese and tomato",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 604,
+    "macros": {
+      "protein": 29.0,
+      "carbohydrates": 57.0,
+      "fat": 28.0,
+      "saturatedFat": 17.0,
+      "sugar": 2.0,
+      "fibre": 3.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 292,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 1.0,
+      "fat": 23.0,
+      "saturatedFat": 15.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cheese meltdown burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1589,
+    "macros": {
+      "protein": 57.0,
+      "carbohydrates": 162.0,
+      "fat": 77.0,
+      "saturatedFat": 24.0,
+      "sugar": 18.0,
+      "fibre": 13.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cheesy chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1256,
+    "macros": {
+      "protein": 34.0,
+      "carbohydrates": 137.0,
+      "fat": 62.0,
+      "saturatedFat": 19.0,
+      "sugar": 3.0,
+      "fibre": 10.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chicken & maple-cured bacon salad",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 477,
+    "macros": {
+      "protein": 45.0,
+      "carbohydrates": 11.0,
+      "fat": 28.0,
+      "saturatedFat": 5.0,
+      "sugar": 6.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken and Tenderstem broccoli",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 596,
+    "macros": {
+      "protein": 46.0,
+      "carbohydrates": 49.0,
+      "fat": 22.0,
+      "saturatedFat": 11.0,
+      "sugar": 5.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken bites",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 153,
+    "macros": {
+      "protein": 17.0,
+      "carbohydrates": 12.0,
+      "fat": 4.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken bites basket",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 754,
+    "macros": {
+      "protein": 38.0,
+      "carbohydrates": 94.0,
+      "fat": 25.0,
+      "saturatedFat": 3.0,
+      "sugar": 30.0,
+      "fibre": 1.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken breast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 94,
+    "macros": {
+      "protein": 18.0,
+      "carbohydrates": 1.0,
+      "fat": 2.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken breast nuggets",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 153,
+    "macros": {
+      "protein": 17.0,
+      "carbohydrates": 12.0,
+      "fat": 4.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 993,
+    "macros": {
+      "protein": 50.0,
+      "carbohydrates": 127.0,
+      "fat": 30.0,
+      "saturatedFat": 4.0,
+      "sugar": 9.0,
+      "fibre": 9.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken jalfrezi",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 919,
+    "macros": {
+      "protein": 53.0,
+      "carbohydrates": 118.0,
+      "fat": 24.0,
+      "saturatedFat": 2.0,
+      "sugar": 14.0,
+      "fibre": 11.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken korma",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1110,
+    "macros": {
+      "protein": 51.0,
+      "carbohydrates": 124.0,
+      "fat": 43.0,
+      "saturatedFat": 10.0,
+      "sugar": 14.0,
+      "fibre": 9.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken pomodoro",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 549,
+    "macros": {
+      "protein": 45.0,
+      "carbohydrates": 60.0,
+      "fat": 12.0,
+      "saturatedFat": 4.0,
+      "sugar": 14.0,
+      "fibre": 12.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken tikka masala",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1032,
+    "macros": {
+      "protein": 52.0,
+      "carbohydrates": 121.0,
+      "fat": 36.0,
+      "saturatedFat": 12.0,
+      "sugar": 12.0,
+      "fibre": 9.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken wings",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 445,
+    "macros": {
+      "protein": 45.0,
+      "carbohydrates": 9.0,
+      "fat": 25.0,
+      "saturatedFat": 7.0,
+      "sugar": 0.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Children's beans on toast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 248,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 34.0,
+      "fat": 7.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 5.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Children's breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 435,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 27.0,
+      "fat": 25.0,
+      "saturatedFat": 8.0,
+      "sugar": 3.0,
+      "fibre": 5.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Children's vegetarian breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 281,
+    "macros": {
+      "protein": 15.0,
+      "carbohydrates": 28.0,
+      "fat": 11.0,
+      "saturatedFat": 4.0,
+      "sugar": 3.0,
+      "fibre": 6.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Children\u2019s ham and cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 437,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 63.0,
+      "fat": 10.0,
+      "saturatedFat": 5.0,
+      "sugar": 6.0,
+      "fibre": 4.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Children\u2019s ice cream pot",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Children\u2019s Margherita",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 417,
+    "macros": {
+      "protein": 18.0,
+      "carbohydrates": 63.0,
+      "fat": 10.0,
+      "saturatedFat": 5.0,
+      "sugar": 6.0,
+      "fibre": 4.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Children\u2019s roasted vegetable",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 462,
+    "macros": {
+      "protein": 19.0,
+      "carbohydrates": 68.0,
+      "fat": 11.0,
+      "saturatedFat": 5.0,
+      "sugar": 10.0,
+      "fibre": 6.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Children\u2019s vegan pizza",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 373,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 68.0,
+      "fat": 5.0,
+      "saturatedFat": 1.0,
+      "sugar": 9.0,
+      "fibre": 6.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Chilli bean non-carne",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 644,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 96.0,
+      "fat": 14.0,
+      "saturatedFat": 2.0,
+      "sugar": 18.0,
+      "fibre": 22.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Chip shop-style curry sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 109,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 7.0,
+      "fat": 8.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Chipotle mayo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 150,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 11.0,
+      "fat": 12.0,
+      "saturatedFat": 1.0,
+      "sugar": 10.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 602,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 85.0,
+      "fat": 24.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 6.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Chocolate & salted caramel torte",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 557,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 56.0,
+      "fat": 34.0,
+      "saturatedFat": 20.0,
+      "sugar": 35.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Classic beef burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1143,
+    "macros": {
+      "protein": 45.0,
+      "carbohydrates": 128.0,
+      "fat": 48.0,
+      "saturatedFat": 12.0,
+      "sugar": 11.0,
+      "fibre": 11.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cold chicken and sweet chilli sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 512,
+    "macros": {
+      "protein": 44.0,
+      "carbohydrates": 57.0,
+      "fat": 12.0,
+      "saturatedFat": 3.0,
+      "sugar": 7.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Coleslaw",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 399,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 7.0,
+      "fat": 40.0,
+      "saturatedFat": 3.0,
+      "sugar": 6.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Cookie crunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 267,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 36.0,
+      "fat": 12.0,
+      "saturatedFat": 7.0,
+      "sugar": 32.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Creamy jumbo oat porridge",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 175,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 22.0,
+      "fat": 6.0,
+      "saturatedFat": 3.0,
+      "sugar": 5.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Crunchy chicken strip burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1031,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 132.0,
+      "fat": 42.0,
+      "saturatedFat": 6.0,
+      "sugar": 8.0,
+      "fibre": 8.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cucumber sticks and tomato wedges",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 18,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 3.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Egg & bacon muffin",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 351,
+    "macros": {
+      "protein": 20.0,
+      "carbohydrates": 37.0,
+      "fat": 13.0,
+      "saturatedFat": 5.0,
+      "sugar": 4.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Egg & cheese muffin",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 286,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 37.0,
+      "fat": 8.0,
+      "saturatedFat": 3.0,
+      "sugar": 4.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Egg & sausage muffin",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 454,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 43.0,
+      "fat": 21.0,
+      "saturatedFat": 8.0,
+      "sugar": 5.0,
+      "fibre": 4.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Egg & vegetarian sausage muffin",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 357,
+    "macros": {
+      "protein": 19.0,
+      "carbohydrates": 43.0,
+      "fat": 11.0,
+      "saturatedFat": 5.0,
+      "sugar": 4.0,
+      "fibre": 5.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Eggs Benedict",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 774,
+    "macros": {
+      "protein": 48.0,
+      "carbohydrates": 40.0,
+      "fat": 46.0,
+      "saturatedFat": 7.0,
+      "sugar": 4.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Eight Whitby breaded scampi",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 464,
+    "macros": {
+      "protein": 22.0,
+      "carbohydrates": 37.0,
+      "fat": 25.0,
+      "saturatedFat": 1.0,
+      "sugar": 1.0,
+      "fibre": 4.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Emmental cheese sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 122,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 4.0,
+      "fat": 10.0,
+      "saturatedFat": 6.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Five Quorn nuggets",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 192,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 14.0,
+      "fat": 9.0,
+      "saturatedFat": 1.0,
+      "sugar": 3.0,
+      "fibre": 5.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Freedom breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": 30.0,
+      "carbohydrates": 36.0,
+      "fat": 34.0,
+      "saturatedFat": 10.0,
+      "sugar": 5.0,
+      "fibre": 7.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Fresh fruit",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 359,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 62.0,
+      "fat": 9.0,
+      "saturatedFat": 6.0,
+      "sugar": 59.0,
+      "fibre": 6.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Fresh fruit and yoghurt",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 320,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 56.0,
+      "fat": 7.0,
+      "saturatedFat": 5.0,
+      "sugar": 51.0,
+      "fibre": 6.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Freshly battered fish and chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1258,
+    "macros": {
+      "protein": 63.0,
+      "carbohydrates": 181.0,
+      "fat": 28.0,
+      "saturatedFat": 3.0,
+      "sugar": 4.0,
+      "fibre": 15.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Freshly battered small cod and chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 669,
+    "macros": {
+      "protein": 29.0,
+      "carbohydrates": 98.0,
+      "fat": 16.0,
+      "saturatedFat": 2.0,
+      "sugar": 3.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Freshly battered small haddock and chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 694,
+    "macros": {
+      "protein": 35.0,
+      "carbohydrates": 98.0,
+      "fat": 16.0,
+      "saturatedFat": 2.0,
+      "sugar": 3.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Freshly battered, sustainable haddock",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 290,
+    "macros": {
+      "protein": 25.0,
+      "carbohydrates": 44.0,
+      "fat": 1.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 2.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Fried buttermilk chicken",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 473,
+    "macros": {
+      "protein": 27.0,
+      "carbohydrates": 30.0,
+      "fat": 27.0,
+      "saturatedFat": 3.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Fried egg",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 56,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 0.0,
+      "fat": 4.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Fried halloumi-style cheese burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1266,
+    "macros": {
+      "protein": 40.0,
+      "carbohydrates": 142.0,
+      "fat": 58.0,
+      "saturatedFat": 22.0,
+      "sugar": 24.0,
+      "fibre": 10.0,
+      "salt": 7.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Garlic & herb dip",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 301,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 2.0,
+      "fat": 32.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Garlic and herb dip",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 180,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 1.0,
+      "fat": 19.0,
+      "saturatedFat": 1.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Garlic butter",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "gourmet jackets"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 123,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 13.0,
+      "saturatedFat": 2.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Garlic naan",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 366,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 48.0,
+      "fat": 16.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Garlic pizza bread",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 667,
+    "macros": {
+      "protein": 19.0,
+      "carbohydrates": 111.0,
+      "fat": 15.0,
+      "saturatedFat": 2.0,
+      "sugar": 3.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Garlic pizza bread with cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 479,
+    "macros": {
+      "protein": 17.0,
+      "carbohydrates": 58.0,
+      "fat": 19.0,
+      "saturatedFat": 7.0,
+      "sugar": 2.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Giant profiterole",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 429,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 42.0,
+      "fat": 27.0,
+      "saturatedFat": 15.0,
+      "sugar": 31.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Grated cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 292,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 1.0,
+      "fat": 23.0,
+      "saturatedFat": 15.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Grilled chicken breast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 187,
+    "macros": {
+      "protein": 36.0,
+      "carbohydrates": 2.0,
+      "fat": 4.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Guacamole",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 81,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 4.0,
+      "fat": 6.0,
+      "saturatedFat": 1.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Haggis",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 246,
+    "macros": {
+      "protein": 16.0,
+      "carbohydrates": 13.0,
+      "fat": 14.0,
+      "saturatedFat": 5.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Haggis, neeps and tatties",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 850,
+    "macros": {
+      "protein": 36.0,
+      "carbohydrates": 67.0,
+      "fat": 47.0,
+      "saturatedFat": 22.0,
+      "sugar": 12.0,
+      "fibre": 8.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Halloumi-style cheese and sweet chilli sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 741,
+    "macros": {
+      "protein": 34.0,
+      "carbohydrates": 59.0,
+      "fat": 40.0,
+      "saturatedFat": 21.0,
+      "sugar": 11.0,
+      "fibre": 4.0,
+      "salt": 6.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Halloumi-style fries",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 435,
+    "macros": {
+      "protein": 25.0,
+      "carbohydrates": 11.0,
+      "fat": 32.0,
+      "saturatedFat": 20.0,
+      "sugar": 9.0,
+      "fibre": 1.0,
+      "salt": 5.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Ham",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 80,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 0.0,
+      "fat": 3.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Ham & cheese wrap",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 321,
+    "macros": {
+      "protein": 24.0,
+      "carbohydrates": 29.0,
+      "fat": 12.0,
+      "saturatedFat": 6.0,
+      "sugar": 2.0,
+      "fibre": 1.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Ham and mushroom",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 517,
+    "macros": {
+      "protein": 30.0,
+      "carbohydrates": 61.0,
+      "fat": 16.0,
+      "saturatedFat": 9.0,
+      "sugar": 4.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Hash brown basket",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 410,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 60.0,
+      "fat": 17.0,
+      "saturatedFat": 2.0,
+      "sugar": 1.0,
+      "fibre": 4.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Honey",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 152,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 38.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 38.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Jacket potato",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 282,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 45.0,
+      "fat": 7.0,
+      "saturatedFat": 3.0,
+      "sugar": 5.0,
+      "fibre": 8.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Jacket potato with baked beans",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 423,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 67.0,
+      "fat": 7.0,
+      "saturatedFat": 1.0,
+      "sugar": 11.0,
+      "fibre": 16.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Jacket potato with cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 589,
+    "macros": {
+      "protein": 27.0,
+      "carbohydrates": 49.0,
+      "fat": 30.0,
+      "saturatedFat": 16.0,
+      "sugar": 8.0,
+      "fibre": 9.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Jacket potato with Chilli bean non-carne",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 445,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 66.0,
+      "fat": 9.0,
+      "saturatedFat": 1.0,
+      "sugar": 15.0,
+      "fibre": 19.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Jacket potato with coleslaw",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 563,
+    "macros": {
+      "protein": 6.0,
+      "carbohydrates": 54.0,
+      "fat": 33.0,
+      "saturatedFat": 3.0,
+      "sugar": 11.0,
+      "fibre": 10.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Jacket potato with roasted vegetables",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 364,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 61.0,
+      "fat": 6.0,
+      "saturatedFat": 1.0,
+      "sugar": 17.0,
+      "fibre": 13.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Jacket potato with tuna mayo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 597,
+    "macros": {
+      "protein": 37.0,
+      "carbohydrates": 50.0,
+      "fat": 26.0,
+      "saturatedFat": 2.0,
+      "sugar": 8.0,
+      "fibre": 9.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Katsu chicken curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 844,
+    "macros": {
+      "protein": 33.0,
+      "carbohydrates": 93.0,
+      "fat": 37.0,
+      "saturatedFat": 6.0,
+      "sugar": 3.0,
+      "fibre": 5.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Katsu grilled chicken curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 558,
+    "macros": {
+      "protein": 42.0,
+      "carbohydrates": 64.0,
+      "fat": 14.0,
+      "saturatedFat": 4.0,
+      "sugar": 3.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Katsu Quorn nugget curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 678,
+    "macros": {
+      "protein": 26.0,
+      "carbohydrates": 84.0,
+      "fat": 24.0,
+      "saturatedFat": 4.0,
+      "sugar": 7.0,
+      "fibre": 11.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Korean BBQ beef",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1357,
+    "macros": {
+      "protein": 70.0,
+      "carbohydrates": 181.0,
+      "fat": 37.0,
+      "saturatedFat": 19.0,
+      "sugar": 59.0,
+      "fibre": 9.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Korean crunchy chicken strip burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 682,
+    "macros": {
+      "protein": 25.0,
+      "carbohydrates": 94.0,
+      "fat": 22.0,
+      "saturatedFat": 4.0,
+      "sugar": 9.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Korean fried chicken",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 620,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 81.0,
+      "fat": 18.0,
+      "saturatedFat": 5.0,
+      "sugar": 11.0,
+      "fibre": 3.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Korean sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 96,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 23.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 20.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Large breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1312,
+    "macros": {
+      "protein": 53.0,
+      "carbohydrates": 107.0,
+      "fat": 72.0,
+      "saturatedFat": 23.0,
+      "sugar": 6.0,
+      "fibre": 11.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Large vegetarian breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1067,
+    "macros": {
+      "protein": 40.0,
+      "carbohydrates": 114.0,
+      "fat": 47.0,
+      "saturatedFat": 18.0,
+      "sugar": 6.0,
+      "fibre": 14.0,
+      "salt": 5.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Loaded chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1303,
+    "macros": {
+      "protein": 33.0,
+      "carbohydrates": 141.0,
+      "fat": 66.0,
+      "saturatedFat": 20.0,
+      "sugar": 7.0,
+      "fibre": 10.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Macaroni cheese bites",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 324,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 45.0,
+      "fat": 10.0,
+      "saturatedFat": 6.0,
+      "sugar": 18.0,
+      "fibre": 1.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Malaysian chicken & baby sweetcorn curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 705,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 95.0,
+      "fat": 20.0,
+      "saturatedFat": 12.0,
+      "sugar": 14.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mangalorean roasted cauliflower & spinach curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 922,
+    "macros": {
+      "protein": 22.0,
+      "carbohydrates": 129.0,
+      "fat": 33.0,
+      "saturatedFat": 13.0,
+      "sugar": 13.0,
+      "fibre": 13.0,
+      "salt": 6.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Maple-cured bacon",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 91,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 1.0,
+      "fat": 6.0,
+      "saturatedFat": 3.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Maple-cured bacon with American-style cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 171,
+    "macros": {
+      "protein": 11.0,
+      "carbohydrates": 3.0,
+      "fat": 13.0,
+      "saturatedFat": 6.0,
+      "sugar": 2.0,
+      "fibre": 0.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Maple-cured bacon with Cheddar cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 173,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 1.0,
+      "fat": 13.0,
+      "saturatedFat": 7.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Maple-flavour syrup",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 127,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 31.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 24.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Maple-flavoured syrup",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 19,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 4.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 1.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Margherita",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 475,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 61.0,
+      "fat": 15.0,
+      "saturatedFat": 8.0,
+      "sugar": 4.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Marmalade",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 75,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 19.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 19.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mashed potato",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 280,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 33.0,
+      "fat": 15.0,
+      "saturatedFat": 9.0,
+      "sugar": 2.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mediterranean salad",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 214,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 20.0,
+      "fat": 13.0,
+      "saturatedFat": 1.0,
+      "sugar": 3.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mediterranean vegetable",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1026,
+    "macros": {
+      "protein": 49.0,
+      "carbohydrates": 134.0,
+      "fat": 30.0,
+      "saturatedFat": 17.0,
+      "sugar": 18.0,
+      "fibre": 11.0,
+      "salt": 5.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mediterranean vegetables",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 36,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 6.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 5.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Millionaire\u2019s shortbread",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 311,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 43.0,
+      "fat": 14.0,
+      "saturatedFat": 9.0,
+      "sugar": 35.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Miner\u2019s Benedict",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 749,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 58.0,
+      "fat": 44.0,
+      "saturatedFat": 6.0,
+      "sugar": 4.0,
+      "fibre": 7.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mini American-style pancakes",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 114.0,
+      "fat": 8.0,
+      "saturatedFat": 1.0,
+      "sugar": 60.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mini American-style pancakes with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 377,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 68.0,
+      "fat": 8.0,
+      "saturatedFat": 3.0,
+      "sugar": 41.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mini warm chocolate brownie",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 300,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 38.0,
+      "fat": 15.0,
+      "saturatedFat": 7.0,
+      "sugar": 32.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mini warm chocolate brownie with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 387,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 49.0,
+      "fat": 19.0,
+      "saturatedFat": 10.0,
+      "sugar": 42.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mini warm cookie dough sandwich",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 252,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 42.0,
+      "fat": 8.0,
+      "saturatedFat": 4.0,
+      "sugar": 25.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mini warm cookie dough sandwich with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 339,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 53.0,
+      "fat": 12.0,
+      "saturatedFat": 7.0,
+      "sugar": 35.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mozzarella",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 164,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 1.0,
+      "fat": 12.0,
+      "saturatedFat": 8.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mushroom",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 4,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mushroom Benedict",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 709,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 39.0,
+      "fat": 51.0,
+      "saturatedFat": 8.0,
+      "sugar": 4.0,
+      "fibre": 5.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Nachos",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 851,
+    "macros": {
+      "protein": 29.0,
+      "carbohydrates": 58.0,
+      "fat": 54.0,
+      "saturatedFat": 24.0,
+      "sugar": 8.0,
+      "fibre": 8.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Naga chilli",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 7.0,
+      "fat": 12.0,
+      "saturatedFat": 1.0,
+      "sugar": 4.0,
+      "fibre": 1.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Naga chilli chicken vindaloo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 949,
+    "macros": {
+      "protein": 53.0,
+      "carbohydrates": 121.0,
+      "fat": 26.0,
+      "saturatedFat": 2.0,
+      "sugar": 12.0,
+      "fibre": 12.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "No-added-sugar baked beans",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 63,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 9.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 2.0,
+      "fibre": 4.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "One crunchy chicken strip",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 92,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 7.0,
+      "fat": 4.0,
+      "saturatedFat": 1.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "One slice of black pudding",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 67,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 9.0,
+      "fat": 1.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Onion bhajis",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 227,
+    "macros": {
+      "protein": 6.0,
+      "carbohydrates": 22.0,
+      "fat": 12.0,
+      "saturatedFat": 3.0,
+      "sugar": 7.0,
+      "fibre": 4.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Onion rings",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 244,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 28.0,
+      "fat": 13.0,
+      "saturatedFat": 2.0,
+      "sugar": 5.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pancakes",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 245,
+    "macros": {
+      "protein": 6.0,
+      "carbohydrates": 45.0,
+      "fat": 4.0,
+      "saturatedFat": 0.0,
+      "sugar": 21.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pasta alfredo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 492,
+    "macros": {
+      "protein": 20.0,
+      "carbohydrates": 60.0,
+      "fat": 18.0,
+      "saturatedFat": 10.0,
+      "sugar": 8.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Peas",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 74,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 8.0,
+      "fat": 1.0,
+      "saturatedFat": 0.0,
+      "sugar": 1.0,
+      "fibre": 4.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pepperoni",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1130,
+    "macros": {
+      "protein": 52.0,
+      "carbohydrates": 121.0,
+      "fat": 47.0,
+      "saturatedFat": 23.0,
+      "sugar": 7.0,
+      "fibre": 7.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pigs-in-blankets",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 430,
+    "macros": {
+      "protein": 24.0,
+      "carbohydrates": 15.0,
+      "fat": 30.0,
+      "saturatedFat": 11.0,
+      "sugar": 13.0,
+      "fibre": 1.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Plant-based burger patty",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 226,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 5.0,
+      "fat": 15.0,
+      "saturatedFat": 7.0,
+      "sugar": 0.0,
+      "fibre": 7.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Poached eggs on toast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 494,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 51.0,
+      "fat": 21.0,
+      "saturatedFat": 6.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Poppadum's",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 86,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 15.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Poppadum's and dips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 86,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 15.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pork sausages",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 336,
+    "macros": {
+      "protein": 14.0,
+      "carbohydrates": 12.0,
+      "fat": 25.0,
+      "saturatedFat": 9.0,
+      "sugar": 2.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Quorn 'no' chicken nuggets basket",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 569,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 42.0,
+      "fat": 33.0,
+      "saturatedFat": 3.0,
+      "sugar": 22.0,
+      "fibre": 9.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Quorn nuggets",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 192,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 14.0,
+      "fat": 9.0,
+      "saturatedFat": 1.0,
+      "sugar": 3.0,
+      "fibre": 5.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Quorn nuggets and sweet chilli sauce",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 535,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 71.0,
+      "fat": 17.0,
+      "saturatedFat": 3.0,
+      "sugar": 12.0,
+      "fibre": 8.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Quorn\u2122 \u2018no chicken\u2019 spice bag with chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 944,
+    "macros": {
+      "protein": 29.0,
+      "carbohydrates": 113.0,
+      "fat": 39.0,
+      "saturatedFat": 4.0,
+      "sugar": 10.0,
+      "fibre": 14.0,
+      "salt": 7.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Quorn\u2122 \u2018no chicken\u2019 spice bag with coconut-flavoured rice",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 601,
+    "macros": {
+      "protein": 26.0,
+      "carbohydrates": 83.0,
+      "fat": 16.0,
+      "saturatedFat": 2.0,
+      "sugar": 9.0,
+      "fibre": 9.0,
+      "salt": 6.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Ramen noodle bowl",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 202,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 36.0,
+      "fat": 3.0,
+      "saturatedFat": 0.0,
+      "sugar": 8.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Red onion",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 10,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 2.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Red wine gravy",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 37,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 5.0,
+      "fat": 1.0,
+      "saturatedFat": 0.0,
+      "sugar": 1.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Roasted Mediterranean vegetable",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 349,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 66.0,
+      "fat": 3.0,
+      "saturatedFat": 0.0,
+      "sugar": 8.0,
+      "fibre": 6.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Roasted vegetable",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 513,
+    "macros": {
+      "protein": 25.0,
+      "carbohydrates": 67.0,
+      "fat": 15.0,
+      "saturatedFat": 8.0,
+      "sugar": 9.0,
+      "fibre": 6.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Roasted vegetables",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 36,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 6.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 5.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Salsa",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 19,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 4.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 1.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Salted caramel sticky toffee pudding",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 779,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 98.0,
+      "fat": 39.0,
+      "saturatedFat": 21.0,
+      "sugar": 76.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Sausage",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 168,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 6.0,
+      "fat": 13.0,
+      "saturatedFat": 4.0,
+      "sugar": 1.0,
+      "fibre": 1.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sausage butty",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 706,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 62.0,
+      "fat": 40.0,
+      "saturatedFat": 12.0,
+      "sugar": 3.0,
+      "fibre": 5.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sausages, chips and beans",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1170,
+    "macros": {
+      "protein": 33.0,
+      "carbohydrates": 113.0,
+      "fat": 62.0,
+      "saturatedFat": 16.0,
+      "sugar": 7.0,
+      "fibre": 13.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Scrambled egg on toast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 568,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 52.0,
+      "fat": 27.0,
+      "saturatedFat": 10.0,
+      "sugar": 3.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Shawarma chicken",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 739,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 58.0,
+      "fat": 42.0,
+      "saturatedFat": 7.0,
+      "sugar": 6.0,
+      "fibre": 4.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Shawarma-chicken-topped chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1300,
+    "macros": {
+      "protein": 35.0,
+      "carbohydrates": 141.0,
+      "fat": 64.0,
+      "saturatedFat": 9.0,
+      "sugar": 5.0,
+      "fibre": 11.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Side salad",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "gourmet jackets"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 111,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 6.0,
+      "fat": 9.0,
+      "saturatedFat": 1.0,
+      "sugar": 4.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Simple beef madras",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 725,
+    "macros": {
+      "protein": 35.0,
+      "carbohydrates": 67.0,
+      "fat": 33.0,
+      "saturatedFat": 12.0,
+      "sugar": 17.0,
+      "fibre": 11.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Simple chicken jalfrezi",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 560,
+    "macros": {
+      "protein": 41.0,
+      "carbohydrates": 57.0,
+      "fat": 17.0,
+      "saturatedFat": 2.0,
+      "sugar": 11.0,
+      "fibre": 8.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Simple chicken tikka masala",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 672,
+    "macros": {
+      "protein": 40.0,
+      "carbohydrates": 59.0,
+      "fat": 30.0,
+      "saturatedFat": 11.0,
+      "sugar": 10.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Simple Mangalorean roasted cauliflower & spinach curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 563,
+    "macros": {
+      "protein": 10.0,
+      "carbohydrates": 67.0,
+      "fat": 26.0,
+      "saturatedFat": 13.0,
+      "sugar": 11.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Simple sweet potato, chickpea & spinach curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 959,
+    "macros": {
+      "protein": 15.0,
+      "carbohydrates": 119.0,
+      "fat": 43.0,
+      "saturatedFat": 15.0,
+      "sugar": 21.0,
+      "fibre": 19.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Simple Welsh dragon curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 535,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 59.0,
+      "fat": 18.0,
+      "saturatedFat": 2.0,
+      "sugar": 6.0,
+      "fibre": 7.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sliced chillies",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 3,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Small all-day brunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 681,
+    "macros": {
+      "protein": 27.0,
+      "carbohydrates": 62.0,
+      "fat": 34.0,
+      "saturatedFat": 9.0,
+      "sugar": 4.0,
+      "fibre": 8.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Small American breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 643,
+    "macros": {
+      "protein": 22.0,
+      "carbohydrates": 76.0,
+      "fat": 27.0,
+      "saturatedFat": 8.0,
+      "sugar": 32.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Small American-style pancakes with bacon, maple-flavoured syrup",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 336,
+    "macros": {
+      "protein": 10.0,
+      "carbohydrates": 58.0,
+      "fat": 7.0,
+      "saturatedFat": 2.0,
+      "sugar": 31.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Small American-style pancakes with maple-flavour syrup",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 291,
+    "macros": {
+      "protein": 6.0,
+      "carbohydrates": 57.0,
+      "fat": 4.0,
+      "saturatedFat": 0.0,
+      "sugar": 30.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Small beans on toast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 248,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 34.0,
+      "fat": 7.0,
+      "saturatedFat": 2.0,
+      "sugar": 2.0,
+      "fibre": 5.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Small breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 435,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 27.0,
+      "fat": 25.0,
+      "saturatedFat": 8.0,
+      "sugar": 3.0,
+      "fibre": 5.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Small Haggis, neeps and tatties",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 425,
+    "macros": {
+      "protein": 18.0,
+      "carbohydrates": 33.0,
+      "fat": 23.0,
+      "saturatedFat": 11.0,
+      "sugar": 6.0,
+      "fibre": 4.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Small vegetarian all-day brunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 591,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 68.0,
+      "fat": 23.0,
+      "saturatedFat": 7.0,
+      "sugar": 3.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Small vegetarian breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 281,
+    "macros": {
+      "protein": 15.0,
+      "carbohydrates": 28.0,
+      "fat": 11.0,
+      "saturatedFat": 4.0,
+      "sugar": 3.0,
+      "fibre": 6.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Small Whitby breaded scampi",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 636,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 73.0,
+      "fat": 27.0,
+      "saturatedFat": 2.0,
+      "sugar": 3.0,
+      "fibre": 10.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Small Wiltshire cured ham, egg and chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 464,
+    "macros": {
+      "protein": 24.0,
+      "carbohydrates": 47.0,
+      "fat": 20.0,
+      "saturatedFat": 3.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Smashed avocado muffin",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 302,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 43.0,
+      "fat": 9.0,
+      "saturatedFat": 2.0,
+      "sugar": 6.0,
+      "fibre": 7.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sour cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 103,
+    "macros": {
+      "protein": 2.0,
+      "carbohydrates": 3.0,
+      "fat": 9.0,
+      "saturatedFat": 6.0,
+      "sugar": 3.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Southern-fried chicken and smoky chipotle mayo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 636,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 75.0,
+      "fat": 23.0,
+      "saturatedFat": 5.0,
+      "sugar": 6.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Southern-fried chicken strips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 547,
+    "macros": {
+      "protein": 38.0,
+      "carbohydrates": 54.0,
+      "fat": 18.0,
+      "saturatedFat": 6.0,
+      "sugar": 17.0,
+      "fibre": 1.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Southern-fried chicken strips basket",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 747,
+    "macros": {
+      "protein": 40.0,
+      "carbohydrates": 60.0,
+      "fat": 37.0,
+      "saturatedFat": 7.0,
+      "sugar": 21.0,
+      "fibre": 2.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 310,
+    "macros": {
+      "protein": 11.0,
+      "carbohydrates": 44.0,
+      "fat": 8.0,
+      "saturatedFat": 2.0,
+      "sugar": 9.0,
+      "fibre": 7.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spice bag with chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1065,
+    "macros": {
+      "protein": 49.0,
+      "carbohydrates": 125.0,
+      "fat": 40.0,
+      "saturatedFat": 7.0,
+      "sugar": 7.0,
+      "fibre": 6.0,
+      "salt": 8.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spice bag with coconut-flavoured rice",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 722,
+    "macros": {
+      "protein": 46.0,
+      "carbohydrates": 95.0,
+      "fat": 17.0,
+      "saturatedFat": 5.0,
+      "sugar": 5.0,
+      "fibre": 2.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy chicken",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 687,
+    "macros": {
+      "protein": 34.0,
+      "carbohydrates": 64.0,
+      "fat": 32.0,
+      "saturatedFat": 11.0,
+      "sugar": 5.0,
+      "fibre": 4.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy meat feast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "small plates"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 616,
+    "macros": {
+      "protein": 41.0,
+      "carbohydrates": 62.0,
+      "fat": 22.0,
+      "saturatedFat": 11.0,
+      "sugar": 4.0,
+      "fibre": 3.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy rice",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 203,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 42.0,
+      "fat": 2.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sri-Lankan prawn & fish curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 926,
+    "macros": {
+      "protein": 39.0,
+      "carbohydrates": 119.0,
+      "fat": 31.0,
+      "saturatedFat": 10.0,
+      "sugar": 12.0,
+      "fibre": 11.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Steak & ale pudding",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1298,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 137.0,
+      "fat": 66.0,
+      "saturatedFat": 23.0,
+      "sugar": 5.0,
+      "fibre": 12.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sticky Korean fried chicken bowl",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 883,
+    "macros": {
+      "protein": 46.0,
+      "carbohydrates": 135.0,
+      "fat": 17.0,
+      "saturatedFat": 5.0,
+      "sugar": 42.0,
+      "fibre": 2.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sticky Korean fried Quorn \u2018no chicken\u2019 bowl",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 761,
+    "macros": {
+      "protein": 26.0,
+      "carbohydrates": 124.0,
+      "fat": 16.0,
+      "saturatedFat": 2.0,
+      "sugar": 45.0,
+      "fibre": 9.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sticky Korean grilled chicken breast bowl",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 984,
+    "macros": {
+      "protein": 45.0,
+      "carbohydrates": 134.0,
+      "fat": 29.0,
+      "saturatedFat": 4.0,
+      "sugar": 43.0,
+      "fibre": 7.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sticky soy",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 112,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 26.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 24.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Strawberries",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 14,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 3.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Strawberries & blueberries",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 31,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 6.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 5.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Strawberry bear Yoyo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 57,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 13.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 8.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Strawberry Jam",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 74,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 18.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 18.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sweet chilli",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 37,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 9.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 8.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sweet potato, chickpea & spinach curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 912,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 139.0,
+      "fat": 26.0,
+      "saturatedFat": 13.0,
+      "sugar": 22.0,
+      "fibre": 17.0,
+      "salt": 6.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Tenderstem broccoli",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 35,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 3.0,
+      "fat": 1.0,
+      "saturatedFat": 0.0,
+      "sugar": 2.0,
+      "fibre": 3.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Tenderstem broccoli and peas",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 109,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 11.0,
+      "fat": 2.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.0,
+      "fibre": 7.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Tennessee burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1566,
+    "macros": {
+      "protein": 55.0,
+      "carbohydrates": 175.0,
+      "fat": 67.0,
+      "saturatedFat": 17.0,
+      "sugar": 32.0,
+      "fibre": 13.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Thai green sweet potato curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 746,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 98.0,
+      "fat": 32.0,
+      "saturatedFat": 23.0,
+      "sugar": 18.0,
+      "fibre": 10.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "The big smoke burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1679,
+    "macros": {
+      "protein": 63.0,
+      "carbohydrates": 187.0,
+      "fat": 72.0,
+      "saturatedFat": 19.0,
+      "sugar": 43.0,
+      "fibre": 14.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "The Empire State",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1883,
+    "macros": {
+      "protein": 89.0,
+      "carbohydrates": 160.0,
+      "fat": 96.0,
+      "saturatedFat": 30.0,
+      "sugar": 24.0,
+      "fibre": 14.0,
+      "salt": 7.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "The loaded spud",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "gourmet jackets"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 854,
+    "macros": {
+      "protein": 35.0,
+      "carbohydrates": 52.0,
+      "fat": 54.0,
+      "saturatedFat": 24.0,
+      "sugar": 10.0,
+      "fibre": 9.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "The Mexican spud",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "gourmet jackets"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 697,
+    "macros": {
+      "protein": 26.0,
+      "carbohydrates": 74.0,
+      "fat": 28.0,
+      "saturatedFat": 10.0,
+      "sugar": 17.0,
+      "fibre": 22.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "The Plant burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "burgers"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1213,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 131.0,
+      "fat": 60.0,
+      "saturatedFat": 11.0,
+      "sugar": 10.0,
+      "fibre": 16.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "The smoky spud",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "gourmet jackets"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 659,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 72.0,
+      "fat": 26.0,
+      "saturatedFat": 10.0,
+      "sugar": 27.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Toast and preserves",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 449,
+    "macros": {
+      "protein": 10.0,
+      "carbohydrates": 67.0,
+      "fat": 15.0,
+      "saturatedFat": 6.0,
+      "sugar": 19.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Tomato & mascarpone pasta",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 265,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 38.0,
+      "fat": 8.0,
+      "saturatedFat": 3.0,
+      "sugar": 7.0,
+      "fibre": 4.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Traditional breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 770,
+    "macros": {
+      "protein": 35.0,
+      "carbohydrates": 64.0,
+      "fat": 40.0,
+      "saturatedFat": 13.0,
+      "sugar": 4.0,
+      "fibre": 8.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tuna mayo",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "jacket potatoes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 298,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 1.0,
+      "fat": 19.0,
+      "saturatedFat": 2.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tuna mayo and Cheddar cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": 34.0,
+      "carbohydrates": 55.0,
+      "fat": 24.0,
+      "saturatedFat": 10.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Two grilled tomato halves",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 16,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 2.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 2.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Two hash browns",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 82,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 12.0,
+      "fat": 3.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Two mushrooms",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 94,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 0.0,
+      "fat": 10.0,
+      "saturatedFat": 4.0,
+      "sugar": 0.0,
+      "fibre": 1.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Two onion bhajis",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 227,
+    "macros": {
+      "protein": 6.0,
+      "carbohydrates": 22.0,
+      "fat": 12.0,
+      "saturatedFat": 3.0,
+      "sugar": 7.0,
+      "fibre": 4.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Two scrambled eggs",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 2.0,
+      "fat": 9.0,
+      "saturatedFat": 3.0,
+      "sugar": 2.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Two slices of bacon",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 131,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 0.0,
+      "fat": 9.0,
+      "saturatedFat": 3.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Two slices of black pudding",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 355,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 16.0,
+      "fat": 28.0,
+      "saturatedFat": 10.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 2.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Two vegetable samosas",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 363,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 35.0,
+      "fat": 22.0,
+      "saturatedFat": 5.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Ultimate burger",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1698,
+    "macros": {
+      "protein": 60.0,
+      "carbohydrates": 163.0,
+      "fat": 86.0,
+      "saturatedFat": 22.0,
+      "sugar": 23.0,
+      "fibre": 14.0,
+      "salt": 6.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Vanilla ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 237,
+    "macros": {
+      "protein": 3.0,
+      "carbohydrates": 35.0,
+      "fat": 9.0,
+      "saturatedFat": 6.0,
+      "sugar": 33.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vegan beans on toast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 452,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 77.0,
+      "fat": 3.0,
+      "saturatedFat": 0.0,
+      "sugar": 6.0,
+      "fibre": 13.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegan breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 612,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 72.0,
+      "fat": 24.0,
+      "saturatedFat": 9.0,
+      "sugar": 6.0,
+      "fibre": 11.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegan Mediterranean vegetable",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "pizza"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 697,
+    "macros": {
+      "protein": 24.0,
+      "carbohydrates": 133.0,
+      "fat": 5.0,
+      "saturatedFat": 1.0,
+      "sugar": 16.0,
+      "fibre": 11.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegan sausage",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 72,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 6.0,
+      "fat": 3.0,
+      "saturatedFat": 2.0,
+      "sugar": 0.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegan sausages",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 143,
+    "macros": {
+      "protein": 9.0,
+      "carbohydrates": 12.0,
+      "fat": 6.0,
+      "saturatedFat": 4.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 2.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegan sausages, chips and beans",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 880,
+    "macros": {
+      "protein": 25.0,
+      "carbohydrates": 112.0,
+      "fat": 33.0,
+      "saturatedFat": 9.0,
+      "sugar": 4.0,
+      "fibre": 15.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegetable samosa",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 363,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 35.0,
+      "fat": 22.0,
+      "saturatedFat": 5.0,
+      "sugar": 1.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vegetarian all-day brunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 992,
+    "macros": {
+      "protein": 36.0,
+      "carbohydrates": 112.0,
+      "fat": 41.0,
+      "saturatedFat": 11.0,
+      "sugar": 4.0,
+      "fibre": 15.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vegetarian bangers and mash",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 606,
+    "macros": {
+      "protein": 22.0,
+      "carbohydrates": 63.0,
+      "fat": 27.0,
+      "saturatedFat": 16.0,
+      "sugar": 5.0,
+      "fibre": 10.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vegetarian breakfast",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 725,
+    "macros": {
+      "protein": 31.0,
+      "carbohydrates": 71.0,
+      "fat": 33.0,
+      "saturatedFat": 12.0,
+      "sugar": 5.0,
+      "fibre": 10.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vegetarian breakfast wrap",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 742,
+    "macros": {
+      "protein": 28.0,
+      "carbohydrates": 85.0,
+      "fat": 31.0,
+      "saturatedFat": 12.0,
+      "sugar": 2.0,
+      "fibre": 7.0,
+      "salt": 4.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vegetarian brunch",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 634,
+    "macros": {
+      "protein": 32.0,
+      "carbohydrates": 61.0,
+      "fat": 28.0,
+      "saturatedFat": 12.0,
+      "sugar": 1.0,
+      "fibre": 5.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Vegetarian sausage butty",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 512,
+    "macros": {
+      "protein": 18.0,
+      "carbohydrates": 61.0,
+      "fat": 20.0,
+      "saturatedFat": 8.0,
+      "sugar": 2.0,
+      "fibre": 6.0,
+      "salt": 3.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Warm chocolate brownie",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 601,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 77.0,
+      "fat": 29.0,
+      "saturatedFat": 14.0,
+      "sugar": 63.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Warm chocolate brownie with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 687,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 87.0,
+      "fat": 34.0,
+      "saturatedFat": 17.0,
+      "sugar": 74.0,
+      "fibre": 2.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Warm chocolate fudge cake",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 639,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 73.0,
+      "fat": 35.0,
+      "saturatedFat": 15.0,
+      "sugar": 55.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Warm chocolate fudge cake with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 812,
+    "macros": {
+      "protein": 10.0,
+      "carbohydrates": 94.0,
+      "fat": 43.0,
+      "saturatedFat": 21.0,
+      "sugar": 76.0,
+      "fibre": 3.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Warm cookie dough sandwich",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 504,
+    "macros": {
+      "protein": 5.0,
+      "carbohydrates": 84.0,
+      "fat": 16.0,
+      "saturatedFat": 7.0,
+      "sugar": 49.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Warm cookie dough sandwich with ice cream",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 591,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 95.0,
+      "fat": 20.0,
+      "saturatedFat": 10.0,
+      "sugar": 60.0,
+      "fibre": 2.0,
+      "salt": 1.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Welsh dragon curry",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 895,
+    "macros": {
+      "protein": 43.0,
+      "carbohydrates": 121.0,
+      "fat": 24.0,
+      "saturatedFat": 3.0,
+      "sugar": 9.0,
+      "fibre": 10.0,
+      "salt": 5.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Whitby breaded scampi",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1142,
+    "macros": {
+      "protein": 35.0,
+      "carbohydrates": 130.0,
+      "fat": 50.0,
+      "saturatedFat": 4.0,
+      "sugar": 4.0,
+      "fibre": 14.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Wiltshire cured ham & fried free-range egg",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 19.0,
+      "carbohydrates": 0.0,
+      "fat": 6.0,
+      "saturatedFat": 2.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 1.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Wiltshire cured ham and Cheddar cheese",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "deli deals"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 589,
+    "macros": {
+      "protein": 37.0,
+      "carbohydrates": 55.0,
+      "fat": 24.0,
+      "saturatedFat": 14.0,
+      "sugar": 1.0,
+      "fibre": 2.0,
+      "salt": 3.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Wiltshire cured ham, eggs and chips",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "uncategorised"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 874,
+    "macros": {
+      "protein": 47.0,
+      "carbohydrates": 86.0,
+      "fat": 37.0,
+      "saturatedFat": 6.0,
+      "sugar": 3.0,
+      "fibre": 6.0,
+      "salt": 4.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Yoghurt pot",
+    "url": "https://allergens.jdwetherspoon.com/?pubId=5",
+    "type": "food",
+    "categories": [
+      "breakfast"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 134,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 15.0,
+      "fat": 7.0,
+      "saturatedFat": 4.0,
+      "sugar": 13.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  }
+]
