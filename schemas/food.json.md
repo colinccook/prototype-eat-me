@@ -8,6 +8,8 @@ Menu items conform to this schema. The schema is designed to capture nutritional
 {
   "name": "string",
   "url": "string | null (optional)",
+  "type": "string | null (optional, 'food' | 'drink' | 'other')",
+  "categories": ["string"] | null (optional),
   "ingestionDate": "string | null (optional, YYYY-MM-DD)",
   "archiveDate": "string | null (optional, YYYY-MM-DD)",
   "calories": "number",
@@ -93,6 +95,8 @@ All allergen fields are optional and nullable. A `true` value indicates the alle
 | Field | Type | Description |
 |-------|------|-------------|
 | `url` | string \| null | Canonical product or menu page URL for the item when the source provides one |
+| `type` | string \| null | The kind of item: `"food"`, `"drink"`, or `"other"`. AI ingestion agents should infer this from the item name and menu context (e.g., "Latte" → `"drink"`, "Big Mac" → `"food"`). Omit or set to `null` when the type cannot be confidently determined |
+| `categories` | array of strings \| null | Menu categories the item belongs to, captured from the navigation path during ingestion (e.g., `["breakfast"]`, `["sides", "sharing"]`). These are restaurant-specific and do not need to be consistent across restaurants |
 | `ingestionDate` | string \| null | The local date the item batch was ingested, stored as `YYYY-MM-DD`; AI ingestion agents should set this to their current local date, and the merge step will backfill today's date if omitted |
 | `archiveDate` | string \| null | The local date the item was archived after disappearing from the latest source data, stored as `YYYY-MM-DD`; archived items stay in source files for history but should be omitted from merged active datasets |
 | `ingredients` | array of strings \| null | List of ingredients if available |

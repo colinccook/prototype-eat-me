@@ -50,8 +50,10 @@ for (const region of regionsIndex.regions) {
 
       allItems.push({
         ...item,
+        // Backfill ingestionDate if the source item doesn't have one
         ingestionDate: item.ingestionDate ?? today,
         restaurant: restaurant.name,
+        // type and categories are passed through via spread when present
       });
     }
   }

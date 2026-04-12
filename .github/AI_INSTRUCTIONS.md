@@ -42,6 +42,8 @@ Parse the source document and extract menu items. Each item should conform to th
 ```json
 {
   "name": "string",
+  "type": "string (optional - 'food', 'drink', or 'other')",
+  "categories": ["string (optional - menu sections from navigation)"],
   "calories": "number",
   "macros": {
     "protein": "number",
@@ -69,9 +71,11 @@ Create or update `/data/{region}/{restaurant}/food.json` with the format:
 }
 ```
 
-Each item may include optional `url`, `ingestionDate`, and `archiveDate` fields.
+Each item may include optional `url`, `type`, `categories`, `ingestionDate`, and `archiveDate` fields.
 
 - If the source material or restaurant site provides a stable product or menu page URL for the item, record it in `url`.
+- Set `type` to `"food"`, `"drink"`, or `"other"` based on the item name and menu context. Infer the type: beverages like lattes, smoothies, juices, and sodas are `"drink"`; edible menu items are `"food"`; condiments, gift cards, or non-consumables are `"other"`. Omit if uncertain.
+- Set `categories` to an array of menu section names encountered during navigation (e.g., `["breakfast"]`, `["chicken & fish"]`). These are restaurant-specific and do not need to be consistent across restaurants. Omit if no navigational context is available.
 - Set `ingestionDate` to your current local date whenever you create a new item or materially refresh an item's extracted data from source documents.
 - If you omit it, the merge step will backfill today's local date automatically when generating merged regional data.
 - If an item existed previously but is no longer present in the latest source documents, do not delete it from the restaurant `food.json`; instead set `archiveDate` to your current local date so the record remains historically traceable while being excluded from merged active data.
@@ -128,6 +132,8 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 5. **Remove duplicates**: Prevent duplicate entries when regenerating merged files
 6. **Stamp ingestion date**: Set `ingestionDate` to the local `YYYY-MM-DD` date for newly ingested or refreshed items; if missed, the merge step will apply today's date
 7. **Archive removals**: When an item disappears from the latest source data, set `archiveDate` to today's local `YYYY-MM-DD` date instead of deleting the historical record
+8. **Classify type**: Set `type` to `"food"`, `"drink"`, or `"other"` based on item name and menu context; omit if uncertain
+9. **Record categories**: Set `categories` to the menu section names navigated during ingestion (e.g., `["breakfast"]`); omit if no navigational context is available
 
 ## Build-Time Data Merging
 
