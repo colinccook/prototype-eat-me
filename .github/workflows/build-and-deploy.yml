@@ -41,10 +41,6 @@ jobs:
       working-directory: src/react-app
       run: npm run test:coverage
 
-    - name: Merge restaurant food data
-      working-directory: src/react-app
-      run: npm run merge-food-data
-
     - name: Build React app
       working-directory: src/react-app
       run: npm run build
@@ -55,6 +51,13 @@ jobs:
         name: react-app-dist
         path: src/react-app/dist
         retention-days: 1
+
+    - name: Merge restaurant food data
+      working-directory: src/react-app
+      run: npm run merge-food-data
+
+    - name: Overlay merged food data into build output
+      run: find src/react-app/public/data -name 'food.json' | while read f; do cp "$f" "src/react-app/dist/${f#src/react-app/public/}"; done
 
     - name: Upload artifact for Pages
       uses: actions/upload-pages-artifact@v3

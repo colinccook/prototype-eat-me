@@ -1,485 +1,4512 @@
-{
-  "restaurant": "Pret A Manger",
-  "items": [
-    {
-      "name": "Almond Croissant",
-      "calories": 382,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 40.0,
-        "fat": 21.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+[
+  {
+    "name": "12oz Chai Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 208,
+    "macros": {
+      "protein": 11.0,
+      "carbohydrates": 29.4,
+      "fat": 5.1,
+      "saturatedFat": 3.2,
+      "sugar": 28.2,
+      "fibre": 0.0,
+      "salt": 0.0
     },
-    {
-      "name": "BLT Sandwich",
-      "calories": 430,
-      "macros": {
-        "protein": 16.0,
-        "carbohydrates": 41.0,
-        "fat": 22.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "8oz Flat White",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 98,
+    "macros": {
+      "protein": 6.8,
+      "carbohydrates": 10.0,
+      "fat": 3.4,
+      "saturatedFat": 2.0,
+      "sugar": 10.0,
+      "fibre": 0.0,
+      "salt": 0.15
     },
-    {
-      "name": "Butter Croissant",
-      "calories": 291,
-      "macros": {
-        "protein": 6.0,
-        "carbohydrates": 33.0,
-        "fat": 16.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Acai & Almond Butter Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "birchers and yoghurt bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 340,
+    "macros": {
+      "protein": 8.4,
+      "carbohydrates": 43.4,
+      "fat": 13.3,
+      "saturatedFat": 1.7,
+      "sugar": 29.4,
+      "fibre": 6.8,
+      "salt": 0.22
     },
-    {
-      "name": "Chef's Italian Chicken Salad",
-      "calories": 526,
-      "macros": {
-        "protein": 40.0,
-        "carbohydrates": 12.0,
-        "fat": 36.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "All Butter Croissant",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 291,
+    "macros": {
+      "protein": 6.5,
+      "carbohydrates": 27.5,
+      "fat": 16.8,
+      "saturatedFat": 11.5,
+      "sugar": 4.5,
+      "fibre": 1.6,
+      "salt": 0.68
     },
-    {
-      "name": "Chicken & Avo Protein Bowl",
-      "calories": 363,
-      "macros": {
-        "protein": 29.0,
-        "carbohydrates": 7.0,
-        "fat": 24.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "All-Day Breakfast Triple",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 729,
+    "macros": {
+      "protein": 32.2,
+      "carbohydrates": 66.7,
+      "fat": 35.7,
+      "saturatedFat": 9.7,
+      "sugar": 5.9,
+      "fibre": 6.3,
+      "salt": 3.57
     },
-    {
-      "name": "Chicken Caesar & Bacon Baguette",
-      "calories": 585,
-      "macros": {
-        "protein": 39.0,
-        "carbohydrates": 65.0,
-        "fat": 18.0,
-        "fibre": 5.0,
-        "salt": 2.6,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Almond Croissant",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 382,
+    "macros": {
+      "protein": 7.8,
+      "carbohydrates": 38.9,
+      "fat": 21.1,
+      "saturatedFat": 10.7,
+      "sugar": 14.3,
+      "fibre": 2.6,
+      "salt": 0.53
     },
-    {
-      "name": "Chicken Pesto Wrap",
-      "calories": 500,
-      "macros": {
-        "protein": 27.0,
-        "carbohydrates": 48.0,
-        "fat": 22.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Apple",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "fruit",
+      "fresh fruit"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 85,
+    "macros": {
+      "protein": 0.6,
+      "carbohydrates": 18.9,
+      "fat": 0.2,
+      "saturatedFat": 0.0,
+      "sugar": 18.9,
+      "fibre": 2.9,
+      "salt": 0.02
     },
-    {
-      "name": "Chicken, Avocado & Basil Sandwich",
-      "calories": 378,
-      "macros": {
-        "protein": 22.0,
-        "carbohydrates": 35.0,
-        "fat": 16.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Apple Cinnamon Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 182,
+    "macros": {
+      "protein": 9.3,
+      "carbohydrates": 25.5,
+      "fat": 4.7,
+      "saturatedFat": 2.9,
+      "sugar": 24.4,
+      "fibre": 0.5,
+      "salt": 0.15
     },
-    {
-      "name": "Chocolate Brownie Bar",
-      "calories": 204,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 27.0,
-        "fat": 10.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Apple Juice",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 126,
+    "macros": {
+      "protein": 0.3,
+      "carbohydrates": 30.7,
+      "fat": 0.2,
+      "saturatedFat": 0.1,
+      "sugar": 28.2,
+      "fibre": 0.0,
+      "salt": 0.0
     },
-    {
-      "name": "Chocolate Chunk Cookie",
-      "calories": 370,
-      "macros": {
-        "protein": 5.0,
-        "carbohydrates": 44.0,
-        "fat": 20.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Avo & Egg Mayo Breakfast Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 347,
+    "macros": {
+      "protein": 12.3,
+      "carbohydrates": 39.1,
+      "fat": 15.0,
+      "saturatedFat": 3.2,
+      "sugar": 1.7,
+      "fibre": 3.2,
+      "salt": 2.09
     },
-    {
-      "name": "Chocolate Croissant",
-      "calories": 350,
-      "macros": {
-        "protein": 7.0,
-        "carbohydrates": 36.0,
-        "fat": 20.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Avo & Herb Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 500,
+    "macros": {
+      "protein": 12.3,
+      "carbohydrates": 40.8,
+      "fat": 30.5,
+      "saturatedFat": 6.7,
+      "sugar": 3.9,
+      "fibre": 6.7,
+      "salt": 1.31
     },
-    {
-      "name": "Cinnamon Danish",
-      "calories": 489,
-      "macros": {
-        "protein": 8.0,
-        "carbohydrates": 60.0,
-        "fat": 24.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Avo, Olive & Toms Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 562,
+    "macros": {
+      "protein": 13.0,
+      "carbohydrates": 57.3,
+      "fat": 29.3,
+      "saturatedFat": 5.1,
+      "sugar": 5.7,
+      "fibre": 8.8,
+      "salt": 1.65
     },
-    {
-      "name": "Classic Super Club Sandwich",
-      "calories": 550,
-      "macros": {
-        "protein": 28.0,
-        "carbohydrates": 50.0,
-        "fat": 25.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Avo, Olive & Toms Half Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 281,
+    "macros": {
+      "protein": 6.5,
+      "carbohydrates": 28.7,
+      "fat": 14.6,
+      "saturatedFat": 2.5,
+      "sugar": 2.9,
+      "fibre": 4.4,
+      "salt": 0.82
     },
-    {
-      "name": "Crayfish & Rocket Sandwich",
-      "calories": 352,
-      "macros": {
-        "protein": 17.0,
-        "carbohydrates": 38.0,
-        "fat": 13.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Babyccino",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 18,
+    "macros": {
+      "protein": 1.1,
+      "carbohydrates": 2.1,
+      "fat": 0.5,
+      "saturatedFat": 0.4,
+      "sugar": 2.1,
+      "fibre": 0.2,
+      "salt": 0.0
     },
-    {
-      "name": "Dark Chocolate & Almond Butter Cookie",
-      "calories": 377,
-      "macros": {
-        "protein": 5.0,
-        "carbohydrates": 40.0,
-        "fat": 21.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Bacon & Egg Mayo Breakfast Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 357,
+    "macros": {
+      "protein": 16.8,
+      "carbohydrates": 38.8,
+      "fat": 14.5,
+      "saturatedFat": 3.7,
+      "sugar": 1.5,
+      "fibre": 1.9,
+      "salt": 1.98
     },
-    {
-      "name": "Double Berry Muffin",
-      "calories": 441,
-      "macros": {
-        "protein": 6.0,
-        "carbohydrates": 65.0,
-        "fat": 17.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Banana",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "fruit",
+      "fresh fruit"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 76,
+    "macros": {
+      "protein": 0.9,
+      "carbohydrates": 17.2,
+      "fat": 0.2,
+      "saturatedFat": 0.1,
+      "sugar": 13.4,
+      "fibre": 1.0,
+      "salt": 0.0
     },
-    {
-      "name": "Egg & Spinach Protein Pot",
-      "calories": 103,
-      "macros": {
-        "protein": 8.0,
-        "carbohydrates": 1.0,
-        "fat": 7.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Berries & Cherries Smoothie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 206,
+    "macros": {
+      "protein": 1.7,
+      "carbohydrates": 46.5,
+      "fat": 0.6,
+      "saturatedFat": 0.1,
+      "sugar": 45.1,
+      "fibre": 3.9,
+      "salt": 0.0
     },
-    {
-      "name": "Falafel, Avocado & Chipotle Salad Wrap",
-      "calories": 480,
-      "macros": {
-        "protein": 11.0,
-        "carbohydrates": 65.0,
-        "fat": 16.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Bircher Muesli",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "birchers and yoghurt bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 338,
+    "macros": {
+      "protein": 14.2,
+      "carbohydrates": 43.2,
+      "fat": 11.3,
+      "saturatedFat": 4.2,
+      "sugar": 35.7,
+      "fibre": 3.3,
+      "salt": 0.28
     },
-    {
-      "name": "Free-Range Egg Mayo Sandwich",
-      "calories": 379,
-      "macros": {
-        "protein": 13.9,
-        "carbohydrates": 44.2,
-        "fat": 14.3,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Black Americano",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 2,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.2,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.15
     },
-    {
-      "name": "Hoisin Duck Salad Wrap",
-      "calories": 475,
-      "macros": {
-        "protein": 20.0,
-        "carbohydrates": 52.0,
-        "fat": 19.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Blueberry Balance Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "birchers and yoghurt bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 318,
+    "macros": {
+      "protein": 12.9,
+      "carbohydrates": 33.8,
+      "fat": 13.6,
+      "saturatedFat": 9.3,
+      "sugar": 20.0,
+      "fibre": 4.2,
+      "salt": 0.2
     },
-    {
-      "name": "Mature Cheddar & Pickle Sandwich",
-      "calories": 420,
-      "macros": {
-        "protein": 16.0,
-        "carbohydrates": 42.0,
-        "fat": 20.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Breakfast Tea",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 15,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 1.5,
+      "fat": 0.5,
+      "saturatedFat": 0.3,
+      "sugar": 1.6,
+      "fibre": 0.0,
+      "salt": 0.0
     },
-    {
-      "name": "Mozzarella & Tomato Croissant",
-      "calories": 322,
-      "macros": {
-        "protein": 11.0,
-        "carbohydrates": 30.0,
-        "fat": 17.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Brie, Tomato & Basil Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 439,
+    "macros": {
+      "protein": 17.6,
+      "carbohydrates": 56.2,
+      "fat": 15.2,
+      "saturatedFat": 10.1,
+      "sugar": 3.6,
+      "fibre": 3.3,
+      "salt": 2.14
     },
-    {
-      "name": "Pain aux Raisin",
-      "calories": 394,
-      "macros": {
-        "protein": 7.0,
-        "carbohydrates": 56.0,
-        "fat": 15.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "British Sausages, Pret's Baked Beans & Egg Pot",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 342,
+    "macros": {
+      "protein": 22.1,
+      "carbohydrates": 12.0,
+      "fat": 19.5,
+      "saturatedFat": 6.6,
+      "sugar": 6.4,
+      "fibre": 14.9,
+      "salt": 1.7
     },
-    {
-      "name": "Posh Cheddar & Pickle Baguette",
-      "calories": 480,
-      "macros": {
-        "protein": 18.0,
-        "carbohydrates": 55.0,
-        "fat": 20.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Butternut Mezze",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "super plates "
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 610,
+    "macros": {
+      "protein": 18.0,
+      "carbohydrates": 61.3,
+      "fat": 28.5,
+      "saturatedFat": 3.2,
+      "sugar": 17.3,
+      "fibre": 18.3,
+      "salt": 2.66
     },
-    {
-      "name": "Pret's Proper Porridge",
-      "calories": 216,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 24.0,
-        "fat": 9.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": false
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Cappuccino",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 116,
+    "macros": {
+      "protein": 8.2,
+      "carbohydrates": 11.6,
+      "fat": 4.1,
+      "saturatedFat": 2.6,
+      "sugar": 11.5,
+      "fibre": 0.2,
+      "salt": 0.15
     },
-    {
-      "name": "Sea Salt Crisps",
-      "calories": 190,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 22.0,
-        "fat": 10.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Caramel Iced Frappe",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 475,
+    "macros": {
+      "protein": 14.1,
+      "carbohydrates": 47.2,
+      "fat": 25.5,
+      "saturatedFat": 8.5,
+      "sugar": 37.8,
+      "fibre": 0.4,
+      "salt": 0.0
     },
-    {
-      "name": "Superfruit Salad",
-      "calories": 88,
-      "macros": {
-        "protein": 1.0,
-        "carbohydrates": 20.0,
-        "fat": 0.2,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chef's Italian Chicken Salad",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "salads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 526,
+    "macros": {
+      "protein": 25.3,
+      "carbohydrates": 12.0,
+      "fat": 41.2,
+      "saturatedFat": 5.9,
+      "sugar": 10.3,
+      "fibre": 3.2,
+      "salt": 2.3
     },
-    {
-      "name": "The VLT Sandwich",
-      "calories": 340,
-      "macros": {
-        "protein": 8.0,
-        "carbohydrates": 40.0,
-        "fat": 16.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken & Greens Protein Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "salads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 333,
+    "macros": {
+      "protein": 30.7,
+      "carbohydrates": 7.3,
+      "fat": 19.4,
+      "saturatedFat": 4.6,
+      "sugar": 3.0,
+      "fibre": 3.3,
+      "salt": 2.49
     },
-    {
-      "name": "Tuna Mayo & Cucumber Baguette",
-      "calories": 515,
-      "macros": {
-        "protein": 19.0,
-        "carbohydrates": 55.0,
-        "fat": 24.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Caesar & Bacon Half Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 302,
+    "macros": {
+      "protein": 15.2,
+      "carbohydrates": 27.2,
+      "fat": 14.2,
+      "saturatedFat": 2.6,
+      "sugar": 1.6,
+      "fibre": 2.2,
+      "salt": 1.35
     },
-    {
-      "name": "Tuna Nicoise Salad",
-      "calories": 357,
-      "macros": {
-        "protein": 23.0,
-        "carbohydrates": 15.0,
-        "fat": 22.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Caesar Bacon Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 604,
+    "macros": {
+      "protein": 30.5,
+      "carbohydrates": 54.4,
+      "fat": 28.4,
+      "saturatedFat": 5.2,
+      "sugar": 3.2,
+      "fibre": 4.4,
+      "salt": 2.71
     },
-    {
-      "name": "Very Berry Croissant",
-      "calories": 300,
-      "macros": {
-        "protein": 4.0,
-        "carbohydrates": 44.0,
-        "fat": 11.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": true,
-      "vegan": true
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Laksa Side Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 178,
+    "macros": {
+      "protein": 5.2,
+      "carbohydrates": 13.6,
+      "fat": 10.9,
+      "saturatedFat": 9.2,
+      "sugar": 4.2,
+      "fibre": 2.4,
+      "salt": 1.33
     },
-    {
-      "name": "Wiltshire-Cured Ham & Greve Baguette",
-      "calories": 543,
-      "macros": {
-        "protein": 28.0,
-        "carbohydrates": 49.0,
-        "fat": 24.0,
-        "fibre": null,
-        "salt": null,
-        "saturatedFat": null,
-        "sugar": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    }
-  ]
-}
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Laksa Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 296,
+    "macros": {
+      "protein": 8.7,
+      "carbohydrates": 22.5,
+      "fat": 18.1,
+      "saturatedFat": 15.2,
+      "sugar": 6.9,
+      "fibre": 3.9,
+      "salt": 2.2
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Pesto & Rocket Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 516,
+    "macros": {
+      "protein": 22.0,
+      "carbohydrates": 39.0,
+      "fat": 29.4,
+      "saturatedFat": 3.6,
+      "sugar": 3.2,
+      "fibre": 3.6,
+      "salt": 2.01
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Salad",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 529,
+    "macros": {
+      "protein": 21.8,
+      "carbohydrates": 42.7,
+      "fat": 29.3,
+      "saturatedFat": 7.9,
+      "sugar": 3.1,
+      "fibre": 3.8,
+      "salt": 2.22
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Salad Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 595,
+    "macros": {
+      "protein": 24.0,
+      "carbohydrates": 57.0,
+      "fat": 29.5,
+      "saturatedFat": 7.9,
+      "sugar": 3.2,
+      "fibre": 2.8,
+      "salt": 2.98
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken, Avocado & Basil",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 488,
+    "macros": {
+      "protein": 23.2,
+      "carbohydrates": 43.5,
+      "fat": 23.3,
+      "saturatedFat": 4.7,
+      "sugar": 3.4,
+      "fibre": 6.0,
+      "salt": 2.07
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chipotle Chicken",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "super plates "
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 694,
+    "macros": {
+      "protein": 49.3,
+      "carbohydrates": 47.3,
+      "fat": 31.4,
+      "saturatedFat": 8.7,
+      "sugar": 14.1,
+      "fibre": 12.3,
+      "salt": 2.75
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Choc Bar",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 380,
+    "macros": {
+      "protein": 3.1,
+      "carbohydrates": 37.3,
+      "fat": 23.5,
+      "saturatedFat": 14.1,
+      "sugar": 22.7,
+      "fibre": 3.1,
+      "salt": 0.32
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Brownie Bar",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 321,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 30.0,
+      "fat": 19.9,
+      "saturatedFat": 12.4,
+      "sugar": 25.3,
+      "fibre": 2.8,
+      "salt": 0.1
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Chunk Cookie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 329,
+    "macros": {
+      "protein": 4.1,
+      "carbohydrates": 48.9,
+      "fat": 12.5,
+      "saturatedFat": 7.4,
+      "sugar": 25.2,
+      "fibre": 2.1,
+      "salt": 0.41
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Croissant",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 350,
+    "macros": {
+      "protein": 5.9,
+      "carbohydrates": 33.4,
+      "fat": 20.6,
+      "saturatedFat": 12.3,
+      "sugar": 15.6,
+      "fibre": 3.7,
+      "salt": 0.41
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Iced Frappe",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 540,
+    "macros": {
+      "protein": 17.0,
+      "carbohydrates": 55.2,
+      "fat": 26.7,
+      "saturatedFat": 9.2,
+      "sugar": 44.4,
+      "fibre": 5.7,
+      "salt": 0.03
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chocolate Moose",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "dessert pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 394,
+    "macros": {
+      "protein": 3.8,
+      "carbohydrates": 25.4,
+      "fat": 30.4,
+      "saturatedFat": 18.9,
+      "sugar": 21.6,
+      "fibre": 1.8,
+      "salt": 0.07
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Chunky Moroccan-Style Chickpea Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 225,
+    "macros": {
+      "protein": 8.8,
+      "carbohydrates": 30.7,
+      "fat": 6.2,
+      "saturatedFat": 0.7,
+      "sugar": 10.9,
+      "fibre": 5.8,
+      "salt": 1.79
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Cinnamon Danish",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 413,
+    "macros": {
+      "protein": 6.7,
+      "carbohydrates": 48.3,
+      "fat": 20.9,
+      "saturatedFat": 13.2,
+      "sugar": 24.1,
+      "fibre": 2.5,
+      "salt": 1.01
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Classic Cheese Bloomer Toastie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 638,
+    "macros": {
+      "protein": 27.5,
+      "carbohydrates": 51.4,
+      "fat": 34.8,
+      "saturatedFat": 14.4,
+      "sugar": 1.9,
+      "fibre": 4.7,
+      "salt": 2.23
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Classic Frappe",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 365,
+    "macros": {
+      "protein": 10.6,
+      "carbohydrates": 26.7,
+      "fat": 23.9,
+      "saturatedFat": 7.4,
+      "sugar": 17.3,
+      "fibre": 0.4,
+      "salt": 0.15
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Classic Super Club",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 542,
+    "macros": {
+      "protein": 27.1,
+      "carbohydrates": 43.6,
+      "fat": 27.8,
+      "saturatedFat": 4.8,
+      "sugar": 3.9,
+      "fibre": 4.1,
+      "salt": 2.91
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Coconut & Quinoa Porridge",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "porridge"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 275,
+    "macros": {
+      "protein": 6.1,
+      "carbohydrates": 34.4,
+      "fat": 12.2,
+      "saturatedFat": 8.8,
+      "sugar": 3.2,
+      "fibre": 1.5,
+      "salt": 0.34
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Coke Bottle",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 212,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 53.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 53.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Coke Can",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 140,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 35.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 35.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Coke Zero Bottle",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Coke Zero Can",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Cranberries in Coats",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "nuts and dried fruit snacks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 235,
+    "macros": {
+      "protein": 0.5,
+      "carbohydrates": 36.5,
+      "fat": 9.5,
+      "saturatedFat": 5.5,
+      "sugar": 31.0,
+      "fibre": 0.8,
+      "salt": 0.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cranberry, Raspberry & Pomegranate Pret Still",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 115,
+    "macros": {
+      "protein": 0.5,
+      "carbohydrates": 24.5,
+      "fat": 1.1,
+      "saturatedFat": 0.3,
+      "sugar": 24.5,
+      "fibre": 2.6,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Crayfish & Rocket",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 384,
+    "macros": {
+      "protein": 21.4,
+      "carbohydrates": 42.7,
+      "fat": 13.3,
+      "saturatedFat": 1.1,
+      "sugar": 2.6,
+      "fibre": 3.7,
+      "salt": 2.27
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Crispy Potato Bites",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot food boxes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 185,
+    "macros": {
+      "protein": 3.6,
+      "carbohydrates": 30.0,
+      "fat": 4.8,
+      "saturatedFat": 0.3,
+      "sugar": 1.5,
+      "fibre": 3.9,
+      "salt": 1.19
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Cucumber & Mint Seltzer",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Dark Choc & Almond Butter Cookie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 370,
+    "macros": {
+      "protein": 6.2,
+      "carbohydrates": 50.9,
+      "fat": 14.9,
+      "saturatedFat": 7.5,
+      "sugar": 30.6,
+      "fibre": 4.0,
+      "salt": 0.63
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Dark Chocolate Corn Cakes",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 82,
+    "macros": {
+      "protein": 1.2,
+      "carbohydrates": 10.4,
+      "fat": 3.7,
+      "saturatedFat": 2.2,
+      "sugar": 4.4,
+      "fibre": 0.8,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Dark Chocolate Salted Almonds",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "nuts and dried fruit snacks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 215,
+    "macros": {
+      "protein": 5.5,
+      "carbohydrates": 12.4,
+      "fat": 15.1,
+      "saturatedFat": 5.3,
+      "sugar": 7.9,
+      "fibre": 3.5,
+      "salt": 0.2
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Dark Chocolate with Sea Salt",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 172,
+    "macros": {
+      "protein": 2.7,
+      "carbohydrates": 9.5,
+      "fat": 12.9,
+      "saturatedFat": 7.8,
+      "sugar": 8.3,
+      "fibre": 3.9,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Diet Coke Bottle",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Diet Coke Can",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Double Berry Muffin",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 441,
+    "macros": {
+      "protein": 6.6,
+      "carbohydrates": 53.4,
+      "fat": 21.6,
+      "saturatedFat": 2.5,
+      "sugar": 30.5,
+      "fibre": 3.5,
+      "salt": 0.72
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Earl Grey Tea",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 15,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 1.5,
+      "fat": 0.5,
+      "saturatedFat": 0.3,
+      "sugar": 1.5,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Easy Greens",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 35,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 8.8,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 7.0,
+      "fibre": 0.0,
+      "salt": 0.11
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Egg & Spinach Protein Pot",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "protein pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 103,
+    "macros": {
+      "protein": 11.4,
+      "carbohydrates": 2.3,
+      "fat": 5.3,
+      "saturatedFat": 1.5,
+      "sugar": 0.2,
+      "fibre": 0.3,
+      "salt": 0.57
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Egg Florentine",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 459,
+    "macros": {
+      "protein": 23.7,
+      "carbohydrates": 45.5,
+      "fat": 19.2,
+      "saturatedFat": 5.9,
+      "sugar": 3.6,
+      "fibre": 4.7,
+      "salt": 1.84
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Espresso",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 2,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.2,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.15
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Everyday Triple",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 650,
+    "macros": {
+      "protein": 31.5,
+      "carbohydrates": 65.1,
+      "fat": 28.0,
+      "saturatedFat": 4.6,
+      "sugar": 4.7,
+      "fibre": 5.7,
+      "salt": 2.92
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Falafel & Halloumi Hot Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 625,
+    "macros": {
+      "protein": 22.3,
+      "carbohydrates": 63.4,
+      "fat": 29.5,
+      "saturatedFat": 10.9,
+      "sugar": 15.0,
+      "fibre": 8.1,
+      "salt": 3.54
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Falafel, Avo & Chipotle Flatbread",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 505,
+    "macros": {
+      "protein": 10.6,
+      "carbohydrates": 66.1,
+      "fat": 20.0,
+      "saturatedFat": 4.3,
+      "sugar": 15.4,
+      "fibre": 8.9,
+      "salt": 1.26
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Falafel, Avo & Chipotle Half Flatbread",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 252,
+    "macros": {
+      "protein": 5.3,
+      "carbohydrates": 33.0,
+      "fat": 10.0,
+      "saturatedFat": 2.1,
+      "sugar": 7.7,
+      "fibre": 4.4,
+      "salt": 0.63
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Filter Black Coffee",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 2,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.2,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.16
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Five Berry Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "birchers and yoghurt bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 337,
+    "macros": {
+      "protein": 13.2,
+      "carbohydrates": 45.3,
+      "fat": 10.3,
+      "saturatedFat": 3.7,
+      "sugar": 31.4,
+      "fibre": 4.8,
+      "salt": 0.34
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Free-Range Egg Mayo",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 379,
+    "macros": {
+      "protein": 17.3,
+      "carbohydrates": 43.3,
+      "fat": 14.3,
+      "saturatedFat": 2.8,
+      "sugar": 2.1,
+      "fibre": 3.8,
+      "salt": 1.52
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Fruit Salad",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "fruit",
+      "fruit pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 103,
+    "macros": {
+      "protein": 1.3,
+      "carbohydrates": 21.8,
+      "fat": 0.4,
+      "saturatedFat": 0.0,
+      "sugar": 21.6,
+      "fibre": 3.3,
+      "salt": 0.02
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Fruit, Oat & Spelt Cookie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 339,
+    "macros": {
+      "protein": 5.5,
+      "carbohydrates": 48.2,
+      "fat": 13.2,
+      "saturatedFat": 7.4,
+      "sugar": 48.2,
+      "fibre": 2.9,
+      "salt": 0.27
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Ginger Kombucha",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 45,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 11.2,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 11.2,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Ginger Shot",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 55,
+    "macros": {
+      "protein": 0.8,
+      "carbohydrates": 11.4,
+      "fat": 0.3,
+      "saturatedFat": 0.1,
+      "sugar": 9.7,
+      "fibre": 1.8,
+      "salt": 0.11
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Green Tea & Peach Pret Still",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 104,
+    "macros": {
+      "protein": 0.5,
+      "carbohydrates": 21.5,
+      "fat": 1.2,
+      "saturatedFat": 0.5,
+      "sugar": 21.5,
+      "fibre": 2.5,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Ham & Cheese",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 531,
+    "macros": {
+      "protein": 30.0,
+      "carbohydrates": 42.7,
+      "fat": 25.8,
+      "saturatedFat": 15.8,
+      "sugar": 2.5,
+      "fibre": 3.9,
+      "salt": 3.61
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Ham & Cheese Bloomer Toastie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 627,
+    "macros": {
+      "protein": 32.6,
+      "carbohydrates": 51.1,
+      "fat": 31.3,
+      "saturatedFat": 11.1,
+      "sugar": 1.8,
+      "fibre": 5.0,
+      "salt": 3.88
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Ham & Cheese Croissant",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 312,
+    "macros": {
+      "protein": 13.5,
+      "carbohydrates": 19.9,
+      "fat": 19.4,
+      "saturatedFat": 9.8,
+      "sugar": 3.2,
+      "fibre": 1.9,
+      "salt": 1.19
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Ham & Grev\u00e9 Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 596,
+    "macros": {
+      "protein": 31.5,
+      "carbohydrates": 57.4,
+      "fat": 25.9,
+      "saturatedFat": 8.3,
+      "sugar": 3.2,
+      "fibre": 3.4,
+      "salt": 3.85
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Hoisin Duck Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 444,
+    "macros": {
+      "protein": 21.0,
+      "carbohydrates": 48.6,
+      "fat": 17.5,
+      "saturatedFat": 2.8,
+      "sugar": 12.5,
+      "fibre": 3.8,
+      "salt": 2.61
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Hot Chocolate",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 247,
+    "macros": {
+      "protein": 11.5,
+      "carbohydrates": 35.3,
+      "fat": 5.4,
+      "saturatedFat": 3.4,
+      "sugar": 34.0,
+      "fibre": 5.3,
+      "salt": 0.04
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Hot Shot",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 27,
+    "macros": {
+      "protein": 0.4,
+      "carbohydrates": 5.2,
+      "fat": 0.2,
+      "saturatedFat": 0.0,
+      "sugar": 3.7,
+      "fibre": 1.4,
+      "salt": 0.02
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Humous & Chipotle Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 396,
+    "macros": {
+      "protein": 12.0,
+      "carbohydrates": 50.3,
+      "fat": 14.0,
+      "saturatedFat": 1.9,
+      "sugar": 10.9,
+      "fibre": 10.1,
+      "salt": 1.28
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Humous & Falafel Mezze Salad",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "salads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 566,
+    "macros": {
+      "protein": 13.7,
+      "carbohydrates": 47.8,
+      "fat": 33.1,
+      "saturatedFat": 4.2,
+      "sugar": 15.8,
+      "fibre": 11.1,
+      "salt": 2.06
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Iced Black Americano",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 2,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.2,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.15
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Iced Chai Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced favourites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 144,
+    "macros": {
+      "protein": 6.5,
+      "carbohydrates": 22.8,
+      "fat": 3.0,
+      "saturatedFat": 1.9,
+      "sugar": 21.6,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Iced Chocolate",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced favourites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 197,
+    "macros": {
+      "protein": 7.9,
+      "carbohydrates": 30.5,
+      "fat": 3.7,
+      "saturatedFat": 2.3,
+      "sugar": 29.1,
+      "fibre": 5.3,
+      "salt": 0.03
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Iced Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 98,
+    "macros": {
+      "protein": 6.8,
+      "carbohydrates": 10.0,
+      "fat": 3.4,
+      "saturatedFat": 2.0,
+      "sugar": 10.0,
+      "fibre": 0.0,
+      "salt": 0.15
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Iced Love Bar Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 123,
+    "macros": {
+      "protein": 5.3,
+      "carbohydrates": 19.2,
+      "fat": 2.7,
+      "saturatedFat": 1.7,
+      "sugar": 19.2,
+      "fibre": 0.0,
+      "salt": 0.22
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Iced Matcha Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced favourites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 64,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 11.2,
+      "fat": 1.4,
+      "saturatedFat": 1.4,
+      "sugar": 8.4,
+      "fibre": 1.2,
+      "salt": 0.2
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Iced Mocha",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 159,
+    "macros": {
+      "protein": 8.0,
+      "carbohydrates": 21.4,
+      "fat": 4.0,
+      "saturatedFat": 2.4,
+      "sugar": 20.6,
+      "fibre": 2.8,
+      "salt": 0.17
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Italian Prosciutto Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 546,
+    "macros": {
+      "protein": 24.1,
+      "carbohydrates": 54.3,
+      "fat": 24.7,
+      "saturatedFat": 5.9,
+      "sugar": 3.8,
+      "fibre": 4.8,
+      "salt": 3.59
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Italian Prosciutto Half Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 274,
+    "macros": {
+      "protein": 12.1,
+      "carbohydrates": 27.2,
+      "fat": 12.4,
+      "saturatedFat": 3.0,
+      "sugar": 1.9,
+      "fibre": 2.4,
+      "salt": 1.8
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Italian Style Chicken & Basil Hot Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 557,
+    "macros": {
+      "protein": 32.4,
+      "carbohydrates": 48.5,
+      "fat": 24.5,
+      "saturatedFat": 7.0,
+      "sugar": 11.8,
+      "fibre": 6.1,
+      "salt": 2.95
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Jambon Beurre",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 331,
+    "macros": {
+      "protein": 15.4,
+      "carbohydrates": 40.3,
+      "fat": 11.4,
+      "saturatedFat": 6.8,
+      "sugar": 1.5,
+      "fibre": 3.0,
+      "salt": 2.54
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Kale & Cauli Macaroni Cheese",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot food boxes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 535,
+    "macros": {
+      "protein": 25.5,
+      "carbohydrates": 45.5,
+      "fat": 26.7,
+      "saturatedFat": 16.9,
+      "sugar": 6.2,
+      "fibre": 5.1,
+      "salt": 1.72
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 9.5,
+      "carbohydrates": 14.0,
+      "fat": 4.6,
+      "saturatedFat": 2.8,
+      "sugar": 14.0,
+      "fibre": 0.0,
+      "salt": 0.15
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Lemon & Ginger Pret Still",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 94,
+    "macros": {
+      "protein": 0.5,
+      "carbohydrates": 19.5,
+      "fat": 1.0,
+      "saturatedFat": 0.2,
+      "sugar": 19.5,
+      "fibre": 2.5,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Lime & Raspberry Seltzer",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Love Bar",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 348,
+    "macros": {
+      "protein": 3.8,
+      "carbohydrates": 41.2,
+      "fat": 18.0,
+      "saturatedFat": 9.0,
+      "sugar": 20.8,
+      "fibre": 3.0,
+      "salt": 0.4
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Love Bar Flat White",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 134,
+    "macros": {
+      "protein": 7.1,
+      "carbohydrates": 18.2,
+      "fat": 3.6,
+      "saturatedFat": 2.2,
+      "sugar": 18.2,
+      "fibre": 0.2,
+      "salt": 0.2
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Love Bar Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 182,
+    "macros": {
+      "protein": 9.4,
+      "carbohydrates": 25.3,
+      "fat": 4.7,
+      "saturatedFat": 3.0,
+      "sugar": 25.3,
+      "fibre": 0.2,
+      "salt": 0.22
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Macchiato",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 7,
+    "macros": {
+      "protein": 0.4,
+      "carbohydrates": 0.6,
+      "fat": 0.3,
+      "saturatedFat": 0.1,
+      "sugar": 0.6,
+      "fibre": 0.0,
+      "salt": 0.15
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mango & Banana Sunshine Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "birchers and yoghurt bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 347,
+    "macros": {
+      "protein": 6.8,
+      "carbohydrates": 46.1,
+      "fat": 14.0,
+      "saturatedFat": 8.2,
+      "sugar": 29.5,
+      "fibre": 4.8,
+      "salt": 0.09
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mango & Lime",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "fruit",
+      "fruit pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 72,
+    "macros": {
+      "protein": 1.0,
+      "carbohydrates": 14.1,
+      "fat": 0.9,
+      "saturatedFat": 0.1,
+      "sugar": 13.8,
+      "fibre": 1.5,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mango & Passion Fruit Pret Still",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 112,
+    "macros": {
+      "protein": 0.5,
+      "carbohydrates": 23.5,
+      "fat": 1.2,
+      "saturatedFat": 0.3,
+      "sugar": 23.5,
+      "fibre": 2.5,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mango Smoothie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 142,
+    "macros": {
+      "protein": 1.2,
+      "carbohydrates": 31.7,
+      "fat": 0.7,
+      "saturatedFat": 0.2,
+      "sugar": 29.7,
+      "fibre": 1.6,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Matcha Latte",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 100,
+    "macros": {
+      "protein": 1.3,
+      "carbohydrates": 17.9,
+      "fat": 2.3,
+      "saturatedFat": 2.3,
+      "sugar": 13.8,
+      "fibre": 1.4,
+      "salt": 0.33
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Mature Cheddar & Pret Pickle",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 508,
+    "macros": {
+      "protein": 18.2,
+      "carbohydrates": 54.7,
+      "fat": 23.0,
+      "saturatedFat": 9.4,
+      "sugar": 12.9,
+      "fibre": 4.8,
+      "salt": 2.16
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mature Cheddar & Red Onion Crisps",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "crisps and popcorn"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 210,
+    "macros": {
+      "protein": 2.6,
+      "carbohydrates": 20.5,
+      "fat": 12.7,
+      "saturatedFat": 1.0,
+      "sugar": 1.0,
+      "fibre": 1.8,
+      "salt": 0.53
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mediterranean Style Tuna Flatbread",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 508,
+    "macros": {
+      "protein": 23.0,
+      "carbohydrates": 50.3,
+      "fat": 23.0,
+      "saturatedFat": 2.7,
+      "sugar": 7.9,
+      "fibre": 3.8,
+      "salt": 1.99
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mexican-Style Bean Hot Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 524,
+    "macros": {
+      "protein": 23.4,
+      "carbohydrates": 60.4,
+      "fat": 18.7,
+      "saturatedFat": 6.4,
+      "sugar": 9.1,
+      "fibre": 10.5,
+      "salt": 2.06
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Milk Chocolate Bar",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 172,
+    "macros": {
+      "protein": 2.3,
+      "carbohydrates": 13.3,
+      "fat": 11.8,
+      "saturatedFat": 7.2,
+      "sugar": 13.0,
+      "fibre": 1.6,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Miso Salmon",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "super plates "
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 761,
+    "macros": {
+      "protein": 36.0,
+      "carbohydrates": 43.4,
+      "fat": 47.1,
+      "saturatedFat": 7.1,
+      "sugar": 16.5,
+      "fibre": 12.8,
+      "salt": 3.16
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mocha",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 196,
+    "macros": {
+      "protein": 10.7,
+      "carbohydrates": 25.0,
+      "fat": 5.3,
+      "saturatedFat": 3.3,
+      "sugar": 24.2,
+      "fibre": 2.8,
+      "salt": 0.17
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mocha Frappe",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "iced coffee"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 433,
+    "macros": {
+      "protein": 12.1,
+      "carbohydrates": 39.3,
+      "fat": 24.6,
+      "saturatedFat": 7.8,
+      "sugar": 29.2,
+      "fibre": 3.2,
+      "salt": 0.17
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Mozzarella & Tomato Croissant",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 373,
+    "macros": {
+      "protein": 12.9,
+      "carbohydrates": 24.1,
+      "fat": 24.6,
+      "saturatedFat": 13.9,
+      "sugar": 3.7,
+      "fibre": 1.8,
+      "salt": 1.28
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "New Yorker Rye Roll",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "rye rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 401,
+    "macros": {
+      "protein": 17.8,
+      "carbohydrates": 48.8,
+      "fat": 13.9,
+      "saturatedFat": 3.2,
+      "sugar": 9.8,
+      "fibre": 4.5,
+      "salt": 1.86
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Nuts, Fruit, Chocolate",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "nuts and dried fruit snacks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 196,
+    "macros": {
+      "protein": 5.7,
+      "carbohydrates": 13.4,
+      "fat": 12.8,
+      "saturatedFat": 2.0,
+      "sugar": 10.1,
+      "fibre": 2.2,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Nutty Pistachio & Almond Loaf Cake",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 604,
+    "macros": {
+      "protein": 12.3,
+      "carbohydrates": 34.7,
+      "fat": 45.5,
+      "saturatedFat": 17.9,
+      "sugar": 32.8,
+      "fibre": 3.1,
+      "salt": 0.94
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Orange Juice",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 63,
+    "macros": {
+      "protein": 1.2,
+      "carbohydrates": 13.5,
+      "fat": 0.3,
+      "saturatedFat": 0.0,
+      "sugar": 12.6,
+      "fibre": 0.7,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pain aux Raisins",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 358,
+    "macros": {
+      "protein": 7.0,
+      "carbohydrates": 49.0,
+      "fat": 14.4,
+      "saturatedFat": 9.1,
+      "sugar": 21.4,
+      "fibre": 2.5,
+      "salt": 0.85
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pastel De Nata",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 157,
+    "macros": {
+      "protein": 2.9,
+      "carbohydrates": 21.2,
+      "fat": 6.2,
+      "saturatedFat": 4.0,
+      "sugar": 11.8,
+      "fibre": 2.2,
+      "salt": 0.33
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Peppermint Tea",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Petite Crayfish & Avo Salad",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "salads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 322,
+    "macros": {
+      "protein": 17.1,
+      "carbohydrates": 6.2,
+      "fat": 24.8,
+      "saturatedFat": 4.7,
+      "sugar": 4.2,
+      "fibre": 3.0,
+      "salt": 1.62
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pole & Line Caught Tuna Half Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 257,
+    "macros": {
+      "protein": 12.6,
+      "carbohydrates": 29.4,
+      "fat": 9.6,
+      "saturatedFat": 1.1,
+      "sugar": 2.0,
+      "fibre": 1.3,
+      "salt": 1.23
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Popcorn Bar",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 176,
+    "macros": {
+      "protein": 1.7,
+      "carbohydrates": 21.8,
+      "fat": 8.9,
+      "saturatedFat": 5.1,
+      "sugar": 12.5,
+      "fibre": 0.8,
+      "salt": 0.13
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "poppi Lemon Lime",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 26,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 4.9,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 4.6,
+      "fibre": 3.0,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "poppi Orange",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 26,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 4.9,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 4.3,
+      "fibre": 3.0,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "poppi Raspberry Rose",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 27,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 4.9,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 3.6,
+      "fibre": 3.6,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "poppi Strawberry & Lemon",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 27,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 5.3,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 4.3,
+      "fibre": 3.0,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "poppi Wild Berry",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 24,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 4.6,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 4.3,
+      "fibre": 3.0,
+      "salt": 0.0
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Posh Cheddar & Pickle Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 643,
+    "macros": {
+      "protein": 21.4,
+      "carbohydrates": 71.9,
+      "fat": 28.5,
+      "saturatedFat": 9.8,
+      "sugar": 18.6,
+      "fibre": 6.6,
+      "salt": 2.82
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Posh Cheddar & Pickle Half Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 322,
+    "macros": {
+      "protein": 10.7,
+      "carbohydrates": 36.0,
+      "fat": 14.3,
+      "saturatedFat": 4.9,
+      "sugar": 9.3,
+      "fibre": 3.3,
+      "salt": 1.41
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pret A Mango",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "nuts and dried fruit snacks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 118,
+    "macros": {
+      "protein": 0.7,
+      "carbohydrates": 26.9,
+      "fat": 0.4,
+      "saturatedFat": 0.1,
+      "sugar": 17.5,
+      "fibre": 1.8,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret Bar",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "bars and bites"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 279,
+    "macros": {
+      "protein": 4.0,
+      "carbohydrates": 34.6,
+      "fat": 13.4,
+      "saturatedFat": 7.0,
+      "sugar": 22.4,
+      "fibre": 2.6,
+      "salt": 0.11
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pret Sparkling Water 500ml",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret Still Water 500ml",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.07
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret Still Water 750ml",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.1
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret's Chicken Satay Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 537,
+    "macros": {
+      "protein": 27.6,
+      "carbohydrates": 64.8,
+      "fat": 17.6,
+      "saturatedFat": 3.2,
+      "sugar": 9.9,
+      "fibre": 4.4,
+      "salt": 3.34
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Chicken Satay Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 461,
+    "macros": {
+      "protein": 24.4,
+      "carbohydrates": 45.3,
+      "fat": 19.2,
+      "saturatedFat": 3.5,
+      "sugar": 8.8,
+      "fibre": 4.6,
+      "salt": 2.39
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Chocolate Brownie Swirl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 417,
+    "macros": {
+      "protein": 7.8,
+      "carbohydrates": 47.9,
+      "fat": 20.8,
+      "saturatedFat": 13.3,
+      "sugar": 22.9,
+      "fibre": 3.5,
+      "salt": 0.79
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Cinnamon Crown",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 394,
+    "macros": {
+      "protein": 6.8,
+      "carbohydrates": 43.9,
+      "fat": 20.5,
+      "saturatedFat": 13.3,
+      "sugar": 17.7,
+      "fibre": 3.0,
+      "salt": 0.85
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Gingerbread Biscuit Godfrey",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 200,
+    "macros": {
+      "protein": 2.1,
+      "carbohydrates": 33.2,
+      "fat": 6.3,
+      "saturatedFat": 2.8,
+      "sugar": 17.5,
+      "fibre": 0.7,
+      "salt": 0.34
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Lasagne Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 302,
+    "macros": {
+      "protein": 13.7,
+      "carbohydrates": 24.1,
+      "fat": 15.8,
+      "saturatedFat": 4.3,
+      "sugar": 9.7,
+      "fibre": 4.0,
+      "salt": 2.43
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Mushroom Risotto Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 222,
+    "macros": {
+      "protein": 7.1,
+      "carbohydrates": 29.5,
+      "fat": 7.8,
+      "saturatedFat": 4.6,
+      "sugar": 2.7,
+      "fibre": 3.0,
+      "salt": 2.16
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret's Proper Porridge",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "porridge"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 216,
+    "macros": {
+      "protein": 8.7,
+      "carbohydrates": 23.7,
+      "fat": 8.7,
+      "saturatedFat": 4.8,
+      "sugar": 6.9,
+      "fibre": 4.2,
+      "salt": 0.18
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Rhubarb Lemonade",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 107,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 26.7,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 26.7,
+      "fibre": 0.0,
+      "salt": 0.03
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret's Sausage Roll",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 384,
+    "macros": {
+      "protein": 13.7,
+      "carbohydrates": 22.4,
+      "fat": 26.0,
+      "saturatedFat": 13.4,
+      "sugar": 2.7,
+      "fibre": 3.0,
+      "salt": 1.24
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pret's Sparkling Apple Fizz",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 104,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 26.1,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 25.1,
+      "fibre": 0.0,
+      "salt": 0.13
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret's Sparkling Ginger Beer",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 119,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 29.7,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 29.4,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret's Sparkling Grape & Elderflower",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "water and soft drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 98,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 24.4,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 24.4,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Pret's Veggie Breakfast Ciabatta",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "breakfast rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 372,
+    "macros": {
+      "protein": 17.1,
+      "carbohydrates": 40.4,
+      "fat": 14.9,
+      "saturatedFat": 4.5,
+      "sugar": 6.4,
+      "fibre": 4.2,
+      "salt": 2.12
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Prosciutto Macaroni Cheese",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot food boxes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": 30.0,
+      "carbohydrates": 45.4,
+      "fat": 30.0,
+      "saturatedFat": 18.4,
+      "sugar": 6.0,
+      "fibre": 4.9,
+      "salt": 3.15
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Raspberry & White Chocolate Cookie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 374,
+    "macros": {
+      "protein": 4.4,
+      "carbohydrates": 59.1,
+      "fat": 12.9,
+      "saturatedFat": 8.0,
+      "sugar": 35.2,
+      "fibre": 1.9,
+      "salt": 0.5
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Rich Garam Masala Lentil Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 209,
+    "macros": {
+      "protein": 8.8,
+      "carbohydrates": 32.5,
+      "fat": 3.3,
+      "saturatedFat": 0.4,
+      "sugar": 13.9,
+      "fibre": 7.3,
+      "salt": 2.15
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Roasted Mushroom, Pret's Baked Beans & Egg Pot",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "hot pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 191,
+    "macros": {
+      "protein": 14.1,
+      "carbohydrates": 11.2,
+      "fat": 6.6,
+      "saturatedFat": 1.5,
+      "sugar": 5.7,
+      "fibre": 15.1,
+      "salt": 1.06
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Roasted Tomato & Egg Mayo Breakfast Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 361,
+    "macros": {
+      "protein": 14.1,
+      "carbohydrates": 42.3,
+      "fat": 14.3,
+      "saturatedFat": 2.3,
+      "sugar": 5.2,
+      "fibre": 3.2,
+      "salt": 1.88
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Salt & Cider Vinegar Crisps",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "crisps and popcorn"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 206,
+    "macros": {
+      "protein": 1.9,
+      "carbohydrates": 21.3,
+      "fat": 12.2,
+      "saturatedFat": 0.9,
+      "sugar": 0.4,
+      "fibre": 1.7,
+      "salt": 0.65
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Salted Popcorn",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "crisps and popcorn"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 136,
+    "macros": {
+      "protein": 2.5,
+      "carbohydrates": 14.2,
+      "fat": 6.9,
+      "saturatedFat": 0.5,
+      "sugar": 0.1,
+      "fibre": 3.5,
+      "salt": 0.44
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sausage & Bacon Ciabatta",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "breakfast rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 467,
+    "macros": {
+      "protein": 23.2,
+      "carbohydrates": 37.1,
+      "fat": 24.5,
+      "saturatedFat": 10.0,
+      "sugar": 3.3,
+      "fibre": 2.8,
+      "salt": 1.97
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Scandi Style Salmon Rye Roll",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "rye rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 392,
+    "macros": {
+      "protein": 15.9,
+      "carbohydrates": 44.7,
+      "fat": 15.7,
+      "saturatedFat": 1.9,
+      "sugar": 7.3,
+      "fibre": 3.8,
+      "salt": 2.1
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Scottish Smoked Salmon",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 416,
+    "macros": {
+      "protein": 22.2,
+      "carbohydrates": 40.8,
+      "fat": 17.4,
+      "saturatedFat": 5.3,
+      "sugar": 2.3,
+      "fibre": 3.4,
+      "salt": 3.19
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sea Salt Crisps",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "crisps and popcorn"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 213,
+    "macros": {
+      "protein": 2.4,
+      "carbohydrates": 22.0,
+      "fat": 12.4,
+      "saturatedFat": 1.4,
+      "sugar": 0.2,
+      "fibre": 1.7,
+      "salt": 0.36
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Shawarma Chicken",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "super plates "
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 608,
+    "macros": {
+      "protein": 49.7,
+      "carbohydrates": 32.0,
+      "fat": 28.3,
+      "saturatedFat": 3.9,
+      "sugar": 14.0,
+      "fibre": 13.7,
+      "salt": 2.49
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Shawarma Spiced Chicken Flatbread",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 446,
+    "macros": {
+      "protein": 26.8,
+      "carbohydrates": 57.7,
+      "fat": 10.3,
+      "saturatedFat": 1.7,
+      "sugar": 14.0,
+      "fibre": 7.8,
+      "salt": 2.42
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Shawarma Spiced Chicken Half Flatbread",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "wraps and flatbreads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 223,
+    "macros": {
+      "protein": 13.4,
+      "carbohydrates": 28.9,
+      "fat": 5.1,
+      "saturatedFat": 0.9,
+      "sugar": 7.0,
+      "fibre": 3.9,
+      "salt": 1.21
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Smoked Salmon & Egg Mayo Breakfast Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 352,
+    "macros": {
+      "protein": 17.5,
+      "carbohydrates": 38.7,
+      "fat": 13.7,
+      "saturatedFat": 2.6,
+      "sugar": 1.5,
+      "fibre": 1.9,
+      "salt": 2.14
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Smoked Salmon Protein Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "salads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 467,
+    "macros": {
+      "protein": 28.5,
+      "carbohydrates": 8.6,
+      "fat": 34.6,
+      "saturatedFat": 6.3,
+      "sugar": 4.4,
+      "fibre": 3.3,
+      "salt": 3.22
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Smoked Salmon, Egg Mayo & Avo Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 552,
+    "macros": {
+      "protein": 24.6,
+      "carbohydrates": 54.6,
+      "fat": 24.9,
+      "saturatedFat": 4.9,
+      "sugar": 2.4,
+      "fibre": 5.7,
+      "salt": 2.86
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Smoked Salmon, Soft Cheese & Dill Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 501,
+    "macros": {
+      "protein": 27.0,
+      "carbohydrates": 53.4,
+      "fat": 19.0,
+      "saturatedFat": 4.9,
+      "sugar": 3.4,
+      "fibre": 4.2,
+      "salt": 3.61
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Smoky Chipotle Crisps",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "crisps and popcorn"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 208,
+    "macros": {
+      "protein": 2.2,
+      "carbohydrates": 21.0,
+      "fat": 12.4,
+      "saturatedFat": 0.9,
+      "sugar": 0.9,
+      "fibre": 1.9,
+      "salt": 0.39
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Soup Baguette with Butter",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 241,
+    "macros": {
+      "protein": 6.5,
+      "carbohydrates": 36.6,
+      "fat": 7.3,
+      "saturatedFat": 4.7,
+      "sugar": 1.5,
+      "fibre": 1.6,
+      "salt": 1.01
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Soup Roll with Butter",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 278,
+    "macros": {
+      "protein": 7.6,
+      "carbohydrates": 42.4,
+      "fat": 7.9,
+      "saturatedFat": 4.7,
+      "sugar": 5.5,
+      "fibre": 3.4,
+      "salt": 0.91
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Souper Tomato",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 183,
+    "macros": {
+      "protein": 5.4,
+      "carbohydrates": 14.2,
+      "fat": 10.9,
+      "saturatedFat": 1.0,
+      "sugar": 12.8,
+      "fibre": 3.5,
+      "salt": 1.55
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Spiced Apple & Pecan Muffin",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 502,
+    "macros": {
+      "protein": 7.1,
+      "carbohydrates": 52.0,
+      "fat": 28.8,
+      "saturatedFat": 2.6,
+      "sugar": 28.8,
+      "fibre": 2.9,
+      "salt": 0.73
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Spicy Lemongrass Chicken Broth",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 158,
+    "macros": {
+      "protein": 7.6,
+      "carbohydrates": 21.4,
+      "fat": 4.1,
+      "saturatedFat": 0.8,
+      "sugar": 8.0,
+      "fibre": 2.7,
+      "salt": 3.14
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sunshine Dhal Soup",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "soup and breads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 396,
+    "macros": {
+      "protein": 18.2,
+      "carbohydrates": 38.6,
+      "fat": 17.2,
+      "saturatedFat": 10.2,
+      "sugar": 4.5,
+      "fibre": 7.0,
+      "salt": 1.76
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Super Fruit",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "fruit",
+      "fruit pots"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 88,
+    "macros": {
+      "protein": 1.4,
+      "carbohydrates": 17.0,
+      "fat": 1.0,
+      "saturatedFat": 0.2,
+      "sugar": 16.7,
+      "fibre": 2.5,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Swedish Meatball Hot Wrap",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 631,
+    "macros": {
+      "protein": 30.3,
+      "carbohydrates": 45.2,
+      "fat": 35.6,
+      "saturatedFat": 15.1,
+      "sugar": 8.5,
+      "fibre": 4.8,
+      "salt": 2.59
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sweet & Salt Popcorn",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "crisps and popcorn"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 157,
+    "macros": {
+      "protein": 1.7,
+      "carbohydrates": 15.2,
+      "fat": 9.3,
+      "saturatedFat": 0.7,
+      "sugar": 5.4,
+      "fibre": 2.4,
+      "salt": 0.24
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Sweet Greens Smoothie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 198,
+    "macros": {
+      "protein": 3.2,
+      "carbohydrates": 38.5,
+      "fat": 3.0,
+      "saturatedFat": 0.6,
+      "sugar": 37.0,
+      "fibre": 2.2,
+      "salt": 0.06
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Thai Style Chicken Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 507,
+    "macros": {
+      "protein": 28.5,
+      "carbohydrates": 59.4,
+      "fat": 16.4,
+      "saturatedFat": 6.9,
+      "sugar": 5.2,
+      "fibre": 3.8,
+      "salt": 3.14
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Thai Style Chicken Half Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 254,
+    "macros": {
+      "protein": 14.3,
+      "carbohydrates": 29.7,
+      "fat": 8.2,
+      "saturatedFat": 3.4,
+      "sugar": 2.6,
+      "fibre": 1.9,
+      "salt": 1.57
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "The Big Apple Bowl",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "birchers and yoghurt bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 306,
+    "macros": {
+      "protein": 11.9,
+      "carbohydrates": 42.9,
+      "fat": 8.8,
+      "saturatedFat": 3.4,
+      "sugar": 33.1,
+      "fibre": 3.6,
+      "salt": 0.26
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "The Big Apple Porridge",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "porridge"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 267,
+    "macros": {
+      "protein": 8.8,
+      "carbohydrates": 35.8,
+      "fat": 8.7,
+      "saturatedFat": 4.8,
+      "sugar": 18.1,
+      "fibre": 5.2,
+      "salt": 0.19
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Triple Bacon Ciabatta",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "breakfast rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 322,
+    "macros": {
+      "protein": 18.1,
+      "carbohydrates": 35.7,
+      "fat": 11.3,
+      "saturatedFat": 4.7,
+      "sugar": 2.5,
+      "fibre": 2.2,
+      "salt": 1.36
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Triple Sausage Ciabatta",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "breakfast rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 469,
+    "macros": {
+      "protein": 19.8,
+      "carbohydrates": 37.8,
+      "fat": 25.9,
+      "saturatedFat": 10.1,
+      "sugar": 3.7,
+      "fibre": 3.0,
+      "salt": 1.94
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tropical Green Tea",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "hot drinks",
+      "tea and other hot drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": 0.0,
+      "carbohydrates": 0.0,
+      "fat": 0.0,
+      "saturatedFat": 0.0,
+      "sugar": 0.0,
+      "fibre": 0.0,
+      "salt": 0.0
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Tropical Peach Smoothie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 196,
+    "macros": {
+      "protein": 1.8,
+      "carbohydrates": 45.0,
+      "fat": 0.4,
+      "saturatedFat": 0.1,
+      "sugar": 43.8,
+      "fibre": 2.2,
+      "salt": 0.01
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Tuna & Cucumber",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "sandwiches"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 379,
+    "macros": {
+      "protein": 18.5,
+      "carbohydrates": 43.3,
+      "fat": 13.9,
+      "saturatedFat": 1.6,
+      "sugar": 3.4,
+      "fibre": 3.5,
+      "salt": 1.42
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tuna Mayo Baguette",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "sandwiches",
+      "baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 515,
+    "macros": {
+      "protein": 25.2,
+      "carbohydrates": 58.8,
+      "fat": 19.3,
+      "saturatedFat": 2.2,
+      "sugar": 4.1,
+      "fibre": 2.6,
+      "salt": 2.46
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tuna Melt Bloomer Toastie",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "toasted sandwiches, wraps and baguettes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 552,
+    "macros": {
+      "protein": 34.1,
+      "carbohydrates": 50.2,
+      "fat": 22.8,
+      "saturatedFat": 7.4,
+      "sugar": 1.5,
+      "fibre": 5.0,
+      "salt": 2.58
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tuna Nicoise Salad",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "salads",
+      "salads"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 357,
+    "macros": {
+      "protein": 29.6,
+      "carbohydrates": 8.5,
+      "fat": 22.4,
+      "saturatedFat": 3.4,
+      "sugar": 7.0,
+      "fibre": 1.5,
+      "salt": 1.97
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Ultimate Breakfast Ciabatta",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "hot food",
+      "breakfast rolls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 503,
+    "macros": {
+      "protein": 25.7,
+      "carbohydrates": 40.9,
+      "fat": 25.4,
+      "saturatedFat": 7.8,
+      "sugar": 7.1,
+      "fibre": 3.8,
+      "salt": 2.56
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Very Berry Croissant",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "breakfast",
+      "breakfast pastries"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 299,
+    "macros": {
+      "protein": 4.4,
+      "carbohydrates": 41.7,
+      "fat": 12.2,
+      "saturatedFat": 7.4,
+      "sugar": 21.9,
+      "fibre": 2.3,
+      "salt": 0.56
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Vitamin Volcano",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "drink",
+    "categories": [
+      "cold drinks",
+      "juices and smoothies"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 137,
+    "macros": {
+      "protein": 1.5,
+      "carbohydrates": 30.5,
+      "fat": 0.2,
+      "saturatedFat": 0.1,
+      "sugar": 29.5,
+      "fibre": 3.2,
+      "salt": 0.18
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Zingy Lemon & Almond Loaf Cake",
+    "url": "https://www.pret.co.uk/en-GB/products",
+    "type": "food",
+    "categories": [
+      "snacks",
+      "cookies and cakes"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 592,
+    "macros": {
+      "protein": 9.4,
+      "carbohydrates": 44.7,
+      "fat": 41.2,
+      "saturatedFat": 14.8,
+      "sugar": 42.3,
+      "fibre": 2.6,
+      "salt": 0.85
+    },
+    "vegetarian": true,
+    "vegan": false
+  }
+]

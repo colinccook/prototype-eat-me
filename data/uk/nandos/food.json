@@ -1,4389 +1,2480 @@
-{
-  "restaurant": "Nando's",
-  "items": [
-    {
-      "name": "1/2 Chicken",
-      "calories": 540,
-      "macros": {
-        "protein": 68.0,
-        "carbohydrates": 0.0,
-        "fat": 29.0,
-        "saturatedFat": 8.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 2.42
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "1/2 Chicken and Chips",
-      "calories": 840,
-      "macros": {
-        "protein": 72.0,
-        "carbohydrates": 34.0,
-        "fat": 47.0,
-        "saturatedFat": 10.0,
-        "sugar": 0.5,
-        "fibre": 4.0,
-        "salt": 4.9
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "1/4 Chicken Breast",
-      "calories": 290,
-      "macros": {
-        "protein": 42.0,
-        "carbohydrates": 0.0,
-        "fat": 14.0,
-        "saturatedFat": 3.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.43
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "1/4 Chicken Leg",
-      "calories": 260,
-      "macros": {
-        "protein": 28.0,
-        "carbohydrates": 0.0,
-        "fat": 16.0,
-        "saturatedFat": 4.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.05
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Apple Slices",
-      "calories": 120,
-      "macros": {
-        "protein": 0.5,
-        "carbohydrates": 29.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 20.0,
-        "fibre": 6.0,
-        "salt": 0.0
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Avocado (1/2 avocado)",
-      "calories": 140,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 8.0,
-        "fat": 13.0,
-        "saturatedFat": 2.0,
-        "sugar": 0.5,
-        "fibre": 6.0,
-        "salt": 0.01
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Balsamic Vinaigrette",
-      "calories": 40,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 3.0,
-        "fat": 3.0,
-        "saturatedFat": 0.0,
-        "sugar": 3.0,
-        "fibre": 0.0,
-        "salt": 0.42
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Balsamic Vinegar",
-      "calories": 25,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 5.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 4.0,
-        "fibre": 0.0,
-        "salt": 0.01
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": true,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Barely Baked Brownie",
-      "calories": 250,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 39.0,
-        "fat": 11.0,
-        "saturatedFat": 0.0,
-        "sugar": 31.0,
-        "fibre": 2.0,
-        "salt": 0.23
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Blood Orange Mango Lemonade 16 oz",
-      "calories": 230,
-      "macros": {
-        "protein": 1.0,
-        "carbohydrates": 57.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 53.0,
-        "fibre": 0.0,
-        "salt": 0.05
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Blood Orange Mango Lemonade 32 oz",
-      "calories": 450,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 114.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 107.0,
-        "fibre": 0.0,
-        "salt": 0.11
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Blood Orange Mango Lemonade Gallon",
-      "calories": 2750,
-      "macros": {
-        "protein": 4.0,
-        "carbohydrates": 796.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 456.0,
-        "fibre": 21.0,
-        "salt": 0.47
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Boneless Chicken Breast",
-      "calories": 520,
-      "macros": {
-        "protein": 56.0,
-        "carbohydrates": 0.0,
-        "fat": 32.0,
-        "saturatedFat": 8.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 2.1
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Boneless Chicken Thighs (1)",
-      "calories": 390,
-      "macros": {
-        "protein": 55.0,
-        "carbohydrates": 0.5,
-        "fat": 18.0,
-        "saturatedFat": 4.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 3.25
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Braai BBQ Bowl",
-      "calories": 920,
-      "macros": {
-        "protein": 48.0,
-        "carbohydrates": 119.0,
-        "fat": 37.0,
-        "saturatedFat": 4.5,
-        "sugar": 32.0,
-        "fibre": 10.0,
-        "salt": 5.75
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Caesar Dressing",
-      "calories": 170,
-      "macros": {
-        "protein": 0.5,
-        "carbohydrates": 0.5,
-        "fat": 19.0,
-        "saturatedFat": 1.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.65
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Carrot Cake",
-      "calories": 900,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 80.0,
-        "fat": 62.0,
-        "saturatedFat": 23.0,
-        "sugar": 56.0,
-        "fibre": 3.0,
-        "salt": 1.9
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": true,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Cheese",
-      "calories": 60,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 0.0,
-        "fat": 4.5,
-        "saturatedFat": 2.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.24
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Chicken Breast Sandwich, Plainish",
-      "calories": 530,
-      "macros": {
-        "protein": 32.0,
-        "carbohydrates": 49.0,
-        "fat": 23.0,
-        "saturatedFat": 4.0,
-        "sugar": 11.0,
-        "fibre": 2.0,
-        "salt": 3.0
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Chicken Breast, Plainish",
-      "calories": 220,
-      "macros": {
-        "protein": 31.0,
-        "carbohydrates": 0.5,
-        "fat": 10.0,
-        "saturatedFat": 2.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.82
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Chicken Burger, Plainish",
-      "calories": 580,
-      "macros": {
-        "protein": 32.0,
-        "carbohydrates": 58.0,
-        "fat": 26.0,
-        "saturatedFat": 6.0,
-        "sugar": 18.0,
-        "fibre": 3.0,
-        "salt": 3.08
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Chicken Thigh Skewer (1)",
-      "calories": 140,
-      "macros": {
-        "protein": 13.0,
-        "carbohydrates": 0.0,
-        "fat": 9.0,
-        "saturatedFat": 2.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.93
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Chicken Thigh Skewers (2)",
-      "calories": 280,
-      "macros": {
-        "protein": 26.0,
-        "carbohydrates": 0.5,
-        "fat": 19.0,
-        "saturatedFat": 4.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.85
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Chilli Jam",
-      "calories": 200,
-      "macros": {
-        "protein": 18.0,
-        "carbohydrates": 3.0,
-        "fat": 13.0,
-        "saturatedFat": 3.0,
-        "sugar": 2.0,
-        "fibre": 0.5,
-        "salt": 1.23
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Coleslaw",
-      "calories": 120,
-      "macros": {
-        "protein": 1.0,
-        "carbohydrates": 8.0,
-        "fat": 10.0,
-        "saturatedFat": 0.0,
-        "sugar": 4.0,
-        "fibre": 3.0,
-        "salt": 0.34
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": true,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Coleslaw, Large",
-      "calories": 360,
-      "macros": {
-        "protein": 4.0,
-        "carbohydrates": 23.0,
-        "fat": 29.0,
-        "saturatedFat": 0.0,
-        "sugar": 13.0,
-        "fibre": 8.0,
-        "salt": 1.0
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": true,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Coleslaw, Regular",
-      "calories": 180,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 12.0,
-        "fat": 15.0,
-        "saturatedFat": 0.0,
-        "sugar": 7.0,
-        "fibre": 4.0,
-        "salt": 0.5
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": true,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Coleslaw, X-Large",
-      "calories": 710,
-      "macros": {
-        "protein": 8.0,
-        "carbohydrates": 46.0,
-        "fat": 59.0,
-        "saturatedFat": 0.0,
-        "sugar": 27.0,
-        "fibre": 15.0,
-        "salt": 2.02
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": true,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Corn (1/2 cob)",
-      "calories": 130,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 16.0,
-        "fat": 7.0,
-        "saturatedFat": 4.0,
-        "sugar": 3.0,
-        "fibre": 2.0,
-        "salt": 0.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Corn on the Cob (1 cob)",
-      "calories": 200,
-      "macros": {
-        "protein": 5.0,
-        "carbohydrates": 32.0,
-        "fat": 8.0,
-        "saturatedFat": 4.0,
-        "sugar": 7.0,
-        "fibre": 4.0,
-        "salt": 0.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Corn on the Cob (1 cob), No Butter",
-      "calories": 140,
-      "macros": {
-        "protein": 5.0,
-        "carbohydrates": 32.0,
-        "fat": 2.5,
-        "saturatedFat": 0.0,
-        "sugar": 7.0,
-        "fibre": 4.0,
-        "salt": 0.0
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Crispy Brussels Sprouts, Large",
-      "calories": 640,
-      "macros": {
-        "protein": 12.0,
-        "carbohydrates": 41.0,
-        "fat": 52.0,
-        "saturatedFat": 5.0,
-        "sugar": 14.0,
-        "fibre": 14.0,
-        "salt": 6.45
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Crispy Brussels Sprouts, Regular",
-      "calories": 290,
-      "macros": {
-        "protein": 6.0,
-        "carbohydrates": 19.0,
-        "fat": 23.0,
-        "saturatedFat": 2.5,
-        "sugar": 6.0,
-        "fibre": 7.0,
-        "salt": 2.73
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Crispy Brussels Sprouts, X-Large",
-      "calories": 1280,
-      "macros": {
-        "protein": 24.0,
-        "carbohydrates": 82.0,
-        "fat": 105.0,
-        "saturatedFat": 11.0,
-        "sugar": 28.0,
-        "fibre": 27.0,
-        "salt": 13.62
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Drumstick and Thigh, Plainish",
-      "calories": 260,
-      "macros": {
-        "protein": 28.0,
-        "carbohydrates": 0.0,
-        "fat": 16.0,
-        "saturatedFat": 4.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.05
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Extra Hot Sauce",
-      "calories": 20,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 1.0,
-        "fat": 1.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.82
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Garlic Bread",
-      "calories": 190,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 17.0,
-        "fat": 12.0,
-        "saturatedFat": 5.0,
-        "sugar": 0.5,
-        "fibre": 0.5,
-        "salt": 0.7
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Garlic Sauce",
-      "calories": 15,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 1.0,
-        "fat": 1.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.57
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Grilled Cheese",
-      "calories": 310,
-      "macros": {
-        "protein": 11.0,
-        "carbohydrates": 28.0,
-        "fat": 17.0,
-        "saturatedFat": 10.0,
-        "sugar": 4.0,
-        "fibre": 2.0,
-        "salt": 1.38
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Grilled Chicken Breast Strips, Plainish",
-      "calories": 220,
-      "macros": {
-        "protein": 31.0,
-        "carbohydrates": 0.5,
-        "fat": 10.0,
-        "saturatedFat": 2.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.82
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Halloumi",
-      "calories": 40,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 10.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 9.0,
-        "fibre": 0.0,
-        "salt": 0.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Hot Sauce",
-      "calories": 15,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 1.0,
-        "fat": 1.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.77
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Hummus Scoop",
-      "calories": 50,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 0.5,
-        "fat": 4.5,
-        "saturatedFat": 3.0,
-        "sugar": 0.5,
-        "fibre": 0.0,
-        "salt": 0.45
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Hummus, Superseed crunch, PERi Drizzle with Pita and Veggies",
-      "calories": 1210,
-      "macros": {
-        "protein": 32.0,
-        "carbohydrates": 127.0,
-        "fat": 27.0,
-        "saturatedFat": 8.0,
-        "sugar": 19.0,
-        "fibre": 19.0,
-        "salt": 5.22
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Hummus, Superseed Crunch, PERi Drizzle with Veggies",
-      "calories": 770,
-      "macros": {
-        "protein": 16.0,
-        "carbohydrates": 49.0,
-        "fat": 19.0,
-        "saturatedFat": 5.0,
-        "sugar": 11.0,
-        "fibre": 13.0,
-        "salt": 3.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Iced Tea Strawberry Gallon",
-      "calories": 680,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 187.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 187.0,
-        "fibre": 0.0,
-        "salt": 0.34
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Ketchup",
-      "calories": 30,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 8.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 6.0,
-        "fibre": 0.0,
-        "salt": 0.65
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Latte, Can",
-      "calories": 120,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 22.0,
-        "fat": 4.5,
-        "saturatedFat": 0.0,
-        "sugar": 11.0,
-        "fibre": 4.0,
-        "salt": 0.25
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Lavender Lemonade Lavender 16 oz",
-      "calories": 80,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 18.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 17.0,
-        "fibre": 0.0,
-        "salt": 0.05
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Lemon & Herb Sauce",
-      "calories": 35,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 2.0,
-        "fat": 3.0,
-        "saturatedFat": 0.0,
-        "sugar": 1.0,
-        "fibre": 0.0,
-        "salt": 0.8
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Lemonade La Colombe, Oatmilk 32 oz",
-      "calories": 150,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 36.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 35.0,
-        "fibre": 0.0,
-        "salt": 0.1
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Lemonade Strawberry 16 oz",
-      "calories": 210,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 54.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 40.0,
-        "fibre": 0.5,
-        "salt": 0.04
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Lemonade Topo Chico 32 oz",
-      "calories": 410,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 107.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 81.0,
-        "fibre": 1.0,
-        "salt": 0.06
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Mac & Cheese",
-      "calories": 390,
-      "macros": {
-        "protein": 14.0,
-        "carbohydrates": 30.0,
-        "fat": 23.0,
-        "saturatedFat": 13.0,
-        "sugar": 3.0,
-        "fibre": 0.5,
-        "salt": 2.0
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Macho Peas, Large",
-      "calories": 500,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 22.0,
-        "fat": 42.0,
-        "saturatedFat": 16.0,
-        "sugar": 0.0,
-        "fibre": 9.0,
-        "salt": 1.65
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Macho Peas, X-Large",
-      "calories": 1000,
-      "macros": {
-        "protein": 17.0,
-        "carbohydrates": 45.0,
-        "fat": 85.0,
-        "saturatedFat": 31.0,
-        "sugar": 0.5,
-        "fibre": 19.0,
-        "salt": 3.3
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Medium Sauce",
-      "calories": 15,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 1.0,
-        "fat": 1.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.6
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Nandocas\u2019 Choice, Plainish",
-      "calories": 970,
-      "macros": {
-        "protein": 62.0,
-        "carbohydrates": 43.0,
-        "fat": 60.0,
-        "saturatedFat": 16.0,
-        "sugar": 6.0,
-        "fibre": 4.0,
-        "salt": 4.08
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Naughty Natas",
-      "calories": 150,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 17.0,
-        "fat": 8.0,
-        "saturatedFat": 4.0,
-        "sugar": 10.0,
-        "fibre": 0.0,
-        "salt": 0.26
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Olive Oil",
-      "calories": 250,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 0.0,
-        "fat": 28.0,
-        "saturatedFat": 4.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.0
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Peach Iced Tea Rubro Peach 32 oz",
-      "calories": 190,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 48.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 48.0,
-        "fibre": 0.0,
-        "salt": 0.07
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Chips (aka Fries)",
-      "calories": 190,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 21.0,
-        "fat": 11.0,
-        "saturatedFat": 1.5,
-        "sugar": 0.0,
-        "fibre": 2.0,
-        "salt": 1.57
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Chips (aka Fries), Large",
-      "calories": 600,
-      "macros": {
-        "protein": 7.0,
-        "carbohydrates": 67.0,
-        "fat": 34.0,
-        "saturatedFat": 4.0,
-        "sugar": 0.5,
-        "fibre": 8.0,
-        "salt": 4.95
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Chips (aka Fries), Regular",
-      "calories": 300,
-      "macros": {
-        "protein": 4.0,
-        "carbohydrates": 34.0,
-        "fat": 17.0,
-        "saturatedFat": 2.0,
-        "sugar": 0.0,
-        "fibre": 4.0,
-        "salt": 2.48
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Chips (aka Fries), X-Large",
-      "calories": 1200,
-      "macros": {
-        "protein": 14.0,
-        "carbohydrates": 135.0,
-        "fat": 69.0,
-        "saturatedFat": 8.0,
-        "sugar": 2.0,
-        "fibre": 15.0,
-        "salt": 9.9
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Croutons",
-      "calories": 30,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 8.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 7.0,
-        "fibre": 0.5,
-        "salt": 0.0
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Drizzle",
-      "calories": 80,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 5.0,
-        "fat": 0.0,
-        "saturatedFat": 0.5,
-        "sugar": 0.5,
-        "fibre": 1.0,
-        "salt": 0.3
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi Honey",
-      "calories": 230,
-      "macros": {
-        "protein": 12.0,
-        "carbohydrates": 0.5,
-        "fat": 190.0,
-        "saturatedFat": 22.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.5
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Honey Sweet Potatoes, Large",
-      "calories": 1000,
-      "macros": {
-        "protein": 17.0,
-        "carbohydrates": 104.0,
-        "fat": 59.0,
-        "saturatedFat": 13.0,
-        "sugar": 51.0,
-        "fibre": 10.0,
-        "salt": 3.73
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Honey Sweet Potatoes, Regular",
-      "calories": 500,
-      "macros": {
-        "protein": 8.0,
-        "carbohydrates": 52.0,
-        "fat": 30.0,
-        "saturatedFat": 7.0,
-        "sugar": 25.0,
-        "fibre": 5.0,
-        "salt": 1.88
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Honey Sweet Potatoes, X-Large",
-      "calories": 1990,
-      "macros": {
-        "protein": 34.0,
-        "carbohydrates": 209.0,
-        "fat": 118.0,
-        "saturatedFat": 27.0,
-        "sugar": 101.0,
-        "fibre": 21.0,
-        "salt": 7.45
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Mac, Large",
-      "calories": 910,
-      "macros": {
-        "protein": 30.0,
-        "carbohydrates": 72.0,
-        "fat": 56.0,
-        "saturatedFat": 30.0,
-        "sugar": 7.0,
-        "fibre": 2.0,
-        "salt": 4.88
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Mac, Regular",
-      "calories": 460,
-      "macros": {
-        "protein": 15.0,
-        "carbohydrates": 36.0,
-        "fat": 28.0,
-        "saturatedFat": 15.0,
-        "sugar": 4.0,
-        "fibre": 0.5,
-        "salt": 2.45
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Mac, X-Large",
-      "calories": 1820,
-      "macros": {
-        "protein": 60.0,
-        "carbohydrates": 143.0,
-        "fat": 111.0,
-        "saturatedFat": 60.0,
-        "sugar": 14.0,
-        "fibre": 3.0,
-        "salt": 9.75
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Q Bowl - Breast",
-      "calories": 800,
-      "macros": {
-        "protein": 46.0,
-        "carbohydrates": 98.0,
-        "fat": 30.0,
-        "saturatedFat": 4.0,
-        "sugar": 92.0,
-        "fibre": 9.0,
-        "salt": 5.0
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Q Bowl - Halloumi",
-      "calories": 550,
-      "macros": {
-        "protein": 11.0,
-        "carbohydrates": 98.0,
-        "fat": 19.0,
-        "saturatedFat": 1.5,
-        "sugar": 32.0,
-        "fibre": 9.0,
-        "salt": 3.08
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Q Bowl - Pulled Chicken",
-      "calories": 820,
-      "macros": {
-        "protein": 48.0,
-        "carbohydrates": 98.0,
-        "fat": 32.0,
-        "saturatedFat": 5.0,
-        "sugar": 32.0,
-        "fibre": 9.0,
-        "salt": 3.3
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi Q Bowl - Thigh",
-      "calories": 790,
-      "macros": {
-        "protein": 46.0,
-        "carbohydrates": 97.0,
-        "fat": 31.0,
-        "saturatedFat": 4.0,
-        "sugar": 31.0,
-        "fibre": 9.0,
-        "salt": 4.9
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Peri Q Chips Plate - Breast",
-      "calories": 810,
-      "macros": {
-        "protein": 50.0,
-        "carbohydrates": 68.0,
-        "fat": 38.0,
-        "saturatedFat": 9.0,
-        "sugar": 11.0,
-        "fibre": 6.0,
-        "salt": 4.5
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Peri Q Mac Plate - Breast",
-      "calories": 880,
-      "macros": {
-        "protein": 55.0,
-        "carbohydrates": 54.0,
-        "fat": 50.0,
-        "saturatedFat": 18.0,
-        "sugar": 12.0,
-        "fibre": 3.0,
-        "salt": 4.33
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Peri Q Mac Plate - Thigh",
-      "calories": 840,
-      "macros": {
-        "protein": 42.0,
-        "carbohydrates": 53.0,
-        "fat": 52.0,
-        "saturatedFat": 19.0,
-        "sugar": 12.0,
-        "fibre": 3.0,
-        "salt": 3.92
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Q Sandwich",
-      "calories": 830,
-      "macros": {
-        "protein": 42.0,
-        "carbohydrates": 71.0,
-        "fat": 43.0,
-        "saturatedFat": 12.0,
-        "sugar": 33.0,
-        "fibre": 2.0,
-        "salt": 3.55
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Ranch",
-      "calories": 60,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 4.0,
-        "fat": 5.0,
-        "saturatedFat": 0.5,
-        "sugar": 2.0,
-        "fibre": 0.0,
-        "salt": 0.93
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Ranch Crunch Salad, Plainish, Breast (with dressing)",
-      "calories": 610,
-      "macros": {
-        "protein": 45.0,
-        "carbohydrates": 22.0,
-        "fat": 42.0,
-        "saturatedFat": 10.0,
-        "sugar": 11.0,
-        "fibre": 5.0,
-        "salt": 5.08
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Ranch Crunch Salad, Plainish, Halloumi (with dressing)",
-      "calories": 570,
-      "macros": {
-        "protein": 21.0,
-        "carbohydrates": 21.0,
-        "fat": 49.0,
-        "saturatedFat": 19.0,
-        "sugar": 11.0,
-        "fibre": 5.0,
-        "salt": 5.58
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Ranch Crunch Salad, Plainish, Pulled Chicken (with dressing)",
-      "calories": 600,
-      "macros": {
-        "protein": 38.0,
-        "carbohydrates": 21.0,
-        "fat": 43.0,
-        "saturatedFat": 11.0,
-        "sugar": 11.0,
-        "fibre": 5.0,
-        "salt": 4.12
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Ranch Crunch Salad, Plainish, Thighs (with dressing)",
-      "calories": 870,
-      "macros": {
-        "protein": 57.0,
-        "carbohydrates": 22.0,
-        "fat": 65.0,
-        "saturatedFat": 15.0,
-        "sugar": 11.0,
-        "fibre": 5.0,
-        "salt": 6.3
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi Tamer",
-      "calories": 45,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 9.0,
-        "fat": 0.5,
-        "saturatedFat": 0.0,
-        "sugar": 9.0,
-        "fibre": 0.0,
-        "salt": 0.34
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "PERi-PERi Chicken Bowl, Plainish, Breast",
-      "calories": 870,
-      "macros": {
-        "protein": 47.0,
-        "carbohydrates": 95.0,
-        "fat": 32.0,
-        "saturatedFat": 4.5,
-        "sugar": 9.0,
-        "fibre": 8.0,
-        "salt": 6.3
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Bowl, Plainish, Grilled Halloumi",
-      "calories": 690,
-      "macros": {
-        "protein": 23.0,
-        "carbohydrates": 71.0,
-        "fat": 32.0,
-        "saturatedFat": 13.0,
-        "sugar": 7.0,
-        "fibre": 7.0,
-        "salt": 6.53
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Bowl, Plainish, Pulled Chicken",
-      "calories": 760,
-      "macros": {
-        "protein": 45.0,
-        "carbohydrates": 70.0,
-        "fat": 28.0,
-        "saturatedFat": 5.0,
-        "sugar": 7.0,
-        "fibre": 7.0,
-        "salt": 5.1
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Bowl, Plainish, Thighs",
-      "calories": 1000,
-      "macros": {
-        "protein": 50.0,
-        "carbohydrates": 95.0,
-        "fat": 47.0,
-        "saturatedFat": 9.0,
-        "sugar": 9.0,
-        "fibre": 8.0,
-        "salt": 6.58
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Breast",
-      "calories": 1010,
-      "macros": {
-        "protein": 53.0,
-        "carbohydrates": 79.0,
-        "fat": 51.0,
-        "saturatedFat": 11.0,
-        "sugar": 10.0,
-        "fibre": 12.0,
-        "salt": 5.75
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Grilled",
-      "calories": 920,
-      "macros": {
-        "protein": 35.0,
-        "carbohydrates": 79.0,
-        "fat": 47.0,
-        "saturatedFat": 10.0,
-        "sugar": 9.0,
-        "fibre": 12.0,
-        "salt": 4.72
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Pulled Chicken",
-      "calories": 1040,
-      "macros": {
-        "protein": 51.0,
-        "carbohydrates": 79.0,
-        "fat": 54.0,
-        "saturatedFat": 12.0,
-        "sugar": 9.0,
-        "fibre": 12.0,
-        "salt": 4.83
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Chicken Rainbow Bowl, Plainish, Thighs",
-      "calories": 1150,
-      "macros": {
-        "protein": 53.0,
-        "carbohydrates": 80.0,
-        "fat": 68.0,
-        "saturatedFat": 15.0,
-        "sugar": 10.0,
-        "fibre": 12.0,
-        "salt": 6.4
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Wings (12) with PERi Ranch, Plainish",
-      "calories": 420,
-      "macros": {
-        "protein": 39.0,
-        "carbohydrates": 0.5,
-        "fat": 28.0,
-        "saturatedFat": 7.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 2.77
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Wings (24) with PERi Ranch, Plainish",
-      "calories": 450,
-      "macros": {
-        "protein": 47.0,
-        "carbohydrates": 7.0,
-        "fat": 26.0,
-        "saturatedFat": 6.0,
-        "sugar": 0.5,
-        "fibre": 0.5,
-        "salt": 3.65
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "PERi-PERi Wings (6) with PERi Ranch, Plainish",
-      "calories": 750,
-      "macros": {
-        "protein": 56.0,
-        "carbohydrates": 10.0,
-        "fat": 55.0,
-        "saturatedFat": 12.0,
-        "sugar": 7.0,
-        "fibre": 0.0,
-        "salt": 5.62
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "PERinaise",
-      "calories": 90,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 6.0,
-        "fat": 8.0,
-        "saturatedFat": 1.0,
-        "sugar": 4.0,
-        "fibre": 0.0,
-        "salt": 0.8
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Pineapple Lemonade 16 oz",
-      "calories": 210,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 53.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 40.0,
-        "fibre": 0.0,
-        "salt": 0.04
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Pineapple Lemonade 32 oz",
-      "calories": 430,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 107.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 80.0,
-        "fibre": 0.0,
-        "salt": 0.07
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Pineapple Lemonade Rubro Gallon",
-      "calories": 2840,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 837.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 348.0,
-        "fibre": 26.0,
-        "salt": 0.53
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Portguese Roll",
-      "calories": 180,
-      "macros": {
-        "protein": 6.0,
-        "carbohydrates": 34.0,
-        "fat": 2.5,
-        "saturatedFat": 0.0,
-        "sugar": 0.5,
-        "fibre": 0.5,
-        "salt": 0.88
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Portuguese Rice",
-      "calories": 130,
-      "macros": {
-        "protein": 2.0,
-        "carbohydrates": 22.0,
-        "fat": 6.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.5,
-        "salt": 0.85
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Portuguese Rice, Large",
-      "calories": 420,
-      "macros": {
-        "protein": 7.0,
-        "carbohydrates": 73.0,
-        "fat": 19.0,
-        "saturatedFat": 1.0,
-        "sugar": 1.0,
-        "fibre": 3.0,
-        "salt": 2.88
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Portuguese Rice, Regular",
-      "calories": 210,
-      "macros": {
-        "protein": 4.0,
-        "carbohydrates": 36.0,
-        "fat": 10.0,
-        "saturatedFat": 0.5,
-        "sugar": 0.5,
-        "fibre": 1.0,
-        "salt": 1.43
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Portuguese Rice, X-Large",
-      "calories": 850,
-      "macros": {
-        "protein": 14.0,
-        "carbohydrates": 145.0,
-        "fat": 38.0,
-        "saturatedFat": 2.5,
-        "sugar": 3.0,
-        "fibre": 5.0,
-        "salt": 5.75
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Raspberry White Chocolate Cheesecake",
-      "calories": 620,
-      "macros": {
-        "protein": 9.0,
-        "carbohydrates": 49.0,
-        "fat": 43.0,
-        "saturatedFat": 26.0,
-        "sugar": 33.0,
-        "fibre": 0.0,
-        "salt": 1.25
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": null,
-        "nuts": true,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Raw Veggies",
-      "calories": 45,
-      "macros": {
-        "protein": 1.0,
-        "carbohydrates": 10.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 5.0,
-        "fibre": 3.0,
-        "salt": 0.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Red Skin Mashed Potatoes",
-      "calories": 190,
-      "macros": {
-        "protein": 3.0,
-        "carbohydrates": 23.0,
-        "fat": 10.0,
-        "saturatedFat": 4.0,
-        "sugar": 2.0,
-        "fibre": 2.0,
-        "salt": 1.62
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Red Skin Mashed Potatoes, Large",
-      "calories": 630,
-      "macros": {
-        "protein": 11.0,
-        "carbohydrates": 73.0,
-        "fat": 33.0,
-        "saturatedFat": 12.0,
-        "sugar": 7.0,
-        "fibre": 7.0,
-        "salt": 5.25
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Red Skin Mashed Potatoes, Regular",
-      "calories": 320,
-      "macros": {
-        "protein": 5.0,
-        "carbohydrates": 37.0,
-        "fat": 17.0,
-        "saturatedFat": 6.0,
-        "sugar": 4.0,
-        "fibre": 3.0,
-        "salt": 2.62
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Roasted Brussels Sprouts, Large",
-      "calories": 420,
-      "macros": {
-        "protein": 11.0,
-        "carbohydrates": 38.0,
-        "fat": 29.0,
-        "saturatedFat": 4.0,
-        "sugar": 13.0,
-        "fibre": 13.0,
-        "salt": 4.33
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Roasted Brussels Sprouts, Regular",
-      "calories": 135,
-      "macros": {
-        "protein": 6.0,
-        "carbohydrates": 19.0,
-        "fat": 15.0,
-        "saturatedFat": 2.0,
-        "sugar": 7.0,
-        "fibre": 6.0,
-        "salt": 2.17
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Roasted Brussels Sprouts, X-Large",
-      "calories": 840,
-      "macros": {
-        "protein": 22.0,
-        "carbohydrates": 77.0,
-        "fat": 59.0,
-        "saturatedFat": 8.0,
-        "sugar": 26.0,
-        "fibre": 25.0,
-        "salt": 8.65
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Roasted Red Pepper",
-      "calories": 90,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 6.0,
-        "fat": 8.0,
-        "saturatedFat": 1.0,
-        "sugar": 4.0,
-        "fibre": 0.0,
-        "salt": 0.8
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Sliced Tomatoes",
-      "calories": 20,
-      "macros": {
-        "protein": 0.5,
-        "carbohydrates": 3.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 2.0,
-        "fibre": 0.5,
-        "salt": 0.42
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Spicy Chicken Caesar Wrap",
-      "calories": 900,
-      "macros": {
-        "protein": 43.0,
-        "carbohydrates": 58.0,
-        "fat": 51.0,
-        "saturatedFat": 15.0,
-        "sugar": 8.0,
-        "fibre": 8.0,
-        "salt": 3.83
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Caesar, Plainish, Breast (with dressing)",
-      "calories": 760,
-      "macros": {
-        "protein": 47.0,
-        "carbohydrates": 9.0,
-        "fat": 61.0,
-        "saturatedFat": 11.0,
-        "sugar": 3.0,
-        "fibre": 3.0,
-        "salt": 4.58
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Caesar, Plainish, Halloumi (with dressing)",
-      "calories": 720,
-      "macros": {
-        "protein": 23.0,
-        "carbohydrates": 11.0,
-        "fat": 67.0,
-        "saturatedFat": 20.0,
-        "sugar": 5.0,
-        "fibre": 3.0,
-        "salt": 5.12
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": null,
-        "eggs": null,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Caesar, Plainish, Pulled Chicken (with dressing)",
-      "calories": 790,
-      "macros": {
-        "protein": 44.0,
-        "carbohydrates": 11.0,
-        "fat": 63.0,
-        "saturatedFat": 12.0,
-        "sugar": 4.0,
-        "fibre": 3.0,
-        "salt": 3.7
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Caesar, Plainish, Thighs (with dressing)",
-      "calories": 1090,
-      "macros": {
-        "protein": 67.0,
-        "carbohydrates": 11.0,
-        "fat": 88.0,
-        "saturatedFat": 18.0,
-        "sugar": 5.0,
-        "fibre": 3.0,
-        "salt": 5.62
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Kale Caesar, Plainish, Breast (with dressing)",
-      "calories": 820,
-      "macros": {
-        "protein": 50.0,
-        "carbohydrates": 16.0,
-        "fat": 63.0,
-        "saturatedFat": 12.0,
-        "sugar": 5.0,
-        "fibre": 5.0,
-        "salt": 5.42
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Kale Caesar, Plainish, Halloumi (with dressing)",
-      "calories": 760,
-      "macros": {
-        "protein": 25.0,
-        "carbohydrates": 16.0,
-        "fat": 69.0,
-        "saturatedFat": 20.0,
-        "sugar": 6.0,
-        "fibre": 5.0,
-        "salt": 5.8
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Chicken Kale Caesar, Plainish, Thighs (with dressing)",
-      "calories": 1090,
-      "macros": {
-        "protein": 50.0,
-        "carbohydrates": 17.0,
-        "fat": 93.0,
-        "saturatedFat": 17.0,
-        "sugar": 6.0,
-        "fibre": 5.0,
-        "salt": 6.9
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": true,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": false,
-      "vegan": false
-    },
-    {
-      "name": "Spicy Mixed Olives",
-      "calories": 220,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 7.0,
-        "fat": 20.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 5.0,
-        "salt": 5.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Superseed Crunch",
-      "calories": 0,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 0.5,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.09
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Sweet Potato & Halloumi Wrap, Plainish",
-      "calories": 850,
-      "macros": {
-        "protein": 16.0,
-        "carbohydrates": 95.0,
-        "fat": 41.0,
-        "saturatedFat": 16.0,
-        "sugar": 28.0,
-        "fibre": 11.0,
-        "salt": 3.38
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": true,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Thigh and Mighty Sandwich, Plainish",
-      "calories": 600,
-      "macros": {
-        "protein": 27.0,
-        "carbohydrates": 49.0,
-        "fat": 34.0,
-        "saturatedFat": 7.0,
-        "sugar": 11.0,
-        "fibre": 2.0,
-        "salt": 3.02
-      },
-      "allergens": {
-        "gluten": true,
-        "wheat": true,
-        "milk": true,
-        "eggs": true,
-        "soya": true,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Tomato Cucumber Onion Salad",
-      "calories": 270,
-      "macros": {
-        "protein": 34.0,
-        "carbohydrates": 0.0,
-        "fat": 13.0,
-        "saturatedFat": 3.5,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.23
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "Veggie Burger Patty, Plainish",
-      "calories": 10,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 2.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 2.0,
-        "fibre": 0.0,
-        "salt": 0.3
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Watermelon Mint Lemonade 11.5 oz",
-      "calories": 0,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 0.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 0.01
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Watermelon Mint Lemonade 16 oz",
-      "calories": 270,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 66.0,
-        "fat": 0.0,
-        "saturatedFat": 0.0,
-        "sugar": 59.0,
-        "fibre": 1.0,
-        "salt": 0.05
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Wild Herb Sauce",
-      "calories": 15,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 1.0,
-        "fat": 1.0,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.6
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    },
-    {
-      "name": "Wings (3), Plainish",
-      "calories": 240,
-      "macros": {
-        "protein": 20.0,
-        "carbohydrates": 0.0,
-        "fat": 16.0,
-        "saturatedFat": 4.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.12
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": false
-    },
-    {
-      "name": "XXX Hot Sauce",
-      "calories": 80,
-      "macros": {
-        "protein": 0.0,
-        "carbohydrates": 2.0,
-        "fat": 1.5,
-        "saturatedFat": 0.0,
-        "sugar": 0.0,
-        "fibre": 0.0,
-        "salt": 1.82
-      },
-      "allergens": {
-        "gluten": null,
-        "wheat": null,
-        "milk": null,
-        "eggs": null,
-        "soya": null,
-        "nuts": null,
-        "peanuts": null,
-        "sesame": null,
-        "celery": null,
-        "mustard": null,
-        "fish": null,
-        "crustaceans": null,
-        "molluscs": null,
-        "sulphites": null,
-        "lupin": null
-      },
-      "vegetarian": true,
-      "vegan": true
-    }
-  ]
-}
+[
+  {
+    "name": "1/2 Avocado",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 191,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "1/2 Chicken",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 579,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "1/4 Chicken",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 289,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "10 Chicken Wings",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 784,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "10 Extra Saucy Wings",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1071,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "2 Boneless Chicken Thighs",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 353,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "3 Chicken Wings",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 235,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "3 Extra Saucy Wings",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 333,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "4 Boneless Chicken Thighs",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 706,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "5 Chicken Wings",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 392,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "5 Extra Saucy Wings",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 570,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Beanie Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "veggie"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 553,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Beanie Patty",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 261,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Beanie Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "veggie"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 632,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Beanie Wrap",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "veggie"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 680,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": true
+  },
+  {
+    "name": "Beavertown Lazer Crush Alcohol Free IPA",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 89,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Black\u2019s Kinsale Pale Ale",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 150,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Coke Zero",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Diet Coke",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Dr Pepper Zero",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 2,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Fanta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 57,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Fanta Zero",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 9,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Soft Swirl Tub",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "nandino's sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 189,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Bottomless Sprite Zero",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 3,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Caesar Salad",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "salads & bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 460,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Camden Pale Ale",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 122,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Charred Corn",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 255,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cheddar Cheese",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 78,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cheesy Garlic Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 595,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Breast",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "nandinos (kids)"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 138,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Butterfly",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 331,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chicken Livers & Rustic Portuguese Roll",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 553,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chilli Jam",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 61,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Chips",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 448,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Choc-A-Lot Cake",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 425,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Churrasco PERinaise",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 173,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Cloudy Lemonade",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 51,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Coca-Cola Classic",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 126,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Coleslaw",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 236,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Corn on the Cob",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 189,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Creamy Mash",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 276,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Creative Block 2 (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 585,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Creative Block 5 (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 638,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Chicken Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 581,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Chicken Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 691,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Double Chicken Wrap",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 694,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Fino Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 817,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Four Pastel de Natas",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 896,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Freedom Pils",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 119,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Fully Loaded Chips",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1102,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Garlic Bread",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 365,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Garlic Churrasco Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 794,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Garlic PERinaise",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 176,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Gooey Caramel Cheesecake",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 464,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Chicken Breast",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 138,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Chicken Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 443,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Chicken Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 508,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Chicken Wrap",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 556,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Halloumi Cheese",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 267,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Grilled Pineapple",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 37,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Halloumi Sticks & Chilli Jam",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 452,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Halloumi Sticks & PERi-Honey",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 526,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Hearty Bowl",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "the lunch fix"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 432,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Hearty Grains",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 245,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Houmous with PERi-PERi Drizzle",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 790,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Irn Bru",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 138,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Karma Drinks Gingerella",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 60,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Levity Ros\u00e9 (Portugal)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 198,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Little Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "nandinos (kids)"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 302,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mac & Cheese",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "nandinos (kids)"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 435,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Macho Peas",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 155,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mango Gelado",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 93,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Mediterranean Salad",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "salads & bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 350,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "MOMO Elderflower Kombucha",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 63,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Nandino Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "nandinos (kids)"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 285,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "One Pastel de Nata",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 224,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-Chicken Gravy",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 39,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-Honey",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 132,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-Mac & Cheese",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 494,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-PERi Drizzle",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 96,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-PERi Nuts",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 793,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-Plant Strips",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 157,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERi-Salted Chips",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 450,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "PERinaise",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 159,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pickle Mix",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 33,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pip Organic Cloudy Apple Juice",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "nandino's sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 77,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Pip Organic Pineapple & Mango Smoothie",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "nandino's sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 95,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Portuguese Roll",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 269,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Portuguese Tomato Salad",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 137,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Rainbow Slaw",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 132,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "RUBRO Berry Iced Tea",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 51,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "RUBRO Lemon Iced Tea",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 51,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "RUBRO Peach Iced Tea",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 51,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sagres",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 129,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sol Bowl",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "the lunch fix"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 583,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sparkling Water",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy Mixed Olives",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 138,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy Rice",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 246,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spicy Rice Bowl",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "salads & bowls"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 600,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spier Cabernet Sauvignon (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 200,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spier Chardonnay (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 195,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spier Merlot (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 205,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spier Rose (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 188,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Spier Sauvignon Blanc (South Africa)",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 195,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Still Water",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 0,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sunset Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 733,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sweet Potato Wedges",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "starters"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 367,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Sxollie Cider",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 289,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tenderstem\u00ae Broccoli",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "sides"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 32,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "The Big Cheese",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "veggie"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 748,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "The Chickle Burger",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "burgers, pittas, wraps"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 526,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "The Great Imitator Wrap",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "veggie"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 597,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": true,
+    "vegan": false
+  },
+  {
+    "name": "Toasted Pitta",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 246,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tortilla Wrap",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "dips & extras"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 275,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Tropical Quencher",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "drink",
+    "categories": [
+      "drinks"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 96,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Warm Chocolate Orange Brownie",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "desserts"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 505,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Whole Chicken",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 1157,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  },
+  {
+    "name": "Wing Roulette",
+    "url": "https://www.nandos.co.uk/food/menu/",
+    "type": "food",
+    "categories": [
+      "peri-peri chicken"
+    ],
+    "ingestionDate": "2026-04-12",
+    "calories": 821,
+    "macros": {
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "saturatedFat": null,
+      "sugar": null,
+      "fibre": null,
+      "salt": null
+    },
+    "vegetarian": false,
+    "vegan": false
+  }
+]

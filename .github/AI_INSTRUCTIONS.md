@@ -24,8 +24,9 @@ This document provides instructions for AI agents to process restaurant menu doc
 
 > **Note:** The regional merged `food.json` (`/data/{region}/food.json`) is no longer committed
 > to the repository. It is automatically generated at build time by `scripts/merge-food-data.mjs`
-> and written to `src/react-app/public/data/{region}/food.json` (overwriting the small
-> committed version). See [Build-Time Data Merging](#build-time-data-merging) for details.
+> and overlaid into the production build output *after* the test artifact is uploaded.
+> BDD tests always run against the small committed fixture file, not the merged data.
+> See [Build-Time Data Merging](#build-time-data-merging) for details.
 
 ## Processing Workflow
 
@@ -137,11 +138,13 @@ If adding a new region, ensure it's listed in `/data/index.json`:
 
 ## Build-Time Data Merging
 
-The regional merged `food.json` is **automatically generated** at build time by `scripts/merge-food-data.mjs`. The CI pipeline runs this before building the React app, so the deployed application always has the full merged data from all restaurants.
+The regional merged `food.json` is **automatically generated** at build time by `scripts/merge-food-data.mjs`. The CI pipeline builds the React app first (using the committed BDD fixture), uploads the build for testing, then runs the merge and overlays the merged data into the production build. This ensures **BDD tests always run against the small committed fixture** while the deployed app gets the full merged data.
 
 **You do NOT need to manually regenerate the merged file.** Simply update the individual restaurant `food.json` and the merge script handles the rest during CI.
 
 A small committed version of `src/react-app/public/data/{region}/food.json` exists for local development and BDD testing. It contains a representative subset of items covering all test scenarios (see [Maintaining the Small food.json for BDD Tests](#maintaining-the-small-foodjson-for-bdd-tests)).
+
+> ⚠️ **CRITICAL:** Never modify the regional BDD fixture file (`src/react-app/public/data/{region}/food.json`) unless you are also updating BDD tests. The fixture data and tests must stay in sync. See the requirements checklist below.
 
 After any restaurant change:
 1. Update the individual restaurant's `food.json` under `data/{region}/{restaurant}/`
@@ -195,24 +198,25 @@ This section summarises the current data so agents can orient quickly without re
 
 ### UK Restaurant Summary
 
-| Restaurant | ID | Items | Source PDF | Notes |
-|------------|----|-------|------------|-------|
+| Restaurant | ID | Items | Source | Notes |
+|------------|----|-------|--------|-------|
 | Caffè Nero | `caffe-nero` | ~477 | `caffenero_nutrition_allergens-en_GB.pdf` | Full nutrition + allergens. Has (V)/(Vg) diet markers. Includes food and beverages. |
 | Costa Coffee | `costa` | ~62 | Various in `/raw/uk/costa/` | |
 | GAIL's Bakery | `gails` | ~7 | N/A (web-sourced from gails.com, FatSecret, MyNetDiary) | Calories from gails.com; macros from FatSecret/MyNetDiary where available. Per-item values. |
-| Greggs | `greggs` | ~283 | Various in `/raw/uk/greggs/` | Full nutrition including fibre, salt, saturatedFat, sugar. |
-| Harvester | `harvester` | ~108 | Various in `/raw/uk/harvester/` | Full nutrition including salt, saturatedFat, sugar. |
+| Greggs | `greggs` | ~270 | PDF via mapping.csv | Full nutrition including fibre. See `raw/uk/greggs/INGESTION.md`. |
+| Harvester | `harvester` | ~108 | PDF via mapping.csv | Full nutrition (no fibre in source). See `raw/uk/harvester/INGESTION.md`. |
 | KFC | `kfc` | ~54 | Various in `/raw/uk/kfc/` | |
-| McDonald's | `mcdonalds` | ~32 | Web (mcdonalds.com) + PDFs in `/raw/uk/mcdonalds/` | Live web source — see `raw/uk/mcdonalds/INGESTION.md` for scraping guide. |
-| Nando's | `nandos` | ~137 | `Nandos-Calories.pdf.pdf` | Sodium converted to salt (×2.5/1000). Excludes alcohol/baste items. |
-| Pret A Manger | `pret` | ~32 | Various in `/raw/uk/pret/` | |
+| McDonald's | `mcdonalds` | ~95 | Web (mcdonalds.com) | Live web source — see `raw/uk/mcdonalds/INGESTION.md` for scraping guide. |
+| Nando's | `nandos` | ~118 | Web (nandos.co.uk) | **Calories only** — no detailed macros available on site. See `raw/uk/nandos/INGESTION.md`. |
+| Pret A Manger | `pret` | ~205 | Web (pret.co.uk, Next.js) | Full nutrition. Requires Playwright. See `raw/uk/pret/INGESTION.md`. |
 | Starbucks | `starbucks` | ~20 | Various in `/raw/uk/starbucks/` | |
+| Wetherspoons | `wetherspoons` | ~292 | JSON API (allergens.jdwetherspoon.com) | Full nutrition. API requires Playwright for auth. See `raw/uk/wetherspoons/INGESTION.md`. |
 
 ### PDF Processing Tips
 
 - **Install pdfplumber** (`pip install pdfplumber`) for PDF extraction — it handles tables and text well.
 - **Caffe Nero PDFs** use a mixed layout: allergen tables on early pages, then nutrition data interleaved with ingredient text. Extract per-portion values (second column), not per-100g.
-- **Nando's PDFs** use a tabular US-style format with Sodium (mg) — convert to Salt (g) via `salt_g = sodium_mg × 2.5 / 1000`. Values like `<1` should be approximated as `0.5`.
+- **Nando's** only provides calories (kcal) on their website — no detailed macros. Macro fields are set to `null`.
 - Always use **per-portion** nutritional values, not per-100g.
 - For `<X` values (e.g. `<0.1`, `<1`), use the value itself as an approximation (e.g., `0.1`, `0.5`).
 
@@ -235,16 +239,19 @@ mkdir -p src/react-app/public/data/{region}/{restaurant}
 cp data/{region}/{restaurant}/food.json src/react-app/public/data/{region}/{restaurant}/food.json
 ```
 
-**Do NOT run `npm run merge-food-data` locally.** The CI pipeline runs it at build time. Running it locally overwrites the small 16-item BDD test file at `src/react-app/public/data/{region}/food.json` — this file must remain intact for local tests to pass.
+**Do NOT run `npm run merge-food-data` locally.** The CI pipeline handles merging after the test build. Running it locally overwrites the small BDD test fixture at `src/react-app/public/data/{region}/food.json` — if you accidentally do this, restore the fixture immediately with `git checkout -- src/react-app/public/data/`.
 
 ### Maintaining the Small food.json for BDD Tests
+
+> ⚠️ **This file must only change when BDD tests change.** It is the sole data source for both
+> local development and CI BDD tests. Changing it without updating tests (or vice versa) will
+> cause test failures.
 
 A small representative `food.json` is committed at `src/react-app/public/data/{region}/food.json`
 for local development and BDD testing. This file contains a curated subset of items that covers
 all test scenarios. **When adding a new BDD test that requires specific food data characteristics
 (e.g. a new allergen type, a new dietary flag, or a specific nutritional range), you MUST add
-appropriate items to this small `food.json` to ensure the test passes locally and in CI
-before the merge step runs.**
+appropriate items to this small `food.json` to ensure the test passes locally and in CI.**
 
 The small `food.json` must always satisfy these requirements:
 
